@@ -463,7 +463,7 @@
         "number": "89",
         "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/buinovsko-jdrelo-rodopi.jpg?itok=pNc7WrQj",
         "link": "https://www.btsbg.org/100nto/buynovsko-zhdrelo",
-        "visited": false
+        "visited": true
       }
     ]
   },
@@ -1414,7 +1414,7 @@
         "number": "39а",
         "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/podzemen-minen-muzei-pernik.jpg?itok=z8Vtbsyj",
         "link": "https://www.btsbg.org/100nto/podzemen-minen-muzey",
-        "visited": false
+        "visited": true
       }
     ]
   },
@@ -1441,7 +1441,7 @@
         "number": "40",
         "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/panoramata-pleven.jpg?itok=vfRw_S6C",
         "link": "https://www.btsbg.org/100nto/panorama-plevenska-epopeya-1877-g",
-        "visited": false
+        "visited": true
       }
     ]
   },

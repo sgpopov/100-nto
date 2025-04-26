@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { SiteList } from "@/components/SiteList";
 import { SelectFilter } from "@/components/SelectFilter";
@@ -13,20 +13,65 @@ export default function Main() {
   const searchParams = useSearchParams();
 
   // Get initial filter values from URL query params or default to "all"
-  const initialCity = searchParams.get("filters[location]") || "all";
+  const initialLocation = searchParams.get("filters[location]") || "all";
   const initialVisitedFilter = searchParams.get("filters[visited]") || "all";
 
-  const [selectedCity, setSelectedCity] = useState<string>(initialCity);
+  const [selectedLocation, setSelectedLocation] = useState<string>(initialLocation);
   const [visitedFilter, setVisitedFilter] =
     useState<string>(initialVisitedFilter);
 
-  const cities = data.map((city) => {
-    return {
-      id: `${city.city}-${randomId()}`,
-      value: city.city,
-      text: city.city,
-    };
-  });
+  const citiesByRegion = useMemo(() => {
+    const regions = [...new Set(data.map((city) => city.region))].sort();
+
+    const result = regions.map((region) => {
+      // Get all cities in this region
+      const citiesInRegion = data
+        .filter((city) => city.region === region)
+        .map((city) => city.city)
+        .sort(); // Sort cities alphabetically
+
+      // Create an array of options for each region
+      return {
+        id: `region-${region}-${randomId()}`,
+        value: region,
+        text: region,
+        cities: citiesInRegion.map((cityName) => {
+          return {
+            id: `${cityName}-${randomId()}`,
+            value: cityName,
+            text: cityName,
+          };
+        }),
+      };
+    });
+
+    return result;
+  }, []);
+
+  // Flatten cities for the dropdown
+  const cityOptions = useMemo(() => {
+    const options = [] as { id: string; value: string; text: string }[];
+
+    citiesByRegion.forEach((region) => {
+      // Add the region as an option
+      options.push({
+        id: region.id,
+        value: region.value,
+        text: region.text,
+      });
+
+      // Add all cities in this region
+      region.cities.forEach((city) => {
+        options.push({
+          id: city.id,
+          value: city.value,
+          text: `- ${city.text}`,
+        });
+      });
+    });
+
+    return options;
+  }, [citiesByRegion]);
 
   const visitedFilters = [
     { id: "visited", value: "visited", text: "Посетени" },
@@ -34,7 +79,12 @@ export default function Main() {
   ];
 
   const filteredData = data
-    .filter((city) => selectedCity === "all" || city.city === selectedCity)
+    .filter(
+      (city) =>
+        selectedLocation === "all" ||
+        city.city === selectedLocation ||
+        city.region === selectedLocation
+    )
     .map((city) => {
       return {
         ...city,
@@ -54,7 +104,7 @@ export default function Main() {
     .filter((city) => city.sites.length > 0);
 
   const handleCityChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    setSelectedCity(e.target.value);
+    setSelectedLocation(e.target.value);
   };
 
   const handleVisitedChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
@@ -68,12 +118,12 @@ export default function Main() {
 
   useEffect(() => {
     const queryParts = [
-      `filters[location]=${encodeURIComponent(selectedCity)}`,
+      `filters[location]=${encodeURIComponent(selectedLocation)}`,
       `filters[visited]=${encodeURIComponent(visitedFilter)}`,
     ];
 
     router.push(`?${queryParts.join("&")}`);
-  }, [selectedCity, visitedFilter, router]);
+  }, [selectedLocation, visitedFilter, router]);
 
   return (
     <>
@@ -83,8 +133,8 @@ export default function Main() {
             <SelectFilter
               id="location"
               label="Град"
-              defaultValue={selectedCity}
-              options={cities}
+              defaultValue={selectedLocation}
+              options={cityOptions}
               onChange={handleCityChange}
             />
           </div>

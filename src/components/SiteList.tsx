@@ -27,7 +27,11 @@ export const SiteList = ({ siteList }: SiteListProps) => {
             </div>
 
             <div className="relative mt-4">
-              <h3 className="text-sm font-medium text-gray-900">{site.name}</h3>
+              <h3 className="text-sm font-medium text-gray-900">
+                <a href={site.link} target="_blank">
+                  {site.name}
+                </a>
+              </h3>
             </div>
 
             <div className="absolute inset-x-0 top-0 flex h-56 items-end justify-end overflow-hidden rounded-lg p-4">

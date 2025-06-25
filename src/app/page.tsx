@@ -16,7 +16,8 @@ export default function Main() {
   const initialLocation = searchParams.get("filters[location]") || "all";
   const initialVisitedFilter = searchParams.get("filters[visited]") || "all";
 
-  const [selectedLocation, setSelectedLocation] = useState<string>(initialLocation);
+  const [selectedLocation, setSelectedLocation] =
+    useState<string>(initialLocation);
   const [visitedFilter, setVisitedFilter] =
     useState<string>(initialVisitedFilter);
 

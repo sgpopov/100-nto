@@ -395,14 +395,14 @@
         "number": "83",
         "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/istoricheski-muzei-smolyan.jpg?itok=mS5TBaCZ",
         "link": "https://www.btsbg.org/100nto/regionalen-istoricheski-muzey-8",
-        "visited": false
+        "visited": true
       },
       {
         "name": "Планетариум",
         "number": "83а",
         "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/planetarium%202.jpg?itok=VxrKm67N",
         "link": "https://www.btsbg.org/100nto/planetarium",
-        "visited": false
+        "visited": true
       }
     ]
   },
@@ -415,7 +415,7 @@
         "number": "83б",
         "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/selo-momchilovtsi.jpg?itok=hlaPJuyJ",
         "link": "https://www.btsbg.org/100nto/crkva-svkonstantin-i-elena-s-momchilovci",
-        "visited": false
+        "visited": true
       }
     ]
   },
@@ -435,7 +435,7 @@
         "number": "85",
         "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/vruh-golyam-perelik-rodopi.jpg?itok=oYsyUArK",
         "link": "https://www.btsbg.org/100nto/vrh-golyam-perelik-2191-m",
-        "visited": false
+        "visited": true
       },
       {
         "name": "Пещера \"Шаренка\"",
@@ -502,7 +502,7 @@
         "number": "87",
         "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/arhitekturen-rezervat-shiroka-luka.jpg?itok=TNhpOfWY",
         "link": "https://www.btsbg.org/100nto/shiroka-lka-arhitekturen-rezervat",
-        "visited": false
+        "visited": true
       }
     ]
   },
@@ -1035,7 +1035,7 @@
         "number": "24б",
         "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/istoricheski-muzei-kavarna.jpg?itok=g5WZrUj6",
         "link": "https://www.btsbg.org/100nto/istoricheski-muzey-kavarna",
-        "visited": false
+        "visited": true
       }
     ]
   },
@@ -1202,7 +1202,7 @@
         "number": "31",
         "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/troyanski-manastir.jpg?itok=OAm0WzO7",
         "link": "https://www.btsbg.org/100nto/troyanska-sveta-obitel-usp-bogorodichno",
-        "visited": false
+        "visited": true
       },
       {
         "name": "Природонаучен музей - с. Черни Осъм",
@@ -1481,7 +1481,7 @@
         "number": "42",
         "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/istoricheski-muzei-perushtitsa.jpg?itok=SHL5fydE",
         "link": "https://www.btsbg.org/100nto/istoricheski-muzey-8",
-        "visited": false
+        "visited": true
       }
     ]
   },
@@ -1581,7 +1581,7 @@
         "number": "47б",
         "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/bachkovski-manastir.jpg?itok=hs9YnMXq",
         "link": "https://www.btsbg.org/100nto/bachkovski-manastir",
-        "visited": false
+        "visited": true
       }
     ]
   },
@@ -1943,7 +1943,7 @@
         "number": "75",
         "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/%D0%BA%D0%BE%D0%BF%D1%80%D0%B8%D0%B2%D1%89%D0%B8%D1%86%D0%B0.jpg?itok=URmcpuBj",
         "link": "https://www.btsbg.org/100nto/koprivshchica-air",
-        "visited": false
+        "visited": true
       }
     ]
   },
@@ -2262,7 +2262,7 @@
         "number": "96",
         "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/arheologicheski-rezervat-pliska.jpg?itok=boaaxKgw",
         "link": "https://www.btsbg.org/100nto/nacionalen-iar-pliska",
-        "visited": false
+        "visited": true
       }
     ]
   },

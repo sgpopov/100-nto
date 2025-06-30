@@ -1,0 +1,3293 @@
+[
+  {
+    "type": "bulgarian-legacy",
+    "id": "679a146018eccee895399058",
+    "name": "Велико Търново - Царевец 1",
+    "url": "https://legacy.bg/products/679a146018eccee895399058",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738151007/BulgarianLegacy/rvgh4pb5i3ydgy5zqvsg.webp",
+        "filename": "BulgarianLegacy/rvgh4pb5i3ydgy5zqvsg",
+        "_id": "679a146018eccee895399059"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738151007/BulgarianLegacy/dw8c4yioxpzguvcswixx.webp",
+        "filename": "BulgarianLegacy/dw8c4yioxpzguvcswixx",
+        "_id": "679a146018eccee89539905a"
+      }
+    ],
+    "coordinates": [
+      25.648020203293214,
+      43.08223911375133
+    ],
+    "collected": true,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679a1c6a18eccee895399083",
+    "name": "Велико Търново - Царевец 2",
+    "url": "https://legacy.bg/products/679a1c6a18eccee895399083",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738153065/BulgarianLegacy/i9fk8jay0hyydlf7tbvl.webp",
+        "filename": "BulgarianLegacy/i9fk8jay0hyydlf7tbvl",
+        "_id": "679a1c6a18eccee895399084"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738153140/BulgarianLegacy/x8y77kvza6h94hjrc8ut.webp",
+        "filename": "BulgarianLegacy/x8y77kvza6h94hjrc8ut",
+        "_id": "679a1cb418eccee895399094"
+      }
+    ],
+    "coordinates": [
+      25.648020203293214,
+      43.08223911375133
+    ],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679a1f7b18eccee8953990a1",
+    "name": "Арбанаси",
+    "url": "https://legacy.bg/products/679a1f7b18eccee8953990a1",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738153850/BulgarianLegacy/a9dimw8pndhda7eld9jv.webp",
+        "filename": "BulgarianLegacy/a9dimw8pndhda7eld9jv",
+        "_id": "679a1f7b18eccee8953990a2"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738153850/BulgarianLegacy/k7ef8txftatsiq2sdhxe.webp",
+        "filename": "BulgarianLegacy/k7ef8txftatsiq2sdhxe",
+        "_id": "679a1f7b18eccee8953990a3"
+      }
+    ],
+    "coordinates": [
+      25.66867,
+      43.09788
+    ],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679a21a918eccee8953990b0",
+    "name": "Трявна - Школото",
+    "url": "https://legacy.bg/products/679a21a918eccee8953990b0",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738154409/BulgarianLegacy/mi825okjthxv1mceleob.webp",
+        "filename": "BulgarianLegacy/mi825okjthxv1mceleob",
+        "_id": "679a21a918eccee8953990b1"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738154409/BulgarianLegacy/i7zpwvrw3vgvaymafex6.webp",
+        "filename": "BulgarianLegacy/i7zpwvrw3vgvaymafex6",
+        "_id": "679a21a918eccee8953990b2"
+      }
+    ],
+    "coordinates": [
+      25.48964,
+      42.86659
+    ],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679a229e18eccee8953990b6",
+    "name": "Габрово - Етъра",
+    "url": "https://legacy.bg/products/679a229e18eccee8953990b6",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738154653/BulgarianLegacy/iidln8dtggelwbogiznt.webp",
+        "filename": "BulgarianLegacy/iidln8dtggelwbogiznt",
+        "_id": "679a229e18eccee8953990b7"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738154653/BulgarianLegacy/oo2kzsgyq2ivmbl7ma67.webp",
+        "filename": "BulgarianLegacy/oo2kzsgyq2ivmbl7ma67",
+        "_id": "679a229e18eccee8953990b8"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679a237a18eccee8953990bc",
+    "name": "Манастир „Св. Георги“",
+    "url": "https://legacy.bg/products/679a237a18eccee8953990bc",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738154873/BulgarianLegacy/vwn0jykingrefyfvgev6.webp",
+        "filename": "BulgarianLegacy/vwn0jykingrefyfvgev6",
+        "_id": "679a237a18eccee8953990bd"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738154873/BulgarianLegacy/j7oystjqefdsakz9kk5s.webp",
+        "filename": "BulgarianLegacy/j7oystjqefdsakz9kk5s",
+        "_id": "679a237a18eccee8953990be"
+      }
+    ],
+    "coordinates": [
+      27.617923,
+      42.567211
+    ],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679a24cb18eccee8953990c2",
+    "name": "Плевен - Плевенска епопея",
+    "url": "https://legacy.bg/products/679a24cb18eccee8953990c2",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738155211/BulgarianLegacy/ifzif96uam8kj1kdu2ld.webp",
+        "filename": "BulgarianLegacy/ifzif96uam8kj1kdu2ld",
+        "_id": "679a24cb18eccee8953990c3"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738155211/BulgarianLegacy/npcb8y0hxrhwe9vdzofm.webp",
+        "filename": "BulgarianLegacy/npcb8y0hxrhwe9vdzofm",
+        "_id": "679a24cb18eccee8953990c4"
+      }
+    ],
+    "coordinates": [
+      24.60621,
+      43.39892
+    ],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679a259f18eccee8953990c8",
+    "name": "Музей на художествени занаяти - Троян",
+    "url": "https://legacy.bg/products/679a259f18eccee8953990c8",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738155423/BulgarianLegacy/rnvgsrsfx5tfbw8ll8wo.webp",
+        "filename": "BulgarianLegacy/rnvgsrsfx5tfbw8ll8wo",
+        "_id": "679a259f18eccee8953990c9"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738155423/BulgarianLegacy/bdjs2d0ifypfhrdwkuii.webp",
+        "filename": "BulgarianLegacy/bdjs2d0ifypfhrdwkuii",
+        "_id": "679a259f18eccee8953990ca"
+      }
+    ],
+    "coordinates": [
+      24.71087,
+      42.88448
+    ],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679a280e18eccee8953990d2",
+    "name": "Белоградчишките скали",
+    "url": "https://legacy.bg/products/679a280e18eccee8953990d2",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738156045/BulgarianLegacy/u97eq9bqbobinywh1hjm.webp",
+        "filename": "BulgarianLegacy/u97eq9bqbobinywh1hjm",
+        "_id": "679a280e18eccee8953990d3"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738156045/BulgarianLegacy/tua6ftryme248wlj2qau.webp",
+        "filename": "BulgarianLegacy/tua6ftryme248wlj2qau",
+        "_id": "679a280e18eccee8953990d4"
+      }
+    ],
+    "coordinates": [
+      22.67695,
+      43.62367
+    ],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679a2a6418eccee8953990e2",
+    "name": "Пещера \"Магурата\"",
+    "url": "https://legacy.bg/products/679a2a6418eccee8953990e2",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738156644/BulgarianLegacy/zncbo9dndjmi2eo0hk9b.webp",
+        "filename": "BulgarianLegacy/zncbo9dndjmi2eo0hk9b",
+        "_id": "679a2a6418eccee8953990e3"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738156644/BulgarianLegacy/zb7rag8vepwcas9beied.webp",
+        "filename": "BulgarianLegacy/zb7rag8vepwcas9beied",
+        "_id": "679a2a6418eccee8953990e4"
+      }
+    ],
+    "coordinates": [
+      22.58388,
+      43.72728
+    ],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679a2b5f18eccee8953990ec",
+    "name": "Природонаучeн музей в с. Черни Осъм",
+    "url": "https://legacy.bg/products/679a2b5f18eccee8953990ec",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738156894/BulgarianLegacy/xtbnzuyb5bqihtlm187s.webp",
+        "filename": "BulgarianLegacy/xtbnzuyb5bqihtlm187s",
+        "_id": "679a2b5f18eccee8953990ed"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738156895/BulgarianLegacy/dkbkdh5wv3qzb1fa3mpq.webp",
+        "filename": "BulgarianLegacy/dkbkdh5wv3qzb1fa3mpq",
+        "_id": "679a2b5f18eccee8953990ee"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679a2ded18eccee8953990f3",
+    "name": "Даскаловата къща - Трявна",
+    "url": "https://legacy.bg/products/679a2ded18eccee8953990f3",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738157548/BulgarianLegacy/dswxhymla1mr9pk2rbdx.webp",
+        "filename": "BulgarianLegacy/dswxhymla1mr9pk2rbdx",
+        "_id": "679a2ded18eccee8953990f4"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738157549/BulgarianLegacy/w8fvno8gciau3aybcjce.webp",
+        "filename": "BulgarianLegacy/w8fvno8gciau3aybcjce",
+        "_id": "679a2ded18eccee8953990f5"
+      }
+    ],
+    "coordinates": [
+      25.48649,
+      42.86534
+    ],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679a33b718eccee8953990f9",
+    "name": "Трапезица",
+    "url": "https://legacy.bg/products/679a33b718eccee8953990f9",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738159030/BulgarianLegacy/lm1q4idwvlxghbqlzgge.png",
+        "filename": "BulgarianLegacy/lm1q4idwvlxghbqlzgge",
+        "_id": "679a33b718eccee8953990fa"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738159030/BulgarianLegacy/shxpsk0g5r5nvyhn1iz6.webp",
+        "filename": "BulgarianLegacy/shxpsk0g5r5nvyhn1iz6",
+        "_id": "679a33b718eccee8953990fb"
+      }
+    ],
+    "coordinates": [
+      25.64673,
+      43.0858
+    ],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679a362b18eccee895399106",
+    "name": "Троянски манастир",
+    "url": "https://legacy.bg/products/679a362b18eccee895399106",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738159658/BulgarianLegacy/vk7eglhmjhgnaqtqgiqr.webp",
+        "filename": "BulgarianLegacy/vk7eglhmjhgnaqtqgiqr",
+        "_id": "679a362b18eccee895399107"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738159658/BulgarianLegacy/bmk24fxtwyjovcr2et4y.webp",
+        "filename": "BulgarianLegacy/bmk24fxtwyjovcr2et4y",
+        "_id": "679a362b18eccee895399108"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679a3f9ae5a2a4bf486f2e9c",
+    "name": "Ски резорт",
+    "url": "https://legacy.bg/products/679a3f9ae5a2a4bf486f2e9c",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738162074/BulgarianLegacy/twjwyu8cqj0mqygfwtew.webp",
+        "filename": "BulgarianLegacy/twjwyu8cqj0mqygfwtew",
+        "_id": "679a3f9ae5a2a4bf486f2e9d"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738162074/BulgarianLegacy/iav9yimlttcdlxlj5t6b.webp",
+        "filename": "BulgarianLegacy/iav9yimlttcdlxlj5t6b",
+        "_id": "679a3f9ae5a2a4bf486f2e9e"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679b2f4ee5a2a4bf486f2ea6",
+    "name": "Свети Четеридесет Мъченици",
+    "url": "https://legacy.bg/products/679b2f4ee5a2a4bf486f2ea6",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738223437/BulgarianLegacy/ypdnfcocrcsplaxbqwvk.webp",
+        "filename": "BulgarianLegacy/ypdnfcocrcsplaxbqwvk",
+        "_id": "679b2f4ee5a2a4bf486f2ea7"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738223437/BulgarianLegacy/qqx6ghok6kzznqs7yiog.webp",
+        "filename": "BulgarianLegacy/qqx6ghok6kzznqs7yiog",
+        "_id": "679b2f4ee5a2a4bf486f2ea8"
+      }
+    ],
+    "coordinates": [
+      25.64423,
+      43.08152
+    ],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679b33f8e5a2a4bf486f2eac",
+    "name": "Паметник на Яворов - Поморие",
+    "url": "https://legacy.bg/products/679b33f8e5a2a4bf486f2eac",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738224631/BulgarianLegacy/qtwmft93qzp2yzzjfuaa.webp",
+        "filename": "BulgarianLegacy/qtwmft93qzp2yzzjfuaa",
+        "_id": "679b33f8e5a2a4bf486f2ead"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738224631/BulgarianLegacy/imoc1fy0yj7cnxmucnyo.webp",
+        "filename": "BulgarianLegacy/imoc1fy0yj7cnxmucnyo",
+        "_id": "679b33f8e5a2a4bf486f2eae"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679b34abe5a2a4bf486f2eb4",
+    "name": "Варна катедрала - Св. Успение Богородично",
+    "url": "https://legacy.bg/products/679b34abe5a2a4bf486f2eb4",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738224810/BulgarianLegacy/wrwsnuh9oz8jlxkrihpf.webp",
+        "filename": "BulgarianLegacy/wrwsnuh9oz8jlxkrihpf",
+        "_id": "679b34abe5a2a4bf486f2eb5"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738224810/BulgarianLegacy/fkuywu618qmzkqlzdoxc.webp",
+        "filename": "BulgarianLegacy/fkuywu618qmzkqlzdoxc",
+        "_id": "679b34abe5a2a4bf486f2eb6"
+      }
+    ],
+    "coordinates": [
+      27.911061,
+      43.204354
+    ],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679b35a4e5a2a4bf486f2eba",
+    "name": "Археологически музей - Варна",
+    "url": "https://legacy.bg/products/679b35a4e5a2a4bf486f2eba",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738225059/BulgarianLegacy/sc7calnvkro2bl8cbzzi.webp",
+        "filename": "BulgarianLegacy/sc7calnvkro2bl8cbzzi",
+        "_id": "679b35a4e5a2a4bf486f2ebb"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738225059/BulgarianLegacy/hjq37f5ssxvkjx5cozg0.webp",
+        "filename": "BulgarianLegacy/hjq37f5ssxvkjx5cozg0",
+        "_id": "679b35a4e5a2a4bf486f2ebc"
+      }
+    ],
+    "coordinates": [
+      27.91515789743202,
+      43.207187522741755
+    ],
+    "collected": true,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679b36a9e5a2a4bf486f2ec0",
+    "name": "Аладжа манастир",
+    "url": "https://legacy.bg/products/679b36a9e5a2a4bf486f2ec0",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738225320/BulgarianLegacy/ow3hjlf0zhrc4eijbbpg.webp",
+        "filename": "BulgarianLegacy/ow3hjlf0zhrc4eijbbpg",
+        "_id": "679b36a9e5a2a4bf486f2ec1"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738225320/BulgarianLegacy/p4h9kt37xi1m8jrcnibs.webp",
+        "filename": "BulgarianLegacy/p4h9kt37xi1m8jrcnibs",
+        "_id": "679b36a9e5a2a4bf486f2ec2"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679b3c3ae5a2a4bf486f2ed1",
+    "name": "Балчик Двореца",
+    "url": "https://legacy.bg/products/679b3c3ae5a2a4bf486f2ed1",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738226745/BulgarianLegacy/gd3euoi8kxnmeqcosbrm.webp",
+        "filename": "BulgarianLegacy/gd3euoi8kxnmeqcosbrm",
+        "_id": "679b3c3ae5a2a4bf486f2ed2"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738226745/BulgarianLegacy/d9tqyt8e9sp8sybc95uk.webp",
+        "filename": "BulgarianLegacy/d9tqyt8e9sp8sybc95uk",
+        "_id": "679b3c3ae5a2a4bf486f2ed3"
+      }
+    ],
+    "coordinates": [
+      28.147589474614744,
+      43.40565579492168
+    ],
+    "collected": true,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679b3cd3e5a2a4bf486f2ed7",
+    "name": "Ловеч Крепост",
+    "url": "https://legacy.bg/products/679b3cd3e5a2a4bf486f2ed7",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738226898/BulgarianLegacy/agui9aovqdwzz21bmg30.webp",
+        "filename": "BulgarianLegacy/agui9aovqdwzz21bmg30",
+        "_id": "679b3cd3e5a2a4bf486f2ed8"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738226899/BulgarianLegacy/rxtipojpvoxh1tpih5zo.webp",
+        "filename": "BulgarianLegacy/rxtipojpvoxh1tpih5zo",
+        "_id": "679b3cd3e5a2a4bf486f2ed9"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679b3e34e5a2a4bf486f2ee1",
+    "name": "Ловеч - Мост",
+    "url": "https://legacy.bg/products/679b3e34e5a2a4bf486f2ee1",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738227251/BulgarianLegacy/c1n2vk9ixdjzyf7kobl8.webp",
+        "filename": "BulgarianLegacy/c1n2vk9ixdjzyf7kobl8",
+        "_id": "679b3e34e5a2a4bf486f2ee2"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738227252/BulgarianLegacy/vgowt8kajpechcpvw7oe.webp",
+        "filename": "BulgarianLegacy/vgowt8kajpechcpvw7oe",
+        "_id": "679b3e34e5a2a4bf486f2ee3"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679b3ecfe5a2a4bf486f2ee7",
+    "name": "Мемориален комплекс „Спартак” - Сандански",
+    "url": "https://legacy.bg/products/679b3ecfe5a2a4bf486f2ee7",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738227406/BulgarianLegacy/m8xrox1wfmuq2ybmpjez.webp",
+        "filename": "BulgarianLegacy/m8xrox1wfmuq2ybmpjez",
+        "_id": "679b3ecfe5a2a4bf486f2ee8"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738227406/BulgarianLegacy/fvgeuswcez1zurtazksg.webp",
+        "filename": "BulgarianLegacy/fvgeuswcez1zurtazksg",
+        "_id": "679b3ecfe5a2a4bf486f2ee9"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679b3f7de5a2a4bf486f2eef",
+    "name": "Мелник",
+    "url": "https://legacy.bg/products/679b3f7de5a2a4bf486f2eef",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738227581/BulgarianLegacy/uh0jyb7o385izp0cnrxf.webp",
+        "filename": "BulgarianLegacy/uh0jyb7o385izp0cnrxf",
+        "_id": "679b3f7de5a2a4bf486f2ef0"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738227581/BulgarianLegacy/v5uqgrf1zm1ueiwuw6kc.webp",
+        "filename": "BulgarianLegacy/v5uqgrf1zm1ueiwuw6kc",
+        "_id": "679b3f7de5a2a4bf486f2ef1"
+      }
+    ],
+    "coordinates": [
+      23.39829673357335,
+      41.52309769124391
+    ],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679b4083e5a2a4bf486f2ef5",
+    "name": "Пещерата Леденика",
+    "url": "https://legacy.bg/products/679b4083e5a2a4bf486f2ef5",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738227842/BulgarianLegacy/uogkz0sezxzvmbp5dulo.webp",
+        "filename": "BulgarianLegacy/uogkz0sezxzvmbp5dulo",
+        "_id": "679b4083e5a2a4bf486f2ef6"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738227842/BulgarianLegacy/yhcmgytoybiysge5m2wp.webp",
+        "filename": "BulgarianLegacy/yhcmgytoybiysge5m2wp",
+        "_id": "679b4083e5a2a4bf486f2ef7"
+      }
+    ],
+    "coordinates": [
+      23.49344,
+      43.20495
+    ],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679b445ee5a2a4bf486f2f09",
+    "name": "Храм Света София - Христос Емануил",
+    "url": "https://legacy.bg/products/679b445ee5a2a4bf486f2f09",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738228830/BulgarianLegacy/yea98om8fwavbpk7fgei.webp",
+        "filename": "BulgarianLegacy/yea98om8fwavbpk7fgei",
+        "_id": "679b445ee5a2a4bf486f2f0a"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738228830/BulgarianLegacy/q4bpih9ttw0oiilqr7rg.webp",
+        "filename": "BulgarianLegacy/q4bpih9ttw0oiilqr7rg",
+        "_id": "679b445ee5a2a4bf486f2f0b"
+      }
+    ],
+    "coordinates": [
+      23.33113,
+      42.69661
+    ],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679b4504e5a2a4bf486f2f0f",
+    "name": "Храм Света София",
+    "url": "https://legacy.bg/products/679b4504e5a2a4bf486f2f0f",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738228995/BulgarianLegacy/k7ypvadfs09elk69wpwp.webp",
+        "filename": "BulgarianLegacy/k7ypvadfs09elk69wpwp",
+        "_id": "679b4504e5a2a4bf486f2f10"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738228995/BulgarianLegacy/npjmkzhkiqtyc5t2lvqz.webp",
+        "filename": "BulgarianLegacy/npjmkzhkiqtyc5t2lvqz",
+        "_id": "679b4504e5a2a4bf486f2f11"
+      }
+    ],
+    "coordinates": [
+      23.33113,
+      42.69661
+    ],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679b45dee5a2a4bf486f2f15",
+    "name": "Национален Исторически Музей",
+    "url": "https://legacy.bg/products/679b45dee5a2a4bf486f2f15",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738229213/BulgarianLegacy/hcagrsxcjkrrannccpva.webp",
+        "filename": "BulgarianLegacy/hcagrsxcjkrrannccpva",
+        "_id": "679b45dee5a2a4bf486f2f16"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738229214/BulgarianLegacy/gg8ornkuh3lfvwofoain.webp",
+        "filename": "BulgarianLegacy/gg8ornkuh3lfvwofoain",
+        "_id": "679b45dee5a2a4bf486f2f17"
+      }
+    ],
+    "coordinates": [
+      23.27118,
+      42.65541
+    ],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679b46d4e5a2a4bf486f2f1b",
+    "name": "Н.И.М. - короната на българските владетели Второто Българско Царство",
+    "url": "https://legacy.bg/products/679b46d4e5a2a4bf486f2f1b",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738229459/BulgarianLegacy/xmhd51qyy0xjbdbdueou.webp",
+        "filename": "BulgarianLegacy/xmhd51qyy0xjbdbdueou",
+        "_id": "679b46d4e5a2a4bf486f2f1c"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738229459/BulgarianLegacy/cilbo2gdqzjuhtzk4hhf.webp",
+        "filename": "BulgarianLegacy/cilbo2gdqzjuhtzk4hhf",
+        "_id": "679b46d4e5a2a4bf486f2f1d"
+      }
+    ],
+    "coordinates": [
+      23.27118,
+      42.65541
+    ],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679b47ece5a2a4bf486f2f28",
+    "name": "Св. Александър Невски",
+    "url": "https://legacy.bg/products/679b47ece5a2a4bf486f2f28",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738229739/BulgarianLegacy/vjwjgblsopd96ut3dhui.webp",
+        "filename": "BulgarianLegacy/vjwjgblsopd96ut3dhui",
+        "_id": "679b47ece5a2a4bf486f2f29"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738229739/BulgarianLegacy/r1k8hdjjokb6vduv9sct.webp",
+        "filename": "BulgarianLegacy/r1k8hdjjokb6vduv9sct",
+        "_id": "679b47ece5a2a4bf486f2f2a"
+      }
+    ],
+    "coordinates": [
+      23.33231,
+      42.69588
+    ],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679b48d6e5a2a4bf486f2f30",
+    "name": "Св. Александър Невски - Икона",
+    "url": "https://legacy.bg/products/679b48d6e5a2a4bf486f2f30",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738229973/BulgarianLegacy/bph1iviqvhktlxzsxc45.webp",
+        "filename": "BulgarianLegacy/bph1iviqvhktlxzsxc45",
+        "_id": "679b48d6e5a2a4bf486f2f31"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738229973/BulgarianLegacy/l3rvkllx8z4pa4pvowjr.webp",
+        "filename": "BulgarianLegacy/l3rvkllx8z4pa4pvowjr",
+        "_id": "679b48d6e5a2a4bf486f2f32"
+      }
+    ],
+    "coordinates": [
+      23.33231,
+      42.69588
+    ],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679b49e7e5a2a4bf486f2f43",
+    "name": "Боянска църква „Св. св. Никола и  Пантелеймон“",
+    "url": "https://legacy.bg/products/679b49e7e5a2a4bf486f2f43",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738230246/BulgarianLegacy/t1grkrpfv8mfp9y0ukru.webp",
+        "filename": "BulgarianLegacy/t1grkrpfv8mfp9y0ukru",
+        "_id": "679b49e7e5a2a4bf486f2f44"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738230246/BulgarianLegacy/j9oy16qlystzhkmoxbj6.webp",
+        "filename": "BulgarianLegacy/j9oy16qlystzhkmoxbj6",
+        "_id": "679b49e7e5a2a4bf486f2f45"
+      }
+    ],
+    "coordinates": [
+      23.26554,
+      42.64511
+    ],
+    "collected": true,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679b4ae0e5a2a4bf486f2f49",
+    "name": "Св. Mъченица Неделя - Кириакия",
+    "url": "https://legacy.bg/products/679b4ae0e5a2a4bf486f2f49",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738230496/BulgarianLegacy/ecvgidwdzuat4vl2xstv.webp",
+        "filename": "BulgarianLegacy/ecvgidwdzuat4vl2xstv",
+        "_id": "679b4ae0e5a2a4bf486f2f4a"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738230496/BulgarianLegacy/wxbsmf0dsfnyq4vkoawk.webp",
+        "filename": "BulgarianLegacy/wxbsmf0dsfnyq4vkoawk",
+        "_id": "679b4ae0e5a2a4bf486f2f4b"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679b4bc2e5a2a4bf486f2f52",
+    "name": "Банско",
+    "url": "https://legacy.bg/products/679b4bc2e5a2a4bf486f2f52",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738230721/BulgarianLegacy/dscelaovnjrxglwealnk.webp",
+        "filename": "BulgarianLegacy/dscelaovnjrxglwealnk",
+        "_id": "679b4bc2e5a2a4bf486f2f53"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738230722/BulgarianLegacy/syyj9boey66kvm3ve9tj.webp",
+        "filename": "BulgarianLegacy/syyj9boey66kvm3ve9tj",
+        "_id": "679b4bc2e5a2a4bf486f2f54"
+      }
+    ],
+    "coordinates": [
+      null,
+      null
+    ],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679b4cdae5a2a4bf486f2f5b",
+    "name": "Манастир Седемте престола",
+    "url": "https://legacy.bg/products/679b4cdae5a2a4bf486f2f5b",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738231002/BulgarianLegacy/xzcooroska6sgog0g1hr.webp",
+        "filename": "BulgarianLegacy/xzcooroska6sgog0g1hr",
+        "_id": "679b4cdae5a2a4bf486f2f5c"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738231002/BulgarianLegacy/extudlczm2phrzqyhsuh.webp",
+        "filename": "BulgarianLegacy/extudlczm2phrzqyhsuh",
+        "_id": "679b4cdae5a2a4bf486f2f5d"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679b4df1e5a2a4bf486f2f61",
+    "name": "Храм Св. Неделя",
+    "url": "https://legacy.bg/products/679b4df1e5a2a4bf486f2f61",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738231280/BulgarianLegacy/ytvzoejtkco9wtgxeuti.webp",
+        "filename": "BulgarianLegacy/ytvzoejtkco9wtgxeuti",
+        "_id": "679b4df1e5a2a4bf486f2f62"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738231281/BulgarianLegacy/xtmxeuo0pg0vqv9baupz.webp",
+        "filename": "BulgarianLegacy/xtmxeuo0pg0vqv9baupz",
+        "_id": "679b4df1e5a2a4bf486f2f63"
+      }
+    ],
+    "coordinates": [
+      23.32124,
+      42.69664
+    ],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679b5906e5a2a4bf486f2f69",
+    "name": "Клисурски манастир Св.св. Кирил и Методий",
+    "url": "https://legacy.bg/products/679b5906e5a2a4bf486f2f69",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738234117/BulgarianLegacy/wl2qmmkypphhwfwslyxo.webp",
+        "filename": "BulgarianLegacy/wl2qmmkypphhwfwslyxo",
+        "_id": "679b5906e5a2a4bf486f2f6a"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738234117/BulgarianLegacy/sq53wn36pt6dzpsln1fe.webp",
+        "filename": "BulgarianLegacy/sq53wn36pt6dzpsln1fe",
+        "_id": "679b5906e5a2a4bf486f2f6b"
+      }
+    ],
+    "coordinates": [
+      23.204635066309052,
+      43.182910101227094
+    ],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679b59f9e5a2a4bf486f2f78",
+    "name": "Цари Мали Град",
+    "url": "https://legacy.bg/products/679b59f9e5a2a4bf486f2f78",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738234360/BulgarianLegacy/mlhtqodt0ms18aat5jqz.webp",
+        "filename": "BulgarianLegacy/mlhtqodt0ms18aat5jqz",
+        "_id": "679b59f9e5a2a4bf486f2f79"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738234360/BulgarianLegacy/udiils4p0nh9l3ekcnp8.webp",
+        "filename": "BulgarianLegacy/udiils4p0nh9l3ekcnp8",
+        "_id": "679b59f9e5a2a4bf486f2f7a"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679b5da7e5a2a4bf486f2f81",
+    "name": "Църногорски Манастир",
+    "url": "https://legacy.bg/products/679b5da7e5a2a4bf486f2f81",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738235303/BulgarianLegacy/ty5fqbhzcb6zwpohdcee.webp",
+        "filename": "BulgarianLegacy/ty5fqbhzcb6zwpohdcee",
+        "_id": "679b5da7e5a2a4bf486f2f82"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738235303/BulgarianLegacy/llvcctzppe1x97mfhdp9.webp",
+        "filename": "BulgarianLegacy/llvcctzppe1x97mfhdp9",
+        "_id": "679b5da7e5a2a4bf486f2f83"
+      }
+    ],
+    "coordinates": [
+      22.84406,
+      42.63877
+    ],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679b5e60e5a2a4bf486f2f87",
+    "name": "Албена",
+    "url": "https://legacy.bg/products/679b5e60e5a2a4bf486f2f87",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738235487/BulgarianLegacy/qj5ypr0mkqurimqd77st.webp",
+        "filename": "BulgarianLegacy/qj5ypr0mkqurimqd77st",
+        "_id": "679b5e60e5a2a4bf486f2f88"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738235488/BulgarianLegacy/jffymozucfbsgldow493.webp",
+        "filename": "BulgarianLegacy/jffymozucfbsgldow493",
+        "_id": "679b5e60e5a2a4bf486f2f89"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679b5f49e5a2a4bf486f2f8d",
+    "name": "Етнографски музей - Несебър",
+    "url": "https://legacy.bg/products/679b5f49e5a2a4bf486f2f8d",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738235721/BulgarianLegacy/w0ueubwvhqro2f45mmm2.webp",
+        "filename": "BulgarianLegacy/w0ueubwvhqro2f45mmm2",
+        "_id": "679b5f49e5a2a4bf486f2f8e"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738235721/BulgarianLegacy/qlkpnpoiaylxbk2s6xic.webp",
+        "filename": "BulgarianLegacy/qlkpnpoiaylxbk2s6xic",
+        "_id": "679b5f49e5a2a4bf486f2f8f"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679b602ae5a2a4bf486f2f93",
+    "name": "Църквата „Свети Стефан“ - Несебър",
+    "url": "https://legacy.bg/products/679b602ae5a2a4bf486f2f93",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738235945/BulgarianLegacy/mc390lhslthjw4pr96sd.webp",
+        "filename": "BulgarianLegacy/mc390lhslthjw4pr96sd",
+        "_id": "679b602ae5a2a4bf486f2f94"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738235946/BulgarianLegacy/cyxauu83u3pmrpkjvtiy.webp",
+        "filename": "BulgarianLegacy/cyxauu83u3pmrpkjvtiy",
+        "_id": "679b602ae5a2a4bf486f2f95"
+      }
+    ],
+    "coordinates": [
+      27.733058,
+      42.657723
+    ],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679b6108e5a2a4bf486f2f9d",
+    "name": "Църква Свети Йоан Кръстител - Несебър",
+    "url": "https://legacy.bg/products/679b6108e5a2a4bf486f2f9d",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738236167/BulgarianLegacy/bm4q5szclhwmazed8edb.webp",
+        "filename": "BulgarianLegacy/bm4q5szclhwmazed8edb",
+        "_id": "679b6108e5a2a4bf486f2f9e"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738236167/BulgarianLegacy/t1ma68t1tzx3erjfo4y8.webp",
+        "filename": "BulgarianLegacy/t1ma68t1tzx3erjfo4y8",
+        "_id": "679b6108e5a2a4bf486f2f9f"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679b6272e5a2a4bf486f2fa3",
+    "name": "Църквата \"Свето Възнесение Господне” - Несебър",
+    "url": "https://legacy.bg/products/679b6272e5a2a4bf486f2fa3",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738236529/BulgarianLegacy/ig1vlbyywaxcbql5glow.webp",
+        "filename": "BulgarianLegacy/ig1vlbyywaxcbql5glow",
+        "_id": "679b6272e5a2a4bf486f2fa4"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738236529/BulgarianLegacy/had6tvdscud8oqgqsczy.webp",
+        "filename": "BulgarianLegacy/had6tvdscud8oqgqsczy",
+        "_id": "679b6272e5a2a4bf486f2fa5"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679b65b3e5a2a4bf486f2fad",
+    "name": "Несебър - Пантократор",
+    "url": "https://legacy.bg/products/679b65b3e5a2a4bf486f2fad",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738237362/BulgarianLegacy/dwr2trycgtqwnexiv95h.webp",
+        "filename": "BulgarianLegacy/dwr2trycgtqwnexiv95h",
+        "_id": "679b65b3e5a2a4bf486f2fae"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738237362/BulgarianLegacy/d04cxk3isp3hfuotruh2.webp",
+        "filename": "BulgarianLegacy/d04cxk3isp3hfuotruh2",
+        "_id": "679b65b3e5a2a4bf486f2faf"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679b66c9e5a2a4bf486f2fb5",
+    "name": "Несебър - Археологически музей",
+    "url": "https://legacy.bg/products/679b66c9e5a2a4bf486f2fb5",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738237640/BulgarianLegacy/vahmmal5572uak4jzvg7.webp",
+        "filename": "BulgarianLegacy/vahmmal5572uak4jzvg7",
+        "_id": "679b66c9e5a2a4bf486f2fb6"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738237641/BulgarianLegacy/fzazyyk2t3cgq1jpkoxr.webp",
+        "filename": "BulgarianLegacy/fzazyyk2t3cgq1jpkoxr",
+        "_id": "679b66c9e5a2a4bf486f2fb7"
+      }
+    ],
+    "coordinates": [
+      27.730887,
+      42.658636
+    ],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679b67fae5a2a4bf486f2fbb",
+    "name": "Бачковски Манастир",
+    "url": "https://legacy.bg/products/679b67fae5a2a4bf486f2fbb",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738237945/BulgarianLegacy/ysklgitmp3d96tmgqzbr.webp",
+        "filename": "BulgarianLegacy/ysklgitmp3d96tmgqzbr",
+        "_id": "679b67fae5a2a4bf486f2fbc"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738238600/BulgarianLegacy/fnjnzqlyxm7og6ln9zoe.webp",
+        "filename": "BulgarianLegacy/fnjnzqlyxm7og6ln9zoe",
+        "_id": "679b6a88e5a2a4bf486f2fdb"
+      }
+    ],
+    "coordinates": [],
+    "collected": true,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679b6985e5a2a4bf486f2fc1",
+    "name": "Бачковската чудотворна икона „Света Богородица – Умиление“",
+    "url": "https://legacy.bg/products/679b6985e5a2a4bf486f2fc1",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738238341/BulgarianLegacy/da8esghfhr6nhcdrudjw.webp",
+        "filename": "BulgarianLegacy/da8esghfhr6nhcdrudjw",
+        "_id": "679b6985e5a2a4bf486f2fc2"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738238341/BulgarianLegacy/wzt666arzbwzpow1cyvf.webp",
+        "filename": "BulgarianLegacy/wzt666arzbwzpow1cyvf",
+        "_id": "679b6985e5a2a4bf486f2fc3"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679b8933e5a2a4bf486f2fea",
+    "name": "Бялата Къща - Пампорово",
+    "url": "https://legacy.bg/products/679b8933e5a2a4bf486f2fea",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738246449/BulgarianLegacy/e3gvtmq43lclstocm4fi.webp",
+        "filename": "BulgarianLegacy/e3gvtmq43lclstocm4fi",
+        "_id": "679b8933e5a2a4bf486f2feb"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738246449/BulgarianLegacy/orooanroamoyvpzti4j0.webp",
+        "filename": "BulgarianLegacy/orooanroamoyvpzti4j0",
+        "_id": "679b8933e5a2a4bf486f2fec"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679b89f8e5a2a4bf486f3006",
+    "name": "Батак",
+    "url": "https://legacy.bg/products/679b89f8e5a2a4bf486f3006",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738246648/BulgarianLegacy/xaoc8zo5v5dc356iyfkk.webp",
+        "filename": "BulgarianLegacy/xaoc8zo5v5dc356iyfkk",
+        "_id": "679b89f8e5a2a4bf486f3007"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738246648/BulgarianLegacy/yybpegka1kokp7zelgzd.webp",
+        "filename": "BulgarianLegacy/yybpegka1kokp7zelgzd",
+        "_id": "679b89f8e5a2a4bf486f3008"
+      }
+    ],
+    "coordinates": [
+      24.218343273943145,
+      41.94283113843459
+    ],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679c8079d7ced5a277833607",
+    "name": "Нос Калиакра",
+    "url": "https://legacy.bg/products/679c8079d7ced5a277833607",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738309752/BulgarianLegacy/nretjlsrsiqgd5cltsin.webp",
+        "filename": "BulgarianLegacy/nretjlsrsiqgd5cltsin",
+        "_id": "679c8079d7ced5a277833608"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738309752/BulgarianLegacy/bn8citx3pihxacpdvfwm.webp",
+        "filename": "BulgarianLegacy/bn8citx3pihxacpdvfwm",
+        "_id": "679c8079d7ced5a277833609"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679b8c2be5a2a4bf486f3012",
+    "name": "Античен театър - Пловдив",
+    "url": "https://legacy.bg/products/679b8c2be5a2a4bf486f3012",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738247210/BulgarianLegacy/phlundjmvhzvnqfv8kml.webp",
+        "filename": "BulgarianLegacy/phlundjmvhzvnqfv8kml",
+        "_id": "679b8c2be5a2a4bf486f3013"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738247211/BulgarianLegacy/zcfeecft3btsef27onot.webp",
+        "filename": "BulgarianLegacy/zcfeecft3btsef27onot",
+        "_id": "679b8c2be5a2a4bf486f3014"
+      }
+    ],
+    "coordinates": [
+      24.752685,
+      42.149906
+    ],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679b8dd3e5a2a4bf486f3018",
+    "name": "Водопада - с.Бачково",
+    "url": "https://legacy.bg/products/679b8dd3e5a2a4bf486f3018",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738247634/BulgarianLegacy/pwicln7g82hlyjwwlu6o.webp",
+        "filename": "BulgarianLegacy/pwicln7g82hlyjwwlu6o",
+        "_id": "679b8dd3e5a2a4bf486f3019"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738247634/BulgarianLegacy/ymzqwrgpqyeu9bsupaj5.webp",
+        "filename": "BulgarianLegacy/ymzqwrgpqyeu9bsupaj5",
+        "_id": "679b8dd3e5a2a4bf486f301a"
+      }
+    ],
+    "coordinates": [
+      24.855899,
+      41.94385
+    ],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679b8f6be5a2a4bf486f3020",
+    "name": "Паметник 'Създатели на българската държава'",
+    "url": "https://legacy.bg/products/679b8f6be5a2a4bf486f3020",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738248042/BulgarianLegacy/woea9ilxhfblm7vwzqqx.webp",
+        "filename": "BulgarianLegacy/woea9ilxhfblm7vwzqqx",
+        "_id": "679b8f6be5a2a4bf486f3021"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738248042/BulgarianLegacy/y3dcfoibow82acqymrfo.webp",
+        "filename": "BulgarianLegacy/y3dcfoibow82acqymrfo",
+        "_id": "679b8f6be5a2a4bf486f3022"
+      }
+    ],
+    "coordinates": [
+      26.923026,
+      43.261837
+    ],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679c7475d7ced5a2778335e6",
+    "name": "Мадарски конник",
+    "url": "https://legacy.bg/products/679c7475d7ced5a2778335e6",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738306676/BulgarianLegacy/laaivivufwl6ll3t0w5h.webp",
+        "filename": "BulgarianLegacy/laaivivufwl6ll3t0w5h",
+        "_id": "679c7475d7ced5a2778335e7"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738306676/BulgarianLegacy/idf7lx4foy6qijm0m4dy.webp",
+        "filename": "BulgarianLegacy/idf7lx4foy6qijm0m4dy",
+        "_id": "679c7475d7ced5a2778335e8"
+      }
+    ],
+    "coordinates": [
+      27.117043,
+      43.276868
+    ],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679c7ab7d7ced5a2778335f0",
+    "name": "Плиска",
+    "url": "https://legacy.bg/products/679c7ab7d7ced5a2778335f0",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738308278/BulgarianLegacy/hekzzhave930eig3pbml.webp",
+        "filename": "BulgarianLegacy/hekzzhave930eig3pbml",
+        "_id": "679c7ab7d7ced5a2778335f1"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738308278/BulgarianLegacy/zhbxk2cxhxc5n3bdbpkx.webp",
+        "filename": "BulgarianLegacy/zhbxk2cxhxc5n3bdbpkx",
+        "_id": "679c7ab7d7ced5a2778335f2"
+      }
+    ],
+    "coordinates": [
+      27.13383,
+      43.390422
+    ],
+    "collected": true,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679c832ad7ced5a277833614",
+    "name": "Велики Преслав",
+    "url": "https://legacy.bg/products/679c832ad7ced5a277833614",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738310441/BulgarianLegacy/oddnwapwrrelsbknhhqx.webp",
+        "filename": "BulgarianLegacy/oddnwapwrrelsbknhhqx",
+        "_id": "679c832ad7ced5a277833615"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738310441/BulgarianLegacy/qpneqejbxypnhjgaclvl.webp",
+        "filename": "BulgarianLegacy/qpneqejbxypnhjgaclvl",
+        "_id": "679c832ad7ced5a277833616"
+      }
+    ],
+    "coordinates": [
+      26.815284,
+      43.153446
+    ],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679c8475d7ced5a27783361c",
+    "name": "Васил Левски – Карлово",
+    "url": "https://legacy.bg/products/679c8475d7ced5a27783361c",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738310772/BulgarianLegacy/oxtdk4m1j5ymr6g8kaje.webp",
+        "filename": "BulgarianLegacy/oxtdk4m1j5ymr6g8kaje",
+        "_id": "679c8475d7ced5a27783361d"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738310773/BulgarianLegacy/d0t9axk1u7bz0rxgvwoo.webp",
+        "filename": "BulgarianLegacy/d0t9axk1u7bz0rxgvwoo",
+        "_id": "679c8475d7ced5a27783361e"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679c8518d7ced5a277833622",
+    "name": "Иван Вазов Къща-Музей - Сопот",
+    "url": "https://legacy.bg/products/679c8518d7ced5a277833622",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738310935/BulgarianLegacy/ny25ltffblrwcc8mpcj9.webp",
+        "filename": "BulgarianLegacy/ny25ltffblrwcc8mpcj9",
+        "_id": "679c8518d7ced5a277833623"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738310936/BulgarianLegacy/paoeq3k99537po09oc7n.webp",
+        "filename": "BulgarianLegacy/paoeq3k99537po09oc7n",
+        "_id": "679c8518d7ced5a277833624"
+      }
+    ],
+    "coordinates": [
+      24.756253,
+      42.653953
+    ],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679c85fbd7ced5a27783362d",
+    "name": "Созопол - Старият Град",
+    "url": "https://legacy.bg/products/679c85fbd7ced5a27783362d",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738311162/BulgarianLegacy/vkkgzcdeka5q9nr4gmb8.webp",
+        "filename": "BulgarianLegacy/vkkgzcdeka5q9nr4gmb8",
+        "_id": "679c85fbd7ced5a27783362e"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738311163/BulgarianLegacy/nowpefv0htyhdj4vojqz.webp",
+        "filename": "BulgarianLegacy/nowpefv0htyhdj4vojqz",
+        "_id": "679c85fbd7ced5a27783362f"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679c8699d7ced5a277833633",
+    "name": "Созопол - Аламана",
+    "url": "https://legacy.bg/products/679c8699d7ced5a277833633",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738311320/BulgarianLegacy/bkrqcrtmvstytj36zhqc.webp",
+        "filename": "BulgarianLegacy/bkrqcrtmvstytj36zhqc",
+        "_id": "679c8699d7ced5a277833634"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738311320/BulgarianLegacy/qna6m7ie7r2zaj0cquhf.webp",
+        "filename": "BulgarianLegacy/qna6m7ie7r2zaj0cquhf",
+        "_id": "679c8699d7ced5a277833635"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679c877dd7ced5a277833639",
+    "name": "Приморско",
+    "url": "https://legacy.bg/products/679c877dd7ced5a277833639",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738311548/BulgarianLegacy/wb8z1qxczflepk1asgvj.webp",
+        "filename": "BulgarianLegacy/wb8z1qxczflepk1asgvj",
+        "_id": "679c877dd7ced5a27783363a"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738311548/BulgarianLegacy/t9mfkyeyxpyqhjtlxoi9.webp",
+        "filename": "BulgarianLegacy/t9mfkyeyxpyqhjtlxoi9",
+        "_id": "679c877dd7ced5a27783363b"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679c89ded7ced5a27783363f",
+    "name": "Китен",
+    "url": "https://legacy.bg/products/679c89ded7ced5a27783363f",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738312157/BulgarianLegacy/xfil6biilubm4bpixque.webp",
+        "filename": "BulgarianLegacy/xfil6biilubm4bpixque",
+        "_id": "679c89ded7ced5a277833640"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738312157/BulgarianLegacy/qzpwbbbl7exqbnmj6eqv.webp",
+        "filename": "BulgarianLegacy/qzpwbbbl7exqbnmj6eqv",
+        "_id": "679c89ded7ced5a277833641"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679c8bf6d7ced5a277833645",
+    "name": "Царево",
+    "url": "https://legacy.bg/products/679c8bf6d7ced5a277833645",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738312693/BulgarianLegacy/qxlszw4ofgecx3vqjikv.webp",
+        "filename": "BulgarianLegacy/qxlszw4ofgecx3vqjikv",
+        "_id": "679c8bf6d7ced5a277833646"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738312694/BulgarianLegacy/wb7gcqdnqyjngxfaudrm.webp",
+        "filename": "BulgarianLegacy/wb7gcqdnqyjngxfaudrm",
+        "_id": "679c8bf6d7ced5a277833647"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679c8c73d7ced5a27783364b",
+    "name": "Лозенец",
+    "url": "https://legacy.bg/products/679c8c73d7ced5a27783364b",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738312819/BulgarianLegacy/fdrbvfykh4neo3gbqrkj.webp",
+        "filename": "BulgarianLegacy/fdrbvfykh4neo3gbqrkj",
+        "_id": "679c8c73d7ced5a27783364c"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738312819/BulgarianLegacy/a2v00jik1uaqa24rpzly.webp",
+        "filename": "BulgarianLegacy/a2v00jik1uaqa24rpzly",
+        "_id": "679c8c73d7ced5a27783364d"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679c8e27d7ced5a277833655",
+    "name": "Коледа",
+    "url": "https://legacy.bg/products/679c8e27d7ced5a277833655",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738313254/BulgarianLegacy/sccaiqkynnibijwuayrw.webp",
+        "filename": "BulgarianLegacy/sccaiqkynnibijwuayrw",
+        "_id": "679c8e27d7ced5a277833656"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738313255/BulgarianLegacy/rfird3u5tqrl9prfisfj.webp",
+        "filename": "BulgarianLegacy/rfird3u5tqrl9prfisfj",
+        "_id": "679c8e27d7ced5a277833657"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679c924bd7ced5a277833661",
+    "name": "Фестивал на пясъчните скулптури (Горгона) - Бургас",
+    "url": "https://legacy.bg/products/679c924bd7ced5a277833661",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738314314/BulgarianLegacy/xcrr59urgnjnzlhl4pbg.webp",
+        "filename": "BulgarianLegacy/xcrr59urgnjnzlhl4pbg",
+        "_id": "679c924bd7ced5a277833662"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738314314/BulgarianLegacy/k2r7dntpzlekmwrte8qm.webp",
+        "filename": "BulgarianLegacy/k2r7dntpzlekmwrte8qm",
+        "_id": "679c924bd7ced5a277833663"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679c9691d7ced5a27783366a",
+    "name": "Света Анастасия (Остров)",
+    "url": "https://legacy.bg/products/679c9691d7ced5a27783366a",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738315408/BulgarianLegacy/acshpvlzj5kkeo7fzjlq.webp",
+        "filename": "BulgarianLegacy/acshpvlzj5kkeo7fzjlq",
+        "_id": "679c9691d7ced5a27783366b"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738659140/BulgarianLegacy/wso3myhn3pddvght7ydn.webp",
+        "filename": "BulgarianLegacy/wso3myhn3pddvght7ydn",
+        "_id": "679c9691d7ced5a27783366c"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679c97a1d7ced5a277833670",
+    "name": "Морското казино - Бургас",
+    "url": "https://legacy.bg/products/679c97a1d7ced5a277833670",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738315680/BulgarianLegacy/y0dqwttrept1c9un6vo6.webp",
+        "filename": "BulgarianLegacy/y0dqwttrept1c9un6vo6",
+        "_id": "679c97a1d7ced5a277833671"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738315680/BulgarianLegacy/ffbov3p4younzp9hxpjs.webp",
+        "filename": "BulgarianLegacy/ffbov3p4younzp9hxpjs",
+        "_id": "679c97a1d7ced5a277833672"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679c98c4d7ced5a277833676",
+    "name": "Роженски манастир",
+    "url": "https://legacy.bg/products/679c98c4d7ced5a277833676",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738315972/BulgarianLegacy/acaunshqvky83kgmneld.webp",
+        "filename": "BulgarianLegacy/acaunshqvky83kgmneld",
+        "_id": "679c98c4d7ced5a277833677"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738315972/BulgarianLegacy/zf69fhdce56fkxyys61h.webp",
+        "filename": "BulgarianLegacy/zf69fhdce56fkxyys61h",
+        "_id": "679c98c4d7ced5a277833678"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": false
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679c9950d7ced5a27783367e",
+    "name": "Морска градина - Варна",
+    "url": "https://legacy.bg/products/679c9950d7ced5a27783367e",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738316111/BulgarianLegacy/qv67exci0xljyp9uj8fq.webp",
+        "filename": "BulgarianLegacy/qv67exci0xljyp9uj8fq",
+        "_id": "679c9950d7ced5a27783367f"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738316111/BulgarianLegacy/bkahf6cagvei9kijzkni.webp",
+        "filename": "BulgarianLegacy/bkahf6cagvei9kijzkni",
+        "_id": "679c9950d7ced5a277833680"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "679cc890d7ced5a277833685",
+    "name": "Н.И.М .- Панагюрско съкровище",
+    "url": "https://legacy.bg/products/679cc890d7ced5a277833685",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738328207/BulgarianLegacy/yjtq3fpack7fdqmxkr8d.webp",
+        "filename": "BulgarianLegacy/yjtq3fpack7fdqmxkr8d",
+        "_id": "679cc890d7ced5a277833686"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738328207/BulgarianLegacy/wuuildnlgmgiuebraz8u.webp",
+        "filename": "BulgarianLegacy/wuuildnlgmgiuebraz8u",
+        "_id": "679cc890d7ced5a277833687"
+      }
+    ],
+    "coordinates": [
+      23.27118,
+      42.65541
+    ],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a08d82e9370e54ec06ef67",
+    "name": "Поморие - Музей на солта",
+    "url": "https://legacy.bg/products/67a08d82e9370e54ec06ef67",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738575234/BulgarianLegacy/mkw0xg6budmzal6dik5b.webp",
+        "filename": "BulgarianLegacy/mkw0xg6budmzal6dik5b",
+        "_id": "67a08d82e9370e54ec06ef68"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738575234/BulgarianLegacy/mbqakql3w56onkkbwnot.webp",
+        "filename": "BulgarianLegacy/mbqakql3w56onkkbwnot",
+        "_id": "67a08d82e9370e54ec06ef69"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a08f1de9370e54ec06ef6d",
+    "name": "Велико Търново – Печатът на Царевград",
+    "url": "https://legacy.bg/products/67a08f1de9370e54ec06ef6d",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738575644/BulgarianLegacy/rr8yux99xvc6zyuja962.webp",
+        "filename": "BulgarianLegacy/rr8yux99xvc6zyuja962",
+        "_id": "67a08f1de9370e54ec06ef6e"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738575645/BulgarianLegacy/fnimbjibgddxwdzw8pft.webp",
+        "filename": "BulgarianLegacy/fnimbjibgddxwdzw8pft",
+        "_id": "67a08f1de9370e54ec06ef6f"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a090a6e9370e54ec06ef73",
+    "name": "Изложба на пеперуди",
+    "url": "https://legacy.bg/products/67a090a6e9370e54ec06ef73",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738576037/BulgarianLegacy/twntpq3ut9mfqd57bzzz.webp",
+        "filename": "BulgarianLegacy/twntpq3ut9mfqd57bzzz",
+        "_id": "67a090a6e9370e54ec06ef74"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738576038/BulgarianLegacy/rkslpcynqzgv42fibkr8.webp",
+        "filename": "BulgarianLegacy/rkslpcynqzgv42fibkr8",
+        "_id": "67a090a6e9370e54ec06ef75"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a09144e9370e54ec06ef79",
+    "name": "Опера Варна",
+    "url": "https://legacy.bg/products/67a09144e9370e54ec06ef79",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738576195/BulgarianLegacy/ued6vvw8bgb5bjx15tn3.webp",
+        "filename": "BulgarianLegacy/ued6vvw8bgb5bjx15tn3",
+        "_id": "67a09144e9370e54ec06ef7a"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738576195/BulgarianLegacy/pw0qrzsgfpzlixkvkpdv.webp",
+        "filename": "BulgarianLegacy/pw0qrzsgfpzlixkvkpdv",
+        "_id": "67a09144e9370e54ec06ef7b"
+      }
+    ],
+    "coordinates": [
+      27.911061,
+      43.204354
+    ],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a091cce9370e54ec06ef81",
+    "name": "Дяволското гърло",
+    "url": "https://legacy.bg/products/67a091cce9370e54ec06ef81",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738576331/BulgarianLegacy/gahz4sxgz4mi3evb4uzq.webp",
+        "filename": "BulgarianLegacy/gahz4sxgz4mi3evb4uzq",
+        "_id": "67a091cce9370e54ec06ef82"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738576331/BulgarianLegacy/tmc3j3nwy5okhhnxxjxx.webp",
+        "filename": "BulgarianLegacy/tmc3j3nwy5okhhnxxjxx",
+        "_id": "67a091cce9370e54ec06ef83"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a09242e9370e54ec06ef87",
+    "name": "Природонаучният музей в Котел",
+    "url": "https://legacy.bg/products/67a09242e9370e54ec06ef87",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738576449/BulgarianLegacy/glui3psqnz5xbyhenh0s.webp",
+        "filename": "BulgarianLegacy/glui3psqnz5xbyhenh0s",
+        "_id": "67a09242e9370e54ec06ef88"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738576450/BulgarianLegacy/plencfmstwgipko86tta.webp",
+        "filename": "BulgarianLegacy/plencfmstwgipko86tta",
+        "_id": "67a09242e9370e54ec06ef89"
+      }
+    ],
+    "coordinates": [
+      26.429786975416867,
+      42.888259099555704
+    ],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a092b4e9370e54ec06ef8d",
+    "name": "Жеравна",
+    "url": "https://legacy.bg/products/67a092b4e9370e54ec06ef8d",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738576563/BulgarianLegacy/tq4bjuf3vi5tgq8uqye2.webp",
+        "filename": "BulgarianLegacy/tq4bjuf3vi5tgq8uqye2",
+        "_id": "67a092b4e9370e54ec06ef8e"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738576564/BulgarianLegacy/eevovjtou6qfpyqizfeo.webp",
+        "filename": "BulgarianLegacy/eevovjtou6qfpyqizfeo",
+        "_id": "67a092b4e9370e54ec06ef8f"
+      }
+    ],
+    "coordinates": [
+      26.459276,
+      42.833248
+    ],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a09539d26bb7b7cfe3b160",
+    "name": "Часовника - Бургас",
+    "url": "https://legacy.bg/products/67a09539d26bb7b7cfe3b160",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738577208/BulgarianLegacy/akkf4nljwxuyzxclkirf.webp",
+        "filename": "BulgarianLegacy/akkf4nljwxuyzxclkirf",
+        "_id": "67a09539d26bb7b7cfe3b161"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738577208/BulgarianLegacy/tyb6vesmpk3b6jvvsaar.webp",
+        "filename": "BulgarianLegacy/tyb6vesmpk3b6jvvsaar",
+        "_id": "67a09539d26bb7b7cfe3b162"
+      }
+    ],
+    "coordinates": [
+      27.472752,
+      42.493552
+    ],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a095eed26bb7b7cfe3b166",
+    "name": "Храм-паметникът „Рождество Христово“ град Шипка",
+    "url": "https://legacy.bg/products/67a095eed26bb7b7cfe3b166",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738577389/BulgarianLegacy/plsxcpla8znxablxqqfb.webp",
+        "filename": "BulgarianLegacy/plsxcpla8znxablxqqfb",
+        "_id": "67a095eed26bb7b7cfe3b167"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738577389/BulgarianLegacy/smkhv9oks0fjrxmvyzdf.webp",
+        "filename": "BulgarianLegacy/smkhv9oks0fjrxmvyzdf",
+        "_id": "67a095eed26bb7b7cfe3b168"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a0968fd26bb7b7cfe3b16e",
+    "name": "Шуменската крепост",
+    "url": "https://legacy.bg/products/67a0968fd26bb7b7cfe3b16e",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738577551/BulgarianLegacy/txvoimlimyrmghmvtvol.webp",
+        "filename": "BulgarianLegacy/txvoimlimyrmghmvtvol",
+        "_id": "67a0968fd26bb7b7cfe3b16f"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738577551/BulgarianLegacy/g7jlpjwhpei7qcek7kbx.webp",
+        "filename": "BulgarianLegacy/g7jlpjwhpei7qcek7kbx",
+        "_id": "67a0968fd26bb7b7cfe3b170"
+      }
+    ],
+    "coordinates": [
+      26.892481,
+      43.262198
+    ],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a0977cd26bb7b7cfe3b174",
+    "name": "Восъчни Фигури - Велико Търново",
+    "url": "https://legacy.bg/products/67a0977cd26bb7b7cfe3b174",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738577788/BulgarianLegacy/rmvxt0utih3qcbvnc6oy.webp",
+        "filename": "BulgarianLegacy/rmvxt0utih3qcbvnc6oy",
+        "_id": "67a0977cd26bb7b7cfe3b175"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738577788/BulgarianLegacy/fx6tsyd8j2iazphawjsw.webp",
+        "filename": "BulgarianLegacy/fx6tsyd8j2iazphawjsw",
+        "_id": "67a0977cd26bb7b7cfe3b176"
+      }
+    ],
+    "coordinates": [
+      25.64423,
+      43.08152
+    ],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a0984ed26bb7b7cfe3b17a",
+    "name": "Къща-Музей \"Райна Княгиня\"",
+    "url": "https://legacy.bg/products/67a0984ed26bb7b7cfe3b17a",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738577997/BulgarianLegacy/igkzvzsbuzpccaq1zdgi.webp",
+        "filename": "BulgarianLegacy/igkzvzsbuzpccaq1zdgi",
+        "_id": "67a0984ed26bb7b7cfe3b17b"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738577998/BulgarianLegacy/hzfzlropi7ki035pvcec.webp",
+        "filename": "BulgarianLegacy/hzfzlropi7ki035pvcec",
+        "_id": "67a0984ed26bb7b7cfe3b17c"
+      }
+    ],
+    "coordinates": [
+      24.183806180592878,
+      42.50672840562641
+    ],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a09cd5d26bb7b7cfe3b183",
+    "name": "Музей \"Райна Княгиня\" - Лъв",
+    "url": "https://legacy.bg/products/67a09cd5d26bb7b7cfe3b183",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738579156/BulgarianLegacy/h1nrkup4xa01uaxdacwa.webp",
+        "filename": "BulgarianLegacy/h1nrkup4xa01uaxdacwa",
+        "_id": "67a09cd5d26bb7b7cfe3b184"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738579157/BulgarianLegacy/du1zjjaqsdmsf6zju6i8.webp",
+        "filename": "BulgarianLegacy/du1zjjaqsdmsf6zju6i8",
+        "_id": "67a09cd5d26bb7b7cfe3b185"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a09dfad26bb7b7cfe3b189",
+    "name": "Музей \"Райна Княгиня\" - Колелото на Живота",
+    "url": "https://legacy.bg/products/67a09dfad26bb7b7cfe3b189",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738579449/BulgarianLegacy/bzumdrambx6ipqaezm0r.webp",
+        "filename": "BulgarianLegacy/bzumdrambx6ipqaezm0r",
+        "_id": "67a09dfad26bb7b7cfe3b18a"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738579449/BulgarianLegacy/ynlk9pzftzy4pa5jjrcr.webp",
+        "filename": "BulgarianLegacy/ynlk9pzftzy4pa5jjrcr",
+        "_id": "67a09dfad26bb7b7cfe3b18b"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a0a1cdd26bb7b7cfe3b191",
+    "name": "Панагюрско съкровище - Амфора",
+    "url": "https://legacy.bg/products/67a0a1cdd26bb7b7cfe3b191",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738580428/BulgarianLegacy/kcvhxuwmi8o4hjs5kftf.webp",
+        "filename": "BulgarianLegacy/kcvhxuwmi8o4hjs5kftf",
+        "_id": "67a0a1cdd26bb7b7cfe3b192"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738580428/BulgarianLegacy/ksepgj6wodzqmfsfst6g.webp",
+        "filename": "BulgarianLegacy/ksepgj6wodzqmfsfst6g",
+        "_id": "67a0a1cdd26bb7b7cfe3b193"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a0a264d26bb7b7cfe3b199",
+    "name": "Панагюрско съкровище - Фиала",
+    "url": "https://legacy.bg/products/67a0a264d26bb7b7cfe3b199",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738580578/BulgarianLegacy/avnoj67hl4pedbh0oxwl.webp",
+        "filename": "BulgarianLegacy/avnoj67hl4pedbh0oxwl",
+        "_id": "67a0a264d26bb7b7cfe3b19a"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738580579/BulgarianLegacy/qllb5p97bqxtzkdbs0cj.webp",
+        "filename": "BulgarianLegacy/qllb5p97bqxtzkdbs0cj",
+        "_id": "67a0a264d26bb7b7cfe3b19b"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a0a4f7d26bb7b7cfe3b1a1",
+    "name": "Kопривщица",
+    "url": "https://legacy.bg/products/67a0a4f7d26bb7b7cfe3b1a1",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738581239/BulgarianLegacy/aegdhj6y0lcnxdcjlpdf.webp",
+        "filename": "BulgarianLegacy/aegdhj6y0lcnxdcjlpdf",
+        "_id": "67a0a4f7d26bb7b7cfe3b1a2"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738581239/BulgarianLegacy/mzcfz6mvcm40fxlfnntz.webp",
+        "filename": "BulgarianLegacy/mzcfz6mvcm40fxlfnntz",
+        "_id": "67a0a4f7d26bb7b7cfe3b1a3"
+      }
+    ],
+    "coordinates": [
+      24.357637842340203,
+      42.64016028931732
+    ],
+    "collected": true,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a0a5c6d26bb7b7cfe3b1bc",
+    "name": "Фестивал на пясъчните фигури 2019 - Аладин",
+    "url": "https://legacy.bg/products/67a0a5c6d26bb7b7cfe3b1bc",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738581445/BulgarianLegacy/afrubbnkb3xvzmf0x8di.webp",
+        "filename": "BulgarianLegacy/afrubbnkb3xvzmf0x8di",
+        "_id": "67a0a5c6d26bb7b7cfe3b1bd"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738581445/BulgarianLegacy/oiolrtflip7zo1ac8bwo.webp",
+        "filename": "BulgarianLegacy/oiolrtflip7zo1ac8bwo",
+        "_id": "67a0a5c6d26bb7b7cfe3b1be"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a0a6d9d26bb7b7cfe3b1c5",
+    "name": "Фестивал на пясъчните фигури 2020 – Ну, погоди!",
+    "url": "https://legacy.bg/products/67a0a6d9d26bb7b7cfe3b1c5",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738581720/BulgarianLegacy/xitlr5ovvxqsah1ahqaw.webp",
+        "filename": "BulgarianLegacy/xitlr5ovvxqsah1ahqaw",
+        "_id": "67a0a6d9d26bb7b7cfe3b1c6"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738581720/BulgarianLegacy/nxpqgs7lvgirsw4ugim9.webp",
+        "filename": "BulgarianLegacy/nxpqgs7lvgirsw4ugim9",
+        "_id": "67a0a6d9d26bb7b7cfe3b1c7"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a0a7a0d26bb7b7cfe3b1cb",
+    "name": "Фестивал на пясъчните фигури 2021 - Хари Потър",
+    "url": "https://legacy.bg/products/67a0a7a0d26bb7b7cfe3b1cb",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738581919/BulgarianLegacy/zotwhter7gkjvxsr0ryq.webp",
+        "filename": "BulgarianLegacy/zotwhter7gkjvxsr0ryq",
+        "_id": "67a0a7a0d26bb7b7cfe3b1cc"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738581919/BulgarianLegacy/yjm6t7luhelzt8wxhkk6.webp",
+        "filename": "BulgarianLegacy/yjm6t7luhelzt8wxhkk6",
+        "_id": "67a0a7a0d26bb7b7cfe3b1cd"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a0a831d26bb7b7cfe3b1d1",
+    "name": "Крушунски Водопади",
+    "url": "https://legacy.bg/products/67a0a831d26bb7b7cfe3b1d1",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738582064/BulgarianLegacy/uclw4blklinoj4vtwipf.webp",
+        "filename": "BulgarianLegacy/uclw4blklinoj4vtwipf",
+        "_id": "67a0a831d26bb7b7cfe3b1d2"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738582065/BulgarianLegacy/xol0badezlfzmrf2vh5j.webp",
+        "filename": "BulgarianLegacy/xol0badezlfzmrf2vh5j",
+        "_id": "67a0a831d26bb7b7cfe3b1d3"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a0a8f3d26bb7b7cfe3b1d7",
+    "name": "Римски Терми - Варна",
+    "url": "https://legacy.bg/products/67a0a8f3d26bb7b7cfe3b1d7",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738582259/BulgarianLegacy/ggpb4kvkah8fjgipzthv.webp",
+        "filename": "BulgarianLegacy/ggpb4kvkah8fjgipzthv",
+        "_id": "67a0a8f3d26bb7b7cfe3b1d8"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738582259/BulgarianLegacy/gi5fa3u2wajvb8bvrl0y.webp",
+        "filename": "BulgarianLegacy/gi5fa3u2wajvb8bvrl0y",
+        "_id": "67a0a8f3d26bb7b7cfe3b1d9"
+      }
+    ],
+    "coordinates": [
+      27.917925934034958,
+      43.20007160405884
+    ],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a0a97dd26bb7b7cfe3b1dd",
+    "name": "Регионален Исторически музей - Шумен",
+    "url": "https://legacy.bg/products/67a0a97dd26bb7b7cfe3b1dd",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738582397/BulgarianLegacy/hgcnppwbzn2vjwi6ohff.webp",
+        "filename": "BulgarianLegacy/hgcnppwbzn2vjwi6ohff",
+        "_id": "67a0a97dd26bb7b7cfe3b1de"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738582397/BulgarianLegacy/q3ihiml4vuaebo1mlqab.webp",
+        "filename": "BulgarianLegacy/q3ihiml4vuaebo1mlqab",
+        "_id": "67a0a97dd26bb7b7cfe3b1df"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a0ba24d26bb7b7cfe3b1ee",
+    "name": "Етнографски комплекс \"Калимански хан\" - Гълъб",
+    "url": "https://legacy.bg/products/67a0ba24d26bb7b7cfe3b1ee",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738586659/BulgarianLegacy/x3ajr2yk6pazgryo477q.webp",
+        "filename": "BulgarianLegacy/x3ajr2yk6pazgryo477q",
+        "_id": "67a0ba24d26bb7b7cfe3b1ef"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738586659/BulgarianLegacy/oytnpdweboz4lvllbkeg.webp",
+        "filename": "BulgarianLegacy/oytnpdweboz4lvllbkeg",
+        "_id": "67a0ba24d26bb7b7cfe3b1f0"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a0bad1d26bb7b7cfe3b1f5",
+    "name": "Етнографски комплекс \"Калимански хан\" - Кон",
+    "url": "https://legacy.bg/products/67a0bad1d26bb7b7cfe3b1f5",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738586832/BulgarianLegacy/g2hkae2pnf9hefbxj4gy.webp",
+        "filename": "BulgarianLegacy/g2hkae2pnf9hefbxj4gy",
+        "_id": "67a0bad1d26bb7b7cfe3b1f6"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738586832/BulgarianLegacy/gpxlkypviyxmd02gynpc.webp",
+        "filename": "BulgarianLegacy/gpxlkypviyxmd02gynpc",
+        "_id": "67a0bad1d26bb7b7cfe3b1f7"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a1be8bd26bb7b7cfe3b209",
+    "name": "Музей на Възраждането \"Иларион Макариополски\" - гр. Елена",
+    "url": "https://legacy.bg/products/67a1be8bd26bb7b7cfe3b209",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738653323/BulgarianLegacy/tbjhbzq537whim0q6xti.webp",
+        "filename": "BulgarianLegacy/tbjhbzq537whim0q6xti",
+        "_id": "67a1be8bd26bb7b7cfe3b20a"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738653323/BulgarianLegacy/lltzo2buwewwghyau9zh.webp",
+        "filename": "BulgarianLegacy/lltzo2buwewwghyau9zh",
+        "_id": "67a1be8bd26bb7b7cfe3b20b"
+      }
+    ],
+    "coordinates": [
+      25.8797,
+      42.93033
+    ],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a1c4a0d26bb7b7cfe3b211",
+    "name": "Музей на Възраждането \"Иларион Макариополски\" (Икона)- гр. Елена",
+    "url": "https://legacy.bg/products/67a1c4a0d26bb7b7cfe3b211",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738654879/BulgarianLegacy/fd6r8flurjoyvnuuauxn.webp",
+        "filename": "BulgarianLegacy/fd6r8flurjoyvnuuauxn",
+        "_id": "67a1c4a0d26bb7b7cfe3b212"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738654879/BulgarianLegacy/wzoru00srek1a0atfeo1.webp",
+        "filename": "BulgarianLegacy/wzoru00srek1a0atfeo1",
+        "_id": "67a1c4a0d26bb7b7cfe3b213"
+      }
+    ],
+    "coordinates": [
+      25.8797,
+      42.93033
+    ],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a1c55cd26bb7b7cfe3b219",
+    "name": "Музей на Възраждането \"Иларион Макариополски\" (Музей) - гр. Елена",
+    "url": "https://legacy.bg/products/67a1c55cd26bb7b7cfe3b219",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738655067/BulgarianLegacy/x6riurdxalzeskyxmiq9.webp",
+        "filename": "BulgarianLegacy/x6riurdxalzeskyxmiq9",
+        "_id": "67a1c55cd26bb7b7cfe3b21a"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738655067/BulgarianLegacy/ekevqypriobs0pisjlhf.webp",
+        "filename": "BulgarianLegacy/ekevqypriobs0pisjlhf",
+        "_id": "67a1c55cd26bb7b7cfe3b21b"
+      }
+    ],
+    "coordinates": [
+      25.8797,
+      42.93033
+    ],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a1c6c0d26bb7b7cfe3b221",
+    "name": "Марина Диневи",
+    "url": "https://legacy.bg/products/67a1c6c0d26bb7b7cfe3b221",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738655423/BulgarianLegacy/b4lrwwjqoacegl9t2ubc.webp",
+        "filename": "BulgarianLegacy/b4lrwwjqoacegl9t2ubc",
+        "_id": "67a1c6c0d26bb7b7cfe3b222"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738655423/BulgarianLegacy/aojxfnqfmr9ksrevake7.webp",
+        "filename": "BulgarianLegacy/aojxfnqfmr9ksrevake7",
+        "_id": "67a1c6c0d26bb7b7cfe3b223"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a1c976d26bb7b7cfe3b22b",
+    "name": "Морско Казино - Варна",
+    "url": "https://legacy.bg/products/67a1c976d26bb7b7cfe3b22b",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738656117/BulgarianLegacy/j3ss8znyu6mnkl4iw4hd.webp",
+        "filename": "BulgarianLegacy/j3ss8znyu6mnkl4iw4hd",
+        "_id": "67a1c976d26bb7b7cfe3b22c"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738656117/BulgarianLegacy/od2o22endk8cryyh4vr0.webp",
+        "filename": "BulgarianLegacy/od2o22endk8cryyh4vr0",
+        "_id": "67a1c976d26bb7b7cfe3b22d"
+      }
+    ],
+    "coordinates": [],
+    "collected": true,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a1cae1d26bb7b7cfe3b231",
+    "name": "Авио Музей - Бургас",
+    "url": "https://legacy.bg/products/67a1cae1d26bb7b7cfe3b231",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738656480/BulgarianLegacy/tzg10ovykytglpphkphc.webp",
+        "filename": "BulgarianLegacy/tzg10ovykytglpphkphc",
+        "_id": "67a1cae1d26bb7b7cfe3b232"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738656480/BulgarianLegacy/uki3fr7o3gtxgukkt3sg.webp",
+        "filename": "BulgarianLegacy/uki3fr7o3gtxgukkt3sg",
+        "_id": "67a1cae1d26bb7b7cfe3b233"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a1cd59d26bb7b7cfe3b23a",
+    "name": "Регионален Исторически Музей пл. Съединение - Пловдив",
+    "url": "https://legacy.bg/products/67a1cd59d26bb7b7cfe3b23a",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738657112/BulgarianLegacy/s6ll0yihot1qniscsb2e.webp",
+        "filename": "BulgarianLegacy/s6ll0yihot1qniscsb2e",
+        "_id": "67a1cd59d26bb7b7cfe3b23b"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738657112/BulgarianLegacy/dredzkjsrnsx6phmrahi.webp",
+        "filename": "BulgarianLegacy/dredzkjsrnsx6phmrahi",
+        "_id": "67a1cd59d26bb7b7cfe3b23c"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": false
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a1d06cd26bb7b7cfe3b240",
+    "name": "Велико Търново - Царевец (цар Иван Асен II)",
+    "url": "https://legacy.bg/products/67a1d06cd26bb7b7cfe3b240",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738657899/BulgarianLegacy/tstcpwiogn7utnd5lvqt.webp",
+        "filename": "BulgarianLegacy/tstcpwiogn7utnd5lvqt",
+        "_id": "67a1d06cd26bb7b7cfe3b241"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738657900/BulgarianLegacy/nzkb1yujqgr38gzfq3i5.webp",
+        "filename": "BulgarianLegacy/nzkb1yujqgr38gzfq3i5",
+        "_id": "67a1d06cd26bb7b7cfe3b242"
+      }
+    ],
+    "coordinates": [],
+    "collected": true,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a1d251d26bb7b7cfe3b246",
+    "name": "Шияковски манастир „Свети Архангел Михаил“",
+    "url": "https://legacy.bg/products/67a1d251d26bb7b7cfe3b246",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738658385/BulgarianLegacy/bf1yjbai9uopekjdsnqk.webp",
+        "filename": "BulgarianLegacy/bf1yjbai9uopekjdsnqk",
+        "_id": "67a1d251d26bb7b7cfe3b247"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738658385/BulgarianLegacy/rwg2ozrmak5esonxq9vx.webp",
+        "filename": "BulgarianLegacy/rwg2ozrmak5esonxq9vx",
+        "_id": "67a1d251d26bb7b7cfe3b248"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a1d39bd26bb7b7cfe3b24c",
+    "name": "Фестивал на пясъчните фигури 2021 - Спонджбоб",
+    "url": "https://legacy.bg/products/67a1d39bd26bb7b7cfe3b24c",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738658715/BulgarianLegacy/ss7s2htmwjrlrv8gparb.webp",
+        "filename": "BulgarianLegacy/ss7s2htmwjrlrv8gparb",
+        "_id": "67a1d39bd26bb7b7cfe3b24d"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738658715/BulgarianLegacy/juzqarcwvagg5wkjlovx.webp",
+        "filename": "BulgarianLegacy/juzqarcwvagg5wkjlovx",
+        "_id": "67a1d39bd26bb7b7cfe3b24e"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a1d545d26bb7b7cfe3b254",
+    "name": "Фестивал на пясъчните фигури 2022 - Тиранозавър",
+    "url": "https://legacy.bg/products/67a1d545d26bb7b7cfe3b254",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738659140/BulgarianLegacy/nnxkm2rslx7cp6sjrl35.webp",
+        "filename": "BulgarianLegacy/nnxkm2rslx7cp6sjrl35",
+        "_id": "67a1d545d26bb7b7cfe3b255"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738659140/BulgarianLegacy/wso3myhn3pddvght7ydn.webp",
+        "filename": "BulgarianLegacy/wso3myhn3pddvght7ydn",
+        "_id": "67a1d545d26bb7b7cfe3b256"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a1daafd26bb7b7cfe3b25d",
+    "name": "Фестивал на пясъчните фигури 2022 - Мамут",
+    "url": "https://legacy.bg/products/67a1daafd26bb7b7cfe3b25d",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738660526/BulgarianLegacy/ifbe0gkwvzvrvizzeblk.webp",
+        "filename": "BulgarianLegacy/ifbe0gkwvzvrvizzeblk",
+        "_id": "67a1daafd26bb7b7cfe3b25e"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738660527/BulgarianLegacy/nmcl7kdahxmokzya5ijm.webp",
+        "filename": "BulgarianLegacy/nmcl7kdahxmokzya5ijm",
+        "_id": "67a1daafd26bb7b7cfe3b25f"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a1dfded26bb7b7cfe3b267",
+    "name": "Филип Тотю",
+    "url": "https://legacy.bg/products/67a1dfded26bb7b7cfe3b267",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738661853/BulgarianLegacy/hhj3hrarkqnguo6unwac.webp",
+        "filename": "BulgarianLegacy/hhj3hrarkqnguo6unwac",
+        "_id": "67a1dfded26bb7b7cfe3b268"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738661854/BulgarianLegacy/kwuehixzgc4wk1g3kb6j.webp",
+        "filename": "BulgarianLegacy/kwuehixzgc4wk1g3kb6j",
+        "_id": "67a1dfded26bb7b7cfe3b269"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a1e9cbd26bb7b7cfe3b26f",
+    "name": "Пещера Орлова Чука",
+    "url": "https://legacy.bg/products/67a1e9cbd26bb7b7cfe3b26f",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738664394/BulgarianLegacy/effjakphgdhiolebxv7r.webp",
+        "filename": "BulgarianLegacy/effjakphgdhiolebxv7r",
+        "_id": "67a1e9cbd26bb7b7cfe3b270"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738664395/BulgarianLegacy/ltvkzyninmwjxcctjflc.webp",
+        "filename": "BulgarianLegacy/ltvkzyninmwjxcctjflc",
+        "_id": "67a1e9cbd26bb7b7cfe3b271"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a1f0aa66cc12103c3d70cd",
+    "name": "Киокушин Карате",
+    "url": "https://legacy.bg/products/67a1f0aa66cc12103c3d70cd",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738666153/BulgarianLegacy/dj2itrwiewxoxa0r46kj.webp",
+        "filename": "BulgarianLegacy/dj2itrwiewxoxa0r46kj",
+        "_id": "67a1f0aa66cc12103c3d70ce"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738666153/BulgarianLegacy/xe6orjllrkavoj60hbtv.webp",
+        "filename": "BulgarianLegacy/xe6orjllrkavoj60hbtv",
+        "_id": "67a1f0aa66cc12103c3d70cf"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a1fdea66cc12103c3d70d3",
+    "name": "Фестивал на пясъчните фигури 2022 - Зоотопия",
+    "url": "https://legacy.bg/products/67a1fdea66cc12103c3d70d3",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738669545/BulgarianLegacy/xncgwcmozojrkzbu4hy7.webp",
+        "filename": "BulgarianLegacy/xncgwcmozojrkzbu4hy7",
+        "_id": "67a1fdea66cc12103c3d70d4"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738669545/BulgarianLegacy/fkqxqoubyuq6veoyzluq.webp",
+        "filename": "BulgarianLegacy/fkqxqoubyuq6veoyzluq",
+        "_id": "67a1fdea66cc12103c3d70d5"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a2057d66cc12103c3d70da",
+    "name": "Хасково",
+    "url": "https://legacy.bg/products/67a2057d66cc12103c3d70da",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738671485/BulgarianLegacy/zahxkuybovekyfpmelgj.webp",
+        "filename": "BulgarianLegacy/zahxkuybovekyfpmelgj",
+        "_id": "67a2057d66cc12103c3d70db"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738671485/BulgarianLegacy/phu5pcggplu5wnoqdwfa.webp",
+        "filename": "BulgarianLegacy/phu5pcggplu5wnoqdwfa",
+        "_id": "67a2057d66cc12103c3d70dc"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a206d466cc12103c3d70ef",
+    "name": "Ловеч Мост 2",
+    "url": "https://legacy.bg/products/67a206d466cc12103c3d70ef",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738671827/BulgarianLegacy/xjep9afc7idbahi6c9j9.webp",
+        "filename": "BulgarianLegacy/xjep9afc7idbahi6c9j9",
+        "_id": "67a206d466cc12103c3d70f0"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738671828/BulgarianLegacy/bkzqrrahatlyicmwgj4u.webp",
+        "filename": "BulgarianLegacy/bkzqrrahatlyicmwgj4u",
+        "_id": "67a206d466cc12103c3d70f1"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a2215366cc12103c3d70fa",
+    "name": "Морско Казино (Име)- Варна",
+    "url": "https://legacy.bg/products/67a2215366cc12103c3d70fa",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738678610/BulgarianLegacy/zeffgmgs1u3zokqyb5k9.webp",
+        "filename": "BulgarianLegacy/zeffgmgs1u3zokqyb5k9",
+        "_id": "67a2215366cc12103c3d70fb"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738678611/BulgarianLegacy/osiyu9ubffmttrjmyqkh.webp",
+        "filename": "BulgarianLegacy/osiyu9ubffmttrjmyqkh",
+        "_id": "67a2215366cc12103c3d70fc"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a2233966cc12103c3d7106",
+    "name": "Дом на хумора и сатирата",
+    "url": "https://legacy.bg/products/67a2233966cc12103c3d7106",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738679096/BulgarianLegacy/argesldyfdcvpkqqrksf.webp",
+        "filename": "BulgarianLegacy/argesldyfdcvpkqqrksf",
+        "_id": "67a2233966cc12103c3d7107"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738679096/BulgarianLegacy/luntjp7edt9xzgbxjtgf.webp",
+        "filename": "BulgarianLegacy/luntjp7edt9xzgbxjtgf",
+        "_id": "67a2233966cc12103c3d7108"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": false
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a2251f66cc12103c3d710c",
+    "name": "Рилски Mанастир",
+    "url": "https://legacy.bg/products/67a2251f66cc12103c3d710c",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738679582/BulgarianLegacy/ncidqfi8ar3kk0xapzgd.webp",
+        "filename": "BulgarianLegacy/ncidqfi8ar3kk0xapzgd",
+        "_id": "67a2251f66cc12103c3d710d"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738679583/BulgarianLegacy/k0pk1rbpimgrrzaflbjq.webp",
+        "filename": "BulgarianLegacy/k0pk1rbpimgrrzaflbjq",
+        "_id": "67a2251f66cc12103c3d710e"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": false
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a22dd466cc12103c3d7114",
+    "name": "Трицератопс Дино Парк",
+    "url": "https://legacy.bg/products/67a22dd466cc12103c3d7114",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738681811/BulgarianLegacy/nnnlhgigkctz2gdh121m.webp",
+        "filename": "BulgarianLegacy/nnnlhgigkctz2gdh121m",
+        "_id": "67a22dd466cc12103c3d7115"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738681812/BulgarianLegacy/webg0yleq3gc2qmuhvk2.webp",
+        "filename": "BulgarianLegacy/webg0yleq3gc2qmuhvk2",
+        "_id": "67a22dd466cc12103c3d7116"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a22f0266cc12103c3d711a",
+    "name": "Тираназавър Рекс Дино Парк",
+    "url": "https://legacy.bg/products/67a22f0266cc12103c3d711a",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738682114/BulgarianLegacy/zvowbpbterftozoredb6.webp",
+        "filename": "BulgarianLegacy/zvowbpbterftozoredb6",
+        "_id": "67a22f0266cc12103c3d711b"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738682114/BulgarianLegacy/r9fiibvvt6ztoiqzqvdj.webp",
+        "filename": "BulgarianLegacy/r9fiibvvt6ztoiqzqvdj",
+        "_id": "67a22f0266cc12103c3d711c"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a22f5166cc12103c3d7121",
+    "name": "Тираназавър Рекс Дино Парк (Глава)",
+    "url": "https://legacy.bg/products/67a22f5166cc12103c3d7121",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738682192/BulgarianLegacy/mfaoilwhupfbpvs3ywnk.webp",
+        "filename": "BulgarianLegacy/mfaoilwhupfbpvs3ywnk",
+        "_id": "67a22f5166cc12103c3d7122"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738682193/BulgarianLegacy/lz81bvm9xanpadqviq5l.webp",
+        "filename": "BulgarianLegacy/lz81bvm9xanpadqviq5l",
+        "_id": "67a22f5166cc12103c3d7123"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a2308266cc12103c3d7127",
+    "name": "\"Отец Паисий\" Велинград",
+    "url": "https://legacy.bg/products/67a2308266cc12103c3d7127",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738682498/BulgarianLegacy/k06zpqitxvtvcopmbgrm.webp",
+        "filename": "BulgarianLegacy/k06zpqitxvtvcopmbgrm",
+        "_id": "67a2308266cc12103c3d7128"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738682498/BulgarianLegacy/vjtqnwqlesepohxrw7iv.webp",
+        "filename": "BulgarianLegacy/vjtqnwqlesepohxrw7iv",
+        "_id": "67a2308266cc12103c3d7129"
+      }
+    ],
+    "coordinates": [
+      23.989940477670267,
+      42.027695027486715
+    ],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a2310166cc12103c3d712d",
+    "name": "Христо Ботев",
+    "url": "https://legacy.bg/products/67a2310166cc12103c3d712d",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738682625/BulgarianLegacy/iarsveygvcwytvgkadad.webp",
+        "filename": "BulgarianLegacy/iarsveygvcwytvgkadad",
+        "_id": "67a2310166cc12103c3d712e"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738682625/BulgarianLegacy/h2a0nrxkirv49thhnklp.webp",
+        "filename": "BulgarianLegacy/h2a0nrxkirv49thhnklp",
+        "_id": "67a2310166cc12103c3d712f"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a231d366cc12103c3d7133",
+    "name": "Панагюрско съкровище - Ритон с Агне",
+    "url": "https://legacy.bg/products/67a231d366cc12103c3d7133",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738682835/BulgarianLegacy/dnjggs14xngctcvqmyfg.webp",
+        "filename": "BulgarianLegacy/dnjggs14xngctcvqmyfg",
+        "_id": "67a231d366cc12103c3d7134"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738682835/BulgarianLegacy/abyvhdwndmxun2d2qfgv.webp",
+        "filename": "BulgarianLegacy/abyvhdwndmxun2d2qfgv",
+        "_id": "67a231d366cc12103c3d7135"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a232ad66cc12103c3d7139",
+    "name": "Панагюрско съкровище - Ритон с Женска Глава",
+    "url": "https://legacy.bg/products/67a232ad66cc12103c3d7139",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738683052/BulgarianLegacy/bgnm1a9035o2omafafrm.webp",
+        "filename": "BulgarianLegacy/bgnm1a9035o2omafafrm",
+        "_id": "67a232ad66cc12103c3d713a"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738683052/BulgarianLegacy/cmdsnt6vbam5nhnvhizw.webp",
+        "filename": "BulgarianLegacy/cmdsnt6vbam5nhnvhizw",
+        "_id": "67a232ad66cc12103c3d713b"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a477bfd0fc25482c0b4a1c",
+    "name": "Свети Никола - Черноморец",
+    "url": "https://legacy.bg/products/67a477bfd0fc25482c0b4a1c",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738831807/BulgarianLegacy/ev1cj8lb9a6l7ugqkwto.webp",
+        "filename": "BulgarianLegacy/ev1cj8lb9a6l7ugqkwto",
+        "_id": "67a477bfd0fc25482c0b4a1d"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738831807/BulgarianLegacy/tntwvef6p6lmb5kscams.webp",
+        "filename": "BulgarianLegacy/tntwvef6p6lmb5kscams",
+        "_id": "67a477bfd0fc25482c0b4a1e"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a47835d0fc25482c0b4a22",
+    "name": "Вампирът - Созопол",
+    "url": "https://legacy.bg/products/67a47835d0fc25482c0b4a22",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738831990/BulgarianLegacy/sxvjrqrwggrhiashowwe.webp",
+        "filename": "BulgarianLegacy/sxvjrqrwggrhiashowwe",
+        "_id": "67a47877d0fc25482c0b4a47"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738831990/BulgarianLegacy/y3bx57x6mbrwczjrqzai.webp",
+        "filename": "BulgarianLegacy/y3bx57x6mbrwczjrqzai",
+        "_id": "67a47877d0fc25482c0b4a48"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a47935d0fc25482c0b4a53",
+    "name": "Фестивал на пясъчните фигури 2023 - Доби",
+    "url": "https://legacy.bg/products/67a47935d0fc25482c0b4a53",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738832179/BulgarianLegacy/c7i4ibma11fmqfgguof7.webp",
+        "filename": "BulgarianLegacy/c7i4ibma11fmqfgguof7",
+        "_id": "67a47935d0fc25482c0b4a54"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738659140/BulgarianLegacy/wso3myhn3pddvght7ydn.webp",
+        "filename": "BulgarianLegacy/wso3myhn3pddvght7ydn",
+        "_id": "67a47935d0fc25482c0b4a55"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a47a05d0fc25482c0b4a59",
+    "name": "Фестивал на пясъчните фигури 2023 - Джаба от \"Междузвездни войни\"",
+    "url": "https://legacy.bg/products/67a47a05d0fc25482c0b4a59",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738832387/BulgarianLegacy/ilaoeeklgq5eg4s1ad0f.webp",
+        "filename": "BulgarianLegacy/ilaoeeklgq5eg4s1ad0f",
+        "_id": "67a47a05d0fc25482c0b4a5a"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738659140/BulgarianLegacy/wso3myhn3pddvght7ydn.webp",
+        "filename": "BulgarianLegacy/wso3myhn3pddvght7ydn",
+        "_id": "67a47a05d0fc25482c0b4a5b"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a47bb5d0fc25482c0b4a5f",
+    "name": "Колонадата \"Момина сълза\" - Хисаря",
+    "url": "https://legacy.bg/products/67a47bb5d0fc25482c0b4a5f",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738832820/BulgarianLegacy/gmav1jvstop5qptsr8m0.webp",
+        "filename": "BulgarianLegacy/gmav1jvstop5qptsr8m0",
+        "_id": "67a47bb5d0fc25482c0b4a60"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738832821/BulgarianLegacy/o3qmorlovt0vfmfszrof.webp",
+        "filename": "BulgarianLegacy/o3qmorlovt0vfmfszrof",
+        "_id": "67a47bb5d0fc25482c0b4a61"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a47c5ad0fc25482c0b4a65",
+    "name": "Фонтанът \"Голата жена\" - Хисаря",
+    "url": "https://legacy.bg/products/67a47c5ad0fc25482c0b4a65",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738832985/BulgarianLegacy/muzowbhv6vmt9ilmeg6z.webp",
+        "filename": "BulgarianLegacy/muzowbhv6vmt9ilmeg6z",
+        "_id": "67a47c5ad0fc25482c0b4a66"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738832985/BulgarianLegacy/yqu03zwtngnqtqff2izw.webp",
+        "filename": "BulgarianLegacy/yqu03zwtngnqtqff2izw",
+        "_id": "67a47c5ad0fc25482c0b4a67"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a47d2cd0fc25482c0b4a6b",
+    "name": "\"Камилите\" - Хисаря",
+    "url": "https://legacy.bg/products/67a47d2cd0fc25482c0b4a6b",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738833195/BulgarianLegacy/ddxasfsrq6yawgl4jzlu.webp",
+        "filename": "BulgarianLegacy/ddxasfsrq6yawgl4jzlu",
+        "_id": "67a47d2cd0fc25482c0b4a6c"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738833196/BulgarianLegacy/joodbut0uawjlpmfu4fj.webp",
+        "filename": "BulgarianLegacy/joodbut0uawjlpmfu4fj",
+        "_id": "67a47d2cd0fc25482c0b4a6d"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a47e16d0fc25482c0b4a71",
+    "name": "Хидропарк \"Вятърните Мелници\"",
+    "url": "https://legacy.bg/products/67a47e16d0fc25482c0b4a71",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738833429/BulgarianLegacy/e8kwbovmrdbytww6yjkq.webp",
+        "filename": "BulgarianLegacy/e8kwbovmrdbytww6yjkq",
+        "_id": "67a47e16d0fc25482c0b4a72"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738833429/BulgarianLegacy/aooxuxaimr47xub43j1k.webp",
+        "filename": "BulgarianLegacy/aooxuxaimr47xub43j1k",
+        "_id": "67a47e16d0fc25482c0b4a73"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a47efed0fc25482c0b4a7b",
+    "name": "Пещера \"Снежанка\"",
+    "url": "https://legacy.bg/products/67a47efed0fc25482c0b4a7b",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738833661/BulgarianLegacy/tyxyf93xgukrxurwhs99.webp",
+        "filename": "BulgarianLegacy/tyxyf93xgukrxurwhs99",
+        "_id": "67a47efed0fc25482c0b4a7c"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738833661/BulgarianLegacy/wbcz6ugyg2vcclqqsycd.webp",
+        "filename": "BulgarianLegacy/wbcz6ugyg2vcclqqsycd",
+        "_id": "67a47efed0fc25482c0b4a7d"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a4803dd0fc25482c0b4a81",
+    "name": "Църква „Успение на Пресвета Богородица“ - Пампорово",
+    "url": "https://legacy.bg/products/67a4803dd0fc25482c0b4a81",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738833980/BulgarianLegacy/ogukojppwcgqianlzw3m.webp",
+        "filename": "BulgarianLegacy/ogukojppwcgqianlzw3m",
+        "_id": "67a4803dd0fc25482c0b4a82"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738833980/BulgarianLegacy/vdcqb3c2ezbqqlr2v0l5.webp",
+        "filename": "BulgarianLegacy/vdcqb3c2ezbqqlr2v0l5",
+        "_id": "67a4803dd0fc25482c0b4a83"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a48113d0fc25482c0b4a87",
+    "name": "Къща-музей \"Златю Бояджиев\" - Пловдив",
+    "url": "https://legacy.bg/products/67a48113d0fc25482c0b4a87",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738834194/BulgarianLegacy/my4oj8ngqoatmkhly0tb.webp",
+        "filename": "BulgarianLegacy/my4oj8ngqoatmkhly0tb",
+        "_id": "67a48113d0fc25482c0b4a88"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738834194/BulgarianLegacy/skmjgys9osecdb2xs4jn.webp",
+        "filename": "BulgarianLegacy/skmjgys9osecdb2xs4jn",
+        "_id": "67a48113d0fc25482c0b4a89"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a481a5d0fc25482c0b4a8d",
+    "name": "Панагюрско съкровище - Ритон с козел",
+    "url": "https://legacy.bg/products/67a481a5d0fc25482c0b4a8d",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738834340/BulgarianLegacy/ex8evhn2dorpi23srzhr.webp",
+        "filename": "BulgarianLegacy/ex8evhn2dorpi23srzhr",
+        "_id": "67a481a5d0fc25482c0b4a8e"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738834340/BulgarianLegacy/wwxu2h027itd6zow3cdx.webp",
+        "filename": "BulgarianLegacy/wwxu2h027itd6zow3cdx",
+        "_id": "67a481a5d0fc25482c0b4a8f"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a48202d0fc25482c0b4a93",
+    "name": "Капитан Петко Войвода",
+    "url": "https://legacy.bg/products/67a48202d0fc25482c0b4a93",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738834434/BulgarianLegacy/fd6neshbgvwpgnwfeokm.webp",
+        "filename": "BulgarianLegacy/fd6neshbgvwpgnwfeokm",
+        "_id": "67a48202d0fc25482c0b4a94"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738834434/BulgarianLegacy/ndsv6e0sx9ypki1zqbq9.webp",
+        "filename": "BulgarianLegacy/ndsv6e0sx9ypki1zqbq9",
+        "_id": "67a48202d0fc25482c0b4a95"
+      }
+    ],
+    "coordinates": [
+      24.399889,
+      41.743444
+    ],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a48267d0fc25482c0b4a99",
+    "name": "Скала \"Слонът\" - Девин",
+    "url": "https://legacy.bg/products/67a48267d0fc25482c0b4a99",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738834534/BulgarianLegacy/pi9uov50ur1o6d4wgjl1.webp",
+        "filename": "BulgarianLegacy/pi9uov50ur1o6d4wgjl1",
+        "_id": "67a48267d0fc25482c0b4a9a"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738834535/BulgarianLegacy/enflmngbeqs8l6akdjb1.webp",
+        "filename": "BulgarianLegacy/enflmngbeqs8l6akdjb1",
+        "_id": "67a48267d0fc25482c0b4a9b"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a482e6d0fc25482c0b4a9f",
+    "name": "Дяволското гърло 2 - Девин",
+    "url": "https://legacy.bg/products/67a482e6d0fc25482c0b4a9f",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738834661/BulgarianLegacy/jndkbkg3bhhkom3acvxl.webp",
+        "filename": "BulgarianLegacy/jndkbkg3bhhkom3acvxl",
+        "_id": "67a482e6d0fc25482c0b4aa0"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738834662/BulgarianLegacy/nxxd3gunfrpcpv9h0wk3.webp",
+        "filename": "BulgarianLegacy/nxxd3gunfrpcpv9h0wk3",
+        "_id": "67a482e6d0fc25482c0b4aa1"
+      }
+    ],
+    "coordinates": [],
+    "collected": true,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a48401d0fc25482c0b4ae4",
+    "name": "Регионален исторически музей Стою Шишков\" - Смолян (Шлем)",
+    "url": "https://legacy.bg/products/67a48401d0fc25482c0b4ae4",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738834944/BulgarianLegacy/p9lumgxr6wnsyhcukysf.webp",
+        "filename": "BulgarianLegacy/p9lumgxr6wnsyhcukysf",
+        "_id": "67a48401d0fc25482c0b4ae5"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738834944/BulgarianLegacy/qposm6h9up2xikh5afpb.webp",
+        "filename": "BulgarianLegacy/qposm6h9up2xikh5afpb",
+        "_id": "67a48401d0fc25482c0b4ae6"
+      }
+    ],
+    "coordinates": [],
+    "collected": true,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a484b8d0fc25482c0b4aec",
+    "name": "Регионален Исторически Музей \"Стою Шишков\" - Смолян (Лампа)",
+    "url": "https://legacy.bg/products/67a484b8d0fc25482c0b4aec",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738835128/BulgarianLegacy/gvwybjgaimkek0c1epte.webp",
+        "filename": "BulgarianLegacy/gvwybjgaimkek0c1epte",
+        "_id": "67a484b8d0fc25482c0b4aed"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738835128/BulgarianLegacy/nol4mpfcg7v4px61c8w9.webp",
+        "filename": "BulgarianLegacy/nol4mpfcg7v4px61c8w9",
+        "_id": "67a484b8d0fc25482c0b4aee"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a485b4d0fc25482c0b4af2",
+    "name": "ТМТ Бургас 100 години",
+    "url": "https://legacy.bg/products/67a485b4d0fc25482c0b4af2",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738835379/BulgarianLegacy/jnzodl3dz7tblb9829c0.webp",
+        "filename": "BulgarianLegacy/jnzodl3dz7tblb9829c0",
+        "_id": "67a485b4d0fc25482c0b4af3"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738835380/BulgarianLegacy/cyxj5cympydvi0qrkhee.webp",
+        "filename": "BulgarianLegacy/cyxj5cympydvi0qrkhee",
+        "_id": "67a485b4d0fc25482c0b4af4"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a486c4d0fc25482c0b4afa",
+    "name": "Историческата чешма в село Кайнарджа",
+    "url": "https://legacy.bg/products/67a486c4d0fc25482c0b4afa",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738835651/BulgarianLegacy/rslp4f05f093vjhhn9u7.webp",
+        "filename": "BulgarianLegacy/rslp4f05f093vjhhn9u7",
+        "_id": "67a486c4d0fc25482c0b4afb"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738835651/BulgarianLegacy/rtt6ltwxpdzyujxiwapu.webp",
+        "filename": "BulgarianLegacy/rtt6ltwxpdzyujxiwapu",
+        "_id": "67a486c4d0fc25482c0b4afc"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a48749d0fc25482c0b4b00",
+    "name": "Планетариум - Смолян",
+    "url": "https://legacy.bg/products/67a48749d0fc25482c0b4b00",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738835784/BulgarianLegacy/mqnyonirkpdbthgxjevj.webp",
+        "filename": "BulgarianLegacy/mqnyonirkpdbthgxjevj",
+        "_id": "67a48749d0fc25482c0b4b01"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738835785/BulgarianLegacy/ihjzpjcjuerj55pyjsqi.webp",
+        "filename": "BulgarianLegacy/ihjzpjcjuerj55pyjsqi",
+        "_id": "67a48749d0fc25482c0b4b02"
+      }
+    ],
+    "coordinates": [
+      24.708441,
+      41.575898
+    ],
+    "collected": true,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a487e1d0fc25482c0b4b06",
+    "name": "Рупите",
+    "url": "https://legacy.bg/products/67a487e1d0fc25482c0b4b06",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738835936/BulgarianLegacy/gk6vzpd9fee3df0ae0js.webp",
+        "filename": "BulgarianLegacy/gk6vzpd9fee3df0ae0js",
+        "_id": "67a487e1d0fc25482c0b4b07"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738835936/BulgarianLegacy/hu3usmyub6bmmbeuwhyo.webp",
+        "filename": "BulgarianLegacy/hu3usmyub6bmmbeuwhyo",
+        "_id": "67a487e1d0fc25482c0b4b08"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a488b3d0fc25482c0b4b0c",
+    "name": "Cvetita Herbal",
+    "url": "https://legacy.bg/products/67a488b3d0fc25482c0b4b0c",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738836146/BulgarianLegacy/fjawlqleik8sykhulpkx.webp",
+        "filename": "BulgarianLegacy/fjawlqleik8sykhulpkx",
+        "_id": "67a488b3d0fc25482c0b4b0d"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738836146/BulgarianLegacy/xgvyyetregenpyh6xqor.webp",
+        "filename": "BulgarianLegacy/xgvyyetregenpyh6xqor",
+        "_id": "67a488b3d0fc25482c0b4b0e"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "bulgarian-legacy",
+    "id": "67a489c3d0fc25482c0b4b12",
+    "name": "ОУ \"Кирил и Методий\"",
+    "url": "https://legacy.bg/products/67a489c3d0fc25482c0b4b12",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738836418/BulgarianLegacy/dw1kwmwdvz8vfksz4bnu.webp",
+        "filename": "BulgarianLegacy/dw1kwmwdvz8vfksz4bnu",
+        "_id": "67a489c3d0fc25482c0b4b13"
+      },
+      {
+        "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738836419/BulgarianLegacy/fioccjyunu0wrs9qeqpj.webp",
+        "filename": "BulgarianLegacy/fioccjyunu0wrs9qeqpj",
+        "_id": "67a489c3d0fc25482c0b4b14"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  }
+]

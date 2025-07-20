@@ -8,7 +8,7 @@ import { SelectFilter } from "@/components/SelectFilter";
 import { useSearchParams } from "next/navigation";
 import { useRouter } from "next/navigation";
 
-export default function Main() {
+export default function CoinsPage() {
   const router = useRouter();
   const searchParams = useSearchParams();
 
@@ -48,7 +48,7 @@ export default function Main() {
       `filters[collected]=${encodeURIComponent(collectedFilter)}`,
     ];
 
-    router.push(`coins?${queryParts.join("&")}`);
+    router.push(`/coins?${queryParts.join("&")}`);
   }, [collectedFilter, router]);
 
   return (
@@ -57,7 +57,7 @@ export default function Main() {
         <div className="flex gap-x-5">
           <div>
             <SelectFilter
-              id="visited"
+              id="collected"
               label="Събрани"
               defaultValue={collectedFilter}
               options={collectedFilters}
@@ -69,7 +69,7 @@ export default function Main() {
       {coins.length > 0 && (
         <>
           <div className="w-full flex justify-end py-5 text-sm italic">
-            {filteredData.length} резултата от общо {coins.length}
+            показване на {filteredData.length} резултата от общо {coins.length}
           </div>
 
           <ul

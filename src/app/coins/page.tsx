@@ -48,7 +48,7 @@ export default function CoinsPage() {
       `filters[collected]=${encodeURIComponent(collectedFilter)}`,
     ];
 
-    router.push(`/coins?${queryParts.join("&")}`);
+    router.replace(`/coins?${queryParts.join("&")}`);
   }, [collectedFilter, router]);
 
   return (
@@ -66,7 +66,7 @@ export default function CoinsPage() {
           </div>
         </div>
       </div>
-      {coins.length > 0 && (
+      {filteredData.length > 0 && (
         <>
           <div className="w-full flex justify-end py-5 text-sm italic">
             показване на {filteredData.length} резултата от общо {coins.length}
@@ -82,10 +82,10 @@ export default function CoinsPage() {
                 className="col-span-1 flex flex-col relative divide-y divide-gray-200 rounded-lg bg-white text-center shadow-sm"
               >
                 <div className="flex flex-1 flex-col p-8">
-                  <a href={coin.url} target="_blank">
+                  <a href={coin.url} target="_blank" rel="noopener noreferrer">
                     <span aria-hidden="true" className="absolute inset-0" />
                     <img
-                      alt=""
+                      alt={`Coin image for ${coin.name}`}
                       src={coin.images[0].url}
                       className="mx-auto size-32 shrink-0 rounded-full"
                     />

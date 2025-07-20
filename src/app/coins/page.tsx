@@ -1,32 +1,82 @@
-import React from "react";
+"use client";
+
+import React, { useEffect, useState } from "react";
 
 import { CheckBadgeIcon } from "@heroicons/react/16/solid";
 import coins from "@/data/coins.json";
-import { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "Сувенирни монети",
-};
+import { SelectFilter } from "@/components/SelectFilter";
+import { useSearchParams } from "next/navigation";
+import { useRouter } from "next/navigation";
 
 export default function Main() {
-  const results = {
-    total: coins.length,
-    collected: coins.filter((coin) => coin.collected).length,
+  const router = useRouter();
+  const searchParams = useSearchParams();
+
+  // Get initial filter values from URL query params or default to "all"
+  const initialCollectedFilter =
+    searchParams.get("filters[collected]") || "all";
+
+  const [collectedFilter, setCollectedFilter] = useState<string>(
+    initialCollectedFilter
+  );
+
+  const collectedFilters = [
+    { id: "yes", value: "yes", text: "Да" },
+    { id: "no", value: "no", text: "Не" },
+  ];
+
+  const handleCollectedFilterChange = (
+    e: React.ChangeEvent<HTMLSelectElement>
+  ) => {
+    setCollectedFilter(e.target.value);
   };
+
+  const filteredData = coins.filter((coin) => {
+    if (collectedFilter === "all") {
+      return true;
+    }
+
+    if (collectedFilter === "yes") {
+      return coin.collected === true;
+    }
+
+    return coin.collected === false;
+  });
+
+  useEffect(() => {
+    const queryParts = [
+      `filters[collected]=${encodeURIComponent(collectedFilter)}`,
+    ];
+
+    router.push(`coins?${queryParts.join("&")}`);
+  }, [collectedFilter, router]);
 
   return (
     <>
+      <div className="rounded-md bg-white px-6 py-4 shadow-sm">
+        <div className="flex gap-x-5">
+          <div>
+            <SelectFilter
+              id="visited"
+              label="Събрани"
+              defaultValue={collectedFilter}
+              options={collectedFilters}
+              onChange={handleCollectedFilterChange}
+            />
+          </div>
+        </div>
+      </div>
       {coins.length > 0 && (
         <>
           <div className="w-full flex justify-end py-5 text-sm italic">
-            събрани {results.collected} резултата от общо {results.total}
+            {filteredData.length} резултата от общо {coins.length}
           </div>
 
           <ul
             role="list"
             className="grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-4"
           >
-            {coins.map((coin) => (
+            {filteredData.map((coin) => (
               <li
                 key={coin.id}
                 className="col-span-1 flex flex-col relative divide-y divide-gray-200 rounded-lg bg-white text-center shadow-sm"

@@ -1391,7 +1391,7 @@
       }
     ],
     "coordinates": [],
-    "collected": false,
+    "collected": true,
     "available": true
   },
   {
@@ -1412,7 +1412,7 @@
       }
     ],
     "coordinates": [],
-    "collected": false,
+    "collected": true,
     "available": true
   },
   {
@@ -3284,6 +3284,286 @@
         "url": "https://res.cloudinary.com/di43xpxdg/image/upload/v1738836419/BulgarianLegacy/fioccjyunu0wrs9qeqpj.webp",
         "filename": "BulgarianLegacy/fioccjyunu0wrs9qeqpj",
         "_id": "67a489c3d0fc25482c0b4b14"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "explore-bulgaria",
+    "id": "5af39b5e-81cf-497e-b4e0-74095cbfeca8",
+    "name": "Шипка",
+    "url": "https://explore-bg.com/?crb_coin=%d0%be%d1%82%d0%ba%d1%80%d0%b8%d0%b9-%d0%b1%d1%8a%d0%bb%d0%b3%d0%b0%d1%80%d0%b8%d1%8f-%d0%bc%d0%be%d0%bd%d0%b5%d1%82%d0%b0-%d1%88%d0%b8%d0%bf%d0%ba%d0%b0",
+    "images": [
+      {
+        "url": "https://explore-bg.com/wp-content/uploads/2022/06/Shipka-2-gold-mod-2.png"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "explore-bulgaria",
+    "id": "e1ede93c-f03a-49a7-a90e-d0c59127c7b9",
+    "name": "Дяволското гърло",
+    "url": "https://explore-bg.com/?crb_coin=%d0%be%d1%82%d0%ba%d1%80%d0%b8%d0%b9-%d0%b1%d1%8a%d0%bb%d0%b3%d0%b0%d1%80%d0%b8%d1%8f-%d0%bc%d0%be%d0%bd%d0%b5%d1%82%d0%b0-%d0%b4%d1%8f%d0%b2%d0%be%d0%bb%d1%81%d0%ba%d0%be%d1%82%d0%be-%d0%b3%d1%8a",
+    "images": [
+      {
+        "url": "https://explore-bg.com/wp-content/uploads/2022/06/Devils-Throat-gold.png"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "explore-bulgaria",
+    "id": "5f4ee653-774a-4afa-901e-4dd118e76df5",
+    "name": "Самуилова крепост",
+    "url": "https://explore-bg.com/?crb_coin=233",
+    "images": [
+      {
+        "url": "https://explore-bg.com/wp-content/uploads/2023/05/Samuil-Fortress-gold.jpg"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "explore-bulgaria",
+    "id": "231b8a13-b47c-467c-9acf-2f078ba2f14a",
+    "name": "Крепост Хисарлъка",
+    "url": "https://explore-bg.com/?crb_coin=%d0%ba%d1%80%d0%b5%d0%bf%d0%be%d1%81%d1%82-%d1%85%d0%b8%d1%81%d0%b0%d1%80%d0%bb%d1%8a%d0%ba%d0%b0",
+    "images": [
+      {
+        "url": "https://explore-bg.com/wp-content/uploads/2023/05/Hisarlaka-Fortess-gold.jpg"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "explore-bulgaria",
+    "id": "763346d4-dc16-404d-9dc3-15b95dc77d5b",
+    "name": "Хераклея синтика",
+    "url": "https://explore-bg.com/?crb_coin=%d1%85%d0%b5%d1%80%d0%b0%d0%ba%d0%bb%d0%b5%d1%8f-%d1%81%d0%b8%d0%bd%d1%82%d0%b8%d0%ba%d0%b0",
+    "images": [
+      {
+        "url": "https://explore-bg.com/wp-content/uploads/2023/05/Eraclea-Sintica-gold.jpg"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "explore-bulgaria",
+    "id": "a3f50062-3d75-42fa-ae43-ce042878ba48",
+    "name": "Крушунски водопади",
+    "url": "https://explore-bg.com/?crb_coin=%d0%be%d1%82%d0%ba%d1%80%d0%b8%d0%b9-%d0%b1%d1%8a%d0%bb%d0%b3%d0%b0%d1%80%d0%b8%d1%8f-%d0%bc%d0%be%d0%bd%d0%b5%d1%82%d0%b0-%d0%ba%d1%80%d1%83%d1%88%d0%b8%d0%bd%d1%81%d0%ba%d0%b8-%d0%b2%d0%be%d0%b4",
+    "images": [
+      {
+        "url": "https://explore-bg.com/wp-content/uploads/2022/06/Krushuna-Waterfall-gold11.png"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "explore-bulgaria",
+    "id": "d6999397-1846-4ffc-93eb-eb975bcf2b7b",
+    "name": "Златоград",
+    "url": "https://explore-bg.com/?crb_coin=%d0%be%d1%82%d0%ba%d1%80%d0%b8%d0%b9-%d0%b1%d1%8a%d0%bb%d0%b3%d0%b0%d1%80%d0%b8%d1%8f-%d0%bc%d0%be%d0%bd%d0%b5%d1%82%d0%b0-%d0%b7%d0%bb%d0%b0%d1%82%d0%be%d0%b3%d1%80%d0%b0%d0%b4",
+    "images": [
+      {
+        "url": "https://explore-bg.com/wp-content/uploads/2022/06/Delio-1.png"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "explore-bulgaria",
+    "id": "e66485c1-ad05-4713-ad2c-94eb68d8f6b5",
+    "name": "Етрополски манастир",
+    "url": "https://explore-bg.com/?crb_coin=%d0%be%d1%82%d0%ba%d1%80%d0%b8%d0%b9-%d0%b1%d1%8a%d0%bb%d0%b3%d0%b0%d1%80%d0%b8%d1%8f-%d0%bc%d0%be%d0%bd%d0%b5%d1%82%d0%b0-%d0%b5%d1%82%d1%80%d0%be%d0%bf%d0%be%d0%bb%d1%81%d0%ba%d0%b8-%d0%bc%d0%b0",
+    "images": [
+      {
+        "url": "https://explore-bg.com/wp-content/uploads/2022/06/2-2.png"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "explore-bulgaria",
+    "id": "46b65e67-87a3-455e-a6c2-b55055b8de88",
+    "name": "Ягодинска пещера",
+    "url": "https://explore-bg.com/?crb_coin=%d0%be%d1%82%d0%ba%d1%80%d0%b8%d0%b9-%d0%b1%d1%8a%d0%bb%d0%b3%d0%b0%d1%80%d0%b8%d1%8f-%d0%bc%d0%be%d0%bd%d0%b5%d1%82%d0%b0-%d1%8f%d0%b3%d0%be%d0%b4%d0%b8%d0%bd%d1%81%d0%ba%d0%b0-%d0%bf%d0%b5%d1%89",
+    "images": [
+      {
+        "url": "https://explore-bg.com/wp-content/uploads/2022/06/BAT-COIN-GOLD-mod-1.png"
+      }
+    ],
+    "coordinates": [],
+    "collected": true,
+    "available": true
+  },
+  {
+    "type": "explore-bulgaria",
+    "id": "6a0c9981-aa40-4752-98be-3f3b8d331f4a",
+    "name": "Храм-паметник Шипка",
+    "url": "https://explore-bg.com/?crb_coin=%d0%be%d1%82%d0%ba%d1%80%d0%b8%d0%b9-%d0%b1%d1%8a%d0%bb%d0%b3%d0%b0%d1%80%d0%b8%d1%8f-%d0%bc%d0%be%d0%bd%d0%b5%d1%82%d0%b0-%d0%bf%d0%b0%d0%bc%d0%b5%d1%82%d0%bd%d0%b8%d0%ba-%d1%88%d0%b8%d0%bf%d0%ba",
+    "images": [
+      {
+        "url": "https://explore-bg.com/wp-content/uploads/2022/06/image002.png"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "explore-bulgaria",
+    "id": "5d99cf66-2a6b-4b35-9054-ce4cb740065d",
+    "name": "Крепост на нос Калиакра",
+    "url": "https://explore-bg.com/?crb_coin=%d0%be%d1%82%d0%ba%d1%80%d0%b8%d0%b9-%d0%b1%d1%8a%d0%bb%d0%b3%d0%b0%d1%80%d0%b8%d1%8f-%d0%bc%d0%be%d0%bd%d0%b5%d1%82%d0%b0-%d0%bd%d0%be%d1%81-%d0%ba%d0%b0%d0%bb%d0%b8%d0%b0%d0%ba%d1%80%d0%b0",
+    "images": [
+      {
+        "url": "https://explore-bg.com/wp-content/uploads/2022/06/Cape-Kaliakra-gold.png"
+      }
+    ],
+    "coordinates": [],
+    "collected": true,
+    "available": true
+  },
+  {
+    "type": "explore-bulgaria",
+    "id": "76a5f0de-46b7-44b9-a074-01733c29e64a",
+    "name": "Крепост и Гробница Мезек",
+    "url": "https://explore-bg.com/?crb_coin=%d0%be%d1%82%d0%ba%d1%80%d0%b8%d0%b9-%d0%b1%d1%8a%d0%bb%d0%b3%d0%b0%d1%80%d0%b8%d1%8f-%d0%bc%d0%be%d0%bd%d0%b5%d1%82%d0%b0-%d0%b3%d1%80%d0%be%d0%b1%d0%bd%d0%b8%d1%86%d0%b0-%d0%bc%d0%b5%d0%b7%d0%b5",
+    "images": [
+      {
+        "url": "https://explore-bg.com/wp-content/uploads/2022/06/MEZEK-gold-mod-1.png"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "explore-bulgaria",
+    "id": "a8e7a3ee-ad49-4199-bc3c-781b3358433a",
+    "name": "Дяволският мост над р.Арда",
+    "url": "https://explore-bg.com/?crb_coin=%d0%be%d1%82%d0%ba%d1%80%d0%b8%d0%b9-%d0%b1%d1%8a%d0%bb%d0%b3%d0%b0%d1%80%d0%b8%d1%8f-%d0%bc%d0%be%d0%bd%d0%b5%d1%82%d0%b0-%d0%b4%d1%8f%d0%b2%d0%be%d0%bb%d1%81%d0%ba%d0%b8%d1%8f%d1%82-%d0%bc%d0%be",
+    "images": [
+      {
+        "url": "https://explore-bg.com/wp-content/uploads/2022/06/Ardino-Bridge-gold-1.png"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "explore-bulgaria",
+    "id": "fefe0034-860d-443f-909c-c6dd1d48349d",
+    "name": "Аладжа манастир",
+    "url": "https://explore-bg.com/?crb_coin=%d0%be%d1%82%d0%ba%d1%80%d0%b8%d0%b9-%d0%b1%d1%8a%d0%bb%d0%b3%d0%b0%d1%80%d0%b8%d1%8f-%d0%bc%d0%be%d0%bd%d0%b5%d1%82%d0%b0-%d0%b0%d0%bb%d0%b0%d0%b4%d0%b6%d0%b0-%d0%bc%d0%b0%d0%bd%d0%b0%d1%81%d1%82",
+    "images": [
+      {
+        "url": "https://explore-bg.com/wp-content/uploads/2022/06/2-1.png"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "explore-bulgaria",
+    "id": "0e1d6aac-1a7e-4310-85fe-7b60e30ccef1",
+    "name": "Перперикон",
+    "url": "https://explore-bg.com/?crb_coin=%d0%be%d1%82%d0%ba%d1%80%d0%b8%d0%b9-%d0%b1%d1%8a%d0%bb%d0%b3%d0%b0%d1%80%d0%b8%d1%8f-%d0%bc%d0%be%d0%bd%d0%b5%d1%82%d0%b0-%d0%bf%d0%b5%d1%80%d0%bf%d0%b5%d1%80%d0%b8%d0%ba%d0%be%d0%bd",
+    "images": [
+      {
+        "url": "https://explore-bg.com/wp-content/uploads/2022/06/PERPERIKON-coin-2.png"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "explore-bulgaria",
+    "id": "d455e0f4-8c87-40e7-8ec0-ec8463bbc0b3",
+    "name": "Пещера Бачо Киро",
+    "url": "https://explore-bg.com/?crb_coin=%d0%bf%d0%b5%d1%89%d0%b5%d1%80%d0%b0-%d0%b1%d0%b0%d1%87%d0%be-%d0%ba%d0%b8%d1%80%d0%be",
+    "images": [
+      {
+        "url": "https://explore-bg.com/wp-content/uploads/2025/02/cave-gold.jpg"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "explore-bulgaria",
+    "id": "3d6c512d-4a20-4118-8935-41c2d6325229",
+    "name": "Археокомплекс \"ДОЛИНАТА НА ТРАКИЙСКИТЕ ЦАРЕ\"",
+    "url": "https://explore-bg.com/?crb_coin=%d0%b0%d1%80%d1%85%d0%b5%d0%be%d0%ba%d0%be%d0%bc%d0%bf%d0%bb%d0%b5%d0%ba%d1%81-%d0%b4%d0%be%d0%bb%d0%b8%d0%bd%d0%b0%d1%82%d0%b0-%d0%bd%d0%b0-%d1%82%d1%80%d0%b0%d0%ba%d0%b8%d0%b9%d1%81%d0%ba%d0%b8",
+    "images": [
+      {
+        "url": "https://explore-bg.com/wp-content/uploads/2025/03/Historic-mod-4-gold-1.jpg"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "explore-bulgaria",
+    "id": "082d35e0-e1f9-4ffd-af52-de25674a5dbd",
+    "name": "Скално-култов комплекс с.Татул",
+    "url": "https://explore-bg.com/?crb_coin=%d1%81%d0%ba%d0%b0%d0%bb%d0%bd%d0%be-%d0%ba%d1%83%d0%bb%d1%82%d0%be%d0%b2-%d0%ba%d0%be%d0%bc%d0%bf%d0%bb%d0%b5%d0%ba%d1%81-%d1%81-%d1%82%d0%b0%d1%82%d1%83%d0%bb",
+    "images": [
+      {
+        "url": "https://explore-bg.com/wp-content/uploads/2024/07/Tatul-1.jpg"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "explore-bulgaria",
+    "id": "4e3d85e5-689b-4135-9842-16f9fb308b6e",
+    "name": "Крепост Баба Вида",
+    "url": "https://explore-bg.com/?crb_coin=%d0%ba%d1%80%d0%b5%d0%bf%d0%be%d1%81%d1%82-%d0%b1%d0%b0%d0%b1%d0%b0-%d0%b2%d0%b8%d0%b4%d0%b0",
+    "images": [
+      {
+        "url": "https://explore-bg.com/wp-content/uploads/2024/07/Baba-Vida.jpg"
+      }
+    ],
+    "coordinates": [],
+    "collected": false,
+    "available": true
+  },
+  {
+    "type": "explore-bulgaria",
+    "id": "ea11aff4-91bf-43dd-a423-2087b5aa9e09",
+    "name": "Музей на мечката с.Триград",
+    "url": "https://explore-bg.com/?crb_coin=%d0%bc%d1%83%d0%b7%d0%b5%d0%b9-%d0%bd%d0%b0-%d0%bc%d0%b5%d1%87%d0%ba%d0%b0%d1%82%d0%b0-%d1%81-%d1%82%d1%80%d0%b8%d0%b3%d1%80%d0%b0%d0%b4",
+    "images": [
+      {
+        "url": "https://explore-bg.com/wp-content/uploads/2024/07/Bear-gold.jpg"
       }
     ],
     "coordinates": [],

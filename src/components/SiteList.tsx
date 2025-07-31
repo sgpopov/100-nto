@@ -21,10 +21,14 @@ export const SiteList = ({ siteList }: SiteListProps) => {
     >
       {siteList.map((site) => (
         <li key={site.name} className="relative">
-          <a href={site.link} target="_blank">
+          <a href={site.link} target="_blank" rel="noopener noreferrer">
             <div className="relative">
               <div className="relative h-56 w-full overflow-hidden rounded-lg">
-                <img src={site.image} className="size-full object-cover" />
+                <img
+                  alt={`Image for ${site.name}`}
+                  src={site.image}
+                  className="size-full object-cover"
+                />
               </div>
 
               <div className="relative mt-4">

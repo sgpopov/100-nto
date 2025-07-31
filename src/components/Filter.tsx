@@ -27,11 +27,15 @@ export default function Filter({
     (option) => option.value === selectedValue
   );
 
+  const formatLabel = (value = "") => {
+    return value.replace("-", "").trim();
+  };
+
   return (
     <Menu as="div" className="relative inline-block text-left">
       <div>
         <MenuButton className="group inline-flex justify-center text-sm font-medium text-gray-700 hover:text-gray-900">
-          {name}: <b>&nbsp;{selectedOption?.label?.replace("-", "").trim()}</b>
+          {name}: <b>&nbsp;{formatLabel(selectedOption?.label)}</b>
           <ChevronDownIcon
             aria-hidden="true"
             className="-mr-1 ml-1 size-5 shrink-0 text-gray-400 group-hover:text-gray-500"

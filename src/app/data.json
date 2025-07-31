@@ -255,7 +255,7 @@
         "number": "8а",
         "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/arheologicheski-muzei-sozopol.jpg?itok=4H5mbbmL",
         "link": "https://www.btsbg.org/100nto/arheologicheski-muzey-0",
-        "visited": false
+        "visited": true
       }
     ]
   },
@@ -1903,7 +1903,7 @@
         "number": "68а",
         "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/nacionalen-politehnicheski-muzei.jpg?itok=vR4LamhG",
         "link": "https://www.btsbg.org/100nto/nacionalen-politehnicheski-muzey",
-        "visited": false
+        "visited": true
       }
     ]
   },

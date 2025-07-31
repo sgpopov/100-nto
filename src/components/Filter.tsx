@@ -27,7 +27,9 @@ export default function Filter({
     (option) => option.value === selectedValue
   );
 
-  const formatLabel = (value = "") => {
+  // Sanitizes the label by removing dashes and trimming whitespace.
+  // This ensures the label is clean and ready for display in the UI.
+  const sanitizeLabel = (value = "") => {
     return value.replace("-", "").trim();
   };
 
@@ -35,7 +37,7 @@ export default function Filter({
     <Menu as="div" className="relative inline-block text-left">
       <div>
         <MenuButton className="group inline-flex justify-center text-sm font-medium text-gray-700 hover:text-gray-900">
-          {name}: <b>&nbsp;{formatLabel(selectedOption?.label)}</b>
+          {name}: <b>&nbsp;{sanitizeLabel(selectedOption?.label)}</b>
           <ChevronDownIcon
             aria-hidden="true"
             className="-mr-1 ml-1 size-5 shrink-0 text-gray-400 group-hover:text-gray-500"

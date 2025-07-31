@@ -47,7 +47,7 @@ export default function CoinsPage() {
       `filters[collected]=${encodeURIComponent(collectedFilter)}`,
     ];
 
-    router.replace(`coins?${queryParts.join("&")}`);
+    router.replace(`/coins?${queryParts.join("&")}`);
   }, [collectedFilter, router]);
 
   return (

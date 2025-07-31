@@ -61,7 +61,6 @@ export default function Main() {
     citiesByRegion.forEach((region) => {
       // Add the region as an option
       options.push({
-        // id: region.id,
         value: region.value,
         label: region.text,
       });
@@ -69,7 +68,6 @@ export default function Main() {
       // Add all cities in this region
       region.cities.forEach((city) => {
         options.push({
-          // id: city.id,
           value: city.value,
           label: `- ${city.text}`,
         });

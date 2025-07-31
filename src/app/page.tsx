@@ -3,10 +3,9 @@
 import React, { useState, useEffect, useMemo } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { SiteList } from "@/components/SiteList";
-import { SelectFilter } from "@/components/SelectFilter";
 import { randomId } from "@/utils";
-
 import data from "./data.json";
+import Filter from "@/components/Filter";
 
 export default function Main() {
   const router = useRouter();
@@ -18,6 +17,7 @@ export default function Main() {
 
   const [selectedLocation, setSelectedLocation] =
     useState<string>(initialLocation);
+
   const [visitedFilter, setVisitedFilter] =
     useState<string>(initialVisitedFilter);
 
@@ -51,22 +51,27 @@ export default function Main() {
 
   // Flatten cities for the dropdown
   const cityOptions = useMemo(() => {
-    const options = [] as { id: string; value: string; text: string }[];
+    const options = [
+      {
+        value: "all",
+        label: "Всички",
+      },
+    ];
 
     citiesByRegion.forEach((region) => {
       // Add the region as an option
       options.push({
-        id: region.id,
+        // id: region.id,
         value: region.value,
-        text: region.text,
+        label: region.text,
       });
 
       // Add all cities in this region
       region.cities.forEach((city) => {
         options.push({
-          id: city.id,
+          // id: city.id,
           value: city.value,
-          text: `- ${city.text}`,
+          label: `- ${city.text}`,
         });
       });
     });
@@ -75,8 +80,9 @@ export default function Main() {
   }, [citiesByRegion]);
 
   const visitedFilters = [
-    { id: "visited", value: "visited", text: "Посетени" },
-    { id: "not-visited", value: "not-visited", text: "Непосетени" },
+    { value: "all", label: "Всички" },
+    { value: "visited", label: "Посетени" },
+    { value: "not-visited", label: "Непосетени" },
   ];
 
   const filteredData = data
@@ -104,12 +110,12 @@ export default function Main() {
     })
     .filter((city) => city.sites.length > 0);
 
-  const handleCityChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    setSelectedLocation(e.target.value);
+  const onCityChange = (value: string) => {
+    setSelectedLocation(value);
   };
 
-  const handleVisitedChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    setVisitedFilter(e.target.value);
+  const onVisitedFilterChange = (value: string) => {
+    setVisitedFilter(value);
   };
 
   const results = {
@@ -128,35 +134,32 @@ export default function Main() {
 
   return (
     <>
-      <div className="rounded-md bg-white px-6 py-4 shadow-sm">
-        <div className="flex gap-x-5">
-          <div>
-            <SelectFilter
-              id="location"
-              label="Град"
-              defaultValue={selectedLocation}
+      <section aria-labelledby="filter-heading" className="mx-auto  py-6">
+        <div className="flex flex-col md:flex-row md:items-center md:justify-between">
+          <div className="flex items-center gap-x-5">
+            <Filter
+              name="Град"
+              selectedValue={selectedLocation}
               options={cityOptions}
-              onChange={handleCityChange}
+              onFilterChanged={onCityChange}
+            />
+
+            <Filter
+              name="Посетени"
+              selectedValue={visitedFilter}
+              options={visitedFilters}
+              onFilterChanged={onVisitedFilterChange}
             />
           </div>
 
-          <div>
-            <SelectFilter
-              id="visited"
-              label="Посетени"
-              defaultValue={visitedFilter}
-              options={visitedFilters}
-              onChange={handleVisitedChange}
-            />
+          <div className="text-sm italic pt-5 md:pt-0">
+            показване на {results.filtered} резултата от общо {results.total}
           </div>
         </div>
-      </div>
+      </section>
 
       {filteredData.length > 0 && (
         <>
-          <div className="w-full flex justify-end py-5 text-sm italic">
-            показване на {results.filtered} резултата от общо {results.total}
-          </div>
           <ul role="list" className="space-y-3">
             {filteredData.map((city) => (
               <li

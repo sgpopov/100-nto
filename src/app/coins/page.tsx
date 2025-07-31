@@ -4,11 +4,11 @@ import React, { useEffect, useState } from "react";
 
 import { CheckBadgeIcon } from "@heroicons/react/16/solid";
 import coins from "@/data/coins.json";
-import { SelectFilter } from "@/components/SelectFilter";
 import { useSearchParams } from "next/navigation";
 import { useRouter } from "next/navigation";
+import Filter from "@/components/Filter";
 
-export default function CoinsPage() {
+export default function Main() {
   const router = useRouter();
   const searchParams = useSearchParams();
 
@@ -21,14 +21,13 @@ export default function CoinsPage() {
   );
 
   const collectedFilters = [
-    { id: "yes", value: "yes", text: "Да" },
-    { id: "no", value: "no", text: "Не" },
+    { value: "all", label: "Всички" },
+    { value: "yes", label: "Да" },
+    { value: "no", label: "Не" },
   ];
 
-  const handleCollectedFilterChange = (
-    e: React.ChangeEvent<HTMLSelectElement>
-  ) => {
-    setCollectedFilter(e.target.value);
+  const onCollectedFilterChange = (value: string) => {
+    setCollectedFilter(value);
   };
 
   const filteredData = coins.filter((coin) => {
@@ -48,30 +47,30 @@ export default function CoinsPage() {
       `filters[collected]=${encodeURIComponent(collectedFilter)}`,
     ];
 
-    router.replace(`/coins?${queryParts.join("&")}`);
+    router.push(`coins?${queryParts.join("&")}`);
   }, [collectedFilter, router]);
 
   return (
     <>
-      <div className="rounded-md bg-white px-6 py-4 shadow-sm">
-        <div className="flex gap-x-5">
-          <div>
-            <SelectFilter
-              id="collected"
-              label="Събрани"
-              defaultValue={collectedFilter}
+      <section aria-labelledby="filter-heading" className="mx-auto  py-6">
+        <div className="flex flex-col md:flex-row md:items-center md:justify-between">
+          <div className="flex items-center gap-x-5">
+            <Filter
+              name="Събрани"
+              selectedValue={collectedFilter}
               options={collectedFilters}
-              onChange={handleCollectedFilterChange}
+              onFilterChanged={onCollectedFilterChange}
             />
           </div>
-        </div>
-      </div>
-      {filteredData.length > 0 && (
-        <>
-          <div className="w-full flex justify-end py-5 text-sm italic">
-            показване на {filteredData.length} резултата от общо {coins.length}
-          </div>
 
+          <div className="text-sm italic pt-5 md:pt-0">
+            {filteredData.length} резултата от общо {coins.length}
+          </div>
+        </div>
+      </section>
+
+      {coins.length > 0 && (
+        <>
           <ul
             role="list"
             className="grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-4"
@@ -82,10 +81,10 @@ export default function CoinsPage() {
                 className="col-span-1 flex flex-col relative divide-y divide-gray-200 rounded-lg bg-white text-center shadow-sm"
               >
                 <div className="flex flex-1 flex-col p-8">
-                  <a href={coin.url} target="_blank" rel="noopener noreferrer">
+                  <a href={coin.url} target="_blank">
                     <span aria-hidden="true" className="absolute inset-0" />
                     <img
-                      alt={`Coin image for ${coin.name}`}
+                      alt=""
                       src={coin.images[0].url}
                       className="mx-auto size-32 shrink-0 rounded-full"
                     />

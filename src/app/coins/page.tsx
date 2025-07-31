@@ -69,7 +69,7 @@ export default function CoinsPage() {
         </div>
       </section>
 
-      {coins.length > 0 && (
+      {filteredData.length > 0 && (
         <>
           <ul
             role="list"

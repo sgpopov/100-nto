@@ -8,7 +8,7 @@ import { useSearchParams } from "next/navigation";
 import { useRouter } from "next/navigation";
 import Filter from "@/components/Filter";
 
-export default function Main() {
+export default function CoinsPage() {
   const router = useRouter();
   const searchParams = useSearchParams();
 
@@ -47,7 +47,7 @@ export default function Main() {
       `filters[collected]=${encodeURIComponent(collectedFilter)}`,
     ];
 
-    router.push(`coins?${queryParts.join("&")}`);
+    router.replace(`coins?${queryParts.join("&")}`);
   }, [collectedFilter, router]);
 
   return (
@@ -81,10 +81,10 @@ export default function Main() {
                 className="col-span-1 flex flex-col relative divide-y divide-gray-200 rounded-lg bg-white text-center shadow-sm"
               >
                 <div className="flex flex-1 flex-col p-8">
-                  <a href={coin.url} target="_blank">
+                  <a href={coin.url} target="_blank" rel="noopener noreferrer">
                     <span aria-hidden="true" className="absolute inset-0" />
                     <img
-                      alt=""
+                      alt={`Coin image for ${coin.name}`}
                       src={coin.images[0].url}
                       className="mx-auto size-32 shrink-0 rounded-full"
                     />

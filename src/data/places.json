@@ -2228,7 +2228,7 @@
         "number": "94",
         "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/regionalen-istoricheski-muzei-shumen.jpg?itok=4HQ5rm0X",
         "link": "https://www.btsbg.org/100nto/regionalen-istoricheski-muzey-9",
-        "visited": false
+        "visited": true
       },
       {
         "name": "ИАР „Шуменска крепост“",
@@ -2242,14 +2242,14 @@
         "number": "94а",
         "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/pametnik-1300-godini-balgaria-shumen.jpg?itok=aLjzx2cQ",
         "link": "https://www.btsbg.org/100nto/pametnik-szdateli-na-blgarskata-drzhava",
-        "visited": false
+        "visited": true
       },
       {
         "name": "Томбул джамия \"Шериф Халил паша - 1744 г.\"",
         "number": "95",
         "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/tombul-djamiya-shumen.jpg?itok=Q-LWXjud",
         "link": "https://www.btsbg.org/100nto/tombul-dzhamiya-sherif-halil-pasha-1744-g",
-        "visited": false
+        "visited": true
       }
     ]
   },

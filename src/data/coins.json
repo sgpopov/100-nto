@@ -926,7 +926,7 @@
     "collected": false,
     "available": true,
     "province": "София - град",
-    "location": "Софяи"
+    "location": "София"
   },
   {
     "type": "bulgarian-legacy",
@@ -2187,7 +2187,7 @@
   {
     "type": "bulgarian-legacy",
     "id": "67a0a4f7d26bb7b7cfe3b1a1",
-    "name": "Kопривщица",
+    "name": "Копривщица",
     "url": "https://legacy.bg/products/67a0a4f7d26bb7b7cfe3b1a1",
     "images": [
       {
@@ -2208,7 +2208,7 @@
     "collected": true,
     "available": true,
     "province": "София - област",
-    "location": "Kопривщица"
+    "location": "Копривщица"
   },
   {
     "type": "bulgarian-legacy",
@@ -2869,7 +2869,7 @@
   {
     "type": "bulgarian-legacy",
     "id": "67a2251f66cc12103c3d710c",
-    "name": "Рилски Mанастир",
+    "name": "Рилски Манастир",
     "url": "https://legacy.bg/products/67a2251f66cc12103c3d710c",
     "images": [
       {
@@ -2887,7 +2887,7 @@
     "collected": false,
     "available": false,
     "province": "Благоевград",
-    "location": "Рилски Mанастир"
+    "location": "Рилски Манастир"
   },
   {
     "type": "bulgarian-legacy",

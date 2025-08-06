@@ -4,7 +4,7 @@ import React, { useState, useEffect, useMemo } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { SiteList } from "@/components/SiteList";
 import { randomId } from "@/utils";
-import data from "./data.json";
+import data from "@/data/places.json";
 import Filter from "@/components/Filter";
 
 export default function Main() {

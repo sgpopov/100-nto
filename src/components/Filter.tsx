@@ -2,8 +2,10 @@
 
 import { Menu, MenuButton, MenuItem, MenuItems } from "@headlessui/react";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
+import { randomId } from "@/utils";
 
 type FilterOption = {
+  key?: string;
   value: string;
   label: string;
 };
@@ -33,6 +35,14 @@ export default function Filter({
     return value.replace("-", "").trim();
   };
 
+  const generateKey = (option: FilterOption) => {
+    if (option.key) {
+      return option.key;
+    }
+
+    return `${name}-${option.value}-${randomId()}`;
+  };
+
   return (
     <Menu as="div" className="relative inline-block text-left">
       <div>
@@ -52,7 +62,7 @@ export default function Filter({
       >
         <div className="py-1">
           {options.map((option) => (
-            <MenuItem key={`${name}-${option.value}`}>
+            <MenuItem key={generateKey(option)}>
               <div
                 onClick={() => onOptionClicked(option)}
                 className="block px-4 py-2 text-sm font-medium text-gray-900 data-focus:bg-gray-100 data-focus:outline-hidden cursor-pointer"

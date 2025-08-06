@@ -1,24 +1,87 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 
 import { CheckBadgeIcon } from "@heroicons/react/16/solid";
 import coins from "@/data/coins.json";
 import { useSearchParams } from "next/navigation";
 import { useRouter } from "next/navigation";
 import Filter from "@/components/Filter";
+import { randomId } from "@/utils";
 
 export default function CoinsPage() {
   const router = useRouter();
   const searchParams = useSearchParams();
 
   // Get initial filter values from URL query params or default to "all"
+  const initialLocationFilter = searchParams.get("filters[location]") || "all";
+
   const initialCollectedFilter =
     searchParams.get("filters[collected]") || "all";
+
+  const [locationFilter, setLocationFilter] = useState<string>(
+    initialLocationFilter
+  );
 
   const [collectedFilter, setCollectedFilter] = useState<string>(
     initialCollectedFilter
   );
+
+  const locationsByProvince = useMemo(() => {
+    const provinces = [...new Set(coins.map((coin) => coin.province))].sort();
+
+    const result = provinces.map((province) => {
+      const citiesInProvince = [
+        ...new Set(
+          coins
+            .filter((coin) => coin.province === province)
+            .map((coin) => coin.location)
+            .sort()
+        ),
+      ];
+
+      return {
+        value: province,
+        label: province,
+        cities: citiesInProvince.map((cityName) => {
+          return {
+            value: cityName,
+            label: cityName,
+          };
+        }),
+      };
+    });
+
+    return result;
+  }, []);
+
+  const locations = useMemo(() => {
+    const options = [
+      {
+        key: randomId(),
+        value: "all",
+        label: "Всички",
+      },
+    ];
+
+    locationsByProvince.forEach((province) => {
+      options.push({
+        key: `${randomId()}-${province.value}`,
+        value: province.value,
+        label: province.label,
+      });
+
+      province.cities.forEach((city) => {
+        options.push({
+          key: `${randomId()}-${province.value}-${city.value}`,
+          value: city.value,
+          label: `- ${city.label}`,
+        });
+      });
+    });
+
+    return options;
+  }, [locationsByProvince]);
 
   const collectedFilters = [
     { value: "all", label: "Всички" },
@@ -26,35 +89,55 @@ export default function CoinsPage() {
     { value: "no", label: "Не" },
   ];
 
+  const onLocationFilterChange = (value: string) => {
+    setLocationFilter(value);
+  };
+
   const onCollectedFilterChange = (value: string) => {
     setCollectedFilter(value);
   };
 
   const filteredData = coins.filter((coin) => {
-    if (collectedFilter === "all") {
-      return true;
+    let passesLocationFilter = true;
+    let passesCollectedFilter = true;
+
+    if (locationFilter !== "all") {
+      passesLocationFilter =
+        coin.province === locationFilter || coin.location === locationFilter;
     }
 
-    if (collectedFilter === "yes") {
-      return coin.collected === true;
+    if (collectedFilter !== "all") {
+      if (collectedFilter === "yes") {
+        passesCollectedFilter = coin.collected === true;
+      } else if (collectedFilter === "no") {
+        passesCollectedFilter = coin.collected === false;
+      }
     }
 
-    return coin.collected === false;
+    return passesLocationFilter && passesCollectedFilter;
   });
 
   useEffect(() => {
     const queryParts = [
+      `filters[location]=${encodeURIComponent(locationFilter)}`,
       `filters[collected]=${encodeURIComponent(collectedFilter)}`,
     ];
 
     router.replace(`/coins?${queryParts.join("&")}`);
-  }, [collectedFilter, router]);
+  }, [locationFilter, collectedFilter, router]);
 
   return (
     <>
       <section aria-labelledby="filter-heading" className="mx-auto  py-6">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between">
           <div className="flex items-center gap-x-5">
+            <Filter
+              name="Локация"
+              selectedValue={locationFilter}
+              options={locations}
+              onFilterChanged={onLocationFilterChange}
+            />
+
             <Filter
               name="Събрани"
               selectedValue={collectedFilter}

@@ -496,7 +496,7 @@
       }
     ],
     "coordinates": [],
-    "collected": false,
+    "collected": true,
     "available": true,
     "province": "Варна",
     "location": "Варна"

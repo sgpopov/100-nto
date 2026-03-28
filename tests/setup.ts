@@ -16,6 +16,8 @@ vi.mock("leaflet", () => ({
       bindPopup: vi.fn().mockReturnThis(),
     })),
     icon: vi.fn(() => ({})),
+    divIcon: vi.fn((opts: { html: string }) => ({ options: { html: opts.html } })),
+    latLngBounds: vi.fn(() => ({})),
     Icon: {
       Default: {
         mergeOptions: vi.fn(),

@@ -1,12 +1,16 @@
 "use client";
 
-import { SiteList } from "@/components/SiteList";
+import { useMemo } from "react";
+import dynamic from "next/dynamic";
+import { randomId } from "@/utils";
 import data from "@/data/places.json";
 import Filter from "@/components/Filter";
 import ViewToggle from "@/components/ViewToggle";
 import { useSiteFilters } from "@/hooks/useSiteFilters";
 
-export default function Main() {
+const MapView = dynamic(() => import("@/components/MapView"), { ssr: false });
+
+export default function SitesMapPage() {
   const {
     selectedLocation,
     setSelectedLocation,
@@ -23,9 +27,28 @@ export default function Main() {
     filtered: filteredData.reduce((acc, city) => acc + city.sites.length, 0),
   };
 
+  const pins = useMemo(
+    () =>
+      filteredData.flatMap((city) =>
+        city.sites.map((site) => ({
+          key: `${city.city}-${site.name}-${randomId()}`,
+          lat: site.lat,
+          lng: site.lng,
+          active: site.visited,
+          popup: (
+            <div>
+              <div className="font-semibold">{site.name}</div>
+              <div className="text-gray-500 text-xs">{city.city} &bull; №{site.number}</div>
+            </div>
+          ),
+        }))
+      ),
+    [filteredData]
+  );
+
   return (
     <>
-      <section aria-labelledby="filter-heading" className="mx-auto  py-6">
+      <section aria-labelledby="filter-heading" className="mx-auto py-6">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between">
           <div className="flex items-center gap-x-5">
             <Filter
@@ -49,7 +72,7 @@ export default function Main() {
             </div>
 
             <ViewToggle
-              currentView="list"
+              currentView="map"
               listHref={`/?${queryString}`}
               mapHref={`/sites/map?${queryString}`}
             />
@@ -57,30 +80,7 @@ export default function Main() {
         </div>
       </section>
 
-      {filteredData.length > 0 && (
-        <>
-          <ul role="list" className="space-y-3">
-            {filteredData.map((city) => (
-              <li
-                key={city.city}
-                className="overflow-hidden rounded-md bg-white px-6 py-4 shadow-sm"
-              >
-                <h3 className="text-base font-semibold text-gray-900">
-                  {city.city} ({city.sites.length})
-                </h3>
-
-                <div className="py-5">
-                  <SiteList siteList={city.sites} />
-                </div>
-              </li>
-            ))}
-          </ul>
-        </>
-      )}
-
-      {!filteredData.length && (
-        <p className="mt-10 text-center">Няма намерени резултати</p>
-      )}
+      <MapView pins={pins} />
     </>
   );
 }

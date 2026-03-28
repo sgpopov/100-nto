@@ -6,6 +6,7 @@ import type { ReactNode } from "react";
 
 vi.mock("leaflet/dist/leaflet.css", () => ({}));
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 (L as any).divIcon = (opts: { html: string; [k: string]: unknown }) => ({
   options: { html: opts.html },
 });
@@ -15,6 +16,7 @@ vi.mock("react-leaflet", () => ({
     <div data-testid="map">{children}</div>
   ),
   TileLayer: () => null,
+  useMap: () => ({ fitBounds: vi.fn() }),
   Marker: ({
     children,
     icon,

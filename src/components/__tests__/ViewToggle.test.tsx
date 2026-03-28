@@ -1,6 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import { describe, it, expect, vi } from "vitest";
 import ViewToggle from "@/components/ViewToggle";
+import type { ReactNode } from "react";
 
 vi.mock("next/link", () => ({
   default: ({
@@ -9,7 +10,7 @@ vi.mock("next/link", () => ({
     ...props
   }: {
     href: string;
-    children: React.ReactNode;
+    children: ReactNode;
     [key: string]: unknown;
   }) => (
     <a href={href} {...props}>

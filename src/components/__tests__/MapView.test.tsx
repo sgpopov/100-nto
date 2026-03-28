@@ -1,19 +1,17 @@
 import { render, screen } from "@testing-library/react";
 import { describe, it, expect, vi } from "vitest";
+import * as L from "leaflet";
 import MapView, { type MapPin } from "@/components/MapView";
+import type { ReactNode } from "react";
 
 vi.mock("leaflet/dist/leaflet.css", () => ({}));
 
-vi.mock("leaflet", () => ({
-  default: {
-    divIcon: (opts: { html: string; [k: string]: unknown }) => ({
-      options: { html: opts.html },
-    }),
-  },
-}));
+(L as any).divIcon = (opts: { html: string; [k: string]: unknown }) => ({
+  options: { html: opts.html },
+});
 
 vi.mock("react-leaflet", () => ({
-  MapContainer: ({ children }: { children: React.ReactNode }) => (
+  MapContainer: ({ children }: { children: ReactNode }) => (
     <div data-testid="map">{children}</div>
   ),
   TileLayer: () => null,
@@ -21,20 +19,18 @@ vi.mock("react-leaflet", () => ({
     children,
     icon,
   }: {
-    children: React.ReactNode;
+    children: ReactNode;
     position: [number, number];
     icon: { options: { html: string } };
   }) => (
     <div
       data-testid="marker"
-      data-icon-color={
-        icon.options.html.includes("#22c55e") ? "green" : "grey"
-      }
+      data-icon-color={icon.options.html.includes("#22c55e") ? "green" : "grey"}
     >
       {children}
     </div>
   ),
-  Popup: ({ children }: { children: React.ReactNode }) => (
+  Popup: ({ children }: { children: ReactNode }) => (
     <div data-testid="popup">{children}</div>
   ),
 }));
@@ -69,10 +65,10 @@ describe("MapView", () => {
 
     const markers = screen.getAllByTestId("marker");
     const green = markers.filter(
-      (m) => m.getAttribute("data-icon-color") === "green"
+      (m) => m.getAttribute("data-icon-color") === "green",
     );
     const grey = markers.filter(
-      (m) => m.getAttribute("data-icon-color") === "grey"
+      (m) => m.getAttribute("data-icon-color") === "grey",
     );
 
     expect(green).toHaveLength(1);
@@ -96,7 +92,7 @@ describe("MapView", () => {
     expect(screen.getByText("Музей А")).toBeInTheDocument();
     expect(screen.getByRole("link", { name: "BTU страница" })).toHaveAttribute(
       "href",
-      "https://www.btsbg.org/a"
+      "https://www.btsbg.org/a",
     );
   });
 

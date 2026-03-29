@@ -31,7 +31,7 @@ export default function RootLayout({
         <main>
           <Navigation
             links={[
-              { href: "/", title: "Обекти" },
+              { href: "/sites/list", title: "Обекти" },
               { href: "/coins", title: "Монети" },
             ]}
           />

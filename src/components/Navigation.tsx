@@ -18,7 +18,10 @@ export default function Navigation({ links }: { links: NavigationLinks[] }) {
           <div className="flex flex-1 items-stretch justify-start">
             <div className="sm:ml-6 flex space-x-8">
               {links.map((link) => {
-                const isActive = pathname === link.href;
+                const isActive =
+                  pathname === link.href ||
+                  (link.href.startsWith("/sites") &&
+                    pathname.startsWith("/sites"));
 
                 return (
                   <Link

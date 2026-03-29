@@ -53,8 +53,9 @@ export default function SitesLayout({
           </div>
 
           <div className="flex items-center gap-x-5 pt-5 md:pt-0">
-            <div className="text-sm italic">
-              показване на {results.filtered} резултата от общо {results.total}
+            <div className="flex-1 text-sm italic">
+              <span className="md:hidden">{results.filtered} от {results.total}</span>
+              <span className="hidden md:inline">показване на {results.filtered} {results.filtered === 1 ? "резултат" : "резултата"} от общо {results.total}</span>
             </div>
 
             <ViewToggle

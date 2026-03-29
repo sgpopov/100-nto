@@ -1,86 +1,14 @@
 "use client";
 
-import { SiteList } from "@/components/SiteList";
-import data from "@/data/places.json";
-import Filter from "@/components/Filter";
-import ViewToggle from "@/components/ViewToggle";
-import { useSiteFilters } from "@/hooks/useSiteFilters";
+import { useEffect } from "react";
+import { useRouter } from "next/navigation";
 
-export default function Main() {
-  const {
-    selectedLocation,
-    setSelectedLocation,
-    visitedFilter,
-    setVisitedFilter,
-    cityOptions,
-    visitedFilters,
-    filteredData,
-    queryString,
-  } = useSiteFilters();
+export default function Home() {
+  const router = useRouter();
 
-  const results = {
-    total: data.reduce((acc, city) => acc + city.sites.length, 0),
-    filtered: filteredData.reduce((acc, city) => acc + city.sites.length, 0),
-  };
+  useEffect(() => {
+    router.replace("/sites/list");
+  }, [router]);
 
-  return (
-    <>
-      <section aria-labelledby="filter-heading" className="mx-auto  py-6">
-        <div className="flex flex-col md:flex-row md:items-center md:justify-between">
-          <div className="flex items-center gap-x-5">
-            <Filter
-              name="Град"
-              selectedValue={selectedLocation}
-              options={cityOptions}
-              onFilterChanged={setSelectedLocation}
-            />
-
-            <Filter
-              name="Посетени"
-              selectedValue={visitedFilter}
-              options={visitedFilters}
-              onFilterChanged={setVisitedFilter}
-            />
-          </div>
-
-          <div className="flex items-center gap-x-5 pt-5 md:pt-0">
-            <div className="text-sm italic">
-              показване на {results.filtered} резултата от общо {results.total}
-            </div>
-
-            <ViewToggle
-              currentView="list"
-              listHref={`/?${queryString}`}
-              mapHref={`/sites/map?${queryString}`}
-            />
-          </div>
-        </div>
-      </section>
-
-      {filteredData.length > 0 && (
-        <>
-          <ul role="list" className="space-y-3">
-            {filteredData.map((city) => (
-              <li
-                key={city.city}
-                className="overflow-hidden rounded-md bg-white px-6 py-4 shadow-sm"
-              >
-                <h3 className="text-base font-semibold text-gray-900">
-                  {city.city} ({city.sites.length})
-                </h3>
-
-                <div className="py-5">
-                  <SiteList siteList={city.sites} />
-                </div>
-              </li>
-            ))}
-          </ul>
-        </>
-      )}
-
-      {!filteredData.length && (
-        <p className="mt-10 text-center">Няма намерени резултати</p>
-      )}
-    </>
-  );
+  return null;
 }

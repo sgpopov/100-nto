@@ -9,18 +9,18 @@ test.describe("Sites view navigation", () => {
     await expect(page).toHaveURL(/\/sites\/map/);
   });
 
-  test("clicking Списък on map page navigates back to /", async ({ page }) => {
+  test("clicking Списък on map page navigates back to /sites/list", async ({ page }) => {
     await page.goto("/sites/map");
     await page.getByRole("link", { name: "Списък" }).click();
     await expect(page).not.toHaveURL(/\/sites\/map/);
-    expect(new URL(page.url()).pathname).toBe("/");
+    expect(new URL(page.url()).pathname).toBe("/sites/list");
   });
 
   test("active filter state is preserved in URL when switching views", async ({
     page,
   }) => {
     await page.goto(
-      "/?filters[location]=%D0%91%D0%B0%D0%BD%D1%81%D0%BA%D0%BE&filters[visited]=visited"
+      "/sites/list?filters[location]=%D0%91%D0%B0%D0%BD%D1%81%D0%BA%D0%BE&filters[visited]=visited"
     );
 
     await page.getByRole("link", { name: "Карта" }).click();
@@ -28,6 +28,18 @@ test.describe("Sites view navigation", () => {
     await expect(page).toHaveURL(/\/sites\/map/);
     await expect(page).toHaveURL(/filters\[location\]=%D0%91%D0%B0%D0%BD%D1%81%D0%BA%D0%BE/);
     await expect(page).toHaveURL(/filters\[visited\]=visited/);
+  });
+
+  test("nav link is active on /sites/list", async ({ page }) => {
+    await page.goto("/sites/list");
+    const link = page.getByRole("link", { name: "Обекти" });
+    await expect(link).toHaveClass(/border-indigo-500/);
+  });
+
+  test("nav link is active on /sites/map", async ({ page }) => {
+    await page.goto("/sites/map");
+    const link = page.getByRole("link", { name: "Обекти" });
+    await expect(link).toHaveClass(/border-indigo-500/);
   });
 
   test("applying a region filter on map page updates the displayed pins", async ({

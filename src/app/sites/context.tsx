@@ -1,7 +1,7 @@
 "use client";
 
 import { createContext, useContext } from "react";
-import type { useSiteFilters } from "@/hooks/useSiteFilters";
+import { useSiteFilters } from "@/hooks/useSiteFilters";
 
 type SitesContextValue = ReturnType<typeof useSiteFilters>;
 

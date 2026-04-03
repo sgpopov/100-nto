@@ -5,7 +5,7 @@ export const dynamic = "force-static";
 export default function manifest(): MetadataRoute.Manifest {
   return {
     name: "StoQuest - 100 Bulgarian national tourist sites and coins collection",
-    short_name: "StoQuest ",
+    short_name: "StoQuest",
     start_url: "/",
     display: "standalone",
     background_color: "#fff",

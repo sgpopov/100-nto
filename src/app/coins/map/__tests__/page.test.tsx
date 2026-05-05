@@ -18,7 +18,7 @@ const mockCoins = [
     id: "1",
     name: "Coin A",
     url: "https://example.com/a",
-    images: [{ url: "img-a.jpg" }],
+    images: [{ url: "/img-a.jpg" }],
     coordinates: [25.0, 43.0],
     collected: true,
     available: true,
@@ -29,7 +29,7 @@ const mockCoins = [
     id: "2",
     name: "Coin B",
     url: "https://example.com/b",
-    images: [{ url: "img-b.jpg" }],
+    images: [{ url: "/img-b.jpg" }],
     coordinates: [25.1, 43.1],
     collected: false,
     available: true,
@@ -40,7 +40,7 @@ const mockCoins = [
     id: "3",
     name: "Coin C (no coordinates)",
     url: "https://example.com/c",
-    images: [{ url: "img-c.jpg" }],
+    images: [{ url: "/img-c.jpg" }],
     coordinates: [],
     collected: false,
     available: true,
@@ -87,13 +87,14 @@ describe("CoinsMapPage", () => {
         capturedPins[0].popup as React.ReactElement,
       );
       expect(getByText("Coin A")).toBeInTheDocument();
-      expect(getByRole("link")).toHaveAttribute("href", "https://example.com/a");
+      expect(getByRole("link")).toHaveAttribute(
+        "href",
+        "https://example.com/a",
+      );
     });
 
     it("shows the collected label for collected coins", () => {
-      const { getByText } = render(
-        capturedPins[0].popup as React.ReactElement,
-      );
+      const { getByText } = render(capturedPins[0].popup as React.ReactElement);
       expect(getByText("Събрана")).toBeInTheDocument();
     });
 

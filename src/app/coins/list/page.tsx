@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { CheckBadgeIcon } from "@heroicons/react/16/solid";
 import { useCoinsContext } from "../context";
 
@@ -23,9 +24,11 @@ export default function CoinsListPage() {
           <div className="flex flex-1 flex-col p-8">
             <a href={coin.url} target="_blank" rel="noopener noreferrer">
               <span aria-hidden="true" className="absolute inset-0" />
-              <img
+              <Image
                 alt={`Coin image for ${coin.name}`}
                 src={coin.images[0].url}
+                width={128}
+                height={128}
                 className="mx-auto size-32 shrink-0 rounded-full"
               />
             </a>

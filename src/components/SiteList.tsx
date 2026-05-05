@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { CheckBadgeIcon } from "@heroicons/react/16/solid";
 
 type SiteListData = {
@@ -24,10 +25,11 @@ export const SiteList = ({ siteList }: SiteListProps) => {
           <a href={site.link} target="_blank" rel="noopener noreferrer">
             <div className="relative">
               <div className="relative h-56 w-full overflow-hidden rounded-lg">
-                <img
+                <Image
                   alt={`Image for ${site.name}`}
                   src={site.image}
-                  className="size-full object-cover"
+                  fill
+                  className="object-cover"
                 />
               </div>
 

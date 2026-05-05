@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo } from "react";
+import Image from "next/image";
 import dynamic from "next/dynamic";
 import { randomId } from "@/utils";
 import { useSitesContext } from "../context";
@@ -20,11 +21,14 @@ export default function SitesMapPage() {
           active: site.visited,
           popup: (
             <div>
-              <img
-                src={site.image}
-                alt={site.name}
-                className="w-full h-24 object-cover rounded mb-2"
-              />
+              <div className="relative w-full h-24 mb-2">
+                <Image
+                  src={site.image}
+                  alt={site.name}
+                  fill
+                  className="object-cover rounded"
+                />
+              </div>
               <a
                 href={site.link}
                 target="_blank"
@@ -33,12 +37,14 @@ export default function SitesMapPage() {
               >
                 {site.name}
               </a>
-              <div className="text-gray-500 text-xs">{city.city} &bull; №{site.number}</div>
+              <div className="text-gray-500 text-xs">
+                {city.city} &bull; №{site.number}
+              </div>
             </div>
           ),
-        }))
+        })),
       ),
-    [filteredData]
+    [filteredData],
   );
 
   return <MapView pins={pins} />;

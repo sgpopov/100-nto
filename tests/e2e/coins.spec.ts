@@ -14,6 +14,7 @@ test.describe("Coins views", () => {
     const cards = page.locator("ul[role='list'] li");
     await expect(cards.first()).toBeVisible({ timeout: 10000 });
     await expect(page.locator("ul[role='list'] img").first()).toBeVisible();
+    await expect(page.locator("ul[role='list'] h3").first()).not.toBeEmpty();
   });
 
   test("/coins/map renders a Leaflet map with at least one pin", async ({
@@ -60,7 +61,7 @@ test.describe("Coins views", () => {
 
     await expect(page.locator(".leaflet-popup")).toBeVisible({ timeout: 5000 });
     await expect(
-      page.locator(".leaflet-popup a[href]").first(),
+      page.locator(".leaflet-popup").getByRole("link", { name: "Виж монетата" }),
     ).toBeVisible();
   });
 
@@ -82,8 +83,12 @@ test.describe("Coins views", () => {
 
     await expect(page).toHaveURL(/filters\[collected\]=yes/);
 
-    const filteredCount = await page.locator("ul[role='list'] li").count();
+    const cards = page.locator("ul[role='list'] li");
+    const filteredCount = await cards.count();
     expect(filteredCount).toBeLessThan(totalCount);
+
+    const badges = page.locator("ul[role='list'] li [title='Събрана монета']");
+    await expect(badges).toHaveCount(filteredCount);
   });
 
   test("'Монети' nav link is active on /coins/list", async ({ page }) => {

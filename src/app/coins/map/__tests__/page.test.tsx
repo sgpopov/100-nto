@@ -36,6 +36,17 @@ const mockCoins = [
     province: "София",
     location: "София",
   },
+  {
+    id: "3",
+    name: "Coin C (no coordinates)",
+    url: "https://example.com/c",
+    images: [{ url: "img-c.jpg" }],
+    coordinates: [],
+    collected: false,
+    available: true,
+    province: "Варна",
+    location: "Варна",
+  },
 ];
 
 vi.mock("../../context", () => ({
@@ -50,7 +61,7 @@ describe("CoinsMapPage", () => {
   });
 
   describe("pin building", () => {
-    it("builds one pin per filtered coin", () => {
+    it("builds one pin per geocoded coin, excluding coins with missing coordinates", () => {
       expect(capturedPins).toHaveLength(2);
     });
 

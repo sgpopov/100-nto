@@ -6,7 +6,7 @@
       {
         "name": "Музей \"Велянова къща\"",
         "number": "1",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/velyanova-kushta.jpg?itok=PXH6AE4w",
+        "image": "/sites/btsbg/001-velyanova-kushta.jpg",
         "link": "https://www.btsbg.org/100nto/muzey-velyanova-kshcha",
         "visited": false,
         "lat": 41.835167,
@@ -15,7 +15,7 @@
       {
         "name": "Къща - музей \"Неофит Рилски\"",
         "number": "1",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/kushta-neofit-rilski.jpg?itok=mF4aAt_8",
+        "image": "/sites/btsbg/002-kushta-neofit-rilski.jpg",
         "link": "https://www.btsbg.org/100nto/kshcha-muzey-neofit-rilski",
         "visited": false,
         "lat": 41.8351421,
@@ -24,7 +24,7 @@
       {
         "name": "Музей \"Никола Вапцаров\"",
         "number": "1",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/muzei-nikola-vapcarov.jpg?itok=GjfWOukn",
+        "image": "/sites/btsbg/003-muzei-nikola-vapcarov.jpg",
         "link": "https://www.btsbg.org/100nto/muzey-nikola-vapcarov",
         "visited": false,
         "lat": 41.8375024,
@@ -33,7 +33,7 @@
       {
         "name": "Иконна изложба",
         "number": "1",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/ikonna-izlojba.jpg?itok=DiIeHIV7",
+        "image": "/sites/btsbg/004-ikonna-izlojba.jpg",
         "link": "https://www.btsbg.org/100nto/ikonna-izlozhba",
         "visited": false,
         "lat": 41.8361455,
@@ -42,7 +42,7 @@
       {
         "name": "Църква „Св. Троица“",
         "number": "1a",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/tsarkva-sveta-troitsa-bansko.jpg?itok=sTj4o2vV",
+        "image": "/sites/btsbg/005-tsarkva-sveta-troitsa-bansko.jpg",
         "link": "https://www.btsbg.org/100nto/crkva-sv-troica",
         "visited": false,
         "lat": 41.835338,
@@ -57,7 +57,7 @@
       {
         "name": "Връх Вихрен (2914 м.)",
         "number": "2",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/vruh-vihren.jpg?itok=QiMyjWfE",
+        "image": "/sites/btsbg/006-vruh-vihren.jpg",
         "link": "https://www.btsbg.org/100nto/vrh-vihren-2914-m",
         "visited": false,
         "lat": 41.7672372,
@@ -72,7 +72,7 @@
       {
         "name": "Църква \"Св. Св. Теодор Тирон и Теодор Стратилат\"",
         "number": "3",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/tsarkva-selo-dobarsko.jpg?itok=bIHvzC7W",
+        "image": "/sites/btsbg/007-tsarkva-selo-dobarsko.jpg",
         "link": "https://www.btsbg.org/100nto/crkva-sv-sv-teodor-tiron-i-teodor-stratilat",
         "visited": false,
         "lat": 41.969972,
@@ -87,7 +87,7 @@
       {
         "name": "Градски исторически музей (История, етнография)",
         "number": "4",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/istoricheski-muzei-melnik.jpg?itok=dHiqiy9Y",
+        "image": "/sites/btsbg/008-istoricheski-muzei-melnik.jpg",
         "link": "https://www.btsbg.org/100nto/gradski-istoricheski-muzey-istoriya-etnografiya",
         "visited": false,
         "lat": 41.5233466,
@@ -96,7 +96,7 @@
       {
         "name": "Кордопулова къща (нар. още Цинцарова къща)",
         "number": "4",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/kordopulova-kushta-melnik.jpg?itok=IukRm-YP",
+        "image": "/sites/btsbg/009-kordopulova-kushta-melnik.jpg",
         "link": "https://www.btsbg.org/100nto/kordopulova-kshcha-nar-oshche-cincarova-kshcha",
         "visited": false,
         "lat": 41.523028,
@@ -105,7 +105,7 @@
       {
         "name": "Роженски манастир \"Рождество богородично\"",
         "number": "4a",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/svetorojenski-manastir-melnik.jpg?itok=CtXlrd0-",
+        "image": "/sites/btsbg/010-svetorojenski-manastir-melnik.jpg",
         "link": "https://www.btsbg.org/100nto/rozhenski-manastir-rozhdestvo-bogorodichno",
         "visited": false,
         "lat": 41.530472,
@@ -120,7 +120,7 @@
       {
         "name": "Местност \"Рупите\" - храм паметник \"Света Петка Българска\"",
         "number": "5",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/hram-pametni-sveta-petka-rupite-petrich.jpg?itok=165Zd-xp",
+        "image": "/sites/btsbg/011-hram-pametni-sveta-petka-rupite-petrich.jpg",
         "link": "https://www.btsbg.org/100nto/mestnost-rupite-hram-pametnik-sveta-petka-blgarska",
         "visited": false,
         "lat": 41.459035,
@@ -129,7 +129,7 @@
       {
         "name": "Национален парк-музей „Самуилова крепост“",
         "number": "5a",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/samuilova-krepost-petrich.jpg?itok=Pzus8vsb",
+        "image": "/sites/btsbg/012-samuilova-krepost-petrich.jpg",
         "link": "https://www.btsbg.org/100nto/nacionalen-park-muzey-samuilova-krepost",
         "visited": false,
         "lat": 41.394775,
@@ -138,7 +138,7 @@
       {
         "name": "Античен град \"Хераклея Синтика\"",
         "number": "5б",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/%D0%A5%D0%B5%D1%80%D0%B0%D0%BA%D0%BB%D0%B5%D1%8F%20%D0%A1%D0%B8%D0%BD%D0%B8%D1%82%D0%BA%D0%B0.jpeg?itok=qXZZ2UIH",
+        "image": "/sites/btsbg/013-site.jpeg",
         "link": "https://www.btsbg.org/100nto/antichen-grad-herakleya-sintika",
         "visited": false,
         "lat": 41.449329,
@@ -153,7 +153,7 @@
       {
         "name": "Регионален исторически музей",
         "number": "27",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/regionalen-istoricheski-muzei-blagoevgrad.jpg?itok=JPrlZJTR",
+        "image": "/sites/btsbg/014-regionalen-istoricheski-muzei-blagoevgrad.jpg",
         "link": "https://www.btsbg.org/100nto/regionalen-istoricheski-muzey",
         "visited": false,
         "lat": 42.020427,
@@ -162,7 +162,7 @@
       {
         "name": "Възрожденски комплекс „Вароша”",
         "number": "27",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/vazrojdenski-kompleks-varosha-blagoevgrad.jpg?itok=dEUjSa8F",
+        "image": "/sites/btsbg/015-vazrojdenski-kompleks-varosha-blagoevgrad.jpg",
         "link": "https://www.btsbg.org/100nto/vzrozhdenski-kompleks-varosha",
         "visited": false,
         "lat": 42.021217,
@@ -177,7 +177,7 @@
       {
         "name": "Епископска Базилика (откр. 1989 г.)",
         "number": "46",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/etiopska-bazilika-sandanski.jpg?itok=mLVelYh6",
+        "image": "/sites/btsbg/016-etiopska-bazilika-sandanski.jpg",
         "link": "https://www.btsbg.org/100nto/episkopska-bazilika-otkr-1989-g",
         "visited": false,
         "lat": 41.5666221,
@@ -186,7 +186,7 @@
       {
         "name": "Археологически музей (основан 1936г.)",
         "number": "46",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/DSCN7695.JPG?itok=qwcsXOdD",
+        "image": "/sites/btsbg/017-dscn7695.jpg",
         "link": "https://www.btsbg.org/100nto/arheologicheski-muzey-osnovan-1936g",
         "visited": false,
         "lat": 41.5664615,
@@ -201,7 +201,7 @@
       {
         "name": "Общински исторически музей",
         "number": "59б",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/obshtinski-istoricheski-muzei-gotse-delchev.jpg?itok=mb8QyCaE",
+        "image": "/sites/btsbg/018-obshtinski-istoricheski-muzei-gotse-delchev.jpg",
         "link": "https://www.btsbg.org/100nto/obshchinski-istoricheski-muzey",
         "visited": false,
         "lat": 41.572815,
@@ -216,7 +216,7 @@
       {
         "name": "Археологически музей",
         "number": "6",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/arheologicheski-muzei-nesebur.jpg?itok=zaxUKGM9",
+        "image": "/sites/btsbg/019-arheologicheski-muzei-nesebur.jpg",
         "link": "https://www.btsbg.org/100nto/arheologicheski-muzey",
         "visited": false,
         "lat": 42.6583467,
@@ -231,7 +231,7 @@
       {
         "name": "Музей на солта",
         "number": "6а",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/muzei-na-solta-pomorie.jpg?itok=MhA2yUpV",
+        "image": "/sites/btsbg/020-muzei-na-solta-pomorie.jpg",
         "link": "https://www.btsbg.org/100nto/muzey-na-solta",
         "visited": false,
         "lat": 42.5655417,
@@ -240,7 +240,7 @@
       {
         "name": "Поморийско езеро",
         "number": "6б",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/pomoriisko-ezero-pomorie.jpg?itok=jn-aIfru",
+        "image": "/sites/btsbg/021-pomoriisko-ezero-pomorie.jpg",
         "link": "https://www.btsbg.org/100nto/pomoriysko-ezero",
         "visited": false,
         "lat": 42.5849569,
@@ -249,7 +249,7 @@
       {
         "name": "Антична куполна гробница Поморие",
         "number": "6а",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/%D0%9F%D0%BE%D0%BC%D0%BE%D1%80%D0%B8%D0%B5%20site.jpg?itok=GFYZR2DR",
+        "image": "/sites/btsbg/022-site.jpg",
         "link": "https://www.btsbg.org/100nto/antichna-kupolna-grobnica-pomorie",
         "visited": false,
         "lat": 42.5659059,
@@ -264,7 +264,7 @@
       {
         "name": "Природозащитен център \"Пода\"",
         "number": "7",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/prirodozashtiten-centur-poda-burgas.jpg?itok=7WZtSdlL",
+        "image": "/sites/btsbg/023-poda.jpg",
         "link": "https://www.btsbg.org/100nto/prirodozashchiten-centr-poda",
         "visited": false,
         "lat": 42.4439932,
@@ -273,7 +273,7 @@
       {
         "name": "СКАЛЕН ФЕНОМЕН \"ТРИТЕ БРАТЯ\" - ГРАД АЙТОС",
         "number": "7а",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BA%D0%B0%201-%D0%A2%D1%80%D0%B8%D1%82%D0%B5%20%D0%B1%D1%80%D0%B0%D1%82%D1%8F.jpg?itok=ubJs_TTL",
+        "image": "/sites/btsbg/024-1.jpg",
         "link": "https://www.btsbg.org/100nto/skalen-fenomen-trite-bratya-grad-aytos",
         "visited": false,
         "lat": 42.7047319,
@@ -288,7 +288,7 @@
       {
         "name": "Исторически музей",
         "number": "8",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/istoricheski-muzei-malko-turnovo.jpg?itok=Ei1KpecR",
+        "image": "/sites/btsbg/025-istoricheski-muzei-malko-turnovo.jpg",
         "link": "https://www.btsbg.org/100nto/istoricheski-muzey",
         "visited": false,
         "lat": 41.9794961,
@@ -297,7 +297,7 @@
       {
         "name": "Местност Петрова нива",
         "number": "8",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/mestnost-petrova-niva-malko-turnovo.jpg?itok=oG3FoutK",
+        "image": "/sites/btsbg/026-mestnost-petrova-niva-malko-turnovo.jpg",
         "link": "https://www.btsbg.org/100nto/mestnost-petrova-niva",
         "visited": false,
         "lat": 42.061501,
@@ -312,7 +312,7 @@
       {
         "name": "Археологически музей",
         "number": "8а",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/arheologicheski-muzei-sozopol.jpg?itok=4H5mbbmL",
+        "image": "/sites/btsbg/027-arheologicheski-muzei-sozopol.jpg",
         "link": "https://www.btsbg.org/100nto/arheologicheski-muzey-0",
         "visited": true,
         "lat": 42.4220168,
@@ -327,7 +327,7 @@
       {
         "name": "Общински исторически музей",
         "number": "8б",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/obshtinski-istoricheski-muzei-tsarevo.jpg?itok=bujdXvX0",
+        "image": "/sites/btsbg/028-obshtinski-istoricheski-muzei-tsarevo.jpg",
         "link": "https://www.btsbg.org/100nto/obshchinski-istoricheski-muzey-0",
         "visited": false,
         "lat": 42.1718124,
@@ -342,7 +342,7 @@
       {
         "name": "Регионален исторически музей",
         "number": "9",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/regionalen-istoricheski-muzei-varna.jpg?itok=u0OqeAsi",
+        "image": "/sites/btsbg/029-regionalen-istoricheski-muzei-varna.jpg",
         "link": "https://www.btsbg.org/100nto/regionalen-istoricheski-muzey-0",
         "visited": true,
         "lat": 43.207397,
@@ -351,7 +351,7 @@
       {
         "name": "Военноморски музей",
         "number": "9а",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/voennomorski-muzei-varna.jpg?itok=VZxaCv1H",
+        "image": "/sites/btsbg/030-voennomorski-muzei-varna.jpg",
         "link": "https://www.btsbg.org/100nto/voennomorski-muzey",
         "visited": false,
         "lat": 43.2005425,
@@ -360,7 +360,7 @@
       {
         "name": "Аладжа манастир",
         "number": "9в",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/Aladja_manastir-050_00_b.jpg?itok=ySCk8gOF",
+        "image": "/sites/btsbg/031-aladja-manastir-050-00-b.jpg",
         "link": "https://www.btsbg.org/100nto/aladzha-manastir",
         "visited": true,
         "lat": 43.2779995,
@@ -369,7 +369,7 @@
       {
         "name": "Парк-музей “Владислав Варненчик”",
         "number": "9б",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/IMG_0819.JPG?itok=Wfd4VFVc",
+        "image": "/sites/btsbg/032-img-0819.jpg",
         "link": "https://www.btsbg.org/100nto/park-muzey-vladislav-varnenchik",
         "visited": false,
         "lat": 43.2303208,
@@ -378,7 +378,7 @@
       {
         "name": "РИМСКИ ТЕРМИ",
         "number": "9в",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/1.jpg?itok=jy70vp7I",
+        "image": "/sites/btsbg/033-1.jpg",
         "link": "https://www.btsbg.org/100nto/rimski-termi",
         "visited": false,
         "lat": 43.2002577,
@@ -393,7 +393,7 @@
       {
         "name": "Музей на мозайките",
         "number": "10",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/muzei-na-mozaikite-devnya.jpg?itok=VE1n7QSp",
+        "image": "/sites/btsbg/034-muzei-na-mozaikite-devnya.jpg",
         "link": "https://www.btsbg.org/100nto/muzey-na-mozaykite",
         "visited": false,
         "lat": 43.225396,
@@ -408,7 +408,7 @@
       {
         "name": "Царевец",
         "number": "11",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/tsarevets-veliko-tarnovo.jpg?itok=INzbWJGB",
+        "image": "/sites/btsbg/035-tsarevets-veliko-tarnovo.jpg",
         "link": "https://www.btsbg.org/100nto/carevec",
         "visited": true,
         "lat": 43.0835941,
@@ -417,7 +417,7 @@
       {
         "name": "Регионален исторически музей",
         "number": "11",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/regionalen-istoricheski-muzei-veliko-tarnovo.jpg?itok=UxU6gtSq",
+        "image": "/sites/btsbg/036-regionalen-istoricheski-muzei-veliko-tarnovo.jpg",
         "link": "https://www.btsbg.org/100nto/regionalen-istoricheski-muzey-1",
         "visited": false,
         "lat": 43.0814663,
@@ -426,7 +426,7 @@
       {
         "name": "НИКОПОЛИС АД ИСТРУМ",
         "number": "11а",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/Nicopolis%20ad%20Istrum.JPG?itok=aMJsLyxH",
+        "image": "/sites/btsbg/037-nicopolis-ad-istrum.jpg",
         "link": "https://www.btsbg.org/100nto/nikopolis-ad-istrum",
         "visited": false,
         "lat": 43.2176269,
@@ -441,7 +441,7 @@
       {
         "name": "Къща музей \"Алеко Константинов\"",
         "number": "12",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/kushta-muzei-aleko-konstantinov-svishtov.jpg?itok=LYd1Ef4G",
+        "image": "/sites/btsbg/038-kushta-muzei-aleko-konstantinov-svishtov.jpg",
         "link": "https://www.btsbg.org/100nto/kshcha-muzey-aleko-konstantinov",
         "visited": false,
         "lat": 43.620559,
@@ -456,7 +456,7 @@
       {
         "name": "Къща - музей \"Иларион Макариополски\"",
         "number": "60",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/kushta-muzei-ilarion-makariopolski-elena.jpg?itok=71WaIIdx",
+        "image": "/sites/btsbg/039-kushta-muzei-ilarion-makariopolski-elena.jpg",
         "link": "https://www.btsbg.org/100nto/kshcha-muzey-ilarion-makariopolski",
         "visited": false,
         "lat": 42.9303477,
@@ -465,7 +465,7 @@
       {
         "name": "Арх. - исторически комплекс - Даскалоливница",
         "number": "60",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/arhitekturno-istoricheski-kompleks-daskalolivnitsa-elena.jpg?itok=Ez--CceQ",
+        "image": "/sites/btsbg/040-arhitekturno-istoricheski-kompleks-daskalolivnitsa-elena.jpg",
         "link": "https://www.btsbg.org/100nto/arh-istoricheski-kompleks-daskalolivnica",
         "visited": false,
         "lat": 42.928556,
@@ -480,7 +480,7 @@
       {
         "name": "Регионален исторически музей",
         "number": "83",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/istoricheski-muzei-smolyan.jpg?itok=mS5TBaCZ",
+        "image": "/sites/btsbg/041-istoricheski-muzei-smolyan.jpg",
         "link": "https://www.btsbg.org/100nto/regionalen-istoricheski-muzey-8",
         "visited": true,
         "lat": 41.5763396,
@@ -489,7 +489,7 @@
       {
         "name": "Планетариум",
         "number": "83а",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/planetarium%202.jpg?itok=VxrKm67N",
+        "image": "/sites/btsbg/042-planetarium-2.jpg",
         "link": "https://www.btsbg.org/100nto/planetarium",
         "visited": true,
         "lat": 41.5759377,
@@ -504,7 +504,7 @@
       {
         "name": "Музей на Родопския карст",
         "number": "85а",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/85%D0%B0%20%D0%A0%D0%BE%D0%B4%D0%BE%D0%BF%D1%81%D0%BA%D0%B8%20%D0%BA%D0%B0%D1%80%D1%81%D1%82%2004.jpg?itok=zLHmknH8",
+        "image": "/sites/btsbg/043-85-04.jpg",
         "link": "https://www.btsbg.org/100nto/muzey-na-rodopskiya-karst",
         "visited": false,
         "lat": 41.725246,
@@ -513,7 +513,7 @@
       {
         "name": "Национално астрономическа обсерватория Рожен",
         "number": "85а",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/85%D0%B0%20%D0%9D%D0%90%D0%9E%20%D0%A0%D0%BE%D0%B6%D0%B5%D0%BD%2001.jpg?itok=DUYR0ZcQ",
+        "image": "/sites/btsbg/044-85-01.jpg",
         "link": "https://www.btsbg.org/100nto/nacionalno-astronomicheska-observatoriya-rozhen",
         "visited": false,
         "lat": 41.6933897,
@@ -528,7 +528,7 @@
       {
         "name": "Църква „Св.Константин и Елена”, с. Момчиловци",
         "number": "83б",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/selo-momchilovtsi.jpg?itok=hlaPJuyJ",
+        "image": "/sites/btsbg/045-selo-momchilovtsi.jpg",
         "link": "https://www.btsbg.org/100nto/crkva-svkonstantin-i-elena-s-momchilovci",
         "visited": true,
         "lat": 41.658922,
@@ -543,7 +543,7 @@
       {
         "name": "„Агушеви конаци“",
         "number": "84",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/img_agushevi.jpg?itok=oZZePC0Z",
+        "image": "/sites/btsbg/046-img-agushevi.jpg",
         "link": "https://www.btsbg.org/100nto/agushevi-konaci",
         "visited": false,
         "lat": 41.4881201,
@@ -558,7 +558,7 @@
       {
         "name": "Пещера \"Ухловица\"",
         "number": "84",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/peshtera-uhlovitsa-rodopi.jpg?itok=Exml6SVL",
+        "image": "/sites/btsbg/047-peshtera-uhlovitsa-rodopi.jpg",
         "link": "https://www.btsbg.org/100nto/peshchera-uhlovica",
         "visited": false,
         "lat": 41.514165,
@@ -567,7 +567,7 @@
       {
         "name": "Връх Голям Перелик (2191 м)",
         "number": "85",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/vruh-golyam-perelik-rodopi.jpg?itok=oYsyUArK",
+        "image": "/sites/btsbg/048-vruh-golyam-perelik-rodopi.jpg",
         "link": "https://www.btsbg.org/100nto/vrh-golyam-perelik-2191-m",
         "visited": true,
         "lat": 41.602655,
@@ -576,7 +576,7 @@
       {
         "name": "Пещера \"Шаренка\"",
         "number": "87а",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/peshtera-sharenka-rodopi.jpg?itok=uhrhj2aT",
+        "image": "/sites/btsbg/049-peshtera-sharenka-rodopi.jpg",
         "link": "https://www.btsbg.org/100nto/peshchera-sharenka",
         "visited": false,
         "lat": 41.489794,
@@ -585,7 +585,7 @@
       {
         "name": "Триградско ждрело",
         "number": "88",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/trigradsko-jdrelo-rodopi.jpg?itok=FzZaNlLH",
+        "image": "/sites/btsbg/050-trigradsko-jdrelo-rodopi.jpg",
         "link": "https://www.btsbg.org/100nto/trigradsko-zhdrelo",
         "visited": true,
         "lat": 41.606779,
@@ -594,7 +594,7 @@
       {
         "name": "Пещера \"Дяволско гърло\"",
         "number": "88",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/Devil%27s_Throat_Cave_40_0.jpg?itok=zyCPRcdP",
+        "image": "/sites/btsbg/051-devil-s-throat-cave-40-0.jpg",
         "link": "https://www.btsbg.org/100nto/peshchera-dyavolsko-grlo",
         "visited": true,
         "lat": 41.614885,
@@ -603,7 +603,7 @@
       {
         "name": "Ягодинска пещера",
         "number": "89",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/yagodinska-peshtera-rodopi.jpg?itok=_FexAgKg",
+        "image": "/sites/btsbg/052-yagodinska-peshtera-rodopi.jpg",
         "link": "https://www.btsbg.org/100nto/yagodinska-peshchera",
         "visited": true,
         "lat": 41.628997,
@@ -612,7 +612,7 @@
       {
         "name": "Буйновско ждрело",
         "number": "89",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/buinovsko-jdrelo-rodopi.jpg?itok=pNc7WrQj",
+        "image": "/sites/btsbg/053-buinovsko-jdrelo-rodopi.jpg",
         "link": "https://www.btsbg.org/100nto/buynovsko-zhdrelo",
         "visited": true,
         "lat": 41.649419,
@@ -621,7 +621,7 @@
       {
         "name": "Пещера Лепеница – Дионисиевата пещера",
         "number": "55 А",
-        "image": "https://lovevelingrad.com/wp-content/uploads/2023/05/saeva_cave.jpg",
+        "image": "/sites/btsbg/054-saeva-cave.jpg",
         "link": "https://www.btsbg.org/100nto/peshcherata-lepenica-dionisievata-peshchera",
         "visited": false,
         "lat": 41.9561076,
@@ -636,7 +636,7 @@
       {
         "name": "Връх Снежанка",
         "number": "84а",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/vruh-snejanka-pamporovo.jpg?itok=kWXXwh7N",
+        "image": "/sites/btsbg/055-vruh-snejanka-pamporovo.jpg",
         "link": "https://www.btsbg.org/100nto/vrh-snezhanka",
         "visited": false,
         "lat": 41.636871,
@@ -651,7 +651,7 @@
       {
         "name": "Eтнографски ареален комплекс",
         "number": "86",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/etnogravski-arealen-kompleks-zlatograd.jpg?itok=U3yU8byw",
+        "image": "/sites/btsbg/056-etnogravski-arealen-kompleks-zlatograd.jpg",
         "link": "https://www.btsbg.org/100nto/etnografski-arealen-kompleks",
         "visited": false,
         "lat": 41.3872204,
@@ -666,7 +666,7 @@
       {
         "name": "Широка Лъка (архитектурен резерват)",
         "number": "87",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/arhitekturen-rezervat-shiroka-luka.jpg?itok=TNhpOfWY",
+        "image": "/sites/btsbg/057-arhitekturen-rezervat-shiroka-luka.jpg",
         "link": "https://www.btsbg.org/100nto/shiroka-lka-arhitekturen-rezervat",
         "visited": true,
         "lat": 41.679066,
@@ -681,7 +681,7 @@
       {
         "name": "Кристална зала \"Родопски кристал\"",
         "number": "87а",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/rodopski-kristam-madan.jpg?itok=4clomuTE",
+        "image": "/sites/btsbg/058-rodopski-kristam-madan.jpg",
         "link": "https://www.btsbg.org/100nto/kristalna-zala-rodopski-kristal",
         "visited": false,
         "lat": 41.498355,
@@ -696,7 +696,7 @@
       {
         "name": "Исторически музей",
         "number": "13",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/istoricheski-muzei-vidin.jpg?itok=a8yXeQkz",
+        "image": "/sites/btsbg/059-istoricheski-muzei-vidin.jpg",
         "link": "https://www.btsbg.org/100nto/istoricheski-muzey-1",
         "visited": false,
         "lat": 43.988501,
@@ -705,7 +705,7 @@
       {
         "name": "Крепост \"Баба Вида\"",
         "number": "13",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/krepost-baba-vida-vidin.jpg?itok=XNUJBNil",
+        "image": "/sites/btsbg/060-krepost-baba-vida-vidin.jpg",
         "link": "https://www.btsbg.org/100nto/krepost-baba-vida",
         "visited": false,
         "lat": 43.9929708,
@@ -720,7 +720,7 @@
       {
         "name": "Пещера Магурата (2608 м)",
         "number": "14",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/peshtera-magurata.jpg?itok=Oo6Htpsb",
+        "image": "/sites/btsbg/061-peshtera-magurata.jpg",
         "link": "https://www.btsbg.org/100nto/peshchera-magurata-2608-m",
         "visited": false,
         "lat": 43.727863,
@@ -729,7 +729,7 @@
       {
         "name": "Исторически музей",
         "number": "15",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/istoricheski-muzei-belogradchik.jpg?itok=h301k7Jo",
+        "image": "/sites/btsbg/062-istoricheski-muzei-belogradchik.jpg",
         "link": "https://www.btsbg.org/100nto/istoricheski-muzey-2",
         "visited": false,
         "lat": 43.6248816,
@@ -738,7 +738,7 @@
       {
         "name": "Белоградчишки скали и крепост \"Калето\"",
         "number": "15",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/belogradchishki-skali.jpg?itok=RpabUEPZ",
+        "image": "/sites/btsbg/063-belogradchishki-skali.jpg",
         "link": "https://www.btsbg.org/100nto/belogradchishki-skali-i-krepost-kaleto",
         "visited": false,
         "lat": 43.6249724,
@@ -753,7 +753,7 @@
       {
         "name": "Пещера „Леденика“",
         "number": "16",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/peshtera-ledenika.jpg?itok=kH1GySIQ",
+        "image": "/sites/btsbg/064-peshtera-ledenika.jpg",
         "link": "https://www.btsbg.org/100nto/peshchera-ledenika",
         "visited": false,
         "lat": 43.2045465,
@@ -762,7 +762,7 @@
       {
         "name": "Регионален исторически музей",
         "number": "16",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/regionalen-istoricheski-muzei-vratsa.jpg?itok=Wb7prafm",
+        "image": "/sites/btsbg/065-regionalen-istoricheski-muzei-vratsa.jpg",
         "link": "https://www.btsbg.org/100nto/regionalen-istoricheski-muzey-2",
         "visited": false,
         "lat": 43.2007599,
@@ -771,7 +771,7 @@
       {
         "name": "връх Околчица – Лобното място на Христо Ботев (1048 м)",
         "number": "17",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/vruh-okolchitsa.jpg?itok=2tqLGlUC",
+        "image": "/sites/btsbg/066-vruh-okolchitsa.jpg",
         "link": "https://www.btsbg.org/100nto/vrh-okolchica-lobnoto-myasto-na-hristo-botev-1048-m",
         "visited": false,
         "lat": 43.15415,
@@ -786,7 +786,7 @@
       {
         "name": "Археологически комплекс „КАЛЕТО”",
         "number": "16а",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/arheologicheski-kompleks-kaleto.jpg?itok=2xLDD_x1",
+        "image": "/sites/btsbg/067-arheologicheski-kompleks-kaleto.jpg",
         "link": "https://www.btsbg.org/100nto/arheologicheski-kompleks-kaleto",
         "visited": false,
         "lat": 43.1398748,
@@ -801,7 +801,7 @@
       {
         "name": "Национален музей \"Параход Радецки\"",
         "number": "18",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/parahod-radetski.jpg?itok=dlMM3pZE",
+        "image": "/sites/btsbg/068-parahod-radetski.jpg",
         "link": "https://www.btsbg.org/100nto/nacionalen-muzey-parahod-radecki",
         "visited": false,
         "lat": 43.798699,
@@ -810,7 +810,7 @@
       {
         "name": "Паметник на Христо Ботев и неговата чета",
         "number": "18",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/pametnik-na-hristo-botev-kozlodui.jpg?itok=UdUhHBI5",
+        "image": "/sites/btsbg/069-pametnik-na-hristo-botev-kozlodui.jpg",
         "link": "https://www.btsbg.org/100nto/pametnik-na-hristo-botev-i-negovata-cheta",
         "visited": false,
         "lat": 43.79794,
@@ -825,7 +825,7 @@
       {
         "name": "Музей на образованието",
         "number": "19а",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/muzei-na-obrazovanieto-gabrovo.jpg?itok=XWNYUr-m",
+        "image": "/sites/btsbg/070-muzei-na-obrazovanieto-gabrovo.jpg",
         "link": "https://www.btsbg.org/100nto/muzey-na-obrazovanieto",
         "visited": false,
         "lat": 42.8704016,
@@ -834,7 +834,7 @@
       {
         "name": "Регионален етнографски музей на открито„Етър”",
         "number": "19",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/EMO-Etar-Zanayatchiyska-charshiya-3.jpg?itok=ngraUFvc",
+        "image": "/sites/btsbg/071-emo-etar-zanayatchiyska-charshiya-3.jpg",
         "link": "https://www.btsbg.org/100nto/regionalen-etnografski-muzey-na-otkritoetr",
         "visited": false,
         "lat": 42.80528,
@@ -843,7 +843,7 @@
       {
         "name": "Географски център на България, местността „Узана”",
         "number": "19а",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/uzana-gabrovo.jpg?itok=E6SVj4dn",
+        "image": "/sites/btsbg/072-uzana-gabrovo.jpg",
         "link": "https://www.btsbg.org/100nto/geografski-centr-na-blgariya-mestnostta-uzana",
         "visited": false,
         "lat": 42.750888,
@@ -852,7 +852,7 @@
       {
         "name": "\"Дом на хумора и сатирата” (1 април 1972 г.)",
         "number": "19а",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/%D0%93%D0%B0%D0%B1%D1%80%D0%BE%D0%B2%D0%BE.png?itok=eRrVjCel",
+        "image": "/sites/btsbg/073-site.png",
         "link": "https://www.btsbg.org/100nto/dom-na-humora-i-satirata-1-april-1972-g",
         "visited": false,
         "lat": 42.879446,
@@ -861,7 +861,7 @@
       {
         "name": "Регионален исторически музей – Габрово; Музеен обект Дечкова къща",
         "number": "19б",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/13458605_604980823014360_8155417860428966956_o.jpg?itok=BzWVZ7jX",
+        "image": "/sites/btsbg/074-13458605-604980823014360-8155417860428966956-o.jpg",
         "link": "https://www.btsbg.org/100nto/regionalen-istoricheski-muzey-gabrovo-muzeen-obekt-dechkova-kshcha",
         "visited": false,
         "lat": 42.8731709,
@@ -876,7 +876,7 @@
       {
         "name": "Архитектурно-исторически резерват Боженци",
         "number": "20",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/bozhentsi.jpg?itok=lBmomhtk",
+        "image": "/sites/btsbg/075-bozhentsi.jpg",
         "link": "https://www.btsbg.org/100nto/arhitekturno-istoricheski-rezervat-bozhenci",
         "visited": false,
         "lat": 42.872858,
@@ -891,7 +891,7 @@
       {
         "name": "Специализиран музей за резбарско и етнографско изкуство",
         "number": "21",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/muzei-na-rezbarstvoto-tryavna.jpg?itok=ap1cn0FG",
+        "image": "/sites/btsbg/076-muzei-na-rezbarstvoto-tryavna.jpg",
         "link": "https://www.btsbg.org/100nto/specializiran-muzey-za-rezbarsko-i-etnografsko-izkustvo",
         "visited": false,
         "lat": 42.865089,
@@ -906,7 +906,7 @@
       {
         "name": "Исторически музей Севлиево – Хаджистояново училище",
         "number": "20а",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/20%D0%B0%20%D0%A5%D0%B0%D0%B4%D0%B6%D0%B8%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%BE%D0%B2%D0%BE%20%D1%83%D1%87%D0%B8%D0%BB%D0%B8%D1%89%D0%B5%2003.jpg?itok=dJf95iMA",
+        "image": "/sites/btsbg/077-20-03.jpg",
         "link": "https://www.btsbg.org/100nto/istoricheski-muzey-sevlievo-hadzhistoyanovo-uchilishche",
         "visited": false,
         "lat": 43.026032,
@@ -915,7 +915,7 @@
       {
         "name": "Ранновизантийска и средновековна крепост Хоталич",
         "number": "20а",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/20%D0%B0%20%D0%A5%D0%BE%D1%82%D0%B0%D0%BB%D0%B8%D1%87%2001.jpg?itok=yz_v3RJC",
+        "image": "/sites/btsbg/078-20-01.jpg",
         "link": "https://www.btsbg.org/100nto/rannovizantiyska-i-srednovekovna-krepost-hotalich",
         "visited": false,
         "lat": 43.057005,
@@ -930,7 +930,7 @@
       {
         "name": "Дряновски манастир",
         "number": "22",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/dryanovski-manastir.jpg?itok=EJ5cq1LO",
+        "image": "/sites/btsbg/079-dryanovski-manastir.jpg",
         "link": "https://www.btsbg.org/100nto/dryanovski-manastir",
         "visited": false,
         "lat": 42.950384,
@@ -939,7 +939,7 @@
       {
         "name": "Пещера „Бачо Киро“",
         "number": "22",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/peshtera-bacho-kiro.jpg?itok=4CHLAzOH",
+        "image": "/sites/btsbg/080-peshtera-bacho-kiro.jpg",
         "link": "https://www.btsbg.org/100nto/peshchera-bacho-kiro",
         "visited": false,
         "lat": 42.947245,
@@ -948,7 +948,7 @@
       {
         "name": "Музей „Кольо Фичето“",
         "number": "22а",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/muzei-kolio-ficheto-drianovo.jpg?itok=M85ZAWKG",
+        "image": "/sites/btsbg/081-muzei-kolio-ficheto-drianovo.jpg",
         "link": "https://www.btsbg.org/100nto/muzey-kolo-ficheto",
         "visited": false,
         "lat": 42.979494,
@@ -963,7 +963,7 @@
       {
         "name": "Художествена галерия",
         "number": "23",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/hudojestvena-galeriya-dobrich.jpg?itok=2Hw1RxML",
+        "image": "/sites/btsbg/082-hudojestvena-galeriya-dobrich.jpg",
         "link": "https://www.btsbg.org/100nto/hudozhestvena-galeriya",
         "visited": false,
         "lat": 43.5683536,
@@ -972,7 +972,7 @@
       {
         "name": "Дом - паметник „Й. Йовков“",
         "number": "23",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/dom-pametnik-na-iordan-iovkov-dobrich.jpg?itok=-jqD9Zy1",
+        "image": "/sites/btsbg/083-dom-pametnik-na-iordan-iovkov-dobrich.jpg",
         "link": "https://www.btsbg.org/100nto/dom-pametnik-y-yovkov",
         "visited": false,
         "lat": 43.5637566,
@@ -987,7 +987,7 @@
       {
         "name": "Архитектурен парков комплекс „Двореца“",
         "number": "24",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/kompleks-dvoretsa-balchik.jpg?itok=rruP7OMg",
+        "image": "/sites/btsbg/084-kompleks-dvoretsa-balchik.jpg",
         "link": "https://www.btsbg.org/100nto/arhitekturen-parkov-kompleks-dvoreca",
         "visited": true,
         "lat": 43.40456,
@@ -996,7 +996,7 @@
       {
         "name": "Университетска ботаническа градина",
         "number": "24а",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/universitetska-botanicheska-gradina-balchik.jpg?itok=uQtoGAkJ",
+        "image": "/sites/btsbg/085-universitetska-botanicheska-gradina-balchik.jpg",
         "link": "https://www.btsbg.org/100nto/universitetska-botanicheska-gradina",
         "visited": true,
         "lat": 43.403294,
@@ -1011,7 +1011,7 @@
       {
         "name": "Исторически музей Каварна",
         "number": "24б",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/istoricheski-muzei-kavarna.jpg?itok=g5WZrUj6",
+        "image": "/sites/btsbg/086-istoricheski-muzei-kavarna.jpg",
         "link": "https://www.btsbg.org/100nto/istoricheski-muzey-kavarna",
         "visited": true,
         "lat": 43.432195,
@@ -1026,7 +1026,7 @@
       {
         "name": "Археологически резерват „Калиакра”",
         "number": "24б",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/arheologicheski-rezervat-kaliakra-nos-kaliakra.jpg?itok=eyCwuFmQ",
+        "image": "/sites/btsbg/087-arheologicheski-rezervat-kaliakra-nos-kaliakra.jpg",
         "link": "https://www.btsbg.org/100nto/arheologicheski-rezervat-kaliakra",
         "visited": true,
         "lat": 43.360956,
@@ -1041,7 +1041,7 @@
       {
         "name": "Археологически комплекс „Дуранкулак – Хаманджия“",
         "number": "24 в",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/%D0%94%D1%83%D1%80%D0%B0%D0%BD%D0%BA%D1%83%D0%BB%D0%B0%D0%BA%20%D1%81%D0%B0%D0%B9%D1%82.jpg?itok=c9haNIOs",
+        "image": "/sites/btsbg/088-site.jpg",
         "link": "https://www.btsbg.org/100nto/arheologicheski-kompleks-durankulak-hamandzhiya",
         "visited": false,
         "lat": 43.6694636,
@@ -1056,7 +1056,7 @@
       {
         "name": "Перперикон /Хиперперакион/",
         "number": "25",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/perperikon-kurdjali.jpg?itok=dA5PBNhB",
+        "image": "/sites/btsbg/089-perperikon-kurdjali.jpg",
         "link": "https://www.btsbg.org/100nto/perperikon-hiperperakion",
         "visited": false,
         "lat": 41.714907,
@@ -1065,7 +1065,7 @@
       {
         "name": "Манастир „Св. Йоан Предтеча“",
         "number": "25",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/manastir-sveti-ioan-predtecha-kurdjali.jpg?itok=d5ON2KJN",
+        "image": "/sites/btsbg/090-manastir-sveti-ioan-predtecha-kurdjali.jpg",
         "link": "https://www.btsbg.org/100nto/manastir-sv-yoan-predtecha",
         "visited": false,
         "lat": 41.6265828,
@@ -1074,7 +1074,7 @@
       {
         "name": "Регионален исторически музей",
         "number": "25а",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/regionalen-istoricheski-muzei-kurdjali.jpg?itok=r0GOvWXL",
+        "image": "/sites/btsbg/091-regionalen-istoricheski-muzei-kurdjali.jpg",
         "link": "https://www.btsbg.org/100nto/regionalen-istoricheski-muzey-3",
         "visited": false,
         "lat": 41.6469701,
@@ -1089,7 +1089,7 @@
       {
         "name": "Худ. галерия „Владимир Димитров – Майстора“",
         "number": "26",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/hudojestvena-galeriya-vladimir-dimitrov-maistora-kystendil.jpg?itok=4DSOpYvp",
+        "image": "/sites/btsbg/092-hudojestvena-galeriya-vladimir-dimitrov-maistora-kystendil.jpg",
         "link": "https://www.btsbg.org/100nto/hud-galeriya-vladimir-dimitrov-maystora",
         "visited": false,
         "lat": 42.282925,
@@ -1098,7 +1098,7 @@
       {
         "name": "Къща-музей „Димитър Пешев“",
         "number": "26",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/kushta-muzei-dimitar-peshev-kystendil.jpg?itok=roJdIP8U",
+        "image": "/sites/btsbg/093-kushta-muzei-dimitar-peshev-kystendil.jpg",
         "link": "https://www.btsbg.org/100nto/kshcha-muzey-dimitr-peshev",
         "visited": false,
         "lat": 42.283413,
@@ -1107,7 +1107,7 @@
       {
         "name": "Музей „Средновековна църква Св. Георги“",
         "number": "26",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/tsarkva-sveti-georgi-kystendil.jpg?itok=uN2IphTm",
+        "image": "/sites/btsbg/094-tsarkva-sveti-georgi-kystendil.jpg",
         "link": "https://www.btsbg.org/100nto/muzey-srednovekovna-crkva-sv-georgi",
         "visited": false,
         "lat": 42.270831,
@@ -1116,7 +1116,7 @@
       {
         "name": "Регионален исторически музей",
         "number": "26",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/regionalen-istoricheski-muzei-kystendil.jpg?itok=RxzLQVGy",
+        "image": "/sites/btsbg/095-regionalen-istoricheski-muzei-kystendil.jpg",
         "link": "https://www.btsbg.org/100nto/regionalen-istoricheski-muzey-4",
         "visited": false,
         "lat": 42.287398,
@@ -1125,7 +1125,7 @@
       {
         "name": "Връх Руен (вис. 2 251 м) – първенецът на Осоговска планина",
         "number": "26а",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/vruh-ruen.jpg?itok=cShxV25N",
+        "image": "/sites/btsbg/096-vruh-ruen.jpg",
         "link": "https://www.btsbg.org/100nto/vrh-ruen-vis-2-251-m-prvenect-na-osogovska-planina",
         "visited": false,
         "lat": 42.158003,
@@ -1134,7 +1134,7 @@
       {
         "name": "Музей Рилски манастир в Рилска света обител",
         "number": "28",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/rilski-manastir.jpg?itok=H4fh63Cd",
+        "image": "/sites/btsbg/097-rilski-manastir.jpg",
         "link": "https://www.btsbg.org/100nto/muzey-rilski-manastir-v-rilska-sveta-obitel",
         "visited": false,
         "lat": 42.133403,
@@ -1143,7 +1143,7 @@
       {
         "name": "Хижа „Скакавица“ и Седемте рилски езера",
         "number": "29",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/hija-skakavitsa-sedemte-rilski-ezera.jpg?itok=z5kdLmoK",
+        "image": "/sites/btsbg/098-hija-skakavitsa-sedemte-rilski-ezera.jpg",
         "link": "https://www.btsbg.org/100nto/hizha-skakavica-i-sedemte-rilski-ezera",
         "visited": false,
         "lat": 42.230531,
@@ -1158,7 +1158,7 @@
       {
         "name": "Стобски пирамиди",
         "number": "28а",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/stobski-piramidi-selo-stob.jpg?itok=jwxecIxT",
+        "image": "/sites/btsbg/099-stobski-piramidi-selo-stob.jpg",
         "link": "https://www.btsbg.org/100nto/stobski-piramidi",
         "visited": false,
         "lat": 42.09132,
@@ -1173,7 +1173,7 @@
       {
         "name": "Музей „Васил Левски“",
         "number": "30",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/muzei-vasil-levski-locech.jpg?itok=GI9hL_gH",
+        "image": "/sites/btsbg/100-muzei-vasil-levski-locech.jpg",
         "link": "https://www.btsbg.org/100nto/muzey-vasil-levski",
         "visited": false,
         "lat": 43.1299733,
@@ -1182,7 +1182,7 @@
       {
         "name": "Къкринско ханче",
         "number": "30а",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/kukrinsko-hanche-lovech.jpg?itok=WhozITlQ",
+        "image": "/sites/btsbg/101-kukrinsko-hanche-lovech.jpg",
         "link": "https://www.btsbg.org/100nto/kkrinsko-hanche",
         "visited": false,
         "lat": 43.1247496,
@@ -1191,7 +1191,7 @@
       {
         "name": "Етнографски музей",
         "number": "30б",
-        "image": "https://lovech-museum.bg/wp-content/uploads/2015/08/etno_01.jpg",
+        "image": "/sites/btsbg/102-etno-01.jpg",
         "link": "https://www.btsbg.org/100nto/etnografski-muzey-1",
         "visited": false,
         "lat": 43.1303894,
@@ -1206,7 +1206,7 @@
       {
         "name": "Национален пещерен дом - с. Карлуково",
         "number": "30д",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/PSX_20240629_214117sm.jpg?itok=j-JLp7WX",
+        "image": "/sites/btsbg/103-psx-20240629-214117sm.jpg",
         "link": "https://www.btsbg.org/100nto/nacionalen-peshcheren-dom-s-karlukovo",
         "visited": false,
         "lat": 43.1805213,
@@ -1221,7 +1221,7 @@
       {
         "name": "Деветашка пещера (2 442 м.)",
         "number": "30в",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/devetashka-peshtera.jpg?itok=eDh_aRaF",
+        "image": "/sites/btsbg/104-devetashka-peshtera.jpg",
         "link": "https://www.btsbg.org/100nto/devetashka-peshchera-2-442-m",
         "visited": false,
         "lat": 43.233492,
@@ -1236,7 +1236,7 @@
       {
         "name": "Троянска Света Обител „Усп. Богородично“",
         "number": "31",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/troyanski-manastir.jpg?itok=OAm0WzO7",
+        "image": "/sites/btsbg/105-troyanski-manastir.jpg",
         "link": "https://www.btsbg.org/100nto/troyanska-sveta-obitel-usp-bogorodichno",
         "visited": true,
         "lat": 42.861901,
@@ -1245,7 +1245,7 @@
       {
         "name": "Природонаучен музей - с. Черни Осъм",
         "number": "31а",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/prirodonauchen-muzei-cherni-osum.jpg?itok=AMcL4r2Q",
+        "image": "/sites/btsbg/106-prirodonauchen-muzei-cherni-osum.jpg",
         "link": "https://www.btsbg.org/100nto/prirodonauchen-muzey-s-cherni-osm",
         "visited": false,
         "lat": 42.841096,
@@ -1254,7 +1254,7 @@
       {
         "name": "Музей на народните худ. занаяти и приложните изкуства",
         "number": "31б",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/muzei-na-prlojnite-izkustva-troyan.jpg?itok=JphBGlG2",
+        "image": "/sites/btsbg/107-muzei-na-prlojnite-izkustva-troyan.jpg",
         "link": "https://www.btsbg.org/100nto/muzey-na-narodnite-hud-zanayati-i-prilozhnite-izkustva",
         "visited": false,
         "lat": 42.884355,
@@ -1269,7 +1269,7 @@
       {
         "name": "Исторически музей (осн. 1911 г.)",
         "number": "32",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/istoricheski-muzei-teteven.jpg?itok=OA_dXMq-",
+        "image": "/sites/btsbg/108-istoricheski-muzei-teteven.jpg",
         "link": "https://www.btsbg.org/100nto/istoricheski-muzey-osn-1911-g",
         "visited": false,
         "lat": 42.9256667,
@@ -1284,7 +1284,7 @@
       {
         "name": "Пещера „Съева дупка“ (400 м)",
         "number": "33",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/peshtera-saeva-dupka.jpg?itok=pjRPzsxk",
+        "image": "/sites/btsbg/109-peshtera-saeva-dupka.jpg",
         "link": "https://www.btsbg.org/100nto/peshchera-seva-dupka-400-m",
         "visited": false,
         "lat": 43.046985,
@@ -1299,7 +1299,7 @@
       {
         "name": "Регионален исторически музей - Монтана",
         "number": "34а",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/01.jpg?itok=2foRhvT4",
+        "image": "/sites/btsbg/110-01.jpg",
         "link": "https://www.btsbg.org/100nto/regionalen-istoricheski-muzey-montana",
         "visited": false,
         "lat": 43.4054978,
@@ -1308,7 +1308,7 @@
       {
         "name": "връх Ком (2016 m) - Стара планина",
         "number": "34",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/vruh-kom.jpg?itok=fYvm66F0",
+        "image": "/sites/btsbg/111-vruh-kom.jpg",
         "link": "https://www.btsbg.org/100nto/vrh-kom-2016-m-stara-planina",
         "visited": false,
         "lat": 43.173863,
@@ -1323,7 +1323,7 @@
       {
         "name": "Етнографски музей",
         "number": "34",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/etnogravski-muzei-berkovitsa.jpg?itok=8AEn0hRy",
+        "image": "/sites/btsbg/112-etnogravski-muzei-berkovitsa.jpg",
         "link": "https://www.btsbg.org/100nto/etnografski-muzey",
         "visited": false,
         "lat": 43.2387368,
@@ -1332,7 +1332,7 @@
       {
         "name": "Къща музей „Иван Вазов”",
         "number": "34",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/kushta-muzei-ivan-vazov-berkovitsa.jpg?itok=uzZTrmX2",
+        "image": "/sites/btsbg/113-kushta-muzei-ivan-vazov-berkovitsa.jpg",
         "link": "https://www.btsbg.org/100nto/kshcha-muzey-ivan-vazov",
         "visited": false,
         "lat": 43.2390995,
@@ -1347,7 +1347,7 @@
       {
         "name": "Исторически музей",
         "number": "69",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/istoricheski-muzei-chiprovtsi.jpg?itok=rv6Dx4ke",
+        "image": "/sites/btsbg/114-istoricheski-muzei-chiprovtsi.jpg",
         "link": "https://www.btsbg.org/100nto/istoricheski-muzey-3",
         "visited": false,
         "lat": 43.3835151,
@@ -1356,7 +1356,7 @@
       {
         "name": "Манастир „Св. Ив. Рилски”",
         "number": "69",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/manastir-sveti-ivan-rilski-chiprovtsi.jpg?itok=wVgIjzz9",
+        "image": "/sites/btsbg/115-manastir-sveti-ivan-rilski-chiprovtsi.jpg",
         "link": "https://www.btsbg.org/100nto/manastir-sv-iv-rilski",
         "visited": false,
         "lat": 43.403824,
@@ -1371,7 +1371,7 @@
       {
         "name": "Къща-музей „Станислав Доспевски”",
         "number": "35",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/kushta-muzei-stanislav-dospevski-pazardzik.jpg?itok=t-oDN3x3",
+        "image": "/sites/btsbg/116-kushta-muzei-stanislav-dospevski-pazardzik.jpg",
         "link": "https://www.btsbg.org/100nto/kshcha-muzey-stanislav-dospevski",
         "visited": false,
         "lat": 42.186385,
@@ -1380,7 +1380,7 @@
       {
         "name": "Катедрална църква „Св. Богородица”",
         "number": "35",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/katerdalna-tsarkva-sveta-bogoroditsa-pazardzik.jpg?itok=vpF8s9Yp",
+        "image": "/sites/btsbg/117-katerdalna-tsarkva-sveta-bogoroditsa-pazardzik.jpg",
         "link": "https://www.btsbg.org/100nto/katedralna-crkva-sv-bogorodica",
         "visited": false,
         "lat": 42.187286,
@@ -1389,7 +1389,7 @@
       {
         "name": "Регионален исторически музей",
         "number": "35",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/regionalen-istoricheski-muzei-pazardzik.jpg?itok=AtG1OHvN",
+        "image": "/sites/btsbg/118-regionalen-istoricheski-muzei-pazardzik.jpg",
         "link": "https://www.btsbg.org/100nto/regionalen-istoricheski-muzey-5",
         "visited": false,
         "lat": 42.190567,
@@ -1404,7 +1404,7 @@
       {
         "name": "Историческа местност „Оборище“",
         "number": "36",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/istoricheska-mestnost-oborishte.jpg?itok=EPXknM9f",
+        "image": "/sites/btsbg/119-istoricheska-mestnost-oborishte.jpg",
         "link": "https://www.btsbg.org/100nto/istoricheska-mestnost-oborishche",
         "visited": false,
         "lat": 42.536892,
@@ -1413,7 +1413,7 @@
       {
         "name": "Къща - музей „Райна Княгиня“",
         "number": "36",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/kushta-muzei-raina-knyaginya-panagyrishte.jpg?itok=rsTp7-LJ",
+        "image": "/sites/btsbg/120-kushta-muzei-raina-knyaginya-panagyrishte.jpg",
         "link": "https://www.btsbg.org/100nto/kshcha-muzey-rayna-knyaginya",
         "visited": false,
         "lat": 42.5066408,
@@ -1428,7 +1428,7 @@
       {
         "name": "Пещера – пещера „Снежанка“ (Дължина: 145 м)",
         "number": "37",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/peshtera-snezjanka.jpg?itok=aKCRgKRp",
+        "image": "/sites/btsbg/121-peshtera-snezjanka.jpg",
         "link": "https://www.btsbg.org/100nto/peshchera-peshchera-snezhanka-dlzhina-145-m",
         "visited": false,
         "lat": 42.0031093,
@@ -1437,7 +1437,7 @@
       {
         "name": "крепост \"Перистера\"",
         "number": "37а",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/krepost-paristera.jpg?itok=fc8ZbC6x",
+        "image": "/sites/btsbg/122-krepost-paristera.jpg",
         "link": "https://www.btsbg.org/100nto/krepost-peristera",
         "visited": false,
         "lat": 42.0389931,
@@ -1452,7 +1452,7 @@
       {
         "name": "Исторически музей",
         "number": "38",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/istoricheski-muzei-batak.jpg?itok=XWBvzHBy",
+        "image": "/sites/btsbg/123-istoricheski-muzei-batak.jpg",
         "link": "https://www.btsbg.org/100nto/istoricheski-muzey-4",
         "visited": false,
         "lat": 41.9427049,
@@ -1467,7 +1467,7 @@
       {
         "name": "Исторически музей – Стрелча",
         "number": "36а",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/36%D0%B0%20%D0%A1%D1%82%D1%80%D0%B5%D0%BB%D1%87%D0%B0%2001.jpg?itok=Xukf6a7Y",
+        "image": "/sites/btsbg/124-36-01.jpg",
         "link": "https://www.btsbg.org/100nto/istoricheski-muzey-strelcha",
         "visited": false,
         "lat": 42.5070548,
@@ -1482,7 +1482,7 @@
       {
         "name": "Вила-музей \"Александър стамболийски\"",
         "number": "35а",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/vila-muzei-aleksandur-stamboliiski.jpg?itok=6tR-KvFR",
+        "image": "/sites/btsbg/125-vila-muzei-aleksandur-stamboliiski.jpg",
         "link": "https://www.btsbg.org/100nto/vila-muzey-aleksandr-stamboliyski",
         "visited": false,
         "lat": 42.314611,
@@ -1497,7 +1497,7 @@
       {
         "name": "Исторически музей",
         "number": "55",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/istoricheski-muzei-velingrad.jpg?itok=nFaBL9f-",
+        "image": "/sites/btsbg/126-istoricheski-muzei-velingrad.jpg",
         "link": "https://www.btsbg.org/100nto/istoricheski-muzey-5",
         "visited": false,
         "lat": 42.0438669,
@@ -1512,7 +1512,7 @@
       {
         "name": "Градски исторически музей",
         "number": "70",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/istoricheski-muzei-bratsigovo.jpg?itok=bbvBEJVR",
+        "image": "/sites/btsbg/127-istoricheski-muzei-bratsigovo.jpg",
         "link": "https://www.btsbg.org/100nto/gradski-istoricheski-muzey",
         "visited": false,
         "lat": 42.022909,
@@ -1527,7 +1527,7 @@
       {
         "name": "Ждрелото на р. Ерма",
         "number": "39",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/zhdreloto-na-reka-erma.jpg?itok=Bjv21vRI",
+        "image": "/sites/btsbg/128-zhdreloto-na-reka-erma.jpg",
         "link": "https://www.btsbg.org/100nto/zhdreloto-na-r-erma",
         "visited": false,
         "lat": 42.861794,
@@ -1542,7 +1542,7 @@
       {
         "name": "Подземен минен музей",
         "number": "39а",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/podzemen-minen-muzei-pernik.jpg?itok=z8Vtbsyj",
+        "image": "/sites/btsbg/129-podzemen-minen-muzei-pernik.jpg",
         "link": "https://www.btsbg.org/100nto/podzemen-minen-muzey",
         "visited": true,
         "lat": 42.609556,
@@ -1557,7 +1557,7 @@
       {
         "name": "Регионален исторически музей",
         "number": "40",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/regionalen-istoricheski-muzei-pleven.jpg?itok=XX7LFtsU",
+        "image": "/sites/btsbg/130-regionalen-istoricheski-muzei-pleven.jpg",
         "link": "https://www.btsbg.org/100nto/regionalen-istoricheski-muzey-6",
         "visited": false,
         "lat": 43.4038377,
@@ -1566,7 +1566,7 @@
       {
         "name": "Мавзолей-параклис „Св. Георги Победоносец“",
         "number": "40",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/mavzolei-sveti-georgi-pobedonosets-pleven.jpg?itok=ZHeEze7J",
+        "image": "/sites/btsbg/131-mavzolei-sveti-georgi-pobedonosets-pleven.jpg",
         "link": "https://www.btsbg.org/100nto/mavzoley-paraklis-sv-georgi-pobedonosec",
         "visited": false,
         "lat": 43.407405,
@@ -1575,7 +1575,7 @@
       {
         "name": "Панорама „Плевенска епопея – 1877 г.“",
         "number": "40",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/panoramata-pleven.jpg?itok=vfRw_S6C",
+        "image": "/sites/btsbg/132-panoramata-pleven.jpg",
         "link": "https://www.btsbg.org/100nto/panorama-plevenska-epopeya-1877-g",
         "visited": true,
         "lat": 43.398811,
@@ -1590,7 +1590,7 @@
       {
         "name": "Античен кастел и митница „Димум“",
         "number": "72б",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/72%D0%B1%20%D0%94%D0%B8%D0%BC%D1%83%D0%BC%2001.jpg?itok=iM4QZJQn",
+        "image": "/sites/btsbg/133-72-01.jpg",
         "link": "https://www.btsbg.org/100nto/antichen-kastel-i-mitnica-dimum",
         "visited": false,
         "lat": 43.652433,
@@ -1599,7 +1599,7 @@
       {
         "name": "Лагерът „Белене“",
         "number": "72б",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/72%D0%B1%20%D0%9B%D0%B0%D0%B3%D0%B5%D1%80%20%D0%91%D0%B5%D0%BB%D0%B5%D0%BD%D0%B5%2001.jpg?itok=8uTIlkyB",
+        "image": "/sites/btsbg/134-72-01.jpg",
         "link": "https://www.btsbg.org/100nto/lagert-belene",
         "visited": false,
         "lat": 43.671829,
@@ -1614,7 +1614,7 @@
       {
         "name": "Исторически музей",
         "number": "41",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/istoricheski-muzei-plovdiv.jpg?itok=7_E_sT67",
+        "image": "/sites/btsbg/135-istoricheski-muzei-plovdiv.jpg",
         "link": "https://www.btsbg.org/100nto/istoricheski-muzey-7",
         "visited": false,
         "lat": 42.6366858,
@@ -1623,7 +1623,7 @@
       {
         "name": "Етнографски музей",
         "number": "41",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/etnogravski-muzei-plovdiv.jpg?itok=OZNHfyZ9",
+        "image": "/sites/btsbg/136-etnogravski-muzei-plovdiv.jpg",
         "link": "https://www.btsbg.org/100nto/etnografski-muzey-0",
         "visited": false,
         "lat": 42.14999,
@@ -1632,7 +1632,7 @@
       {
         "name": "Античен театър",
         "number": "41",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/antichen-teatur-plovdiv.jpg?itok=PU63LytD",
+        "image": "/sites/btsbg/137-antichen-teatur-plovdiv.jpg",
         "link": "https://www.btsbg.org/100nto/antichen-teatr",
         "visited": false,
         "lat": 42.1469923,
@@ -1641,7 +1641,7 @@
       {
         "name": "Къща “Хиндлиян”",
         "number": "41",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/41%20%D0%9A%D1%8A%D1%89%D0%B0%20%D0%A5%D0%B8%D0%BD%D0%B4%D0%BB%D0%B8%D1%8F%D0%BD%2001.jpeg?itok=lOKD72Np",
+        "image": "/sites/btsbg/138-41-01.jpeg",
         "link": "https://www.btsbg.org/100nto/kshcha-hindliyan",
         "visited": false,
         "lat": 42.14992,
@@ -1650,7 +1650,7 @@
       {
         "name": "Епископската базилика на Филипопол",
         "number": "41б",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/41%D0%B1%20%D0%95%D0%BF%D0%B8%D1%81%D0%BA%D0%BE%D0%BF%D1%81%D0%BA%D0%B0%20%D0%B1%D0%B0%D0%B7%D0%B8%D0%BB%D0%B8%D0%BA%D0%B0%2001.jpg?itok=inzXxmZv",
+        "image": "/sites/btsbg/139-41-01.jpg",
         "link": "https://www.btsbg.org/100nto/episkopskata-bazilika-na-filipopol",
         "visited": false,
         "lat": 42.1426054,
@@ -1659,7 +1659,7 @@
       {
         "name": "Късноантична сграда „Ирини“ от Филипопол",
         "number": "41б",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/41%D0%B1%20%D0%98%D1%80%D0%B8%D0%BD%D0%B8%2001.jpg?itok=WZTks38F",
+        "image": "/sites/btsbg/140-41-01.jpg",
         "link": "https://www.btsbg.org/100nto/ksnoantichna-sgrada-irini-ot-filipopol",
         "visited": false,
         "lat": 42.144913,
@@ -1668,7 +1668,7 @@
       {
         "name": "Малка Раннохристиянска базилика",
         "number": "41б",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/41%D0%B1.%20%D0%9C%D0%B0%D0%BB%D0%BA%D0%B0%20%D0%A0%D0%B0%D0%BD%D0%BD%D0%BE%D1%85%D1%80%D0%B8%D1%81%D1%82%D0%B8%D1%8F%D0%BD%D1%81%D0%BA%D0%B0%20%D0%B1%D0%B0%D0%B7%D0%B8%D0%BB%D0%B8%D0%BA%D0%B0%2001.jpeg?itok=yxuK36OE",
+        "image": "/sites/btsbg/141-41-01.jpeg",
         "link": "https://www.btsbg.org/100nto/malka-rannohristiyanska-bazilika",
         "visited": false,
         "lat": 42.146494,
@@ -1683,7 +1683,7 @@
       {
         "name": "Връх Кадрафил - Гробът на Хаджи Димитър",
         "number": "44в",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/%D0%A5%D0%B0%D0%B4%D0%B6%D0%B8%20%D0%94%D0%B8%D0%BC%D0%B8%D1%82%D1%8A%D1%80.jpg?itok=xsyf7X2U",
+        "image": "/sites/btsbg/142-site.jpg",
         "link": "https://www.btsbg.org/100nto/vrh-kadrafil-grobt-na-hadzhi-dimitr",
         "visited": false,
         "lat": 42.504503,
@@ -1692,7 +1692,7 @@
       {
         "name": "Къща-музей \"Полк. В. Серафимов\"",
         "number": "44в",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/%D0%A1%D0%B5%D1%80%D0%B0%D1%84%D0%B8%D0%BC%D0%BE%D0%B2.jpg?itok=i6ZQFNYM",
+        "image": "/sites/btsbg/143-site.jpg",
         "link": "https://www.btsbg.org/100nto/kshcha-muzey-polk-v-serafimov",
         "visited": false,
         "lat": 42.5070894,
@@ -1707,7 +1707,7 @@
       {
         "name": "Исторически музей",
         "number": "42",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/istoricheski-muzei-perushtitsa.jpg?itok=SHL5fydE",
+        "image": "/sites/btsbg/144-istoricheski-muzei-perushtitsa.jpg",
         "link": "https://www.btsbg.org/100nto/istoricheski-muzey-8",
         "visited": true,
         "lat": 42.0556131,
@@ -1722,7 +1722,7 @@
       {
         "name": "Къща-музей „Иван Вазов“",
         "number": "43",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/kushta-muzei-ivan-vazov-sopot.jpg?itok=9gArB7s-",
+        "image": "/sites/btsbg/145-kushta-muzei-ivan-vazov-sopot.jpg",
         "link": "https://www.btsbg.org/100nto/kshcha-muzey-ivan-vazov-0",
         "visited": false,
         "lat": 42.6542156,
@@ -1731,7 +1731,7 @@
       {
         "name": "Женски метох",
         "number": "43",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/jenski-metoh-sopot.jpg?itok=9tmsCgu4",
+        "image": "/sites/btsbg/146-jenski-metoh-sopot.jpg",
         "link": "https://www.btsbg.org/100nto/zhenski-metoh",
         "visited": false,
         "lat": 42.655622,
@@ -1746,7 +1746,7 @@
       {
         "name": "Национален музей „Васил Левски“",
         "number": "44",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/muzei-vasil-levski-karlovo.jpg?itok=GaaNBFF1",
+        "image": "/sites/btsbg/147-muzei-vasil-levski-karlovo.jpg",
         "link": "https://www.btsbg.org/100nto/nacionalen-muzey-vasil-levski",
         "visited": false,
         "lat": 43.129966,
@@ -1755,7 +1755,7 @@
       {
         "name": "Исторически музей",
         "number": "44а",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/istoricheski-muzei-karlovo.jpg?itok=Uhz2yWzj",
+        "image": "/sites/btsbg/148-istoricheski-muzei-karlovo.jpg",
         "link": "https://www.btsbg.org/100nto/istoricheski-muzey-6",
         "visited": false,
         "lat": 42.6366858,
@@ -1764,7 +1764,7 @@
       {
         "name": "Архитектурен туристически комплекс „Старинно Карлово“",
         "number": "44б",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/%D1%81%D0%B0%D0%B9%D1%82.jpg?itok=_m2PihQP",
+        "image": "/sites/btsbg/149-site.jpg",
         "link": "https://www.btsbg.org/100nto/arhitekturen-turisticheski-kompleks-starinno-karlovo",
         "visited": false,
         "lat": 42.638957,
@@ -1779,7 +1779,7 @@
       {
         "name": "Нац. музей „Христо Ботев“",
         "number": "45",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/muzei-hristo-botev-kalofer.jpg?itok=qqTHJjE0",
+        "image": "/sites/btsbg/150-muzei-hristo-botev-kalofer.jpg",
         "link": "https://www.btsbg.org/100nto/nac-muzey-hristo-botev",
         "visited": false,
         "lat": 42.611171,
@@ -1788,7 +1788,7 @@
       {
         "name": "Природен феномен „Райско пръскало“",
         "number": "45б",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/%D0%92%D0%BE%D0%B4%D0%BE%D0%BF%D0%B0%D0%B4%20%D0%A0%D0%B0%D0%B9%D1%81%D0%BA%D0%BE%20%D0%BF%D1%80%D1%8A%D1%81%D0%BA%D0%B0%D0%BB%D0%BE%20%287%29.jpg?itok=dzfSyZ5e",
+        "image": "/sites/btsbg/151-7.jpg",
         "link": "https://www.btsbg.org/100nto/priroden-fenomen-raysko-prskalo",
         "visited": false,
         "lat": 42.701192,
@@ -1797,7 +1797,7 @@
       {
         "name": "Връх Ботев – Стара планина",
         "number": "45а",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/vruh-botev.jpg?itok=aNaYr4Rx",
+        "image": "/sites/btsbg/152-vruh-botev.jpg",
         "link": "https://www.btsbg.org/100nto/vrh-botev-stara-planina",
         "visited": false,
         "lat": 42.717184,
@@ -1812,7 +1812,7 @@
       {
         "name": "Асенова крепост",
         "number": "47",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/asenova-krepost-asenovgrad.jpg?itok=rqXYU4ZE",
+        "image": "/sites/btsbg/153-asenova-krepost-asenovgrad.jpg",
         "link": "https://www.btsbg.org/100nto/asenova-krepost",
         "visited": false,
         "lat": 41.9866813,
@@ -1821,7 +1821,7 @@
       {
         "name": "Исторически музей",
         "number": "47а",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/istoricheski-muzei-asenovgrad.jpg?itok=4t1iUEVY",
+        "image": "/sites/btsbg/154-istoricheski-muzei-asenovgrad.jpg",
         "link": "https://www.btsbg.org/100nto/istoricheski-muzey-9",
         "visited": false,
         "lat": 42.0065169,
@@ -1836,7 +1836,7 @@
       {
         "name": "Бачковски манастир",
         "number": "47б",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/bachkovski-manastir.jpg?itok=hs9YnMXq",
+        "image": "/sites/btsbg/155-bachkovski-manastir.jpg",
         "link": "https://www.btsbg.org/100nto/bachkovski-manastir",
         "visited": true,
         "lat": 41.9417765,
@@ -1851,7 +1851,7 @@
       {
         "name": "Тракийска гробница",
         "number": "67",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/trakiiska-grobnitsa-starosel.jpg?itok=Vdwg022g",
+        "image": "/sites/btsbg/156-trakiiska-grobnitsa-starosel.jpg",
         "link": "https://www.btsbg.org/100nto/trakiyska-grobnica",
         "visited": false,
         "lat": 42.5121,
@@ -1866,7 +1866,7 @@
       {
         "name": "Археологически музей",
         "number": "67а",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/arheologicheski-muzei-hisarya.jpg?itok=n_f8istF",
+        "image": "/sites/btsbg/157-arheologicheski-muzei-hisarya.jpg",
         "link": "https://www.btsbg.org/100nto/arheologicheski-muzey-1",
         "visited": false,
         "lat": 42.5018847,
@@ -1881,7 +1881,7 @@
       {
         "name": "Исторически музей",
         "number": "77",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/istoricheski-muzei-klisura.jpg?itok=eoQW69Mv",
+        "image": "/sites/btsbg/158-istoricheski-muzei-klisura.jpg",
         "link": "https://www.btsbg.org/100nto/istoricheski-muzey-10",
         "visited": false,
         "lat": 42.6942539,
@@ -1896,7 +1896,7 @@
       {
         "name": "Арх. резерват „Абритус“",
         "number": "48",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/arhitekturen-rezervat-arbitus-razgrad.jpg?itok=g_x2FOZI",
+        "image": "/sites/btsbg/159-arhitekturen-rezervat-arbitus-razgrad.jpg",
         "link": "https://www.btsbg.org/100nto/arh-rezervat-abritus",
         "visited": false,
         "lat": 43.522106,
@@ -1911,7 +1911,7 @@
       {
         "name": "Исторически музей",
         "number": "49",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/istoricheski-muzei-isperih.jpg?itok=m-zF-lJv",
+        "image": "/sites/btsbg/160-istoricheski-muzei-isperih.jpg",
         "link": "https://www.btsbg.org/100nto/istoricheski-muzey-12",
         "visited": false,
         "lat": 43.7164325,
@@ -1920,7 +1920,7 @@
       {
         "name": "ИАР „Сборяново“",
         "number": "49",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/sboryanovo-isperih.jpg?itok=nNwBRRnq",
+        "image": "/sites/btsbg/161-sboryanovo-isperih.jpg",
         "link": "https://www.btsbg.org/100nto/iar-sboryanovo",
         "visited": false,
         "lat": 43.740306,
@@ -1929,7 +1929,7 @@
       {
         "name": "„Демир Баба теке“ и тракийски град Хелис – с. Свещари",
         "number": "49",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/demir-baba-teke.jpg?itok=fNu3TBKX",
+        "image": "/sites/btsbg/162-demir-baba-teke.jpg",
         "link": "https://www.btsbg.org/100nto/demir-baba-teke-i-trakiyski-grad-helis-s-sveshchari",
         "visited": false,
         "lat": 43.738778,
@@ -1944,7 +1944,7 @@
       {
         "name": "Пантеон на Възрожденците",
         "number": "50",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/panteon-na-vazrojdencite-ruse.jpg?itok=mpEFm3JS",
+        "image": "/sites/btsbg/163-panteon-na-vazrojdencite-ruse.jpg",
         "link": "https://www.btsbg.org/100nto/panteon-na-vzrozhdencite",
         "visited": false,
         "lat": 43.8506675,
@@ -1953,7 +1953,7 @@
       {
         "name": "Къща-музей „Захари Стоянов“",
         "number": "50",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/kushta-muzei-zahari-stoyanov-ruse.jpg?itok=dTVVuCVY",
+        "image": "/sites/btsbg/164-kushta-muzei-zahari-stoyanov-ruse.jpg",
         "link": "https://www.btsbg.org/100nto/kshcha-muzey-zahari-stoyanov",
         "visited": false,
         "lat": 43.8514466,
@@ -1968,7 +1968,7 @@
       {
         "name": "Скален Манастир \"Димитрий Басарбовски\"",
         "number": "50б",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/skalen-manastir-dimitrii-basarbovski.jpg?itok=wrYWmMSx",
+        "image": "/sites/btsbg/165-skalen-manastir-dimitrii-basarbovski.jpg",
         "link": "https://www.btsbg.org/100nto/skalen-manastir-dimitriy-basarbovski",
         "visited": false,
         "lat": 43.766608,
@@ -1983,7 +1983,7 @@
       {
         "name": "Ивановски скални манастири",
         "number": "50а",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/ivanovski-skalni-manastiri.jpg?itok=CbMkluY4",
+        "image": "/sites/btsbg/166-ivanovski-skalni-manastiri.jpg",
         "link": "https://www.btsbg.org/100nto/ivanovski-skalni-manastiri",
         "visited": false,
         "lat": 43.694718,
@@ -1998,7 +1998,7 @@
       {
         "name": "Манастир \"Света Марина\"",
         "number": "50в",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/manastir-sveta-marina.jpg?itok=C74CGyBj",
+        "image": "/sites/btsbg/167-manastir-sveta-marina.jpg",
         "link": "https://www.btsbg.org/100nto/manastir-sveta-marina",
         "visited": false,
         "lat": 43.476619,
@@ -2013,7 +2013,7 @@
       {
         "name": "Исторически музей",
         "number": "51",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/istoricheski-muzei-silistra.jpg?itok=XxvMUhne",
+        "image": "/sites/btsbg/168-istoricheski-muzei-silistra.jpg",
         "link": "https://www.btsbg.org/100nto/istoricheski-muzey-14",
         "visited": false,
         "lat": 44.0503722,
@@ -2028,7 +2028,7 @@
       {
         "name": "резерват „Сребърна“",
         "number": "52",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/rezervat-sreburna.jpg?itok=A373krOX",
+        "image": "/sites/btsbg/169-rezervat-sreburna.jpg",
         "link": "https://www.btsbg.org/100nto/rezervat-srebrna",
         "visited": false,
         "lat": 44.102256,
@@ -2043,7 +2043,7 @@
       {
         "name": "Музей на Дунавския риболов",
         "number": "53",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/%D0%95%D1%82%D0%BD%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D1%81%D0%BA%D0%B8%20%D0%BC%D1%83%D0%B7%D0%B5%D0%B9.jpg?itok=x-5pWTQT",
+        "image": "/sites/btsbg/170-site.jpg",
         "link": "https://www.btsbg.org/100nto/muzey-na-dunavskiya-ribolov",
         "visited": false,
         "lat": 44.049353,
@@ -2052,7 +2052,7 @@
       {
         "name": "Мемориал „Военно гробище-1916 г.\"",
         "number": "53",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/DSC_0117.JPG?itok=C5i0Dou1",
+        "image": "/sites/btsbg/171-dsc-0117.jpg",
         "link": "https://www.btsbg.org/100nto/memorial-voenno-grobishche-1916-g",
         "visited": false,
         "lat": 43.9767,
@@ -2067,7 +2067,7 @@
       {
         "name": "Къща-музей „Хаджи Димитър“",
         "number": "54",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/kushta-muzei-hadji-dimitar-sliven.jpg?itok=MMnfak_0",
+        "image": "/sites/btsbg/172-kushta-muzei-hadji-dimitar-sliven.jpg",
         "link": "https://www.btsbg.org/100nto/kshcha-muzey-hadzhi-dimitr",
         "visited": false,
         "lat": 42.6784474,
@@ -2076,7 +2076,7 @@
       {
         "name": "Национален музей на текстилната индустрия",
         "number": "54",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/muzei-na-tekstilnata-industriya-sliven.jpg?itok=z4i1nWxW",
+        "image": "/sites/btsbg/173-muzei-na-tekstilnata-industriya-sliven.jpg",
         "link": "https://www.btsbg.org/100nto/nacionalen-muzey-na-tekstilnata-industriya",
         "visited": false,
         "lat": 42.6896197,
@@ -2085,7 +2085,7 @@
       {
         "name": "Художествена галерия \"Димитър Добрович\"",
         "number": "54а",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/hudojestvena-galeriya-sliven.jpg?itok=ljqyvPX1",
+        "image": "/sites/btsbg/174-hudojestvena-galeriya-sliven.jpg",
         "link": "https://www.btsbg.org/100nto/hudozhestvena-galeriya-dimitr-dobrovich",
         "visited": false,
         "lat": 42.6804728,
@@ -2094,7 +2094,7 @@
       {
         "name": "Къща - музей \"Сливенски бит\"",
         "number": "54б",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/muzei.jpg?itok=5u1z3PYQ",
+        "image": "/sites/btsbg/175-muzei.jpg",
         "link": "https://www.btsbg.org/100nto/kshcha-muzey-slivenski-bit",
         "visited": false,
         "lat": 42.68738,
@@ -2103,7 +2103,7 @@
       {
         "name": "Антична крепост „Туида“",
         "number": "54б",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/IMG_9096%20%D0%A2%D1%83%D0%B8%D0%B4%D0%B0%20%D1%81%D0%B0%D0%B9%D1%82.jpg?itok=4tftZn28",
+        "image": "/sites/btsbg/176-img-9096.jpg",
         "link": "https://www.btsbg.org/100nto/antichna-krepost-tuida",
         "visited": false,
         "lat": 42.6892737,
@@ -2118,7 +2118,7 @@
       {
         "name": "Пантеон на Георги Раковски и Музей на котленските възрожденци",
         "number": "56",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/panteon-na-rakovski-kotel.jpg?itok=pVSkR3EV",
+        "image": "/sites/btsbg/177-panteon-na-rakovski-kotel.jpg",
         "link": "https://www.btsbg.org/100nto/panteon-na-georgi-rakovski-i-muzey-na-kotlenskite-vzrozhdenci",
         "visited": false,
         "lat": 42.888816,
@@ -2127,7 +2127,7 @@
       {
         "name": "Природонаучен музей",
         "number": "56",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/prirodonauchen-muzei-kotel.jpg?itok=WcUNux5n",
+        "image": "/sites/btsbg/178-prirodonauchen-muzei-kotel.jpg",
         "link": "https://www.btsbg.org/100nto/prirodonauchen-muzey",
         "visited": false,
         "lat": 42.8883399,
@@ -2142,7 +2142,7 @@
       {
         "name": "Къща-музей „Йордан Йовков”",
         "number": "57",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/kushta-muzei-iordan-iovkov-jeravna.jpg?itok=pnzk440J",
+        "image": "/sites/btsbg/179-kushta-muzei-iordan-iovkov-jeravna.jpg",
         "link": "https://www.btsbg.org/100nto/kshcha-muzey-yordan-yovkov",
         "visited": false,
         "lat": 42.832564,
@@ -2157,7 +2157,7 @@
       {
         "name": "Исторически музей „Каранова могила”",
         "number": "76",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/muzei-karanova-mogila-nova-zagora.jpg?itok=Hfv42Nrv",
+        "image": "/sites/btsbg/180-muzei-karanova-mogila-nova-zagora.jpg",
         "link": "https://www.btsbg.org/100nto/istoricheski-muzey-karanova-mogila",
         "visited": false,
         "lat": 42.491593,
@@ -2172,7 +2172,7 @@
       {
         "name": "Национален исторически музей",
         "number": "58",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/nacionalen-istoricheski-muzei-sofia.jpg?itok=A-4f9G4B",
+        "image": "/sites/btsbg/181-nacionalen-istoricheski-muzei-sofia.jpg",
         "link": "https://www.btsbg.org/100nto/nacionalen-istoricheski-muzey",
         "visited": true,
         "lat": 42.6550407,
@@ -2181,7 +2181,7 @@
       {
         "name": "Национален музей „Боянска черква“",
         "number": "58а",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/boyanska-cherkva-sofia.jpg?itok=sDX0G4-r",
+        "image": "/sites/btsbg/182-boyanska-cherkva-sofia.jpg",
         "link": "https://www.btsbg.org/100nto/nacionalen-muzey-boyanska-cherkva",
         "visited": true,
         "lat": 42.644625,
@@ -2190,7 +2190,7 @@
       {
         "name": "Храм-паметник „Александър Невски“",
         "number": "59",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/hram-pametnik-aleksandur-nevski.jpg?itok=gXe-R5lS",
+        "image": "/sites/btsbg/183-hram-pametnik-aleksandur-nevski.jpg",
         "link": "https://www.btsbg.org/100nto/hram-pametnik-aleksandr-nevski",
         "visited": false,
         "lat": 42.6958124,
@@ -2199,7 +2199,7 @@
       {
         "name": "Национален военноисторически музей",
         "number": "59а",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/voennoistoricheski-muzei-sofia.jpg?itok=mV018nC8",
+        "image": "/sites/btsbg/184-voennoistoricheski-muzei-sofia.jpg",
         "link": "https://www.btsbg.org/100nto/nacionalen-voennoistoricheski-muzey",
         "visited": false,
         "lat": 42.6887621,
@@ -2208,7 +2208,7 @@
       {
         "name": "Национален музей „Земята и хората“",
         "number": "61",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/muzei-zemyata-i-horata-sofia.jpg?itok=r1Iq7hRX",
+        "image": "/sites/btsbg/185-muzei-zemyata-i-horata-sofia.jpg",
         "link": "https://www.btsbg.org/100nto/nacionalen-muzey-zemyata-i-horata",
         "visited": false,
         "lat": 42.6797867,
@@ -2217,7 +2217,7 @@
       {
         "name": "Национален дворец на културата",
         "number": "61а",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/ndk-sofia.jpg?itok=fOx1DGN5",
+        "image": "/sites/btsbg/186-ndk-sofia.jpg",
         "link": "https://www.btsbg.org/100nto/nacionalen-dvorec-na-kulturata",
         "visited": false,
         "lat": 42.6847601,
@@ -2226,7 +2226,7 @@
       {
         "name": "Национален етнографски музей (ИЕФЕМ - БАН)",
         "number": "62",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/nacionalna-hudojestvena-galeriya-sofia_0.jpg?itok=W3RG1v4-",
+        "image": "/sites/btsbg/187-nacionalna-hudojestvena-galeriya-sofia-0.jpg",
         "link": "https://www.btsbg.org/100nto/nacionalen-etnografski-muzey-iefem-ban",
         "visited": false,
         "lat": 42.6963353,
@@ -2235,7 +2235,7 @@
       {
         "name": "Национална художествена галерия",
         "number": "63а",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/nacionalna-hudojestvena-galeriya-sofia_1.jpg?itok=o3bFJCGZ",
+        "image": "/sites/btsbg/188-nacionalna-hudojestvena-galeriya-sofia-1.jpg",
         "link": "https://www.btsbg.org/100nto/nacionalna-hudozhestvena-galeriya",
         "visited": false,
         "lat": 42.6965175,
@@ -2244,7 +2244,7 @@
       {
         "name": "Национален природонаучен музей при БАН",
         "number": "65",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/%D1%81%D0%B3%D1%80%D0%B0%D0%B4%D0%B0%20%D0%9D%D0%9F%D0%9C-%D0%91%D0%90%D0%9D.jpg?itok=P0FYZhGs",
+        "image": "/sites/btsbg/189-site.jpg",
         "link": "https://www.btsbg.org/100nto/nacionalen-prirodonauchen-muzey-pri-ban",
         "visited": false,
         "lat": 42.6959958,
@@ -2253,7 +2253,7 @@
       {
         "name": "Софийска синагога",
         "number": "65а",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/65%D0%B0%20%D0%A1%D0%B8%D0%BD%D0%B0%D0%B3%D0%BE%D0%B3%D0%B0%2001.jpg?itok=7Gib7lm0",
+        "image": "/sites/btsbg/190-65-01.jpg",
         "link": "https://www.btsbg.org/100nto/sofiyska-sinagoga",
         "visited": false,
         "lat": 42.700265,
@@ -2262,7 +2262,7 @@
       {
         "name": "Музей на физическата култура и спорта",
         "number": "66",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/muzei-na-fizicheskata-kultura-i-sporta-sofia.jpg?itok=JQCvpfgo",
+        "image": "/sites/btsbg/191-muzei-na-fizicheskata-kultura-i-sporta-sofia.jpg",
         "link": "https://www.btsbg.org/100nto/muzey-na-fizicheskata-kultura-i-sporta",
         "visited": false,
         "lat": 42.688106,
@@ -2271,7 +2271,7 @@
       {
         "name": "Зоопарк",
         "number": "64",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/zoologicheska-gradina-sofia.jpg?itok=9FmCdnrL",
+        "image": "/sites/btsbg/192-zoologicheska-gradina-sofia.jpg",
         "link": "https://www.btsbg.org/100nto/zoopark",
         "visited": true,
         "lat": 42.6582061,
@@ -2280,7 +2280,7 @@
       {
         "name": "Национален антропологичен музей",
         "number": "66а",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/nacionalen-antropologichen-muzei-sofia.jpg?itok=q3VbGc-y",
+        "image": "/sites/btsbg/193-nacionalen-antropologichen-muzei-sofia.jpg",
         "link": "https://www.btsbg.org/100nto/nacionalen-antropologichen-muzey",
         "visited": false,
         "lat": 42.6793487,
@@ -2289,7 +2289,7 @@
       {
         "name": "Археологически институт с музей при БАН",
         "number": "68",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/arheologicheski-institut-ban.jpg?itok=Pq7GIG8M",
+        "image": "/sites/btsbg/194-arheologicheski-institut-ban.jpg",
         "link": "https://www.btsbg.org/100nto/arheologicheski-institut-s-muzey-pri-ban",
         "visited": false,
         "lat": 42.696522,
@@ -2298,7 +2298,7 @@
       {
         "name": "Национален политехнически музей",
         "number": "68а",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/nacionalen-politehnicheski-muzei.jpg?itok=vR4LamhG",
+        "image": "/sites/btsbg/195-nacionalen-politehnicheski-muzei.jpg",
         "link": "https://www.btsbg.org/100nto/nacionalen-politehnicheski-muzey",
         "visited": true,
         "lat": 42.7040528,
@@ -2307,7 +2307,7 @@
       {
         "name": "Черни връх – Витоша",
         "number": "74а",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/cherni-vruh.jpg?itok=IGtb2Jm9",
+        "image": "/sites/btsbg/196-cherni-vruh.jpg",
         "link": "https://www.btsbg.org/100nto/cherni-vrh-vitosha",
         "visited": false,
         "lat": 42.563085,
@@ -2316,7 +2316,7 @@
       {
         "name": "хижа Алеко - Витоша (1977 м.н.в)",
         "number": "74",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/hija-aleko.jpg?itok=JHk0_vNa",
+        "image": "/sites/btsbg/197-hija-aleko.jpg",
         "link": "https://www.btsbg.org/100nto/hizha-aleko-vitosha-1977-mnv",
         "visited": false,
         "lat": 42.58262,
@@ -2331,7 +2331,7 @@
       {
         "name": "Исторически музей",
         "number": "63",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/istoricheski-muzei-etropole.jpg?itok=PRVBEvBe",
+        "image": "/sites/btsbg/198-istoricheski-muzei-etropole.jpg",
         "link": "https://www.btsbg.org/100nto/istoricheski-muzey-13",
         "visited": false,
         "lat": 42.8305022,
@@ -2340,7 +2340,7 @@
       {
         "name": "Часовниковата кула",
         "number": "63",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/chasovnikova-kula-etropole.jpg?itok=Bnwa_0QM",
+        "image": "/sites/btsbg/199-chasovnikova-kula-etropole.jpg",
         "link": "https://www.btsbg.org/100nto/chasovnikovata-kula",
         "visited": false,
         "lat": 42.829803,
@@ -2349,7 +2349,7 @@
       {
         "name": "манастир „Св. Троица”",
         "number": "63",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/manastir-sveta-troica-etropole.jpg?itok=RrUCJbMC",
+        "image": "/sites/btsbg/200-manastir-sveta-troica-etropole.jpg",
         "link": "https://www.btsbg.org/100nto/manastir-sv-troica",
         "visited": false,
         "lat": 42.823862,
@@ -2364,7 +2364,7 @@
       {
         "name": "Копривщица – АИР",
         "number": "75",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/%D0%BA%D0%BE%D0%BF%D1%80%D0%B8%D0%B2%D1%89%D0%B8%D1%86%D0%B0.jpg?itok=URmcpuBj",
+        "image": "/sites/btsbg/201-site.jpg",
         "link": "https://www.btsbg.org/100nto/koprivshchica-air",
         "visited": true,
         "lat": 42.640036,
@@ -2379,7 +2379,7 @@
       {
         "name": "Къща-музей „Елин Пелин“",
         "number": "82б",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/20160824_135914.jpg?itok=CFDY0TL7",
+        "image": "/sites/btsbg/202-20160824-135914.jpg",
         "link": "https://www.btsbg.org/100nto/kshcha-muzey-elin-pelin",
         "visited": false,
         "lat": 42.656793,
@@ -2394,7 +2394,7 @@
       {
         "name": "Първи войнишки паметник",
         "number": "62а",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/DSC_0017.JPG?itok=dK6lYUnl",
+        "image": "/sites/btsbg/203-dsc-0017.jpg",
         "link": "https://www.btsbg.org/100nto/prvi-voynishki-pametnik",
         "visited": false,
         "lat": 42.846965,
@@ -2409,7 +2409,7 @@
       {
         "name": "Манарстир ”7-те престола”",
         "number": "78",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/manastir-sedemte-prestola.jpg?itok=IHBcqHCZ",
+        "image": "/sites/btsbg/204-manastir-sedemte-prestola.jpg",
         "link": "https://www.btsbg.org/100nto/manarstir-7-te-prestola",
         "visited": false,
         "lat": 42.99974,
@@ -2424,7 +2424,7 @@
       {
         "name": "Исторически музей",
         "number": "79",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/istoricheski-muzei-samokov.jpg?itok=GDjDcIZh",
+        "image": "/sites/btsbg/205-istoricheski-muzei-samokov.jpg",
         "link": "https://www.btsbg.org/100nto/istoricheski-muzey-11",
         "visited": false,
         "lat": 42.3393535,
@@ -2433,7 +2433,7 @@
       {
         "name": "Девически манастир",
         "number": "79",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/devicheski-manastir-samokov.jpg?itok=TaPsx0_M",
+        "image": "/sites/btsbg/206-devicheski-manastir-samokov.jpg",
         "link": "https://www.btsbg.org/100nto/devicheski-manastir",
         "visited": false,
         "lat": 42.3310845,
@@ -2448,7 +2448,7 @@
       {
         "name": "Цари Мали Град",
         "number": "79а",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/tsari-mali-grad.jpg?itok=wZZ4Qrwx",
+        "image": "/sites/btsbg/207-tsari-mali-grad.jpg",
         "link": "https://www.btsbg.org/100nto/cari-mali-grad",
         "visited": false,
         "lat": 42.354112,
@@ -2463,7 +2463,7 @@
       {
         "name": "вр. Мусала (2925 м.) - Рила",
         "number": "80",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/vruh-musala.jpg?itok=vV4Qfdx0",
+        "image": "/sites/btsbg/208-vruh-musala.jpg",
         "link": "https://www.btsbg.org/100nto/vr-musala-2925-m-rila",
         "visited": false,
         "lat": 42.179132,
@@ -2478,7 +2478,7 @@
       {
         "name": "Исторически музей",
         "number": "82а",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/istoricheski-muzei-botevgrad.jpg?itok=70XrL7tC",
+        "image": "/sites/btsbg/209-istoricheski-muzei-botevgrad.jpg",
         "link": "https://www.btsbg.org/100nto/istoricheski-muzey-0",
         "visited": false,
         "lat": 42.9066342,
@@ -2487,7 +2487,7 @@
       {
         "name": "Часовникова кула",
         "number": "82a",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/chasovnikova-kula-botevgrad.jpg?itok=rhWEx-fD",
+        "image": "/sites/btsbg/210-chasovnikova-kula-botevgrad.jpg",
         "link": "https://www.btsbg.org/100nto/chasovnikova-kula",
         "visited": false,
         "lat": 42.907967,
@@ -2496,7 +2496,7 @@
       {
         "name": "Паметник-костница на Ботевите четници",
         "number": "82",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/pametnik-na-botevite-chetnici.jpg?itok=Rl3l8s6S",
+        "image": "/sites/btsbg/211-pametnik-na-botevite-chetnici.jpg",
         "link": "https://www.btsbg.org/100nto/pametnik-kostnica-na-botevite-chetnici",
         "visited": false,
         "lat": 42.952218,
@@ -2511,7 +2511,7 @@
       {
         "name": "Къща-музей на Пейо К. Яворов",
         "number": "71",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/kushta-muzei-peio-yavorov-chirpan.jpg?itok=_ZyKF4cw",
+        "image": "/sites/btsbg/212-kushta-muzei-peio-yavorov-chirpan.jpg",
         "link": "https://www.btsbg.org/100nto/kshcha-muzey-na-peyo-k-yavorov",
         "visited": false,
         "lat": 42.201989,
@@ -2520,7 +2520,7 @@
       {
         "name": "Худ. галерия „Никола Манев“",
         "number": "71",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/hudojestvena-galeriya-nikola-manev-chirpan.jpg?itok=-rBjMwlN",
+        "image": "/sites/btsbg/213-hudojestvena-galeriya-nikola-manev-chirpan.jpg",
         "link": "https://www.btsbg.org/100nto/hud-galeriya-nikola-manev",
         "visited": false,
         "lat": 42.201691,
@@ -2535,7 +2535,7 @@
       {
         "name": "Манастир „Св. Атанасий“",
         "number": "71",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/manastir-sveti-atanasii-zlatna-livada.jpg?itok=aeptLo0x",
+        "image": "/sites/btsbg/214-manastir-sveti-atanasii-zlatna-livada.jpg",
         "link": "https://www.btsbg.org/100nto/manastir-sv-atanasiy",
         "visited": false,
         "lat": 42.105976,
@@ -2550,7 +2550,7 @@
       {
         "name": "Регионален исторически музей",
         "number": "90",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/%D0%A0%D0%98%D0%9C%20%D0%A1%D0%A2%20%D0%97%D0%90%D0%93%D0%9E%D0%A0%D0%90.jpg?itok=pVPiiguG",
+        "image": "/sites/btsbg/215-site.jpg",
         "link": "https://www.btsbg.org/100nto/regionalen-istoricheski-muzey-7",
         "visited": false,
         "lat": 42.426576,
@@ -2559,7 +2559,7 @@
       {
         "name": "Музей \"Неолитни жилища\"",
         "number": "90",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/muzei-neolitni-jilishta-stara-zagora.jpg?itok=tI4SRnAb",
+        "image": "/sites/btsbg/216-muzei-neolitni-jilishta-stara-zagora.jpg",
         "link": "https://www.btsbg.org/100nto/muzey-neolitni-zhilishcha",
         "visited": false,
         "lat": 42.4245653,
@@ -2568,7 +2568,7 @@
       {
         "name": "Паметник \"Бранителите на Стара Загора 1877 г.\"",
         "number": "90",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/branitelite-na-stara-zagora.jpg?itok=5CVKXwqt",
+        "image": "/sites/btsbg/217-branitelite-na-stara-zagora.jpg",
         "link": "https://www.btsbg.org/100nto/pametnik-branitelite-na-stara-zagora-1877-g",
         "visited": false,
         "lat": 42.433435,
@@ -2583,7 +2583,7 @@
       {
         "name": "Връх Шипка – Национален парк-музей „Шипка“ - паметник на свободата",
         "number": "93",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/vruh-shipka.jpg?itok=TM4yfbBy",
+        "image": "/sites/btsbg/218-vruh-shipka.jpg",
         "link": "https://www.btsbg.org/100nto/vrh-shipka-nacionalen-park-muzey-shipka-pametnik-na-svobodata",
         "visited": false,
         "lat": 42.748117,
@@ -2598,7 +2598,7 @@
       {
         "name": "Тракийска гробница",
         "number": "91",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/trakiiska-grobnitsa-kazanluk.jpg?itok=fs60XZIR",
+        "image": "/sites/btsbg/219-trakiiska-grobnitsa-kazanluk.jpg",
         "link": "https://www.btsbg.org/100nto/trakiyska-grobnica-0",
         "visited": false,
         "lat": 42.6257742,
@@ -2607,7 +2607,7 @@
       {
         "name": "Литературно-художествен музей „Чудомир“",
         "number": "91",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/muzei-chudomir-kazanluk.jpg?itok=ynumbVLG",
+        "image": "/sites/btsbg/220-muzei-chudomir-kazanluk.jpg",
         "link": "https://www.btsbg.org/100nto/literaturno-hudozhestven-muzey-chudomir",
         "visited": false,
         "lat": 42.620149,
@@ -2622,7 +2622,7 @@
       {
         "name": "Храм-паметник „Рождество Христово“",
         "number": "92",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/hram-rojdestvo-hristovo-grad-shipka.jpg?itok=ATQITDbH",
+        "image": "/sites/btsbg/221-hram-rojdestvo-hristovo-grad-shipka.jpg",
         "link": "https://www.btsbg.org/100nto/hram-pametnik-rozhdestvo-hristovo",
         "visited": false,
         "lat": 42.7160652,
@@ -2637,7 +2637,7 @@
       {
         "name": "Средновековна крепост „Мисионис“",
         "number": "81",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/krepost-misionis-turgivishte.jpg?itok=rzO4DVtX",
+        "image": "/sites/btsbg/222-krepost-misionis-turgivishte.jpg",
         "link": "https://www.btsbg.org/100nto/srednovekovna-krepost-misionis",
         "visited": false,
         "lat": 43.19802,
@@ -2646,7 +2646,7 @@
       {
         "name": "Славейковото училище",
         "number": "81",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/slaveikovoto-uchilishte-turgovishte.jpg?itok=I2NeaWQW",
+        "image": "/sites/btsbg/223-slaveikovoto-uchilishte-turgovishte.jpg",
         "link": "https://www.btsbg.org/100nto/slaveykovoto-uchilishche",
         "visited": false,
         "lat": 43.242053,
@@ -2661,7 +2661,7 @@
       {
         "name": "Исторически музей гр. Попово",
         "number": "81а",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/81%D0%B0%20%D0%9F%D0%BE%D0%BF%D0%BE%D0%B2%D0%BE%2001.jpg?itok=LdOjUXnw",
+        "image": "/sites/btsbg/224-81-01.jpg",
         "link": "https://www.btsbg.org/100nto/istoricheski-muzey-gr-popovo",
         "visited": false,
         "lat": 43.3490195,
@@ -2676,7 +2676,7 @@
       {
         "name": "Монумент „Света Богородица“",
         "number": "72",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/monument-sveta-bogoroditsa-haskovo.jpg?itok=rm6eOOYS",
+        "image": "/sites/btsbg/225-monument-sveta-bogoroditsa-haskovo.jpg",
         "link": "https://www.btsbg.org/100nto/monument-sveta-bogorodica",
         "visited": false,
         "lat": 41.9283616,
@@ -2685,7 +2685,7 @@
       {
         "name": "Средновековна крепост (с.Мезек)",
         "number": "72а",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/srednovekovna-krepost-selo-mezek.jpg?itok=k8dGq3cc",
+        "image": "/sites/btsbg/226-srednovekovna-krepost-selo-mezek.jpg",
         "link": "https://www.btsbg.org/100nto/srednovekovna-krepost-smezek",
         "visited": false,
         "lat": 41.7511678,
@@ -2700,7 +2700,7 @@
       {
         "name": "Тракийска куполна гробница",
         "number": "72а",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/trakiiska-kupolna-grobnitsa-selo-mezek.jpg?itok=MxzNvqyt",
+        "image": "/sites/btsbg/227-trakiiska-kupolna-grobnitsa-selo-mezek.jpg",
         "link": "https://www.btsbg.org/100nto/trakiyska-kupolna-grobnica",
         "visited": false,
         "lat": 41.734846,
@@ -2715,7 +2715,7 @@
       {
         "name": "Антична вила „Армира”",
         "number": "72в",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/IMG_9092%20%D0%90%D1%80%D0%BC%D0%B8%D1%80%D0%B0.jpeg?itok=DGDKQ61-",
+        "image": "/sites/btsbg/228-img-9092.jpeg",
         "link": "https://www.btsbg.org/100nto/antichna-vila-armira",
         "visited": false,
         "lat": 41.499203,
@@ -2724,7 +2724,7 @@
       {
         "name": "Общински исторически музей",
         "number": "72в",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/obshtinski-istoricheski-muzei-ivailovgrad.jpg?itok=fSHvlILS",
+        "image": "/sites/btsbg/229-obshtinski-istoricheski-muzei-ivailovgrad.jpg",
         "link": "https://www.btsbg.org/100nto/obshchinski-istoricheski-muzey-1",
         "visited": false,
         "lat": 41.5274093,
@@ -2739,7 +2739,7 @@
       {
         "name": "Александровска гробница и музеен център",
         "number": "72",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/aleksandrovska-grobmitsa-selo-aleksandrovo.jpg?itok=iCh0Xn4G",
+        "image": "/sites/btsbg/230-aleksandrovska-grobmitsa-selo-aleksandrovo.jpg",
         "link": "https://www.btsbg.org/100nto/aleksandrovska-grobnica-i-muzeen-centr",
         "visited": false,
         "lat": 41.981546,
@@ -2754,7 +2754,7 @@
       {
         "name": "Природозащитен център \"Източни Родопи\"",
         "number": "72 г",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/31144246_1779588932062643_811286173656809472_n.jpg?itok=glfswi_b",
+        "image": "/sites/btsbg/231-31144246-1779588932062643-811286173656809472-n.jpg",
         "link": "https://www.btsbg.org/100nto/prirodozashchiten-centr-iztochni-rodopi",
         "visited": false,
         "lat": 41.6433306,
@@ -2769,7 +2769,7 @@
       {
         "name": "Исторически музей (създ. 1951 г.)",
         "number": "73",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/istoricheski-muzei-dimitrovgrad.jpg?itok=seKgjtJe",
+        "image": "/sites/btsbg/232-istoricheski-muzei-dimitrovgrad.jpg",
         "link": "https://www.btsbg.org/100nto/istoricheski-muzey-szd-1951-g",
         "visited": false,
         "lat": 42.057402,
@@ -2778,7 +2778,7 @@
       {
         "name": "Дом-музей „Пеньо Пенев“ (създаден през 1964 г.)",
         "number": "73",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/dom-muzei-penio-penev-dimitrovgrad.jpg?itok=504PJxGV",
+        "image": "/sites/btsbg/233-dom-muzei-penio-penev-dimitrovgrad.jpg",
         "link": "https://www.btsbg.org/100nto/dom-muzey-peno-penev-szdaden-prez-1964-g",
         "visited": false,
         "lat": 42.055996,
@@ -2787,7 +2787,7 @@
       {
         "name": "Астрономическа обсерватория „Джордано Бруно“",
         "number": "73",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/observatoriya-djordano-bruno-dimitrovgrad.jpg?itok=cP-D8Qqy",
+        "image": "/sites/btsbg/234-observatoriya-djordano-bruno-dimitrovgrad.jpg",
         "link": "https://www.btsbg.org/100nto/astronomicheska-observatoriya-dzhordano-bruno",
         "visited": false,
         "lat": 42.045962,
@@ -2802,7 +2802,7 @@
       {
         "name": "Регионален исторически музей",
         "number": "94",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/regionalen-istoricheski-muzei-shumen.jpg?itok=4HQ5rm0X",
+        "image": "/sites/btsbg/235-regionalen-istoricheski-muzei-shumen.jpg",
         "link": "https://www.btsbg.org/100nto/regionalen-istoricheski-muzey-9",
         "visited": true,
         "lat": 43.2703419,
@@ -2811,7 +2811,7 @@
       {
         "name": "ИАР „Шуменска крепост“",
         "number": "94",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/shumenska-krepost-shumen.jpg?itok=dT3IDJrB",
+        "image": "/sites/btsbg/236-shumenska-krepost-shumen.jpg",
         "link": "https://www.btsbg.org/100nto/iar-shumenska-krepost",
         "visited": false,
         "lat": 43.262523,
@@ -2820,7 +2820,7 @@
       {
         "name": "Паметник \"Създатели на българската държава\"",
         "number": "94а",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/pametnik-1300-godini-balgaria-shumen.jpg?itok=aLjzx2cQ",
+        "image": "/sites/btsbg/237-pametnik-1300-godini-balgaria-shumen.jpg",
         "link": "https://www.btsbg.org/100nto/pametnik-szdateli-na-blgarskata-drzhava",
         "visited": true,
         "lat": 43.2621837,
@@ -2829,7 +2829,7 @@
       {
         "name": "Томбул джамия \"Шериф Халил паша - 1744 г.\"",
         "number": "95",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/tombul-djamiya-shumen.jpg?itok=Q-LWXjud",
+        "image": "/sites/btsbg/238-tombul-djamiya-shumen.jpg",
         "link": "https://www.btsbg.org/100nto/tombul-dzhamiya-sherif-halil-pasha-1744-g",
         "visited": true,
         "lat": 43.269491,
@@ -2844,7 +2844,7 @@
       {
         "name": "Национален ИАР \"Плиска\"",
         "number": "96",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/arheologicheski-rezervat-pliska.jpg?itok=boaaxKgw",
+        "image": "/sites/btsbg/239-arheologicheski-rezervat-pliska.jpg",
         "link": "https://www.btsbg.org/100nto/nacionalen-iar-pliska",
         "visited": true,
         "lat": 43.3861559,
@@ -2859,7 +2859,7 @@
       {
         "name": "НИАР „Мадарски конник“",
         "number": "97",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/madarski-konnik.jpg?itok=ehuZIa1v",
+        "image": "/sites/btsbg/240-madarski-konnik.jpg",
         "link": "https://www.btsbg.org/100nto/niar-madarski-konnik",
         "visited": false,
         "lat": 43.276877,
@@ -2874,7 +2874,7 @@
       {
         "name": "Национален ИАР \"Велики Преслав\"",
         "number": "98",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/veliki-preslav.jpg?itok=h0swBl6E",
+        "image": "/sites/btsbg/241-veliki-preslav.jpg",
         "link": "https://www.btsbg.org/100nto/nacionalen-iar-veliki-preslav",
         "visited": false,
         "lat": 43.153297,
@@ -2889,7 +2889,7 @@
       {
         "name": "Регионален исторически музей",
         "number": "99",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/regionalen-istoricheski-muzei-yambol.jpg?itok=CF-UMoIo",
+        "image": "/sites/btsbg/242-regionalen-istoricheski-muzei-yambol.jpg",
         "link": "https://www.btsbg.org/100nto/regionalen-istoricheski-muzey-10",
         "visited": false,
         "lat": 42.4833409,
@@ -2898,7 +2898,7 @@
       {
         "name": "Античен град \"Кабиле\"",
         "number": "99",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/antichen-grad-kabile-yambol.jpg?itok=wex1RCAA",
+        "image": "/sites/btsbg/243-antichen-grad-kabile-yambol.jpg",
         "link": "https://www.btsbg.org/100nto/antichen-grad-kabile",
         "visited": false,
         "lat": 42.547038,
@@ -2907,7 +2907,7 @@
       {
         "name": "МУЗЕЙ НА БОЙНАТА СЛАВА",
         "number": "99б",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/main_img.jpg?itok=AMyfTiU3",
+        "image": "/sites/btsbg/244-main-img.jpg",
         "link": "https://www.btsbg.org/100nto/muzey-na-boynata-slava",
         "visited": false,
         "lat": 42.4894062,
@@ -2916,7 +2916,7 @@
       {
         "name": "Безистен с интерактивен музей",
         "number": "99а",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/2019-09-11-YAMBOL-BEZISTEN-10.jpg?itok=c4A7R5db",
+        "image": "/sites/btsbg/245-2019-09-11-yambol-bezisten-10.jpg",
         "link": "https://www.btsbg.org/100nto/bezisten-s-interaktiven-muzey",
         "visited": false,
         "lat": 42.483745,
@@ -2931,7 +2931,7 @@
       {
         "name": "Етнографско-археологически музей",
         "number": "100",
-        "image": "https://www.btsbg.org/sites/default/files/styles/768x576/public/obekti/etnogravsko-arheologicheski-muzei-elhovo.jpg?itok=YSE89jig",
+        "image": "/sites/btsbg/246-etnogravsko-arheologicheski-muzei-elhovo.jpg",
         "link": "https://www.btsbg.org/100nto/etnografsko-arheologicheski-muzey",
         "visited": false,
         "lat": 42.171212,

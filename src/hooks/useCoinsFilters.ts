@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useMemo } from "react";
+import { useMemo } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { randomId } from "@/utils";
 import coins from "@/data/coins.json";
@@ -9,14 +9,20 @@ export function useCoinsFilters() {
   const router = useRouter();
   const searchParams = useSearchParams();
 
-  const initialLocation = searchParams.get("filters[location]") || "all";
-  const initialCollected = searchParams.get("filters[collected]") || "all";
+  const selectedLocation = searchParams.get("filters[location]") || "all";
+  const collectedFilter = searchParams.get("filters[collected]") || "all";
 
-  const [selectedLocation, setSelectedLocation] =
-    useState<string>(initialLocation);
+  const setSelectedLocation = (value: string) => {
+    router.replace(
+      `?filters[location]=${encodeURIComponent(value)}&filters[collected]=${encodeURIComponent(collectedFilter)}`,
+    );
+  };
 
-  const [collectedFilter, setCollectedFilter] =
-    useState<string>(initialCollected);
+  const setCollectedFilter = (value: string) => {
+    router.replace(
+      `?filters[location]=${encodeURIComponent(selectedLocation)}&filters[collected]=${encodeURIComponent(value)}`,
+    );
+  };
 
   const locationsByProvince = useMemo(() => {
     const provinces = [...new Set(coins.map((coin) => coin.province))].sort();
@@ -98,10 +104,6 @@ export function useCoinsFilters() {
   );
 
   const queryString = `filters[location]=${encodeURIComponent(selectedLocation)}&filters[collected]=${encodeURIComponent(collectedFilter)}`;
-
-  useEffect(() => {
-    router.push(`?${queryString}`);
-  }, [queryString, router]);
 
   return {
     selectedLocation,

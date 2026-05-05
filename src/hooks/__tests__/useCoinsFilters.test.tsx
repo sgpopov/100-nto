@@ -1,18 +1,15 @@
 import { renderHook } from "@testing-library/react";
 import { describe, it, expect, vi, beforeEach } from "vitest";
 
-const pushMock = vi.fn();
+const replaceMock = vi.fn();
 
-const searchParamsMock = {
-  params: new URLSearchParams(),
-  get(key: string) {
-    return this.params.get(key);
-  },
+let searchParamsRef: { get: (key: string) => string | null } = {
+  get: () => null,
 };
 
 vi.mock("next/navigation", () => ({
-  useRouter: () => ({ push: pushMock, replace: vi.fn() }),
-  useSearchParams: () => searchParamsMock,
+  useRouter: () => ({ replace: replaceMock }),
+  useSearchParams: () => searchParamsRef,
 }));
 
 vi.mock("@/data/coins.json", () => ({
@@ -67,12 +64,13 @@ vi.mock("@/data/coins.json", () => ({
 import { useCoinsFilters } from "@/hooks/useCoinsFilters";
 
 const setSearch = (qs: string) => {
-  searchParamsMock.params = new URLSearchParams(qs);
+  const params = new URLSearchParams(qs);
+  searchParamsRef = { get: (key: string) => params.get(key) };
 };
 
 describe("useCoinsFilters", () => {
   beforeEach(() => {
-    pushMock.mockClear();
+    replaceMock.mockClear();
     setSearch("");
   });
 
@@ -152,16 +150,46 @@ describe("useCoinsFilters", () => {
     const { result } = renderHook(() => useCoinsFilters());
 
     expect(result.current.queryString).toBe(
-      `filters[location]=${encodeURIComponent("София")}&filters[collected]=yes`
+      `filters[location]=${encodeURIComponent("София")}&filters[collected]=yes`,
     );
   });
 
-  it("pushes the queryString to the router on mount", () => {
-    setSearch("filters[location]=София");
+  it("does not call router.replace on mount", () => {
     renderHook(() => useCoinsFilters());
 
-    expect(pushMock).toHaveBeenCalledWith(
-      `?filters[location]=${encodeURIComponent("София")}&filters[collected]=all`
+    expect(replaceMock).not.toHaveBeenCalled();
+  });
+
+  it("calls router.replace when setSelectedLocation is called", () => {
+    const { result } = renderHook(() => useCoinsFilters());
+
+    result.current.setSelectedLocation("София");
+
+    expect(replaceMock).toHaveBeenCalledWith(
+      `?filters[location]=${encodeURIComponent("София")}&filters[collected]=all`,
     );
+  });
+
+  it("calls router.replace when setCollectedFilter is called", () => {
+    const { result } = renderHook(() => useCoinsFilters());
+
+    result.current.setCollectedFilter("yes");
+
+    expect(replaceMock).toHaveBeenCalledWith(
+      `?filters[location]=all&filters[collected]=yes`,
+    );
+  });
+
+  it("reflects updated URL params on re-render (back/forward navigation)", () => {
+    const { result, rerender } = renderHook(() => useCoinsFilters());
+
+    expect(result.current.selectedLocation).toBe("all");
+    expect(result.current.collectedFilter).toBe("all");
+
+    setSearch("filters[location]=София&filters[collected]=yes");
+    rerender();
+
+    expect(result.current.selectedLocation).toBe("София");
+    expect(result.current.collectedFilter).toBe("yes");
   });
 });

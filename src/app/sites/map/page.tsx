@@ -20,7 +20,19 @@ export default function SitesMapPage() {
           active: site.visited,
           popup: (
             <div>
-              <div className="font-semibold">{site.name}</div>
+              <img
+                src={site.image}
+                alt={site.name}
+                className="w-full h-24 object-cover rounded mb-2"
+              />
+              <a
+                href={site.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-semibold hover:underline text-indigo-700"
+              >
+                {site.name}
+              </a>
               <div className="text-gray-500 text-xs">{city.city} &bull; №{site.number}</div>
             </div>
           ),

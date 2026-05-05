@@ -110,7 +110,10 @@
         "_id": "679a229e18eccee8953990b8"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      25.348565,
+      42.80528
+    ],
     "collected": false,
     "available": true,
     "province": "Габрово",
@@ -251,7 +254,10 @@
         "_id": "679a2b5f18eccee8953990ee"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      24.768204,
+      42.841096
+    ],
     "collected": false,
     "available": true,
     "province": "Ловеч",
@@ -320,7 +326,10 @@
         "_id": "679a362b18eccee895399108"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      24.7807138,
+      42.861745
+    ],
     "collected": false,
     "available": true,
     "province": "Троян",
@@ -386,7 +395,10 @@
         "_id": "679b33f8e5a2a4bf486f2eae"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      27.642446,
+      42.557642
+    ],
     "collected": false,
     "available": true,
     "province": "Бургас",
@@ -455,7 +467,10 @@
         "_id": "679b36a9e5a2a4bf486f2ec2"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      28.0151088,
+      43.2779995
+    ],
     "collected": true,
     "available": true,
     "province": "Варна",
@@ -500,7 +515,10 @@
         "_id": "679b3cd3e5a2a4bf486f2ed9"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      24.716997,
+      43.13233
+    ],
     "collected": false,
     "available": true,
     "province": "Ловеч",
@@ -521,7 +539,10 @@
         "_id": "679b3e34e5a2a4bf486f2ee3"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      24.716396,
+      43.130396
+    ],
     "collected": false,
     "available": true,
     "province": "Ловеч",
@@ -542,7 +563,10 @@
         "_id": "679b3ecfe5a2a4bf486f2ee9"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      23.26944,
+      41.551575
+    ],
     "collected": false,
     "available": true,
     "province": "Благоевград",
@@ -779,7 +803,10 @@
         "_id": "679b4ae0e5a2a4bf486f2f4b"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      23.322026,
+      42.69658
+    ],
     "collected": false,
     "available": true,
     "province": "София",
@@ -801,8 +828,8 @@
       }
     ],
     "coordinates": [
-      null,
-      null
+      23.4841698,
+      41.8344086
     ],
     "collected": false,
     "available": true,
@@ -824,7 +851,10 @@
         "_id": "679b4cdae5a2a4bf486f2f5d"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      23.472699,
+      42.99974
+    ],
     "collected": false,
     "available": true,
     "province": "София - област",
@@ -893,7 +923,10 @@
         "_id": "679b59f9e5a2a4bf486f2f7a"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      23.382071,
+      42.354112
+    ],
     "collected": false,
     "available": true,
     "province": "София - област",
@@ -938,7 +971,10 @@
         "_id": "679b5e60e5a2a4bf486f2f89"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      28.080946,
+      43.367103
+    ],
     "collected": false,
     "available": true,
     "province": "Добрич",
@@ -959,7 +995,10 @@
         "_id": "679b5f49e5a2a4bf486f2f8f"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      27.735276,
+      42.659057
+    ],
     "collected": false,
     "available": true,
     "province": "Бургас",
@@ -1004,7 +1043,10 @@
         "_id": "679b6108e5a2a4bf486f2f9f"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      27.736763,
+      42.659041
+    ],
     "collected": false,
     "available": true,
     "province": "Бургас",
@@ -1025,7 +1067,10 @@
         "_id": "679b6272e5a2a4bf486f2fa5"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      27.735726,
+      42.659873
+    ],
     "collected": false,
     "available": true,
     "province": "Бургас",
@@ -1046,7 +1091,10 @@
         "_id": "679b65b3e5a2a4bf486f2faf"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      27.735741,
+      42.658695
+    ],
     "collected": false,
     "available": true,
     "province": "Бургас",
@@ -1091,7 +1139,10 @@
         "_id": "679b6a88e5a2a4bf486f2fdb"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      24.8512692,
+      41.9417765
+    ],
     "collected": true,
     "available": true,
     "province": "Пловдив",
@@ -1112,7 +1163,10 @@
         "_id": "679b6985e5a2a4bf486f2fc3"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      24.8512692,
+      41.9417765
+    ],
     "collected": false,
     "available": true,
     "province": "Пловдив",
@@ -1133,7 +1187,10 @@
         "_id": "679b8933e5a2a4bf486f2fec"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      24.691252,
+      41.647357
+    ],
     "collected": false,
     "available": true,
     "province": "Смолян",
@@ -1178,7 +1235,10 @@
         "_id": "679c8079d7ced5a277833609"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      28.4652226,
+      43.3603744
+    ],
     "collected": false,
     "available": true,
     "province": "Добрич",
@@ -1343,7 +1403,10 @@
         "_id": "679c8475d7ced5a27783361e"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      24.808002,
+      42.642735
+    ],
     "collected": false,
     "available": true,
     "province": "Пловдив",
@@ -1388,7 +1451,10 @@
         "_id": "679c85fbd7ced5a27783362f"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      27.695586,
+      42.423896
+    ],
     "collected": true,
     "available": true,
     "province": "Бургас",
@@ -1409,7 +1475,10 @@
         "_id": "679c8699d7ced5a277833635"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      27.694187,
+      42.422089
+    ],
     "collected": true,
     "available": true,
     "province": "Бургас",
@@ -1430,7 +1499,10 @@
         "_id": "679c877dd7ced5a27783363b"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      27.754685942435135,
+      42.267168147453454
+    ],
     "collected": false,
     "available": true,
     "province": "Бургас",
@@ -1451,7 +1523,10 @@
         "_id": "679c89ded7ced5a277833641"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      27.775335,
+      42.234932
+    ],
     "collected": false,
     "available": true,
     "province": "Бургас",
@@ -1472,7 +1547,10 @@
         "_id": "679c8bf6d7ced5a277833647"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      27.852191097548182,
+      42.170122169894086
+    ],
     "collected": false,
     "available": true,
     "province": "Бургас",
@@ -1493,7 +1571,10 @@
         "_id": "679c8c73d7ced5a27783364d"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      27.807138,
+      42.208787
+    ],
     "collected": false,
     "available": true,
     "province": "Бургас",
@@ -1535,7 +1616,10 @@
         "_id": "679c924bd7ced5a277833663"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      27.489517,
+      42.50777
+    ],
     "collected": false,
     "available": true,
     "province": "Бургас",
@@ -1556,7 +1640,10 @@
         "_id": "679c9691d7ced5a27783366c"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      27.55282,
+      42.46826
+    ],
     "collected": false,
     "available": true,
     "province": "Бургас",
@@ -1577,7 +1664,10 @@
         "_id": "679c97a1d7ced5a277833672"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      27.482404,
+      42.495502
+    ],
     "collected": false,
     "available": true,
     "province": "Бургас",
@@ -1598,7 +1688,10 @@
         "_id": "679c98c4d7ced5a277833678"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      23.426611,
+      41.530472
+    ],
     "collected": false,
     "available": false,
     "province": "Смолян",
@@ -1619,7 +1712,10 @@
         "_id": "679c9950d7ced5a277833680"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      27.928894,
+      43.210586
+    ],
     "collected": false,
     "available": true,
     "province": "Варна",
@@ -1664,7 +1760,10 @@
         "_id": "67a08d82e9370e54ec06ef69"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      27.6318018,
+      42.5655417
+    ],
     "collected": false,
     "available": true,
     "province": "Бургас",
@@ -1685,7 +1784,10 @@
         "_id": "67a08f1de9370e54ec06ef6f"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      25.6524479,
+      43.0835941
+    ],
     "collected": false,
     "available": true,
     "province": "Велико Търново",
@@ -1751,7 +1853,10 @@
         "_id": "67a091cce9370e54ec06ef83"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      24.3791322,
+      41.6148843
+    ],
     "collected": false,
     "available": true,
     "province": "Смолян",
@@ -1844,7 +1949,10 @@
         "_id": "67a095eed26bb7b7cfe3b168"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      25.3289928,
+      42.7160652
+    ],
     "collected": false,
     "available": true,
     "province": "Стара Загора",
@@ -1937,7 +2045,10 @@
         "_id": "67a09cd5d26bb7b7cfe3b185"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      24.1837576,
+      42.5066408
+    ],
     "collected": false,
     "available": true,
     "province": "Пазарджик",
@@ -1958,7 +2069,10 @@
         "_id": "67a09dfad26bb7b7cfe3b18b"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      24.1837576,
+      42.5066408
+    ],
     "collected": false,
     "available": true,
     "province": "Пазарджик",
@@ -1979,7 +2093,10 @@
         "_id": "67a0a1cdd26bb7b7cfe3b193"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      24.1850398,
+      42.5080477
+    ],
     "collected": false,
     "available": true,
     "province": "Пазарджик",
@@ -2000,7 +2117,10 @@
         "_id": "67a0a264d26bb7b7cfe3b19b"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      24.1850398,
+      42.5080477
+    ],
     "collected": false,
     "available": true,
     "province": "Пазарджик",
@@ -2045,7 +2165,10 @@
         "_id": "67a0a5c6d26bb7b7cfe3b1be"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      27.489517,
+      42.50777
+    ],
     "collected": false,
     "available": true,
     "province": "Други",
@@ -2066,7 +2189,10 @@
         "_id": "67a0a6d9d26bb7b7cfe3b1c7"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      27.489517,
+      42.50777
+    ],
     "collected": false,
     "available": true,
     "province": "Други",
@@ -2087,7 +2213,10 @@
         "_id": "67a0a7a0d26bb7b7cfe3b1cd"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      27.489517,
+      42.50777
+    ],
     "collected": false,
     "available": true,
     "province": "Други",
@@ -2108,7 +2237,10 @@
         "_id": "67a0a831d26bb7b7cfe3b1d3"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      25.0332311,
+      43.2432079
+    ],
     "collected": false,
     "available": true,
     "province": "Ловеч",
@@ -2153,7 +2285,10 @@
         "_id": "67a0a97dd26bb7b7cfe3b1df"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      26.9275297,
+      43.2703419
+    ],
     "collected": false,
     "available": false,
     "province": "Шумен",
@@ -2174,7 +2309,10 @@
         "_id": "67a0ba24d26bb7b7cfe3b1f0"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      27.53462,
+      43.21951
+    ],
     "collected": false,
     "available": true,
     "province": "Варна",
@@ -2195,7 +2333,10 @@
         "_id": "67a0bad1d26bb7b7cfe3b1f7"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      27.53462,
+      43.21951
+    ],
     "collected": false,
     "available": true,
     "province": "Варна",
@@ -2288,7 +2429,10 @@
         "_id": "67a1c6c0d26bb7b7cfe3b223"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      27.76366,
+      42.70909
+    ],
     "collected": false,
     "available": true,
     "province": "Бургас",
@@ -2309,7 +2453,10 @@
         "_id": "67a1c976d26bb7b7cfe3b22d"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      27.928894,
+      43.210586
+    ],
     "collected": true,
     "available": true,
     "province": "Варна",
@@ -2330,7 +2477,10 @@
         "_id": "67a1cae1d26bb7b7cfe3b233"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      27.51601,
+      42.56516
+    ],
     "collected": false,
     "available": true,
     "province": "Бургас",
@@ -2351,7 +2501,10 @@
         "_id": "67a1cd59d26bb7b7cfe3b23c"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      24.7452525,
+      42.1514332
+    ],
     "collected": false,
     "available": false,
     "province": "Пловдив",
@@ -2372,7 +2525,10 @@
         "_id": "67a1d06cd26bb7b7cfe3b242"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      25.6524479,
+      43.0835941
+    ],
     "collected": true,
     "available": true,
     "province": "Велико Търново",
@@ -2393,7 +2549,10 @@
         "_id": "67a1d251d26bb7b7cfe3b248"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      23.20509,
+      42.81534
+    ],
     "collected": false,
     "available": true,
     "province": "София - област",
@@ -2414,7 +2573,10 @@
         "_id": "67a1d39bd26bb7b7cfe3b24e"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      27.489517,
+      42.50777
+    ],
     "collected": false,
     "available": true,
     "province": "Други",
@@ -2435,7 +2597,10 @@
         "_id": "67a1d545d26bb7b7cfe3b256"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      27.489517,
+      42.50777
+    ],
     "collected": false,
     "available": true,
     "province": "Други",
@@ -2456,7 +2621,10 @@
         "_id": "67a1daafd26bb7b7cfe3b25f"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      27.489517,
+      42.50777
+    ],
     "collected": false,
     "available": true,
     "province": "Други",
@@ -2477,7 +2645,10 @@
         "_id": "67a1dfded26bb7b7cfe3b269"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      25.56083,
+      42.89054
+    ],
     "collected": false,
     "available": true,
     "province": "Велико Търново",
@@ -2498,7 +2669,10 @@
         "_id": "67a1e9cbd26bb7b7cfe3b271"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      25.9604033,
+      43.5934115
+    ],
     "collected": false,
     "available": true,
     "province": "Русе",
@@ -2540,7 +2714,10 @@
         "_id": "67a1fdea66cc12103c3d70d5"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      27.489517,
+      42.50777
+    ],
     "collected": false,
     "available": true,
     "province": "Други",
@@ -2561,7 +2738,10 @@
         "_id": "67a2057d66cc12103c3d70dc"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      25.5556639,
+      41.9345727
+    ],
     "collected": false,
     "available": true,
     "province": "Хасково",
@@ -2582,7 +2762,10 @@
         "_id": "67a206d466cc12103c3d70f1"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      24.716396,
+      43.130396
+    ],
     "collected": false,
     "available": true,
     "province": "Ловеч",
@@ -2603,7 +2786,10 @@
         "_id": "67a2215366cc12103c3d70fc"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      27.928894,
+      43.210586
+    ],
     "collected": false,
     "available": true,
     "province": "Варна",
@@ -2624,7 +2810,10 @@
         "_id": "67a2233966cc12103c3d7108"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      25.317982,
+      42.879446
+    ],
     "collected": false,
     "available": false,
     "province": "Габрово",
@@ -2645,7 +2834,10 @@
         "_id": "67a2251f66cc12103c3d710e"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      23.3401865,
+      42.1332985
+    ],
     "collected": false,
     "available": false,
     "province": "Благоевград",
@@ -2753,7 +2945,10 @@
         "_id": "67a2310166cc12103c3d712f"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      24.97746,
+      42.611171
+    ],
     "collected": false,
     "available": true,
     "province": "Пловдив",
@@ -2774,7 +2969,10 @@
         "_id": "67a231d366cc12103c3d7135"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      24.1850398,
+      42.5080477
+    ],
     "collected": false,
     "available": true,
     "province": "Пазарджик",
@@ -2795,7 +2993,10 @@
         "_id": "67a232ad66cc12103c3d713b"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      24.1850398,
+      42.5080477
+    ],
     "collected": false,
     "available": true,
     "province": "Пазарджик",
@@ -2816,7 +3017,10 @@
         "_id": "67a477bfd0fc25482c0b4a1e"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      27.64025,
+      42.44413
+    ],
     "collected": false,
     "available": true,
     "province": "Други",
@@ -2837,7 +3041,10 @@
         "_id": "67a47877d0fc25482c0b4a48"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      27.694187388585693,
+      42.42208886123199
+    ],
     "collected": false,
     "available": true,
     "province": "Бургас",
@@ -2858,7 +3065,10 @@
         "_id": "67a47935d0fc25482c0b4a55"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      27.489517,
+      42.50777
+    ],
     "collected": false,
     "available": true,
     "province": "Други",
@@ -2879,7 +3089,10 @@
         "_id": "67a47a05d0fc25482c0b4a5b"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      27.489517,
+      42.50777
+    ],
     "collected": false,
     "available": true,
     "province": "Други",
@@ -2900,7 +3113,10 @@
         "_id": "67a47bb5d0fc25482c0b4a61"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      24.703338,
+      42.50037
+    ],
     "collected": false,
     "available": true,
     "province": "Пловдив",
@@ -2921,7 +3137,10 @@
         "_id": "67a47c5ad0fc25482c0b4a67"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      24.703791,
+      42.500314
+    ],
     "collected": false,
     "available": true,
     "province": "Пловдив",
@@ -2942,7 +3161,10 @@
         "_id": "67a47d2cd0fc25482c0b4a6d"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      24.707373,
+      42.502108
+    ],
     "collected": false,
     "available": true,
     "province": "Пловдив",
@@ -2963,7 +3185,10 @@
         "_id": "67a47e16d0fc25482c0b4a73"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      23.719642,
+      42.69765
+    ],
     "collected": false,
     "available": true,
     "province": "София - област",
@@ -2984,7 +3209,10 @@
         "_id": "67a47efed0fc25482c0b4a7d"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      24.2820914,
+      42.0055371
+    ],
     "collected": false,
     "available": true,
     "province": "Пазарджик",
@@ -3005,7 +3233,10 @@
         "_id": "67a4803dd0fc25482c0b4a83"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      24.698602,
+      41.644712
+    ],
     "collected": false,
     "available": true,
     "province": "Смолян",
@@ -3026,7 +3257,10 @@
         "_id": "67a48113d0fc25482c0b4a89"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      24.749469,
+      42.14885
+    ],
     "collected": false,
     "available": true,
     "province": "Пловдив",
@@ -3047,7 +3281,10 @@
         "_id": "67a481a5d0fc25482c0b4a8f"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      24.1850398,
+      42.5080477
+    ],
     "collected": false,
     "available": true,
     "province": "Пазарджик",
@@ -3092,7 +3329,10 @@
         "_id": "67a48267d0fc25482c0b4a9b"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      24.427515,
+      41.726612
+    ],
     "collected": false,
     "available": true,
     "province": "Смолян",
@@ -3113,7 +3353,10 @@
         "_id": "67a482e6d0fc25482c0b4aa1"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      24.380317,
+      41.615102
+    ],
     "collected": true,
     "available": true,
     "province": "Смолян",
@@ -3134,7 +3377,10 @@
         "_id": "67a48401d0fc25482c0b4ae6"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      24.7146161,
+      41.5763396
+    ],
     "collected": true,
     "available": true,
     "province": "Смолян",
@@ -3155,7 +3401,10 @@
         "_id": "67a484b8d0fc25482c0b4aee"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      24.7146161,
+      41.5763396
+    ],
     "collected": false,
     "available": true,
     "province": "Смолян",
@@ -3176,7 +3425,10 @@
         "_id": "67a485b4d0fc25482c0b4af4"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      27.467121,
+      42.499005
+    ],
     "collected": false,
     "available": true,
     "province": "Бургас",
@@ -3197,7 +3449,10 @@
         "_id": "67a486c4d0fc25482c0b4afc"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      27.50754866,
+      43.98925701
+    ],
     "collected": false,
     "available": true,
     "province": "Силистра",
@@ -3242,7 +3497,10 @@
         "_id": "67a487e1d0fc25482c0b4b08"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      23.264322,
+      41.459035
+    ],
     "collected": false,
     "available": true,
     "province": "Благоевград",
@@ -3300,7 +3558,10 @@
         "url": "/coins/explore-bulgaria/5af39b5e-81cf-497e-b4e0-74095cbfeca8-1.png"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      25.321523,
+      42.748117
+    ],
     "collected": false,
     "available": true,
     "province": "Стара Загора",
@@ -3316,7 +3577,10 @@
         "url": "/coins/explore-bulgaria/e1ede93c-f03a-49a7-a90e-d0c59127c7b9-1.png"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      24.3791322,
+      41.6148843
+    ],
     "collected": false,
     "available": true,
     "province": "Смолян",
@@ -3332,7 +3596,10 @@
         "url": "/coins/explore-bulgaria/5f4ee653-774a-4afa-901e-4dd118e76df5-1.jpg"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      23.028942,
+      41.394775
+    ],
     "collected": false,
     "available": true,
     "province": "Благоевград",
@@ -3348,7 +3615,10 @@
         "url": "/coins/explore-bulgaria/231b8a13-b47c-467c-9acf-2f078ba2f14a-1.jpg"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      22.6916355,
+      42.2746301
+    ],
     "collected": false,
     "available": true,
     "province": "Кюстендил",
@@ -3364,7 +3634,10 @@
         "url": "/coins/explore-bulgaria/763346d4-dc16-404d-9dc3-15b95dc77d5b-1.jpg"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      23.264558,
+      41.449329
+    ],
     "collected": false,
     "available": true,
     "province": "Благоевград",
@@ -3380,7 +3653,10 @@
         "url": "/coins/explore-bulgaria/a3f50062-3d75-42fa-ae43-ce042878ba48-1.png"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      25.0332311,
+      43.2432079
+    ],
     "collected": false,
     "available": true,
     "province": "Ловеч",
@@ -3396,7 +3672,10 @@
         "url": "/coins/explore-bulgaria/d6999397-1846-4ffc-93eb-eb975bcf2b7b-1.png"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      25.0863761,
+      41.3872204
+    ],
     "collected": false,
     "available": true,
     "province": "Смолян",
@@ -3412,7 +3691,10 @@
         "url": "/coins/explore-bulgaria/e66485c1-ad05-4713-ad2c-94eb68d8f6b5-1.png"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      24.0373975,
+      42.8237458
+    ],
     "collected": false,
     "available": true,
     "province": "Ловеч",
@@ -3428,7 +3710,10 @@
         "url": "/coins/explore-bulgaria/46b65e67-87a3-455e-a6c2-b55055b8de88-1.png"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      24.330018,
+      41.628997
+    ],
     "collected": true,
     "available": true,
     "province": "Смолян",
@@ -3444,7 +3729,10 @@
         "url": "/coins/explore-bulgaria/6a0c9981-aa40-4752-98be-3f3b8d331f4a-1.png"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      25.3289928,
+      42.7160652
+    ],
     "collected": false,
     "available": true,
     "province": "Стара Загора",
@@ -3460,7 +3748,10 @@
         "url": "/coins/explore-bulgaria/5d99cf66-2a6b-4b35-9054-ce4cb740065d-1.png"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      28.465734,
+      43.360956
+    ],
     "collected": true,
     "available": true,
     "province": "Добрич",
@@ -3476,7 +3767,10 @@
         "url": "/coins/explore-bulgaria/76a5f0de-46b7-44b9-a074-01733c29e64a-1.png"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      26.102228,
+      41.734846
+    ],
     "collected": false,
     "available": true,
     "province": "Свиленград",
@@ -3492,7 +3786,10 @@
         "url": "/coins/explore-bulgaria/a8e7a3ee-ad49-4199-bc3c-781b3358433a-1.png"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      25.1142151,
+      41.6204836
+    ],
     "collected": false,
     "available": true,
     "province": "Кърджали",
@@ -3508,7 +3805,10 @@
         "url": "/coins/explore-bulgaria/fefe0034-860d-443f-909c-c6dd1d48349d-1.png"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      28.0151088,
+      43.2779995
+    ],
     "collected": false,
     "available": true,
     "province": "Варна",
@@ -3524,7 +3824,10 @@
         "url": "/coins/explore-bulgaria/0e1d6aac-1a7e-4310-85fe-7b60e30ccef1-1.png"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      25.465622,
+      41.714907
+    ],
     "collected": false,
     "available": true,
     "province": "Кърджали",
@@ -3540,7 +3843,10 @@
         "url": "/coins/explore-bulgaria/d455e0f4-8c87-40e7-8ec0-ec8463bbc0b3-1.jpg"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      25.430163,
+      42.947245
+    ],
     "collected": false,
     "available": true,
     "province": "Габрово",
@@ -3556,7 +3862,10 @@
         "url": "/coins/explore-bulgaria/3d6c512d-4a20-4118-8935-41c2d6325229-1.jpg"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      25.342154,
+      42.7057649
+    ],
     "collected": false,
     "available": true,
     "province": "Стара Загора",
@@ -3572,7 +3881,10 @@
         "url": "/coins/explore-bulgaria/082d35e0-e1f9-4ffd-af52-de25674a5dbd-1.jpg"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      25.543364,
+      41.541687
+    ],
     "collected": false,
     "available": true,
     "province": "Кърджали",
@@ -3588,7 +3900,10 @@
         "url": "/coins/explore-bulgaria/4e3d85e5-689b-4135-9842-16f9fb308b6e-1.jpg"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      22.886094,
+      43.9929708
+    ],
     "collected": false,
     "available": true,
     "province": "Видин",
@@ -3604,7 +3919,10 @@
         "url": "/coins/explore-bulgaria/ea11aff4-91bf-43dd-a423-2087b5aa9e09-1.jpg"
       }
     ],
-    "coordinates": [],
+    "coordinates": [
+      24.38099,
+      41.59917
+    ],
     "collected": false,
     "available": true,
     "province": "Смолян",

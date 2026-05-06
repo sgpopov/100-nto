@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "shadcn": {
+      "command": "node_modules/.bin/shadcn",
+      "args": [
+        "mcp"
+      ]
+    }
+  }
+}

@@ -2,7 +2,6 @@
 
 import { useState, useEffect, useMemo } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
-import { randomId } from "@/utils";
 import data from "@/data/places.json";
 
 export function useSiteFilters() {
@@ -28,32 +27,15 @@ export function useSiteFilters() {
         .sort();
 
       return {
-        id: `region-${region}-${randomId()}`,
         value: region,
-        text: region,
+        label: region,
         cities: citiesInRegion.map((cityName) => ({
-          id: `${cityName}-${randomId()}`,
           value: cityName,
-          text: cityName,
+          label: cityName,
         })),
       };
     });
   }, []);
-
-  const cityOptions = useMemo(() => {
-    const options: { value: string; label: string }[] = [
-      { value: "all", label: "Всички" },
-    ];
-
-    citiesByRegion.forEach((region) => {
-      options.push({ value: region.value, label: region.text });
-      region.cities.forEach((city) => {
-        options.push({ value: city.value, label: `- ${city.text}` });
-      });
-    });
-
-    return options;
-  }, [citiesByRegion]);
 
   const visitedFilters = [
     { value: "all", label: "Всички" },
@@ -93,7 +75,7 @@ export function useSiteFilters() {
     setSelectedLocation,
     visitedFilter,
     setVisitedFilter,
-    cityOptions,
+    citiesByRegion,
     visitedFilters,
     filteredData,
     queryString,

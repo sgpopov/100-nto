@@ -3,6 +3,7 @@
 import { usePathname } from "next/navigation";
 import data from "@/data/places.json";
 import Filter from "@/components/Filter";
+import LocationCombobox from "@/components/LocationCombobox";
 import ViewToggle from "@/components/ViewToggle";
 import { useSiteFilters } from "@/hooks/useSiteFilters";
 import { SitesProvider } from "./context";
@@ -19,7 +20,7 @@ export default function SitesLayout({
     setSelectedLocation,
     visitedFilter,
     setVisitedFilter,
-    cityOptions,
+    citiesByRegion,
     visitedFilters,
     filteredData,
     queryString,
@@ -37,10 +38,10 @@ export default function SitesLayout({
       <section aria-labelledby="filter-heading" className="mx-auto py-6">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between">
           <div className="flex items-center gap-x-5">
-            <Filter
+            <LocationCombobox
               name="Град"
               selectedValue={selectedLocation}
-              options={cityOptions}
+              groups={citiesByRegion}
               onFilterChanged={setSelectedLocation}
             />
 

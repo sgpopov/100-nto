@@ -145,7 +145,6 @@ test.describe("Location combobox (Град filter on sites)", () => {
     await expect(page).toHaveURL(
       /filters\[location\]=%D0%91%D0%B0%D0%BD%D1%81%D0%BA%D0%BE/,
     );
-    // Only Банско's sites should appear — 5 according to the data
     const listItems = page.locator("ul[role='list'] li, [data-testid='site-item']");
     const count = await listItems.count();
     expect(count).toBeGreaterThan(0);

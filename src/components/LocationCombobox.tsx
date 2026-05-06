@@ -4,6 +4,7 @@ import { useMemo, useState } from "react";
 import {
   Combobox,
   ComboboxContent,
+  ComboboxEmpty,
   ComboboxGroup,
   ComboboxInput,
   ComboboxItem,
@@ -67,8 +68,8 @@ export default function LocationCombobox({
   }, [groups, query]);
 
   return (
-    <div className="inline-flex items-center gap-2 text-sm font-medium text-gray-700 w-48">
-      {name}:
+    <div className="inline-flex items-center gap-2 text-sm font-medium text-gray-700 w-52">
+      <label htmlFor="location-combobox-input" className="shrink-0">{name}:</label>
       <Combobox
         value={selectedValue}
         onValueChange={(value) => {
@@ -86,7 +87,7 @@ export default function LocationCombobox({
         }}
         filter={null}
       >
-        <ComboboxInput placeholder="Търсене..." className="w-48" />
+        <ComboboxInput id="location-combobox-input" placeholder="Търсене..." className="w-52" />
         <ComboboxContent>
           <ComboboxList>
             {!query && (
@@ -100,31 +101,26 @@ export default function LocationCombobox({
                 <ComboboxSeparator />
               </>
             )}
-            {filteredGroups.length === 0 && query ? (
-              <div className="py-2 text-center text-sm text-muted-foreground">
-                Няма намерени резултати.
-              </div>
-            ) : (
-              filteredGroups.map((group) => (
-                <ComboboxGroup key={group.value}>
+            <ComboboxEmpty>Няма намерени резултати.</ComboboxEmpty>
+            {filteredGroups.map((group) => (
+              <ComboboxGroup key={group.value}>
+                <ComboboxItem
+                  value={group.value}
+                  className="px-4 py-2 text-sm font-medium text-gray-900"
+                >
+                  {group.label}
+                </ComboboxItem>
+                {group.cities.map((city) => (
                   <ComboboxItem
-                    value={group.value}
-                    className="px-4 py-2 text-sm font-medium text-gray-900"
+                    key={city.value}
+                    value={city.value}
+                    className="px-4 pl-6 text-sm font-medium text-gray-900"
                   >
-                    {group.label}
+                    - {city.label}
                   </ComboboxItem>
-                  {group.cities.map((city) => (
-                    <ComboboxItem
-                      key={city.value}
-                      value={city.value}
-                      className="px-4 pl-6 text-sm font-medium text-gray-900"
-                    >
-                      {city.label}
-                    </ComboboxItem>
-                  ))}
-                </ComboboxGroup>
-              ))
-            )}
+                ))}
+              </ComboboxGroup>
+            ))}
           </ComboboxList>
         </ComboboxContent>
       </Combobox>

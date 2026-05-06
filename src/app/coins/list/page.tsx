@@ -39,6 +39,7 @@ export default function CoinsListPage() {
             {coin.collected && (
               <div className="mt-3 flex flex-col items-center">
                 <CheckBadgeIcon
+                  data-testid="collected-badge"
                   title="Събрана монета"
                   className="w-5 h-5 text-green-700"
                 />

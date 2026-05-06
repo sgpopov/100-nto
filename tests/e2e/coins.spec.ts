@@ -87,7 +87,7 @@ test.describe("Coins views", () => {
     const filteredCount = await cards.count();
     expect(filteredCount).toBeLessThan(totalCount);
 
-    const badges = page.locator("ul[role='list'] li svg[data-slot='icon']");
+    const badges = page.locator("ul[role='list'] li svg[title='Събрана монета']");
     await expect(badges).toHaveCount(filteredCount);
   });
 

@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useId, useMemo, useState } from "react";
 import {
   Combobox,
   ComboboxContent,
@@ -67,9 +67,11 @@ export default function LocationCombobox({
       .filter((g) => g.cities.length > 0 || g.label.toLowerCase().includes(q));
   }, [groups, query]);
 
+  const inputId = useId();
+
   return (
     <div className="inline-flex items-center gap-2 text-sm font-medium text-gray-700 w-52">
-      <label htmlFor="location-combobox-input" className="shrink-0">{name}:</label>
+      <label htmlFor={inputId} className="shrink-0">{name}:</label>
       <Combobox
         value={selectedValue}
         onValueChange={(value) => {
@@ -87,7 +89,7 @@ export default function LocationCombobox({
         }}
         filter={null}
       >
-        <ComboboxInput id="location-combobox-input" placeholder="Търсене..." className="w-52" />
+        <ComboboxInput id={inputId} placeholder="Търсене..." className="w-52" />
         <ComboboxContent>
           <ComboboxList>
             {!query && (
@@ -110,15 +112,17 @@ export default function LocationCombobox({
                 >
                   {group.label}
                 </ComboboxItem>
-                {group.cities.map((city) => (
-                  <ComboboxItem
-                    key={city.value}
-                    value={city.value}
-                    className="px-4 pl-6 text-sm font-medium text-gray-900"
-                  >
-                    - {city.label}
-                  </ComboboxItem>
-                ))}
+                {group.cities
+                  .filter((city) => city.value !== group.value)
+                  .map((city) => (
+                    <ComboboxItem
+                      key={city.value}
+                      value={city.value}
+                      className="px-4 pl-6 text-sm font-medium text-gray-900"
+                    >
+                      {city.label}
+                    </ComboboxItem>
+                  ))}
               </ComboboxGroup>
             ))}
           </ComboboxList>

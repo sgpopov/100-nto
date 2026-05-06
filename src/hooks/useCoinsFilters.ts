@@ -2,7 +2,6 @@
 
 import { useMemo } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
-import { randomId } from "@/utils";
 import coins from "@/data/coins.json";
 
 export function useCoinsFilters() {
@@ -48,34 +47,6 @@ export function useCoinsFilters() {
     });
   }, []);
 
-  const locationOptions = useMemo(() => {
-    const options: { key: string; value: string; label: string }[] = [
-      {
-        key: randomId(),
-        value: "all",
-        label: "Всички",
-      },
-    ];
-
-    locationsByProvince.forEach((province) => {
-      options.push({
-        key: `${randomId()}-${province.value}`,
-        value: province.value,
-        label: province.label,
-      });
-
-      province.cities.forEach((city) => {
-        options.push({
-          key: `${randomId()}-${province.value}-${city.value}`,
-          value: city.value,
-          label: `- ${city.label}`,
-        });
-      });
-    });
-
-    return options;
-  }, [locationsByProvince]);
-
   const collectedFilters = [
     { value: "all", label: "Всички" },
     { value: "yes", label: "Да" },
@@ -110,7 +81,7 @@ export function useCoinsFilters() {
     setSelectedLocation,
     collectedFilter,
     setCollectedFilter,
-    locationOptions,
+    locationsByProvince,
     collectedFilters,
     filteredData,
     queryString,

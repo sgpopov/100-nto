@@ -117,21 +117,23 @@ describe("useCoinsFilters", () => {
     expect(result.current.filteredData.map((c) => c.id)).toEqual(["3"]);
   });
 
-  it("builds locationOptions with an 'all' entry, provinces, and indented cities", () => {
+  it("builds locationsByProvince grouped by province with nested cities", () => {
     const { result } = renderHook(() => useCoinsFilters());
 
-    const opts = result.current.locationOptions.map((o) => ({
-      value: o.value,
-      label: o.label,
-    }));
-
-    expect(opts).toEqual([
-      { value: "all", label: "Всички" },
-      { value: "Велико Търново", label: "Велико Търново" },
-      { value: "Велико Търново", label: "- Велико Търново" },
-      { value: "Свищов", label: "- Свищов" },
-      { value: "София", label: "София" },
-      { value: "София", label: "- София" },
+    expect(result.current.locationsByProvince).toEqual([
+      {
+        value: "Велико Търново",
+        label: "Велико Търново",
+        cities: [
+          { value: "Велико Търново", label: "Велико Търново" },
+          { value: "Свищов", label: "Свищов" },
+        ],
+      },
+      {
+        value: "София",
+        label: "София",
+        cities: [{ value: "София", label: "София" }],
+      },
     ]);
   });
 

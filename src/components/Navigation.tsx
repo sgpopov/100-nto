@@ -13,13 +13,15 @@ export default function Navigation({ links }: { links: NavigationLinks[] }) {
 
   return (
     <nav className="bg-white shadow-sm">
-      <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="relative flex h-16 justify-between">
           <div className="flex flex-1 items-stretch justify-start">
-            <div className="sm:ml-6 flex space-x-8">
+            <div className="flex space-x-8">
               {links.map((link) => {
                 const root = `/${link.href.split("/")[1]}`;
-                const isActive = pathname === link.href || pathname.startsWith(`${root}/`);
+
+                const isActive =
+                  pathname === link.href || pathname.startsWith(`${root}/`);
 
                 return (
                   <Link

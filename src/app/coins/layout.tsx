@@ -3,6 +3,7 @@
 import { usePathname } from "next/navigation";
 import coins from "@/data/coins.json";
 import Filter from "@/components/Filter";
+import LocationCombobox from "@/components/LocationCombobox";
 import ViewToggle from "@/components/ViewToggle";
 import { useCoinsFilters } from "@/hooks/useCoinsFilters";
 import { CoinsProvider } from "./context";
@@ -19,7 +20,7 @@ export default function CoinsLayout({
     setSelectedLocation,
     collectedFilter,
     setCollectedFilter,
-    locationOptions,
+    locationsByProvince,
     collectedFilters,
     filteredData,
     queryString,
@@ -32,10 +33,10 @@ export default function CoinsLayout({
       <section aria-labelledby="filter-heading" className="mx-auto py-6">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between">
           <div className="flex items-center gap-x-5">
-            <Filter
+            <LocationCombobox
               name="Локация"
               selectedValue={selectedLocation}
-              options={locationOptions}
+              groups={locationsByProvince}
               onFilterChanged={setSelectedLocation}
             />
 

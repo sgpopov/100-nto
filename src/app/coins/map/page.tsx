@@ -24,14 +24,13 @@ export default function CoinsMapPage() {
           active: coin.collected,
           popup: (
             <div>
-              <div className="relative w-16 h-16 rounded-full mx-auto mb-2 overflow-hidden">
-                <Image
-                  src={coin.images[0].url}
-                  alt={`Coin image for ${coin.name}`}
-                  fill
-                  className="object-cover"
-                />
-              </div>
+              <Image
+                src={coin.images[0].url}
+                alt={`Coin image for ${coin.name}`}
+                width={64}
+                height={64}
+                className="rounded-full mx-auto mb-2 object-cover"
+              />
               <div className="font-semibold text-sm text-center">
                 {coin.name}
               </div>

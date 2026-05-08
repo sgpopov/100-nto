@@ -103,7 +103,9 @@ export default function LocationCombobox({
                 <ComboboxSeparator />
               </>
             )}
-            <ComboboxEmpty>Няма намерени резултати.</ComboboxEmpty>
+            {filteredGroups.length === 0 && (
+              <ComboboxEmpty>Няма намерени резултати.</ComboboxEmpty>
+            )}
             {filteredGroups.map((group) => (
               <ComboboxGroup key={group.value}>
                 <ComboboxItem

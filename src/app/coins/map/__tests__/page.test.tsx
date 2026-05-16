@@ -37,6 +37,17 @@ const mockCoins = [
     location: "София",
   },
   {
+    id: "4",
+    name: "Coin A duplicate location",
+    url: "https://example.com/d",
+    images: [{ url: "/img-d.jpg" }],
+    coordinates: [25.0, 43.0],
+    collected: false,
+    available: true,
+    province: "Велико Търново",
+    location: "Велико Търново",
+  },
+  {
     id: "3",
     name: "Coin C (no coordinates)",
     url: "https://example.com/c",
@@ -62,12 +73,22 @@ describe("CoinsMapPage", () => {
 
   describe("pin building", () => {
     it("builds one pin per geocoded coin, excluding coins with missing coordinates", () => {
-      expect(capturedPins).toHaveLength(2);
+      expect(capturedPins).toHaveLength(3);
     });
 
-    it("maps lat from coordinates[1] and lng from coordinates[0]", () => {
-      expect(capturedPins[0]).toMatchObject({ lat: 43.0, lng: 25.0 });
-      expect(capturedPins[1]).toMatchObject({ lat: 43.1, lng: 25.1 });
+    it("keeps unique coordinates intact and spreads duplicate coordinates", () => {
+      const uniquePin = capturedPins.find((pin) => pin.key === "2");
+      const duplicateA = capturedPins.find((pin) => pin.key === "1");
+      const duplicateB = capturedPins.find((pin) => pin.key === "4");
+
+      expect(uniquePin).toMatchObject({ lat: 43.1, lng: 25.1 });
+      expect(duplicateA).toBeDefined();
+      expect(duplicateB).toBeDefined();
+      expect(duplicateA?.lat).not.toBe(43.0);
+      expect(duplicateB?.lat).not.toBe(43.0);
+      expect(duplicateA?.lng).toBe(25.0);
+      expect(duplicateB?.lng).toBe(25.0);
+      expect(duplicateA?.lat).not.toBe(duplicateB?.lat);
     });
 
     it("sets active=true for collected coins and false for uncollected", () => {

@@ -61,8 +61,35 @@ test.describe("Coins views", () => {
 
     await expect(page.locator(".leaflet-popup")).toBeVisible({ timeout: 5000 });
     await expect(
-      page.locator(".leaflet-popup").getByRole("link", { name: "Виж монетата" }),
+      page
+        .locator(".leaflet-popup")
+        .getByRole("link", { name: "Виж монетата" }),
     ).toBeVisible();
+  });
+
+  test("coins sharing coordinates render as separately clickable markers", async ({
+    page,
+  }) => {
+    await page.goto(
+      "/coins/map?filters[location]=%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%BE%20%D0%A2%D1%8A%D1%80%D0%BD%D0%BE%D0%B2%D0%BE&filters[collected]=all",
+    );
+
+    await expect(page.locator(".leaflet-container")).toBeVisible({
+      timeout: 10000,
+    });
+    const markers = page.locator(".leaflet-marker-icon");
+    await expect(markers.first()).toBeVisible({ timeout: 10000 });
+
+    const markerCount = await markers.count();
+    expect(markerCount).toBeGreaterThan(1);
+
+    const transforms = await markers.evaluateAll((els) =>
+      els.map((el) => getComputedStyle(el).transform),
+    );
+    const uniqueTransforms = new Set(transforms);
+
+    // Allow at most one overlap while still ensuring duplicate-coordinate spreading is active.
+    expect(uniqueTransforms.size).toBeGreaterThanOrEqual(markerCount - 1);
   });
 
   test("selecting 'Да' collected filter reduces the visible coin count", async ({
@@ -75,11 +102,11 @@ test.describe("Coins views", () => {
     });
     const totalCount = await page.locator("ul[role='list'] li").count();
 
-    await page.locator("button").filter({ hasText: /Събрани/ }).click();
     await page
-      .locator('[role="menuitem"]')
-      .filter({ hasText: "Да" })
+      .locator("button")
+      .filter({ hasText: /Събрани/ })
       .click();
+    await page.locator('[role="menuitem"]').filter({ hasText: "Да" }).click();
 
     await expect(page).toHaveURL(/filters\[collected\]=yes/);
 
@@ -116,14 +143,20 @@ test.describe("Location combobox (Локация filter on coins)", () => {
     await page.getByPlaceholder("Търсене...").click();
 
     await expect(
-      page.locator('[data-slot="combobox-item"]').filter({ hasText: /^Всички$/ }),
+      page
+        .locator('[data-slot="combobox-item"]')
+        .filter({ hasText: /^Всички$/ }),
     ).toBeVisible();
     await expect(
-      page.locator('[data-slot="combobox-item"]').filter({ hasText: /^Благоевград$/ }),
+      page
+        .locator('[data-slot="combobox-item"]')
+        .filter({ hasText: /^Благоевград$/ }),
     ).toBeVisible();
     // city nested under the province
     await expect(
-      page.locator('[data-slot="combobox-item"]').filter({ hasText: /^Мелник$/ }),
+      page
+        .locator('[data-slot="combobox-item"]')
+        .filter({ hasText: /^Мелник$/ }),
     ).toBeVisible();
   });
 
@@ -138,15 +171,21 @@ test.describe("Location combobox (Локация filter on coins)", () => {
     await input.fill("Мелник");
 
     await expect(
-      page.locator('[data-slot="combobox-item"]').filter({ hasText: /^Мелник$/ }),
+      page
+        .locator('[data-slot="combobox-item"]')
+        .filter({ hasText: /^Мелник$/ }),
     ).toBeVisible();
     // "Всички" only shows when query is empty
     await expect(
-      page.locator('[data-slot="combobox-item"]').filter({ hasText: /^Всички$/ }),
+      page
+        .locator('[data-slot="combobox-item"]')
+        .filter({ hasText: /^Всички$/ }),
     ).not.toBeVisible();
     // unrelated province should be gone
     await expect(
-      page.locator('[data-slot="combobox-item"]').filter({ hasText: /^Варна$/ }),
+      page
+        .locator('[data-slot="combobox-item"]')
+        .filter({ hasText: /^Варна$/ }),
     ).not.toBeVisible();
   });
 

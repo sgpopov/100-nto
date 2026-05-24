@@ -57,6 +57,7 @@ export default function CoinsMapPage() {
               alt={`Coin image for ${coin.name}`}
               width={64}
               height={64}
+              loading="eager"
               className="rounded-full mx-auto mb-2 object-cover"
             />
             <div className="font-semibold text-sm text-center">{coin.name}</div>

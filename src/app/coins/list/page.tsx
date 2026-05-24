@@ -29,6 +29,7 @@ export default function CoinsListPage() {
                   alt={`Coin image for ${coin.name}`}
                   src={coin.images[0].url}
                   fill
+                  loading="eager"
                   className="object-cover"
                 />
               </div>

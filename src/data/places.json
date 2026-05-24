@@ -698,7 +698,7 @@
         "number": "13",
         "image": "/sites/btsbg/059-istoricheski-muzei-vidin.jpg",
         "link": "https://www.btsbg.org/100nto/istoricheski-muzey-1",
-        "visited": false,
+        "visited": true,
         "lat": 43.988501,
         "lng": 22.878043
       },
@@ -707,7 +707,7 @@
         "number": "13",
         "image": "/sites/btsbg/060-krepost-baba-vida-vidin.jpg",
         "link": "https://www.btsbg.org/100nto/krepost-baba-vida",
-        "visited": false,
+        "visited": true,
         "lat": 43.9929708,
         "lng": 22.886094
       }

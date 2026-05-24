@@ -5,6 +5,9 @@ import MapView, { type MapPin } from "@/components/MapView";
 import type { ReactNode } from "react";
 
 vi.mock("leaflet/dist/leaflet.css", () => ({}));
+vi.mock("leaflet.fullscreen", () => ({
+  FullScreen: class FullScreen {},
+}));
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 (L as any).divIcon = (opts: { html: string; [k: string]: unknown }) => ({
@@ -16,7 +19,11 @@ vi.mock("react-leaflet", () => ({
     <div data-testid="map">{children}</div>
   ),
   TileLayer: () => null,
-  useMap: () => ({ fitBounds: vi.fn() }),
+  useMap: () => ({
+    fitBounds: vi.fn(),
+    addControl: vi.fn(),
+    fullscreenControl: undefined,
+  }),
   Marker: ({
     children,
     icon,

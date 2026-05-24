@@ -1,6 +1,7 @@
 "use client";
 
 import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet";
+import { FullScreen } from "leaflet.fullscreen";
 import L from "leaflet";
 import { useEffect } from "react";
 import type { ReactNode } from "react";
@@ -50,6 +51,20 @@ function FitBounds({ pins }: { pins: MapPin[] }) {
   return null;
 }
 
+function FullscreenControl() {
+  const map = useMap();
+
+  useEffect(() => {
+    if (map.fullscreenControl) {
+      return;
+    }
+
+    map.addControl(new FullScreen());
+  }, [map]);
+
+  return null;
+}
+
 export default function MapView({
   pins,
   center = [42.7, 25.5],
@@ -62,6 +77,7 @@ export default function MapView({
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
+      <FullscreenControl />
       <FitBounds pins={pins} />
       {pins.map((pin) => (
         <Marker

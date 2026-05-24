@@ -26,7 +26,6 @@ export default function SitesMapPage() {
                   src={site.image}
                   alt={site.name}
                   fill
-                  loading="eager"
                   className="object-cover rounded"
                 />
               </div>

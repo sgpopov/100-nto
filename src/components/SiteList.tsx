@@ -29,7 +29,6 @@ export const SiteList = ({ siteList }: SiteListProps) => {
                   alt={`Image for ${site.name}`}
                   src={site.image}
                   fill
-                  loading="eager"
                   className="object-cover"
                 />
               </div>

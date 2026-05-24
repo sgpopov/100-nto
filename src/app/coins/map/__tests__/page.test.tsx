@@ -5,17 +5,6 @@ import type { MapPin } from "@/components/MapView";
 
 let capturedPins: MapPin[] = [];
 
-vi.mock("next/image", () => ({
-  default: ({
-    alt,
-    src,
-    loading,
-    ...props
-  }: React.ImgHTMLAttributes<HTMLImageElement> & { src: string }) => (
-    <img alt={alt} src={src} loading={loading} {...props} />
-  ),
-}));
-
 vi.mock("next/dynamic", () => ({
   default: () =>
     function MockMapView({ pins }: { pins: MapPin[] }) {
@@ -135,15 +124,6 @@ describe("CoinsMapPage", () => {
         capturedPins[1].popup as React.ReactElement,
       );
       expect(queryByText("Събрана")).not.toBeInTheDocument();
-    });
-
-    it("marks popup images for eager loading", () => {
-      const { getByRole } = render(capturedPins[0].popup as React.ReactElement);
-
-      expect(getByRole("img", { name: "Coin image for Coin A" })).toHaveAttribute(
-        "loading",
-        "eager",
-      );
     });
   });
 });

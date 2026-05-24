@@ -59,7 +59,13 @@ function FullscreenControl() {
       return;
     }
 
-    map.addControl(new FullScreen());
+    const control = new FullScreen();
+
+    map.addControl(control);
+
+    return () => {
+      map.removeControl(control);
+    };
   }, [map]);
 
   return null;

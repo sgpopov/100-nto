@@ -1781,7 +1781,7 @@
         "number": "45",
         "image": "/sites/btsbg/150-muzei-hristo-botev-kalofer.jpg",
         "link": "https://www.btsbg.org/100nto/nac-muzey-hristo-botev",
-        "visited": false,
+        "visited": true,
         "lat": 42.611171,
         "lng": 24.97746
       },
@@ -2600,7 +2600,7 @@
         "number": "91",
         "image": "/sites/btsbg/219-trakiiska-grobnitsa-kazanluk.jpg",
         "link": "https://www.btsbg.org/100nto/trakiyska-grobnica-0",
-        "visited": false,
+        "visited": true,
         "lat": 42.6257742,
         "lng": 25.3991715
       },
@@ -2609,7 +2609,7 @@
         "number": "91",
         "image": "/sites/btsbg/220-muzei-chudomir-kazanluk.jpg",
         "link": "https://www.btsbg.org/100nto/literaturno-hudozhestven-muzey-chudomir",
-        "visited": false,
+        "visited": true,
         "lat": 42.620149,
         "lng": 25.3982212
       }

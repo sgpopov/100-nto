@@ -1503,7 +1503,7 @@
       27.754685942435135,
       42.267168147453454
     ],
-    "collected": false,
+    "collected": true,
     "available": true,
     "province": "Бургас",
     "location": "Приморско"
@@ -1527,7 +1527,7 @@
       27.775335,
       42.234932
     ],
-    "collected": false,
+    "collected": true,
     "available": true,
     "province": "Бургас",
     "location": "Китен"
@@ -1551,7 +1551,7 @@
       27.852191097548182,
       42.170122169894086
     ],
-    "collected": false,
+    "collected": true,
     "available": true,
     "province": "Бургас",
     "location": "Царево"
@@ -1575,7 +1575,7 @@
       27.807138,
       42.208787
     ],
-    "collected": false,
+    "collected": true,
     "available": true,
     "province": "Бургас",
     "location": "Лозенец"

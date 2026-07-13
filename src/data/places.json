@@ -329,7 +329,7 @@
         "number": "8б",
         "image": "/sites/btsbg/028-obshtinski-istoricheski-muzei-tsarevo.jpg",
         "link": "https://www.btsbg.org/100nto/obshchinski-istoricheski-muzey-0",
-        "visited": false,
+        "visited": true,
         "lat": 42.1718124,
         "lng": 27.8530808
       }

@@ -545,21 +545,33 @@ test.describe("Марка filter", () => {
 test.describe("Filter summary", () => {
   const summary = (page: Page) => page.getByTestId("filter-results");
 
+  // The exact wording and the singular/plural noun are covered against fixed
+  // numbers in the FilterSummary unit test. These assert the wiring only, so
+  // marking more sites as "не се предлага" cannot break them.
+  const totalOf = async (page: Page) => {
+    const text = (await summary(page).textContent()) ?? "";
+    return text.match(/\d+/)?.[0] ?? "";
+  };
+
   test("the total alone is shown when nothing is filtered", async ({
     page,
   }) => {
     await page.goto("/sites/list");
 
-    await expect(summary(page)).toHaveText("246 резултата");
+    await expect(summary(page)).toHaveText(/^\d+ резултата$/);
   });
 
   test("a narrowed list is reported against the full total", async ({
     page,
   }) => {
+    await page.goto("/sites/list");
+    const total = await totalOf(page);
+
     await page.goto("/sites/list?filters[sticker]=not-available");
 
-    // The one site offering no марка also covers the singular noun.
-    await expect(summary(page)).toHaveText("1 резултат от 246");
+    await expect(summary(page)).toHaveText(
+      new RegExp(`^\\d+ резултата? от ${total}$`),
+    );
   });
 
   test("Изчисти is absent until a filter is applied", async ({ page }) => {
@@ -578,6 +590,6 @@ test.describe("Filter summary", () => {
     await expect(page).toHaveURL(/filters\[location\]=all/);
     await expect(page).toHaveURL(/filters\[stamp\]=all/);
     await expect(page).toHaveURL(/filters\[sticker\]=all/);
-    await expect(summary(page)).toHaveText("246 резултата");
+    await expect(summary(page)).toHaveText(/^\d+ резултата$/);
   });
 });

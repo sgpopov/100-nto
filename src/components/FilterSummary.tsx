@@ -3,9 +3,10 @@ import { RotateCcwIcon } from "lucide-react";
 /**
  * Shared by the sites and the coins views so the two cannot drift apart.
  *
- * The total is only shown once a filter narrows the list — at rest "246 от 246"
- * is noise. `onClear` is omitted when nothing is filtered, so the reset control
- * never sits there dead.
+ * Two independent conditions: the total joins the count only once the list is
+ * actually narrower, and the reset control appears only once something is
+ * filtered. A filter that happens to match everything — every печат collected,
+ * say — is still active, but "246 от 246" would be the noise this avoids.
  */
 export const FilterSummary = ({
   shown,
@@ -18,14 +19,14 @@ export const FilterSummary = ({
 }) => (
   <div className="flex items-center gap-x-4">
     <span data-testid="filter-results" className="text-sm text-gray-500">
-      {onClear ? (
+      {shown === total ? (
         <>
-          <span className="font-medium text-gray-900">{shown}</span>{" "}
-          {noun(shown)} от {total}
+          {total} {noun(total)}
         </>
       ) : (
         <>
-          {total} {noun(total)}
+          <span className="font-medium text-gray-900">{shown}</span>{" "}
+          {noun(shown)} от {total}
         </>
       )}
     </span>

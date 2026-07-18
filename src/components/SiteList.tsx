@@ -1,5 +1,7 @@
 import Image from "next/image";
-import { BadgeCheckIcon } from "lucide-react";
+
+import { CollectionIcons } from "@/components/CollectionIcons";
+import type { StickerState } from "@/lib/collectionStatus";
 
 type SiteListData = {
   name: string;
@@ -7,6 +9,7 @@ type SiteListData = {
   image: string;
   link: string;
   stamp: boolean;
+  sticker: StickerState;
 };
 
 interface SiteListProps {
@@ -48,18 +51,12 @@ export const SiteList = ({ siteList }: SiteListProps) => {
                   className="absolute inset-x-0 bottom-0 h-28 bg-linear-to-t from-black opacity-20"
                 />
 
-                <p className="relative text-lg font-semibold text-white">
-                  {site.stamp && (
-                    <BadgeCheckIcon
-                      role="img"
-                      aria-label="Събран печат"
-                      data-testid="stamp-icon"
-                      className="w-5 h-5"
-                    >
-                      <title>Събран печат</title>
-                    </BadgeCheckIcon>
-                  )}
-                </p>
+                <CollectionIcons
+                  state={site}
+                  // The photographs run from near-black to near-white, so
+                  // legibility comes from the shadow, not from the fill colour.
+                  className="relative flex items-center gap-1.5 text-white drop-shadow-[0_1px_2px_rgba(0,0,0,0.9)]"
+                />
               </div>
             </div>
           </a>

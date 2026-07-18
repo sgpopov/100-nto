@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { CheckBadgeIcon } from "@heroicons/react/16/solid";
+import { BadgeCheckIcon } from "lucide-react";
 import { useCoinsContext } from "../context";
 
 export default function CoinsListPage() {
@@ -38,9 +38,10 @@ export default function CoinsListPage() {
             </h3>
             {coin.collected && (
               <div className="mt-3 flex flex-col items-center">
-                <CheckBadgeIcon
+                <BadgeCheckIcon
                   data-testid="collected-badge"
-                  title="Събрана монета"
+                  role="img"
+                  aria-label="Събрана монета"
                   className="w-5 h-5 text-green-700"
                 />
               </div>

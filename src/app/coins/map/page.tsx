@@ -3,7 +3,7 @@
 import { useMemo } from "react";
 import Image from "next/image";
 import dynamic from "next/dynamic";
-import { CheckBadgeIcon } from "@heroicons/react/16/solid";
+import { BadgeCheckIcon } from "lucide-react";
 import { useCoinsContext } from "../context";
 
 const MapView = dynamic(() => import("@/components/MapView"), { ssr: false });
@@ -62,7 +62,10 @@ export default function CoinsMapPage() {
             <div className="font-semibold text-sm text-center">{coin.name}</div>
             {coin.collected && (
               <div className="flex items-center justify-center gap-1 mt-1">
-                <CheckBadgeIcon className="w-4 h-4 text-green-700" />
+                <BadgeCheckIcon
+                  aria-hidden="true"
+                  className="w-4 h-4 text-green-700"
+                />
                 <span className="text-xs text-green-700">Събрана</span>
               </div>
             )}

@@ -5,8 +5,11 @@ import { useRouter, useSearchParams } from "next/navigation";
 import data from "@/data/places.json";
 import {
   matchesStampFilter,
+  matchesStickerFilter,
   toStampFilterValue,
+  toStickerFilterValue,
   type StampFilterValue,
+  type StickerFilterValue,
 } from "@/lib/collectionStatus";
 
 export function useSiteFilters() {
@@ -19,6 +22,9 @@ export function useSiteFilters() {
   const initialStampFilter = toStampFilterValue(
     searchParams.get("filters[stamp]")
   );
+  const initialStickerFilter = toStickerFilterValue(
+    searchParams.get("filters[sticker]")
+  );
 
   const [selectedLocation, setSelectedLocation] =
     useState<string>(initialLocation);
@@ -30,6 +36,13 @@ export function useSiteFilters() {
   // callers stay pure wiring.
   const setStampFilter = (value: string) => {
     setStampFilterValue(toStampFilterValue(value));
+  };
+
+  const [stickerFilter, setStickerFilterValue] =
+    useState<StickerFilterValue>(initialStickerFilter);
+
+  const setStickerFilter = (value: string) => {
+    setStickerFilterValue(toStickerFilterValue(value));
   };
 
   const citiesByRegion = useMemo(() => {
@@ -58,6 +71,13 @@ export function useSiteFilters() {
     { value: "not-collected", label: "Несъбрани" },
   ];
 
+  const stickerFilters = [
+    { value: "all", label: "Всички" },
+    { value: "collected", label: "Събрани" },
+    { value: "not-collected", label: "Несъбрани" },
+    { value: "not-available", label: "Не се предлага" },
+  ];
+
   const filteredData = useMemo(
     () =>
       data
@@ -69,15 +89,17 @@ export function useSiteFilters() {
         )
         .map((city) => ({
           ...city,
-          sites: city.sites.filter((site) =>
-            matchesStampFilter(site, stampFilter)
+          sites: city.sites.filter(
+            (site) =>
+              matchesStampFilter(site, stampFilter) &&
+              matchesStickerFilter(site, stickerFilter)
           ),
         }))
         .filter((city) => city.sites.length > 0),
-    [selectedLocation, stampFilter]
+    [selectedLocation, stampFilter, stickerFilter]
   );
 
-  const queryString = `filters[location]=${encodeURIComponent(selectedLocation)}&filters[stamp]=${encodeURIComponent(stampFilter)}`;
+  const queryString = `filters[location]=${encodeURIComponent(selectedLocation)}&filters[stamp]=${encodeURIComponent(stampFilter)}&filters[sticker]=${encodeURIComponent(stickerFilter)}`;
 
   useEffect(() => {
     router.push(`?${queryString}`);
@@ -88,8 +110,11 @@ export function useSiteFilters() {
     setSelectedLocation,
     stampFilter,
     setStampFilter,
+    stickerFilter,
+    setStickerFilter,
     citiesByRegion,
     stampFilters,
+    stickerFilters,
     filteredData,
     queryString,
   };

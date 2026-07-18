@@ -435,3 +435,163 @@ test.describe("Collection progress", () => {
     await expect(stickerProgress(page)).toHaveText(stickers);
   });
 });
+
+test.describe("Марка filter", () => {
+  const rows = "ul[role='list'] > li > a";
+  const stampIcons = "[data-testid='stamp-icon']";
+  const stickerIcons = "[data-testid='sticker-icon']";
+  const unavailableIcons = "[data-testid='sticker-unavailable-icon']";
+
+  test("the control offers exactly the four options", async ({ page }) => {
+    await page.goto("/sites/list");
+
+    await page.getByRole("button", { name: /^Марка:/ }).click();
+
+    for (const label of ["Всички", "Събрани", "Несъбрани", "Не се предлага"]) {
+      await expect(
+        page.getByRole("menuitem").filter({ hasText: new RegExp(`^${label}$`) }),
+      ).toBeVisible();
+    }
+    await expect(page.getByRole("menuitem")).toHaveCount(4);
+  });
+
+  test("choosing an option writes it to its own query parameter", async ({
+    page,
+  }) => {
+    await page.goto("/sites/list");
+
+    await page.getByRole("button", { name: /^Марка:/ }).click();
+    await page
+      .getByRole("menuitem")
+      .filter({ hasText: /^Събрани$/ })
+      .click();
+
+    await expect(page).toHaveURL(/filters\[sticker\]=collected/);
+    await expect(page).toHaveURL(/filters\[stamp\]=all/);
+  });
+
+  test("collected shows only sites carrying a марка", async ({ page }) => {
+    await page.goto("/sites/list?filters[sticker]=collected");
+
+    await expect(page.locator(rows).first()).toBeVisible();
+    const count = await page.locator(rows).count();
+
+    expect(count).toBeGreaterThan(0);
+    expect(await page.locator(stickerIcons).count()).toBe(count);
+    expect(await page.locator(unavailableIcons).count()).toBe(0);
+  });
+
+  test("not collected excludes both collected марки and sites offering none", async ({
+    page,
+  }) => {
+    await page.goto("/sites/list?filters[sticker]=not-collected");
+
+    await expect(page.locator(rows).first()).toBeVisible();
+
+    expect(await page.locator(rows).count()).toBeGreaterThan(0);
+    expect(await page.locator(stickerIcons).count()).toBe(0);
+    expect(await page.locator(unavailableIcons).count()).toBe(0);
+  });
+
+  test("not available returns exactly the sites offering no марка", async ({
+    page,
+  }) => {
+    await page.goto("/sites/list?filters[sticker]=not-available");
+
+    await expect(page.locator(rows).first()).toBeVisible();
+    const count = await page.locator(rows).count();
+
+    expect(await page.locator(unavailableIcons).count()).toBe(count);
+    expect(await page.locator(stickerIcons).count()).toBe(0);
+  });
+
+  // Collected plus not-collected deliberately falls short of all: the sites
+  // offering no марка sit outside both.
+  test("all shows more sites than collected and not collected together", async ({
+    page,
+  }) => {
+    await page.goto("/sites/list?filters[sticker]=all");
+    await expect(page.locator(rows).first()).toBeVisible();
+    const all = await page.locator(rows).count();
+
+    await page.goto("/sites/list?filters[sticker]=collected");
+    await expect(page.locator(rows).first()).toBeVisible();
+    const collected = await page.locator(rows).count();
+
+    await page.goto("/sites/list?filters[sticker]=not-collected");
+    await expect(page.locator(rows).first()).toBeVisible();
+    const notCollected = await page.locator(rows).count();
+
+    expect(collected + notCollected).toBeLessThan(all);
+  });
+
+  test("the stamp and sticker filters combine into the trip-planning view", async ({
+    page,
+  }) => {
+    await page.goto(
+      "/sites/list?filters[stamp]=collected&filters[sticker]=not-collected",
+    );
+
+    await expect(page.locator(rows).first()).toBeVisible();
+    const count = await page.locator(rows).count();
+
+    expect(count).toBeGreaterThan(0);
+    expect(await page.locator(stampIcons).count()).toBe(count);
+    expect(await page.locator(stickerIcons).count()).toBe(0);
+    expect(await page.locator(unavailableIcons).count()).toBe(0);
+
+    await page.goto("/sites/list?filters[stamp]=collected");
+    await expect(page.locator(rows).first()).toBeVisible();
+    expect(await page.locator(rows).count()).toBeGreaterThan(count);
+  });
+
+  test("both filters combine with the location filter", async ({ page }) => {
+    await page.goto(
+      "/sites/list?filters[location]=Царево&filters[stamp]=collected&filters[sticker]=not-collected",
+    );
+
+    await expect(page.locator(rows).first()).toBeVisible();
+    expect(await page.locator(rows).count()).toBe(1);
+
+    await page.goto(
+      "/sites/list?filters[location]=Царево&filters[stamp]=collected&filters[sticker]=collected",
+    );
+    await expect(page.locator(rows)).toHaveCount(0);
+  });
+
+  test("the sticker selection survives switching to the map", async ({
+    page,
+  }) => {
+    await page.goto("/sites/list?filters[sticker]=not-available");
+
+    await page.getByRole("link", { name: "Карта" }).click();
+
+    await expect(page).toHaveURL(/\/sites\/map/);
+    await expect(page).toHaveURL(/filters\[sticker\]=not-available/);
+
+    await expect(page.locator("[data-pin-status]")).toHaveCount(1, {
+      timeout: 10000,
+    });
+  });
+
+  test("the controls stay reachable on a narrow viewport", async ({ page }) => {
+    await page.setViewportSize({ width: 375, height: 720 });
+    await page.goto("/sites/list");
+
+    await expect(page.getByPlaceholder("Търсене...")).toBeVisible();
+    await expect(page.getByRole("button", { name: /^Печат:/ })).toBeVisible();
+
+    const marka = page.getByRole("button", { name: /^Марка:/ });
+    await expect(marka).toBeVisible();
+
+    const box = await marka.boundingBox();
+    expect(box).not.toBeNull();
+    expect(box!.x).toBeGreaterThanOrEqual(0);
+    expect(box!.x + box!.width).toBeLessThanOrEqual(375);
+
+    await marka.click();
+    await expect(
+      page.getByRole("menuitem").filter({ hasText: /^Не се предлага$/ }),
+    ).toBeVisible();
+  });
+});

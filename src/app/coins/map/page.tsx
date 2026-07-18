@@ -5,6 +5,7 @@ import Image from "next/image";
 import dynamic from "next/dynamic";
 import { BadgeCheckIcon } from "lucide-react";
 import { deriveCoinStatus, type CoinStatus } from "@/lib/coinStatus";
+import { CoinAvailability } from "@/components/CoinAvailability";
 import type { PinStatus } from "@/components/MapView";
 import { useCoinsContext } from "../context";
 
@@ -77,6 +78,7 @@ export default function CoinsMapPage() {
                 <span className="text-xs text-green-700">Събрана</span>
               </div>
             )}
+            <CoinAvailability state={coin} className="mt-1" />
             <a
               href={coin.url}
               target="_blank"

@@ -118,6 +118,59 @@ test.describe("Coins views", () => {
     await expect(badges).toHaveCount(filteredCount);
   });
 
+  test("coins that cannot currently be collected explain why in the list", async ({
+    page,
+  }) => {
+    await page.goto("/coins/list");
+    await expect(page.locator("ul[role='list'] li").first()).toBeVisible({
+      timeout: 10000,
+    });
+
+    const badges = page.locator("[data-testid='unavailable-badge']");
+
+    await expect(badges.first()).toBeVisible();
+    await expect(badges.first()).toHaveText("В момента не се предлага");
+  });
+
+  test("a card that cannot be collected keeps its image and outbound link", async ({
+    page,
+  }) => {
+    await page.goto("/coins/list");
+    await expect(page.locator("ul[role='list'] li").first()).toBeVisible({
+      timeout: 10000,
+    });
+
+    const card = page
+      .locator("ul[role='list'] li")
+      .filter({ has: page.locator("[data-testid='unavailable-badge']") })
+      .first();
+
+    await expect(card.locator("img")).toBeVisible();
+    await expect(card.getByRole("link")).toHaveAttribute("href", /.+/);
+  });
+
+  test("the map popup carries the same availability message as the list", async ({
+    page,
+  }) => {
+    // Габрово holds exactly one coin (Дом на хумора и сатирата) and it is
+    // unavailable, so filtering by location leaves a single pin to click.
+    await page.goto(
+      `/coins/map?filters[location]=${encodeURIComponent("Габрово")}&filters[collected]=all`,
+    );
+
+    await expect(page.locator(".leaflet-container")).toBeVisible({
+      timeout: 10000,
+    });
+    const pin = page.locator('[data-pin-status="unavailable"]').first();
+    await expect(pin).toBeVisible({ timeout: 10000 });
+
+    await pin.click({ force: true });
+
+    await expect(
+      page.locator(".leaflet-popup").getByTestId("unavailable-badge"),
+    ).toHaveText("В момента не се предлага");
+  });
+
   test("'Монети' nav link is active on /coins/list", async ({ page }) => {
     await page.goto("/coins/list");
     const link = page.getByRole("link", { name: "Монети" });

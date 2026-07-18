@@ -23,8 +23,11 @@ export default function SitesLayout({
     setSelectedLocation,
     stampFilter,
     setStampFilter,
+    stickerFilter,
+    setStickerFilter,
     citiesByRegion,
     stampFilters,
+    stickerFilters,
     filteredData,
     queryString,
   } = filters;
@@ -45,7 +48,7 @@ export default function SitesLayout({
     <>
       <section aria-labelledby="filter-heading" className="mx-auto py-6">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between">
-          <div className="flex items-center gap-x-5">
+          <div className="flex flex-wrap items-center gap-x-5 gap-y-3">
             <LocationCombobox
               name="Град"
               selectedValue={selectedLocation}
@@ -58,6 +61,13 @@ export default function SitesLayout({
               selectedValue={stampFilter}
               options={stampFilters}
               onFilterChanged={setStampFilter}
+            />
+
+            <Filter
+              name="Марка"
+              selectedValue={stickerFilter}
+              options={stickerFilters}
+              onFilterChanged={setStickerFilter}
             />
           </div>
 

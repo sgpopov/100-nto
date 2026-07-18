@@ -106,6 +106,132 @@ describe("useSiteFilters", () => {
     });
   });
 
+  // The fixture holds one site per collection state the sticker filter can
+  // distinguish: collected, not collected, and не се предлага.
+  describe("sticker filter", () => {
+    it("shows every site by default, including the one offering no марка", () => {
+      const { result } = renderHook(() => useSiteFilters());
+
+      expect(siteNames(result.current.filteredData)).toEqual([
+        "Стамп само",
+        "Нищо",
+        "Пълен",
+        "Без марка",
+        "Празен",
+      ]);
+    });
+
+    it("narrows to sites with a collected марка", () => {
+      withParams({ "filters[sticker]": "collected" });
+      const { result } = renderHook(() => useSiteFilters());
+
+      expect(siteNames(result.current.filteredData)).toEqual(["Пълен"]);
+    });
+
+    it("narrows to sites still missing an obtainable марка", () => {
+      withParams({ "filters[sticker]": "not-collected" });
+      const { result } = renderHook(() => useSiteFilters());
+
+      expect(siteNames(result.current.filteredData)).toEqual([
+        "Стамп само",
+        "Нищо",
+        "Празен",
+      ]);
+    });
+
+    it("returns exactly the sites offering no марка", () => {
+      withParams({ "filters[sticker]": "not-available" });
+      const { result } = renderHook(() => useSiteFilters());
+
+      expect(siteNames(result.current.filteredData)).toEqual(["Без марка"]);
+    });
+
+    // Deliberate, not a defect: a site offering no марка is reachable only
+    // through the dedicated option, so it falls out of both other views.
+    it("leaves sites offering no марка out of both collected and not-collected", () => {
+      withParams({ "filters[sticker]": "collected" });
+      const { result: collected } = renderHook(() => useSiteFilters());
+
+      withParams({ "filters[sticker]": "not-collected" });
+      const { result: notCollected } = renderHook(() => useSiteFilters());
+
+      const covered = [
+        ...siteNames(collected.current.filteredData),
+        ...siteNames(notCollected.current.filteredData),
+      ];
+
+      expect(covered).toHaveLength(4);
+      expect(covered).not.toContain("Без марка");
+    });
+
+    it("drops cities left with no matching sites", () => {
+      withParams({ "filters[sticker]": "not-available" });
+      const { result } = renderHook(() => useSiteFilters());
+
+      expect(result.current.filteredData.map((city) => city.city)).toEqual([
+        "Свищов",
+      ]);
+    });
+
+    it("offers exactly the four options", () => {
+      const { result } = renderHook(() => useSiteFilters());
+
+      expect(result.current.stickerFilters.map((o) => o.value)).toEqual([
+        "all",
+        "collected",
+        "not-collected",
+        "not-available",
+      ]);
+    });
+  });
+
+  describe("composition of the stamp and sticker filters", () => {
+    // The combination the feature exists for: the trip-planning list of sites
+    // where a марка is still achievable.
+    it("isolates stamped sites still missing a марка", () => {
+      withParams({
+        "filters[stamp]": "collected",
+        "filters[sticker]": "not-collected",
+      });
+      const { result } = renderHook(() => useSiteFilters());
+
+      expect(siteNames(result.current.filteredData)).toEqual(["Стамп само"]);
+    });
+
+    it("isolates fully collected sites", () => {
+      withParams({
+        "filters[stamp]": "collected",
+        "filters[sticker]": "collected",
+      });
+      const { result } = renderHook(() => useSiteFilters());
+
+      expect(siteNames(result.current.filteredData)).toEqual(["Пълен"]);
+    });
+
+    it("isolates unstamped sites still missing a марка", () => {
+      withParams({
+        "filters[stamp]": "not-collected",
+        "filters[sticker]": "not-collected",
+      });
+      const { result } = renderHook(() => useSiteFilters());
+
+      expect(siteNames(result.current.filteredData)).toEqual([
+        "Нищо",
+        "Празен",
+      ]);
+    });
+
+    it("returns nothing when the two filters have no overlap", () => {
+      withParams({
+        "filters[stamp]": "not-collected",
+        "filters[sticker]": "not-available",
+      });
+      const { result } = renderHook(() => useSiteFilters());
+
+      expect(result.current.filteredData).toEqual([]);
+    });
+  });
+
   describe("composition with the location filter", () => {
     it("combines a region with the stamp filter", () => {
       withParams({
@@ -139,6 +265,42 @@ describe("useSiteFilters", () => {
 
       expect(result.current.filteredData).toEqual([]);
     });
+
+    it("combines a region with the sticker filter", () => {
+      withParams({
+        "filters[location]": "Благоевградска област",
+        "filters[sticker]": "not-collected",
+      });
+      const { result } = renderHook(() => useSiteFilters());
+
+      expect(siteNames(result.current.filteredData)).toEqual([
+        "Стамп само",
+        "Нищо",
+      ]);
+    });
+
+    it("ANDs the location, stamp and sticker filters together", () => {
+      withParams({
+        "filters[location]": "Благоевградска област",
+        "filters[stamp]": "collected",
+        "filters[sticker]": "not-collected",
+      });
+      const { result } = renderHook(() => useSiteFilters());
+
+      expect(siteNames(result.current.filteredData)).toEqual(["Стамп само"]);
+    });
+
+    // Свищов holds the only site offering no марка, so the region next to it
+    // must come back empty.
+    it("returns nothing when the location excludes the sticker match", () => {
+      withParams({
+        "filters[location]": "Благоевградска област",
+        "filters[sticker]": "not-available",
+      });
+      const { result } = renderHook(() => useSiteFilters());
+
+      expect(result.current.filteredData).toEqual([]);
+    });
   });
 
   describe("query string round trip", () => {
@@ -146,22 +308,43 @@ describe("useSiteFilters", () => {
       const { result } = renderHook(() => useSiteFilters());
 
       expect(result.current.queryString).toBe(
-        "filters[location]=all&filters[stamp]=all",
+        "filters[location]=all&filters[stamp]=all&filters[sticker]=all",
       );
     });
 
-    it("reads both filters back out of the URL", () => {
+    it("reads every filter back out of the URL", () => {
       withParams({
         "filters[location]": "Банско",
         "filters[stamp]": "collected",
+        "filters[sticker]": "not-collected",
       });
       const { result } = renderHook(() => useSiteFilters());
 
       expect(result.current.selectedLocation).toBe("Банско");
       expect(result.current.stampFilter).toBe("collected");
+      expect(result.current.stickerFilter).toBe("not-collected");
       expect(result.current.queryString).toBe(
-        `filters[location]=${encodeURIComponent("Банско")}&filters[stamp]=collected`,
+        `filters[location]=${encodeURIComponent("Банско")}&filters[stamp]=collected&filters[sticker]=not-collected`,
       );
+    });
+
+    it("carries a sticker selection made after mount into the query string", () => {
+      const { result } = renderHook(() => useSiteFilters());
+
+      act(() => result.current.setStickerFilter("not-available"));
+
+      expect(result.current.stickerFilter).toBe("not-available");
+      expect(result.current.queryString).toContain(
+        "filters[sticker]=not-available",
+      );
+    });
+
+    it("falls back to the default for an unrecognised sticker value", () => {
+      withParams({ "filters[sticker]": "nonsense" });
+      const { result } = renderHook(() => useSiteFilters());
+
+      expect(result.current.stickerFilter).toBe("all");
+      expect(siteNames(result.current.filteredData)).toHaveLength(5);
     });
 
     it("carries a selection made after mount into the query string", () => {
@@ -178,7 +361,7 @@ describe("useSiteFilters", () => {
       renderHook(() => useSiteFilters());
 
       expect(pushMock).toHaveBeenCalledWith(
-        "?filters[location]=all&filters[stamp]=collected",
+        "?filters[location]=all&filters[stamp]=collected&filters[sticker]=all",
       );
     });
   });

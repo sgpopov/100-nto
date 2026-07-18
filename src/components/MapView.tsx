@@ -5,13 +5,17 @@ import { FullScreen } from "leaflet.fullscreen";
 import L from "leaflet";
 import { useEffect } from "react";
 import type { ReactNode } from "react";
-import type { CollectionStatus } from "@/lib/collectionStatus";
+
+/** Each view translates its own domain status into this rather than the map
+ *  borrowing a domain type, so a coin-only colour does not force a dead
+ *  branch into the sites domain. */
+export type PinStatus = "none" | "partial" | "complete" | "unavailable";
 
 export type MapPin = {
   key: string;
   lat: number;
   lng: number;
-  status: CollectionStatus;
+  status: PinStatus;
   popup: ReactNode;
 };
 
@@ -22,13 +26,14 @@ interface MapViewProps {
   height?: string;
 }
 
-const STATUS_COLOURS: Record<CollectionStatus, string> = {
+const STATUS_COLOURS: Record<PinStatus, string> = {
   none: "#228cc5",
   partial: "#f59e0b",
   complete: "#22c55e",
+  unavailable: "#9ca3af",
 };
 
-function statusIcon(status: CollectionStatus) {
+function statusIcon(status: PinStatus) {
   return L.divIcon({
     className: "",
     // The status is carried as a data attribute so tests can target meaning
@@ -40,10 +45,11 @@ function statusIcon(status: CollectionStatus) {
   });
 }
 
-const statusIcons: Record<CollectionStatus, ReturnType<typeof statusIcon>> = {
+const statusIcons: Record<PinStatus, ReturnType<typeof statusIcon>> = {
   none: statusIcon("none"),
   partial: statusIcon("partial"),
   complete: statusIcon("complete"),
+  unavailable: statusIcon("unavailable"),
 };
 
 function FitBounds({ pins }: { pins: MapPin[] }) {

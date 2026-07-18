@@ -70,11 +70,12 @@ describe("MapView", () => {
     expect(screen.getAllByTestId("marker")).toHaveLength(3);
   });
 
-  it("publishes each of the three statuses on its marker", () => {
+  it("publishes each pin status on its marker", () => {
     const pins = [
       makePin({ key: "none", status: "none" }),
       makePin({ key: "partial", status: "partial" }),
       makePin({ key: "complete", status: "complete" }),
+      makePin({ key: "unavailable", status: "unavailable" }),
     ];
     render(<MapView pins={pins} />);
 
@@ -82,7 +83,7 @@ describe("MapView", () => {
       .getAllByTestId("marker")
       .map((m) => m.getAttribute("data-pin-status"));
 
-    expect(statuses).toEqual(["none", "partial", "complete"]);
+    expect(statuses).toEqual(["none", "partial", "complete", "unavailable"]);
   });
 
 

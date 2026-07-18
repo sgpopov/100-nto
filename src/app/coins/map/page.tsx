@@ -4,9 +4,17 @@ import { useMemo } from "react";
 import Image from "next/image";
 import dynamic from "next/dynamic";
 import { BadgeCheckIcon } from "lucide-react";
+import { deriveCoinStatus, type CoinStatus } from "@/lib/coinStatus";
+import type { PinStatus } from "@/components/MapView";
 import { useCoinsContext } from "../context";
 
 const MapView = dynamic(() => import("@/components/MapView"), { ssr: false });
+
+const PIN_STATUS: Record<CoinStatus, PinStatus> = {
+  collected: "complete",
+  "not-collected": "none",
+  unavailable: "unavailable",
+};
 
 export default function CoinsMapPage() {
   const { filteredData } = useCoinsContext();
@@ -49,9 +57,7 @@ export default function CoinsMapPage() {
         key: coin.id,
         lat,
         lng,
-        // Coins keep their single collected flag; they have no second
-        // collectible, so they are only ever nothing or complete.
-        status: coin.collected ? ("complete" as const) : ("none" as const),
+        status: PIN_STATUS[deriveCoinStatus(coin)],
         popup: (
           <div>
             <Image

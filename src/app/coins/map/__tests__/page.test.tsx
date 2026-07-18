@@ -48,6 +48,30 @@ const mockCoins = [
     location: "Велико Търново",
   },
   {
+    id: "5",
+    name: "Coin E (no longer offered)",
+    url: "https://example.com/e",
+    images: [{ url: "/img-e.jpg" }],
+    coordinates: [25.2, 43.2],
+    collected: false,
+    available: false,
+    province: "Пловдив",
+    location: "Пловдив",
+  },
+  // No coin in the shipped data is both collected and unavailable, so this
+  // combination only exists here.
+  {
+    id: "6",
+    name: "Coin F (collected, no longer offered)",
+    url: "https://example.com/f",
+    images: [{ url: "/img-f.jpg" }],
+    coordinates: [25.3, 43.3],
+    collected: true,
+    available: false,
+    province: "Пловдив",
+    location: "Пловдив",
+  },
+  {
     id: "3",
     name: "Coin C (no coordinates)",
     url: "https://example.com/c",
@@ -73,7 +97,7 @@ describe("CoinsMapPage", () => {
 
   describe("pin building", () => {
     it("builds one pin per geocoded coin, excluding coins with missing coordinates", () => {
-      expect(capturedPins).toHaveLength(3);
+      expect(capturedPins).toHaveLength(5);
     });
 
     it("keeps unique coordinates intact and spreads duplicate coordinates", () => {
@@ -94,6 +118,18 @@ describe("CoinsMapPage", () => {
     it("maps collected coins to complete and uncollected to none", () => {
       expect(capturedPins[0].status).toBe("complete");
       expect(capturedPins[1].status).toBe("none");
+    });
+
+    it("maps an uncollected coin that is no longer offered to unavailable", () => {
+      expect(capturedPins.find((pin) => pin.key === "5")?.status).toBe(
+        "unavailable",
+      );
+    });
+
+    it("keeps a collected coin complete even once it is no longer offered", () => {
+      expect(capturedPins.find((pin) => pin.key === "6")?.status).toBe(
+        "complete",
+      );
     });
 
     it("never renders a coin as partially collected", () => {

@@ -1,4 +1,4 @@
-import { test, expect, type Page } from "@playwright/test";
+import { test, expect, type Locator, type Page } from "@playwright/test";
 
 test.describe("Sites view navigation", () => {
   test("clicking Карта on list page navigates to /sites/map", async ({
@@ -386,6 +386,12 @@ test.describe("Collection progress", () => {
   const stampProgress = (page: Page) => page.getByTestId("stamp-progress");
   const stickerProgress = (page: Page) => page.getByTestId("sticker-progress");
 
+  // Snapshots must be taken the same way toHaveText reads the element, which is
+  // textContent. Capturing innerText instead would leave the "did not change"
+  // assertion below able to pass without comparing anything.
+  const textOf = async (locator: Locator) =>
+    (await locator.textContent()) ?? "";
+
   test("both collectibles are reported", async ({ page }) => {
     await page.goto("/sites/list");
 
@@ -398,9 +404,9 @@ test.describe("Collection progress", () => {
   }) => {
     await page.goto("/sites/list");
 
-    const stamps = await stampProgress(page).innerText();
-    const stickers = await stickerProgress(page).innerText();
-    const results = await page.getByTestId("filter-results").innerText();
+    const stamps = await textOf(stampProgress(page));
+    const stickers = await textOf(stickerProgress(page));
+    const results = await textOf(page.getByTestId("filter-results"));
 
     await page.getByPlaceholder("Търсене...").click();
     await page
@@ -420,8 +426,8 @@ test.describe("Collection progress", () => {
   test("the figures survive a печат filter", async ({ page }) => {
     await page.goto("/sites/list");
 
-    const stamps = await stampProgress(page).innerText();
-    const stickers = await stickerProgress(page).innerText();
+    const stamps = await textOf(stampProgress(page));
+    const stickers = await textOf(stickerProgress(page));
 
     await page.goto("/sites/list?filters[stamp]=collected");
 

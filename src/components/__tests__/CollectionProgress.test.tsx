@@ -15,12 +15,13 @@ describe("CollectionProgress", () => {
       />,
     );
 
-    expect(screen.getByTestId("stamp-progress")).toHaveTextContent(
-      "Печати 3/10събрани печати: 3 от 10",
-    );
-    expect(screen.getByTestId("sticker-progress")).toHaveTextContent(
-      "Марки 1/7събрани марки: 1 от 7",
-    );
+    const stamps = screen.getByTestId("stamp-progress");
+    expect(stamps).toHaveTextContent(/Печати 3\/10/);
+    expect(stamps).toHaveTextContent(/събрани печати: 3 от 10/);
+
+    const stickers = screen.getByTestId("sticker-progress");
+    expect(stickers).toHaveTextContent(/Марки 1\/7/);
+    expect(stickers).toHaveTextContent(/събрани марки: 1 от 7/);
   });
 
   // Guards the whole chain: a marka-less site must not inflate the denominator

@@ -152,8 +152,8 @@ test.describe("Coins views", () => {
   test("the map popup carries the same availability message as the list", async ({
     page,
   }) => {
-    // Габрово holds exactly one coin (Дом на хумора и сатирата) and it is
-    // unavailable, so filtering by location leaves a single pin to click.
+    // Filtered to a single-coin location: on the full map the pins overlap and
+    // a forced click lands on a neighbour's popup.
     await page.goto(
       `/coins/map?filters[location]=${encodeURIComponent("Габрово")}&filters[collected]=all`,
     );

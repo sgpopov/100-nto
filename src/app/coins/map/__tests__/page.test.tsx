@@ -91,9 +91,15 @@ describe("CoinsMapPage", () => {
       expect(duplicateA?.lat).not.toBe(duplicateB?.lat);
     });
 
-    it("sets active=true for collected coins and false for uncollected", () => {
-      expect(capturedPins[0].active).toBe(true);
-      expect(capturedPins[1].active).toBe(false);
+    it("maps collected coins to complete and uncollected to none", () => {
+      expect(capturedPins[0].status).toBe("complete");
+      expect(capturedPins[1].status).toBe("none");
+    });
+
+    it("never renders a coin as partially collected", () => {
+      // Coins have only one collectible, so the middle status is unreachable
+      // for them — this is what keeps coins behaviour unchanged.
+      expect(capturedPins.every((pin) => pin.status !== "partial")).toBe(true);
     });
 
     it("uses coin.id as the pin key", () => {

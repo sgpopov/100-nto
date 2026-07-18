@@ -3,19 +3,34 @@
 import { useState, useEffect, useMemo } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import data from "@/data/places.json";
+import {
+  matchesStampFilter,
+  toStampFilterValue,
+  type StampFilterValue,
+} from "@/lib/collectionStatus";
 
 export function useSiteFilters() {
   const router = useRouter();
   const searchParams = useSearchParams();
 
   const initialLocation = searchParams.get("filters[location]") || "all";
-  const initialVisitedFilter = searchParams.get("filters[visited]") || "all";
+  // A stale link carrying the removed visited parameter simply falls back to
+  // the default selection; no alias is provided.
+  const initialStampFilter = toStampFilterValue(
+    searchParams.get("filters[stamp]")
+  );
 
   const [selectedLocation, setSelectedLocation] =
     useState<string>(initialLocation);
 
-  const [visitedFilter, setVisitedFilter] =
-    useState<string>(initialVisitedFilter);
+  const [stampFilter, setStampFilterValue] =
+    useState<StampFilterValue>(initialStampFilter);
+
+  // The filter widget deals in plain strings; narrowing happens here so
+  // callers stay pure wiring.
+  const setStampFilter = (value: string) => {
+    setStampFilterValue(toStampFilterValue(value));
+  };
 
   const citiesByRegion = useMemo(() => {
     const regions = [...new Set(data.map((city) => city.region))].sort();
@@ -37,10 +52,10 @@ export function useSiteFilters() {
     });
   }, []);
 
-  const visitedFilters = [
+  const stampFilters = [
     { value: "all", label: "Всички" },
-    { value: "visited", label: "Посетени" },
-    { value: "not-visited", label: "Непосетени" },
+    { value: "collected", label: "Събрани" },
+    { value: "not-collected", label: "Несъбрани" },
   ];
 
   const filteredData = useMemo(
@@ -54,17 +69,15 @@ export function useSiteFilters() {
         )
         .map((city) => ({
           ...city,
-          sites: city.sites.filter((site) => {
-            if (visitedFilter === "visited") return site.visited === true;
-            if (visitedFilter === "not-visited") return !site.visited;
-            return true;
-          }),
+          sites: city.sites.filter((site) =>
+            matchesStampFilter(site, stampFilter)
+          ),
         }))
         .filter((city) => city.sites.length > 0),
-    [selectedLocation, visitedFilter]
+    [selectedLocation, stampFilter]
   );
 
-  const queryString = `filters[location]=${encodeURIComponent(selectedLocation)}&filters[visited]=${encodeURIComponent(visitedFilter)}`;
+  const queryString = `filters[location]=${encodeURIComponent(selectedLocation)}&filters[stamp]=${encodeURIComponent(stampFilter)}`;
 
   useEffect(() => {
     router.push(`?${queryString}`);
@@ -73,10 +86,10 @@ export function useSiteFilters() {
   return {
     selectedLocation,
     setSelectedLocation,
-    visitedFilter,
-    setVisitedFilter,
+    stampFilter,
+    setStampFilter,
     citiesByRegion,
-    visitedFilters,
+    stampFilters,
     filteredData,
     queryString,
   };

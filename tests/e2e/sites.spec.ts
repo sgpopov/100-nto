@@ -20,14 +20,14 @@ test.describe("Sites view navigation", () => {
     page,
   }) => {
     await page.goto(
-      "/sites/list?filters[location]=%D0%91%D0%B0%D0%BD%D1%81%D0%BA%D0%BE&filters[visited]=visited"
+      "/sites/list?filters[location]=%D0%91%D0%B0%D0%BD%D1%81%D0%BA%D0%BE&filters[stamp]=collected"
     );
 
     await page.getByRole("link", { name: "Карта" }).click();
 
     await expect(page).toHaveURL(/\/sites\/map/);
     await expect(page).toHaveURL(/filters\[location\]=%D0%91%D0%B0%D0%BD%D1%81%D0%BA%D0%BE/);
-    await expect(page).toHaveURL(/filters\[visited\]=visited/);
+    await expect(page).toHaveURL(/filters\[stamp\]=collected/);
   });
 
   test("nav link is active on /sites/list", async ({ page }) => {
@@ -154,7 +154,7 @@ test.describe("Location combobox (Град filter on sites)", () => {
     page,
   }) => {
     await page.goto(
-      "/sites/list?filters[location]=%D0%91%D0%B0%D0%BD%D1%81%D0%BA%D0%BE&filters[visited]=all",
+      "/sites/list?filters[location]=%D0%91%D0%B0%D0%BD%D1%81%D0%BA%D0%BE&filters[stamp]=all",
     );
 
     const filteredText = await page.locator(".text-sm.italic").first().innerText();
@@ -168,5 +168,118 @@ test.describe("Location combobox (Град filter on sites)", () => {
     await expect(page).toHaveURL(/filters\[location\]=all/);
     const totalText = await page.locator(".text-sm.italic").first().innerText();
     expect(totalText).not.toBe(filteredText);
+  });
+});
+
+test.describe("Печат collection state", () => {
+  const stampIcons = "[data-testid='stamp-icon']";
+
+  test("list view marks stamped sites and leaves the rest unmarked", async ({
+    page,
+  }) => {
+    await page.goto("/sites/list?filters[stamp]=collected");
+
+    const sites = page.locator("ul[role='list'] > li > a");
+    await expect(sites.first()).toBeVisible();
+
+    expect(await page.locator(stampIcons).count()).toBe(await sites.count());
+
+    await page.goto("/sites/list?filters[stamp]=not-collected");
+    await expect(page.locator("ul[role='list'] > li > a").first()).toBeVisible();
+
+    expect(await page.locator(stampIcons).count()).toBe(0);
+  });
+
+  test("the stamp icon carries a Bulgarian screen-reader label", async ({
+    page,
+  }) => {
+    await page.goto("/sites/list?filters[stamp]=collected");
+
+    await expect(
+      page.getByRole("img", { name: "Събран печат" }).first(),
+    ).toBeVisible();
+  });
+
+  test("the stamp filter narrows the result count", async ({ page }) => {
+    await page.goto("/sites/list?filters[stamp]=all");
+    const all = await page.locator(stampIcons).count();
+
+    await page.goto("/sites/list?filters[stamp]=collected");
+    const stamped = page.locator("ul[role='list'] > li > a");
+    await expect(stamped.first()).toBeVisible();
+
+    expect(await stamped.count()).toBe(all);
+  });
+
+  test("map pins publish a collection status", async ({ page }) => {
+    await page.goto("/sites/map?filters[stamp]=all");
+
+    await expect(page.locator(".leaflet-container")).toBeVisible({
+      timeout: 10000,
+    });
+    await expect(page.locator("[data-pin-status]").first()).toBeVisible({
+      timeout: 10000,
+    });
+
+    const statuses = await page
+      .locator("[data-pin-status]")
+      .evaluateAll((pins) =>
+        pins.map((pin) => pin.getAttribute("data-pin-status")),
+      );
+
+    expect(statuses.length).toBeGreaterThan(0);
+    expect(
+      statuses.every((s) => ["none", "partial", "complete"].includes(s ?? "")),
+    ).toBe(true);
+  });
+
+  test("stamped sites render as partial while every марка is outstanding", async ({
+    page,
+  }) => {
+    await page.goto("/sites/map?filters[stamp]=collected");
+
+    await expect(page.locator(".leaflet-container")).toBeVisible({
+      timeout: 10000,
+    });
+    await expect(page.locator("[data-pin-status]").first()).toBeVisible({
+      timeout: 10000,
+    });
+
+    const statuses = await page
+      .locator("[data-pin-status]")
+      .evaluateAll((pins) =>
+        pins.map((pin) => pin.getAttribute("data-pin-status")),
+      );
+
+    expect(statuses.length).toBeGreaterThan(0);
+    expect(statuses.every((s) => s === "partial")).toBe(true);
+  });
+
+  test("unstamped sites render as nothing collected", async ({ page }) => {
+    await page.goto("/sites/map?filters[stamp]=not-collected");
+
+    await expect(page.locator(".leaflet-container")).toBeVisible({
+      timeout: 10000,
+    });
+    await expect(page.locator("[data-pin-status]").first()).toBeVisible({
+      timeout: 10000,
+    });
+
+    const statuses = await page
+      .locator("[data-pin-status]")
+      .evaluateAll((pins) =>
+        pins.map((pin) => pin.getAttribute("data-pin-status")),
+      );
+
+    expect(statuses.every((s) => s === "none")).toBe(true);
+  });
+
+  test("a stale visited link falls back to showing every site", async ({
+    page,
+  }) => {
+    await page.goto("/sites/list?filters[visited]=visited");
+
+    await expect(page).toHaveURL(/filters\[stamp\]=all/);
+    await expect(page).not.toHaveURL(/visited/);
   });
 });

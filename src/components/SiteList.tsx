@@ -6,12 +6,11 @@ type SiteListData = {
   number: string;
   image: string;
   link: string;
-  visited: boolean;
+  stamp: boolean;
 };
 
 interface SiteListProps {
   siteList: SiteListData[];
-  visitedFilter?: "all" | "visited" | "not-visited";
 }
 
 export const SiteList = ({ siteList }: SiteListProps) => {
@@ -50,12 +49,15 @@ export const SiteList = ({ siteList }: SiteListProps) => {
                 />
 
                 <p className="relative text-lg font-semibold text-white">
-                  {site.visited && (
+                  {site.stamp && (
                     <BadgeCheckIcon
                       role="img"
-                      aria-label="Посетен обект"
+                      aria-label="Събран печат"
+                      data-testid="stamp-icon"
                       className="w-5 h-5"
-                    />
+                    >
+                      <title>Събран печат</title>
+                    </BadgeCheckIcon>
                   )}
                 </p>
               </div>

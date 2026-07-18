@@ -49,7 +49,9 @@ export default function CoinsMapPage() {
         key: coin.id,
         lat,
         lng,
-        active: coin.collected,
+        // Coins keep their single collected flag; they have no second
+        // collectible, so they are only ever nothing or complete.
+        status: coin.collected ? ("complete" as const) : ("none" as const),
         popup: (
           <div>
             <Image

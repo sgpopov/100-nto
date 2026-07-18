@@ -4,6 +4,7 @@ import { useMemo } from "react";
 import Image from "next/image";
 import dynamic from "next/dynamic";
 import { randomId } from "@/utils";
+import { deriveStatus } from "@/lib/collectionStatus";
 import { useSitesContext } from "../context";
 
 const MapView = dynamic(() => import("@/components/MapView"), { ssr: false });
@@ -18,7 +19,7 @@ export default function SitesMapPage() {
           key: `${city.city}-${site.name}-${randomId()}`,
           lat: site.lat,
           lng: site.lng,
-          active: site.visited,
+          status: deriveStatus(site),
           popup: (
             <div>
               <div className="relative w-full h-24 mb-2">

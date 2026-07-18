@@ -43,8 +43,6 @@ export default function SitesMapPage() {
                 {city.city} &bull; №{site.number}
               </div>
 
-              {/* Pin colour reads a collected марка and an unavailable one as
-                  the same complete state — the popup is where they differ. */}
               <CollectionIcons
                 state={site}
                 className="mt-2 flex items-center gap-1.5 text-gray-700"

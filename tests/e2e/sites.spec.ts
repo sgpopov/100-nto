@@ -176,7 +176,6 @@ test.describe("Печат collection state", () => {
   const stickerIcons = "[data-testid='sticker-icon']";
   const unavailableIcons = "[data-testid='sticker-unavailable-icon']";
 
-  /** Opens a map URL and waits for leaflet to have drawn its pins. */
   const gotoMap = async (page: Page, url: string) => {
     await page.goto(url);
 
@@ -266,8 +265,7 @@ test.describe("Печат collection state", () => {
       );
 
     expect(statuses.length).toBeGreaterThan(0);
-    // A stamped site is partial until its марка arrives, then complete. Both
-    // are present in the dataset, so assert only that neither reads as "none".
+    // The dataset holds both, so assert the pair rather than a single status.
     expect(statuses.every((s) => s === "partial" || s === "complete")).toBe(
       true,
     );
@@ -303,10 +301,8 @@ test.describe("Печат collection state", () => {
     await expect(sites.first()).toBeVisible();
 
     const stamps = await page.locator(stampIcons).count();
-    const stickers = await page.locator("[data-testid='sticker-icon']").count();
+    const stickers = await page.locator(stickerIcons).count();
 
-    // Every марка in the dataset sits on a stamped site, and some stamped
-    // sites are still waiting for theirs.
     expect(stickers).toBeGreaterThan(0);
     expect(stickers).toBeLessThan(stamps);
   });
@@ -317,7 +313,7 @@ test.describe("Печат collection state", () => {
     await expect(page.locator("ul[role='list'] > li > a").first()).toBeVisible();
 
     expect(await page.locator(stampIcons).count()).toBe(0);
-    expect(await page.locator("[data-testid='sticker-icon']").count()).toBe(0);
+    expect(await page.locator(stickerIcons).count()).toBe(0);
   });
 
   test("the марка icon carries a Bulgarian screen-reader label", async ({
@@ -333,8 +329,7 @@ test.describe("Печат collection state", () => {
   test("a site offering no марка shows the unavailable icon", async ({
     page,
   }) => {
-    // Национален военноисторически музей is the one site in София that offers
-    // no марка; its stamped neighbours make the icon's distinctness visible.
+    // Национален военноисторически музей is the only София site with no марка.
     await page.goto("/sites/list?filters[location]=София");
 
     await expect(page.locator("ul[role='list'] > li > a").first()).toBeVisible();
@@ -343,7 +338,6 @@ test.describe("Печат collection state", () => {
     await expect(
       page.getByRole("img", { name: "Няма марка за този обект" }),
     ).toBeVisible();
-    // The absent марка is never also reported as collected.
     const row = page.locator("ul[role='list'] > li > a").filter({
       has: page.locator(unavailableIcons),
     });

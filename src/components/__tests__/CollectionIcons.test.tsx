@@ -60,30 +60,41 @@ describe("CollectionIcons", () => {
     expect(sticker()).not.toBeNull();
   });
 
+  // The <title> differs per icon, so comparing innerHTML would pass even for
+  // identical glyphs. Compare the drawn geometry only.
+  const geometry = (root: HTMLElement, testId: string) =>
+    Array.from(root.querySelectorAll(`[data-testid='${testId}'] > *`))
+      .filter((el) => el.tagName !== "title")
+      .map((el) => el.outerHTML)
+      .join("");
+
   it("renders each icon as a distinct shape", () => {
-    const { container } = render(<CollectionIcons state={state(true, true)} />);
-    const { container: absent } = render(
-      <CollectionIcons state={state(false, null)} />,
+    const { container, rerender } = render(
+      <CollectionIcons state={state(true, true)} />,
     );
 
-    const paths = (root: HTMLElement, testId: string) =>
-      root.querySelector(`[data-testid='${testId}']`)?.innerHTML;
+    const stamp = geometry(container, "stamp-icon");
+    const sticker = geometry(container, "sticker-icon");
 
-    expect(paths(container, "stamp-icon")).not.toBe(
-      paths(container, "sticker-icon"),
-    );
-    expect(paths(container, "stamp-icon")).not.toBe(
-      paths(absent, "sticker-unavailable-icon"),
-    );
+    rerender(<CollectionIcons state={state(false, null)} />);
+    const unavailable = geometry(container, "sticker-unavailable-icon");
+
+    expect(stamp).not.toBe("");
+    expect(sticker).not.toBe("");
+    expect(unavailable).not.toBe("");
+
+    expect(stamp).not.toBe(sticker);
+    expect(stamp).not.toBe(unavailable);
+    expect(sticker).not.toBe(unavailable);
   });
 
   it("labels every icon in Bulgarian for screen readers", () => {
-    render(<CollectionIcons state={state(true, true)} />);
+    const { rerender } = render(<CollectionIcons state={state(true, true)} />);
 
     expect(screen.getByRole("img", { name: "Събран печат" })).toBeTruthy();
     expect(screen.getByRole("img", { name: "Събрана марка" })).toBeTruthy();
 
-    render(<CollectionIcons state={state(true, null)} />);
+    rerender(<CollectionIcons state={state(true, null)} />);
 
     expect(
       screen.getByRole("img", { name: "Няма марка за този обект" }),

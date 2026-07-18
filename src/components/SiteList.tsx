@@ -53,8 +53,8 @@ export const SiteList = ({ siteList }: SiteListProps) => {
 
                 <CollectionIcons
                   state={site}
-                  // The photographs run from near-black to near-white, so
-                  // legibility comes from the shadow, not from the fill colour.
+                  // Photographs run near-black to near-white, so legibility
+                  // comes from the shadow rather than the fill colour.
                   className="relative flex items-center gap-1.5 text-white drop-shadow-[0_1px_2px_rgba(0,0,0,0.9)]"
                 />
               </div>

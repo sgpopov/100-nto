@@ -6,24 +6,19 @@ import {
 } from "@/lib/collectionStatus";
 
 /**
- * The icon trio for a site's печат and марка.
+ * Shared by the list view and the map popup: pin colour reads "марка collected"
+ * and "no марка offered" as the same complete state, so these icons are the only
+ * place that distinction surfaces.
  *
- * Shared by the list view and the map popup so the two presentations cannot
- * drift apart. The popup matters in particular: pin colour deliberately reads
- * "марка collected" and "no марка offered" as the same complete state, so these
- * icons are the only place that distinction surfaces.
- *
- * Icons are presence-based — an item that is not collected renders nothing at
- * all, rather than a dimmed icon. At this size a faded icon reads as a
- * different icon, not as an absent one.
+ * An uncollected item renders nothing rather than a dimmed icon — at this size a
+ * faded icon reads as a different icon, not as an absent one.
  */
 interface CollectionIconsProps {
   state: CollectionState;
   className?: string;
 }
 
-// Colour is inherited so each consumer can sit the trio on its own background —
-// white over a photograph in the list, dark ink in the map popup.
+// Colour is inherited so each consumer can set it for its own background.
 const iconClass = "w-5 h-5";
 
 export const CollectionIcons = ({ state, className }: CollectionIconsProps) => {

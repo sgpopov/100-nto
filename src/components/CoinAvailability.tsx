@@ -1,6 +1,6 @@
 import { CircleSlashIcon } from "lucide-react";
 
-import { deriveCoinStatus, type CoinState } from "@/lib/coinStatus";
+import { coinIsUnavailable, type CoinState } from "@/lib/coinStatus";
 
 /**
  * "в момента" is load-bearing: a coin can start being offered again, and the
@@ -18,7 +18,11 @@ export const CoinAvailability = ({
   state,
   className,
 }: CoinAvailabilityProps) => {
-  if (deriveCoinStatus(state) !== "unavailable") {
+  // Availability is read on its own axis rather than through the pin's
+  // collapsed status, so revisiting which colour wins cannot silently change
+  // what the text says. The collected gate is this slice only — #63 drops it
+  // so an owned coin shows both facts.
+  if (state.collected || !coinIsUnavailable(state)) {
     return null;
   }
 

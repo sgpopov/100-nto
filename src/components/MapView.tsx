@@ -5,12 +5,13 @@ import { FullScreen } from "leaflet.fullscreen";
 import L from "leaflet";
 import { useEffect } from "react";
 import type { ReactNode } from "react";
+import type { CollectionStatus } from "@/lib/collectionStatus";
 
 export type MapPin = {
   key: string;
   lat: number;
   lng: number;
-  active: boolean;
+  status: CollectionStatus;
   popup: ReactNode;
 };
 
@@ -21,21 +22,29 @@ interface MapViewProps {
   height?: string;
 }
 
-const activeIcon = L.divIcon({
-  className: "",
-  html: `<div style="background-color:#22c55e;width:14px;height:14px;border-radius:50%;border:2px solid white;box-shadow:0 0 4px rgba(0,0,0,0.4)"></div>`,
-  iconSize: [14, 14],
-  iconAnchor: [7, 7],
-  popupAnchor: [0, -7],
-});
+const STATUS_COLOURS: Record<CollectionStatus, string> = {
+  none: "#228cc5",
+  partial: "#f59e0b",
+  complete: "#22c55e",
+};
 
-const inactiveIcon = L.divIcon({
-  className: "",
-  html: `<div style="background-color:#228cc5;width:14px;height:14px;border-radius:50%;border:2px solid white;box-shadow:0 0 4px rgba(0,0,0,0.4)"></div>`,
-  iconSize: [14, 14],
-  iconAnchor: [7, 7],
-  popupAnchor: [0, -7],
-});
+function statusIcon(status: CollectionStatus) {
+  return L.divIcon({
+    className: "",
+    // The status is carried as a data attribute so tests can target meaning
+    // rather than the colours, which are expected to be revised.
+    html: `<div data-pin-status="${status}" style="background-color:${STATUS_COLOURS[status]};width:14px;height:14px;border-radius:50%;border:2px solid white;box-shadow:0 0 4px rgba(0,0,0,0.4)"></div>`,
+    iconSize: [14, 14],
+    iconAnchor: [7, 7],
+    popupAnchor: [0, -7],
+  });
+}
+
+const statusIcons: Record<CollectionStatus, ReturnType<typeof statusIcon>> = {
+  none: statusIcon("none"),
+  partial: statusIcon("partial"),
+  complete: statusIcon("complete"),
+};
 
 function FitBounds({ pins }: { pins: MapPin[] }) {
   const map = useMap();
@@ -89,7 +98,7 @@ export default function MapView({
         <Marker
           key={pin.key}
           position={[pin.lat, pin.lng]}
-          icon={pin.active ? activeIcon : inactiveIcon}
+          icon={statusIcons[pin.status]}
         >
           <Popup>{pin.popup}</Popup>
         </Marker>

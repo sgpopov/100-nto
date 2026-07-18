@@ -22,6 +22,7 @@ vi.mock("react-leaflet", () => ({
   useMap: () => ({
     fitBounds: vi.fn(),
     addControl: vi.fn(),
+    removeControl: vi.fn(),
     fullscreenControl: undefined,
   }),
   Marker: ({
@@ -34,7 +35,11 @@ vi.mock("react-leaflet", () => ({
   }) => (
     <div
       data-testid="marker"
-      data-icon-color={icon.options.html.includes("#22c55e") ? "green" : "grey"}
+      // Read back the status the pin published rather than its colour, so
+      // these tests survive a change of palette.
+      data-pin-status={
+        /data-pin-status="([^"]+)"/.exec(icon.options.html)?.[1] ?? "unknown"
+      }
     >
       {children}
     </div>
@@ -48,7 +53,7 @@ const makePin = (overrides: Partial<MapPin> = {}): MapPin => ({
   key: "pin-1",
   lat: 42.7,
   lng: 25.5,
-  active: false,
+  status: "none",
   popup: <span>Popup content</span>,
   ...overrides,
 });
@@ -65,24 +70,21 @@ describe("MapView", () => {
     expect(screen.getAllByTestId("marker")).toHaveLength(3);
   });
 
-  it("gives active pins a green marker and inactive pins a grey marker", () => {
+  it("publishes each of the three statuses on its marker", () => {
     const pins = [
-      makePin({ key: "active", active: true }),
-      makePin({ key: "inactive", active: false }),
+      makePin({ key: "none", status: "none" }),
+      makePin({ key: "partial", status: "partial" }),
+      makePin({ key: "complete", status: "complete" }),
     ];
     render(<MapView pins={pins} />);
 
-    const markers = screen.getAllByTestId("marker");
-    const green = markers.filter(
-      (m) => m.getAttribute("data-icon-color") === "green",
-    );
-    const grey = markers.filter(
-      (m) => m.getAttribute("data-icon-color") === "grey",
-    );
+    const statuses = screen
+      .getAllByTestId("marker")
+      .map((m) => m.getAttribute("data-pin-status"));
 
-    expect(green).toHaveLength(1);
-    expect(grey).toHaveLength(1);
+    expect(statuses).toEqual(["none", "partial", "complete"]);
   });
+
 
   it("renders popup content for each marker", () => {
     const pins = [

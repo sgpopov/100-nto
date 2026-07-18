@@ -18,10 +18,10 @@ export default function SitesLayout({
   const {
     selectedLocation,
     setSelectedLocation,
-    visitedFilter,
-    setVisitedFilter,
+    stampFilter,
+    setStampFilter,
     citiesByRegion,
-    visitedFilters,
+    stampFilters,
     filteredData,
     queryString,
   } = filters;
@@ -46,10 +46,10 @@ export default function SitesLayout({
             />
 
             <Filter
-              name="Посетени"
-              selectedValue={visitedFilter}
-              options={visitedFilters}
-              onFilterChanged={setVisitedFilter}
+              name="Печат"
+              selectedValue={stampFilter}
+              options={stampFilters}
+              onFilterChanged={setStampFilter}
             />
           </div>
 

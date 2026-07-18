@@ -1,4 +1,4 @@
-import { test, expect } from "@playwright/test";
+import { test, expect, type Page } from "@playwright/test";
 
 test.describe("Sites view navigation", () => {
   test("clicking Карта on list page navigates to /sites/map", async ({
@@ -173,6 +173,19 @@ test.describe("Location combobox (Град filter on sites)", () => {
 
 test.describe("Печат collection state", () => {
   const stampIcons = "[data-testid='stamp-icon']";
+  const stickerIcons = "[data-testid='sticker-icon']";
+  const unavailableIcons = "[data-testid='sticker-unavailable-icon']";
+
+  const gotoMap = async (page: Page, url: string) => {
+    await page.goto(url);
+
+    await expect(page.locator(".leaflet-container")).toBeVisible({
+      timeout: 10000,
+    });
+    await expect(page.locator("[data-pin-status]").first()).toBeVisible({
+      timeout: 10000,
+    });
+  };
 
   test("list view marks stamped sites and leaves the rest unmarked", async ({
     page,
@@ -233,7 +246,7 @@ test.describe("Печат collection state", () => {
     ).toBe(true);
   });
 
-  test("stamped sites render as partial while every марка is outstanding", async ({
+  test("stamped sites render as partial or complete, never as untouched", async ({
     page,
   }) => {
     await page.goto("/sites/map?filters[stamp]=collected");
@@ -252,7 +265,12 @@ test.describe("Печат collection state", () => {
       );
 
     expect(statuses.length).toBeGreaterThan(0);
-    expect(statuses.every((s) => s === "partial")).toBe(true);
+    // The dataset holds both, so assert the pair rather than a single status.
+    expect(statuses.every((s) => s === "partial" || s === "complete")).toBe(
+      true,
+    );
+    expect(statuses).toContain("partial");
+    expect(statuses).toContain("complete");
   });
 
   test("unstamped sites render as nothing collected", async ({ page }) => {
@@ -272,6 +290,86 @@ test.describe("Печат collection state", () => {
       );
 
     expect(statuses.every((s) => s === "none")).toBe(true);
+  });
+
+  test("the марка icon appears only on a subset of the stamped sites", async ({
+    page,
+  }) => {
+    await page.goto("/sites/list?filters[stamp]=collected");
+
+    const sites = page.locator("ul[role='list'] > li > a");
+    await expect(sites.first()).toBeVisible();
+
+    const stamps = await page.locator(stampIcons).count();
+    const stickers = await page.locator(stickerIcons).count();
+
+    expect(stickers).toBeGreaterThan(0);
+    expect(stickers).toBeLessThan(stamps);
+  });
+
+  test("unstamped sites show neither collection icon", async ({ page }) => {
+    await page.goto("/sites/list?filters[stamp]=not-collected");
+
+    await expect(page.locator("ul[role='list'] > li > a").first()).toBeVisible();
+
+    expect(await page.locator(stampIcons).count()).toBe(0);
+    expect(await page.locator(stickerIcons).count()).toBe(0);
+  });
+
+  test("the марка icon carries a Bulgarian screen-reader label", async ({
+    page,
+  }) => {
+    await page.goto("/sites/list?filters[stamp]=collected");
+
+    await expect(
+      page.getByRole("img", { name: "Събрана марка" }).first(),
+    ).toBeVisible();
+  });
+
+  test("a site offering no марка shows the unavailable icon", async ({
+    page,
+  }) => {
+    // Национален военноисторически музей is the only София site with no марка.
+    await page.goto("/sites/list?filters[location]=София");
+
+    await expect(page.locator("ul[role='list'] > li > a").first()).toBeVisible();
+
+    await expect(page.locator(unavailableIcons)).toHaveCount(1);
+    await expect(
+      page.getByRole("img", { name: "Няма марка за този обект" }),
+    ).toBeVisible();
+    const row = page.locator("ul[role='list'] > li > a").filter({
+      has: page.locator(unavailableIcons),
+    });
+    await expect(row.locator(stickerIcons)).toHaveCount(0);
+    await expect(row.locator(stampIcons)).toHaveCount(1);
+  });
+
+  test("a complete pin's popup shows both collection icons", async ({
+    page,
+  }) => {
+    // Both Видин sites have печат and марка, so any pin here is complete.
+    await gotoMap(page, "/sites/map?filters[location]=Видин");
+
+    await page.locator("[data-pin-status='complete']").first().click();
+
+    const popup = page.locator(".leaflet-popup");
+    await expect(popup.locator(stampIcons)).toBeVisible();
+    await expect(popup.locator(stickerIcons)).toBeVisible();
+  });
+
+  test("a partial pin's popup shows the печат without a марка", async ({
+    page,
+  }) => {
+    // Царево has a single site: stamped, марка still outstanding.
+    await gotoMap(page, "/sites/map?filters[location]=Царево");
+
+    await page.locator("[data-pin-status='partial']").first().click();
+
+    const popup = page.locator(".leaflet-popup");
+    await expect(popup.locator(stampIcons)).toBeVisible();
+    await expect(popup.locator(stickerIcons)).toHaveCount(0);
+    await expect(popup.locator(unavailableIcons)).toHaveCount(0);
   });
 
   test("a stale visited link falls back to showing every site", async ({

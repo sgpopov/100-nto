@@ -4,6 +4,7 @@ import { useMemo } from "react";
 import Image from "next/image";
 import dynamic from "next/dynamic";
 import { randomId } from "@/utils";
+import { CollectionIcons } from "@/components/CollectionIcons";
 import { deriveStatus } from "@/lib/collectionStatus";
 import { useSitesContext } from "../context";
 
@@ -41,6 +42,11 @@ export default function SitesMapPage() {
               <div className="text-gray-500 text-xs">
                 {city.city} &bull; №{site.number}
               </div>
+
+              <CollectionIcons
+                state={site}
+                className="mt-2 flex items-center gap-1.5 text-gray-700"
+              />
             </div>
           ),
         })),

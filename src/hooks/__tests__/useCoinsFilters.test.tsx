@@ -58,6 +58,30 @@ vi.mock("@/data/coins.json", () => ({
       province: "София",
       location: "София",
     },
+    {
+      id: "5",
+      name: "Coin E",
+      url: "https://example.com/e",
+      images: [{ url: "img-e" }],
+      coordinates: [23.5, 42.9],
+      collected: false,
+      available: false,
+      province: "София",
+      location: "София",
+    },
+    // No coin in the shipped data is both collected and unavailable; the
+    // fixture carries one so the independence of the two axes is exercised.
+    {
+      id: "6",
+      name: "Coin F",
+      url: "https://example.com/f",
+      images: [{ url: "img-f" }],
+      coordinates: [25.2, 43.2],
+      collected: true,
+      available: false,
+      province: "Велико Търново",
+      location: "Свищов",
+    },
   ],
 }));
 
@@ -77,7 +101,7 @@ describe("useCoinsFilters", () => {
   it("returns all coins when no filters are applied", () => {
     const { result } = renderHook(() => useCoinsFilters());
 
-    expect(result.current.filteredData).toHaveLength(4);
+    expect(result.current.filteredData).toHaveLength(6);
     expect(result.current.selectedLocation).toBe("all");
     expect(result.current.collectedFilter).toBe("all");
   });
@@ -86,35 +110,80 @@ describe("useCoinsFilters", () => {
     setSearch("filters[location]=София");
     const { result } = renderHook(() => useCoinsFilters());
 
-    expect(result.current.filteredData.map((c) => c.id)).toEqual(["3", "4"]);
+    expect(result.current.filteredData.map((c) => c.id)).toEqual([
+      "3",
+      "4",
+      "5",
+    ]);
   });
 
   it("filters by city (location field)", () => {
     setSearch("filters[location]=Свищов");
     const { result } = renderHook(() => useCoinsFilters());
 
-    expect(result.current.filteredData.map((c) => c.id)).toEqual(["2"]);
+    expect(result.current.filteredData.map((c) => c.id)).toEqual(["2", "6"]);
   });
 
-  it("filters by collected=yes", () => {
-    setSearch("filters[collected]=yes");
+  it("filters by collected", () => {
+    setSearch("filters[collected]=collected");
     const { result } = renderHook(() => useCoinsFilters());
 
-    expect(result.current.filteredData.map((c) => c.id)).toEqual(["1", "3"]);
+    expect(result.current.filteredData.map((c) => c.id)).toEqual([
+      "1",
+      "3",
+      "6",
+    ]);
   });
 
-  it("filters by collected=no", () => {
-    setSearch("filters[collected]=no");
+  it("leaves coins that cannot be obtained out of the not-collected list", () => {
+    setSearch("filters[collected]=not-collected");
     const { result } = renderHook(() => useCoinsFilters());
 
     expect(result.current.filteredData.map((c) => c.id)).toEqual(["2", "4"]);
   });
 
+  it("filters by not-available regardless of whether the coin is collected", () => {
+    setSearch("filters[collected]=not-available");
+    const { result } = renderHook(() => useCoinsFilters());
+
+    expect(result.current.filteredData.map((c) => c.id)).toEqual(["5", "6"]);
+  });
+
+  it("falls back to all for a link bookmarked with the old yes value", () => {
+    setSearch("filters[collected]=yes");
+    const { result } = renderHook(() => useCoinsFilters());
+
+    expect(result.current.collectedFilter).toBe("all");
+    expect(result.current.filteredData).toHaveLength(6);
+  });
+
+  it("falls back to all for an unrecognised value", () => {
+    setSearch("filters[collected]=nonsense");
+    const { result } = renderHook(() => useCoinsFilters());
+
+    expect(result.current.collectedFilter).toBe("all");
+    expect(result.current.filteredData).toHaveLength(6);
+  });
+
   it("combines location and collected filters", () => {
-    setSearch("filters[location]=София&filters[collected]=yes");
+    setSearch("filters[location]=София&filters[collected]=collected");
     const { result } = renderHook(() => useCoinsFilters());
 
     expect(result.current.filteredData.map((c) => c.id)).toEqual(["3"]);
+  });
+
+  it("composes the location filter with the availability narrowing", () => {
+    setSearch("filters[location]=София&filters[collected]=not-collected");
+    const { result } = renderHook(() => useCoinsFilters());
+
+    expect(result.current.filteredData.map((c) => c.id)).toEqual(["4"]);
+  });
+
+  it("composes the location filter with not-available", () => {
+    setSearch("filters[location]=София&filters[collected]=not-available");
+    const { result } = renderHook(() => useCoinsFilters());
+
+    expect(result.current.filteredData.map((c) => c.id)).toEqual(["5"]);
   });
 
   it("builds locationsByProvince grouped by province with nested cities", () => {
@@ -142,17 +211,18 @@ describe("useCoinsFilters", () => {
 
     expect(result.current.collectedFilters).toEqual([
       { value: "all", label: "Всички" },
-      { value: "yes", label: "Да" },
-      { value: "no", label: "Не" },
+      { value: "collected", label: "Да" },
+      { value: "not-collected", label: "Не" },
+      { value: "not-available", label: "Не се предлага" },
     ]);
   });
 
   it("encodes the active filters into queryString", () => {
-    setSearch("filters[location]=София&filters[collected]=yes");
+    setSearch("filters[location]=София&filters[collected]=collected");
     const { result } = renderHook(() => useCoinsFilters());
 
     expect(result.current.queryString).toBe(
-      `filters[location]=${encodeURIComponent("София")}&filters[collected]=yes`,
+      `filters[location]=${encodeURIComponent("София")}&filters[collected]=collected`,
     );
   });
 
@@ -175,10 +245,20 @@ describe("useCoinsFilters", () => {
   it("calls router.replace when setCollectedFilter is called", () => {
     const { result } = renderHook(() => useCoinsFilters());
 
+    result.current.setCollectedFilter("not-available");
+
+    expect(replaceMock).toHaveBeenCalledWith(
+      `?filters[location]=all&filters[collected]=not-available`,
+    );
+  });
+
+  it("normalises an unsupported value instead of writing it to the URL", () => {
+    const { result } = renderHook(() => useCoinsFilters());
+
     result.current.setCollectedFilter("yes");
 
     expect(replaceMock).toHaveBeenCalledWith(
-      `?filters[location]=all&filters[collected]=yes`,
+      `?filters[location]=all&filters[collected]=all`,
     );
   });
 
@@ -188,10 +268,10 @@ describe("useCoinsFilters", () => {
     expect(result.current.selectedLocation).toBe("all");
     expect(result.current.collectedFilter).toBe("all");
 
-    setSearch("filters[location]=София&filters[collected]=yes");
+    setSearch("filters[location]=София&filters[collected]=collected");
     rerender();
 
     expect(result.current.selectedLocation).toBe("София");
-    expect(result.current.collectedFilter).toBe("yes");
+    expect(result.current.collectedFilter).toBe("collected");
   });
 });

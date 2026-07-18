@@ -3,13 +3,18 @@
 import { useMemo } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import coins from "@/data/coins.json";
+import { matchesCoinFilter, toCoinFilterValue } from "@/lib/coinStatus";
 
 export function useCoinsFilters() {
   const router = useRouter();
   const searchParams = useSearchParams();
 
   const selectedLocation = searchParams.get("filters[location]") || "all";
-  const collectedFilter = searchParams.get("filters[collected]") || "all";
+  // Links bookmarked with the old yes/no values fall back to "all" rather than
+  // being aliased; mixing them with not-available would be an incoherent set.
+  const collectedFilter = toCoinFilterValue(
+    searchParams.get("filters[collected]"),
+  );
 
   const setSelectedLocation = (value: string) => {
     router.replace(
@@ -17,9 +22,11 @@ export function useCoinsFilters() {
     );
   };
 
+  // The filter widget deals in plain strings; narrowing happens here so the URL
+  // can never disagree with the filter actually applied.
   const setCollectedFilter = (value: string) => {
     router.replace(
-      `?filters[location]=${encodeURIComponent(selectedLocation)}&filters[collected]=${encodeURIComponent(value)}`,
+      `?filters[location]=${encodeURIComponent(selectedLocation)}&filters[collected]=${toCoinFilterValue(value)}`,
     );
   };
 
@@ -56,8 +63,9 @@ export function useCoinsFilters() {
 
   const collectedFilters = [
     { value: "all", label: "Всички" },
-    { value: "yes", label: "Да" },
-    { value: "no", label: "Не" },
+    { value: "collected", label: "Да" },
+    { value: "not-collected", label: "Не" },
+    { value: "not-available", label: "Не се предлага" },
   ];
 
   const filteredData = useMemo(
@@ -68,15 +76,7 @@ export function useCoinsFilters() {
           coin.province === selectedLocation ||
           coin.location === selectedLocation;
 
-        let passesCollected = true;
-
-        if (collectedFilter === "yes") {
-          passesCollected = coin.collected === true;
-        } else if (collectedFilter === "no") {
-          passesCollected = coin.collected === false;
-        }
-
-        return passesLocation && passesCollected;
+        return passesLocation && matchesCoinFilter(coin, collectedFilter);
       }),
     [selectedLocation, collectedFilter],
   );

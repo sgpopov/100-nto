@@ -22,6 +22,15 @@ describe("CollectionIcons", () => {
     expect(unavailable()).toBeNull();
   });
 
+  it("renders no wrapper at all when there is nothing to show", () => {
+    // An empty wrapper would still apply the consumer's spacing classes.
+    const { container } = render(
+      <CollectionIcons state={state(false, false)} className="mt-2" />,
+    );
+
+    expect(container.innerHTML).toBe("");
+  });
+
   it("shows only the печат when the марка is still outstanding", () => {
     render(<CollectionIcons state={state(true, false)} />);
 

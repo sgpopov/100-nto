@@ -22,6 +22,12 @@ interface CollectionIconsProps {
 const iconClass = "w-5 h-5";
 
 export const CollectionIcons = ({ state, className }: CollectionIconsProps) => {
+  const unavailable = stickerIsUnavailable(state);
+
+  if (!state.stamp && state.sticker !== true && !unavailable) {
+    return null;
+  }
+
   return (
     <span className={className}>
       {state.stamp && (
@@ -46,7 +52,7 @@ export const CollectionIcons = ({ state, className }: CollectionIconsProps) => {
         </StickerIcon>
       )}
 
-      {stickerIsUnavailable(state) && (
+      {unavailable && (
         <SquareSlashIcon
           role="img"
           aria-label="Няма марка за този обект"

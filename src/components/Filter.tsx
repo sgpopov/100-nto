@@ -15,11 +15,13 @@ export default function Filter({
   selectedValue,
   options,
   onFilterChanged,
+  icon,
 }: {
   name: string;
   selectedValue: string;
   options: FilterOption[];
   onFilterChanged: (value: string) => void;
+  icon?: React.ReactNode;
 }) {
   const onOptionClicked = (option: FilterOption) => {
     onFilterChanged(option.value);
@@ -44,13 +46,17 @@ export default function Filter({
   };
 
   return (
-    <Menu as="div" className="relative inline-block text-left">
+    <Menu as="div" className="relative w-full text-left md:w-auto">
       <div>
-        <MenuButton className="group inline-flex justify-center text-sm font-medium text-gray-700 hover:text-gray-900">
-          {name}: <b>&nbsp;{sanitizeLabel(selectedOption?.label)}</b>
+        <MenuButton className="group flex h-10 w-full items-center gap-x-2.5 rounded-lg border border-input bg-white px-3.5 text-base text-gray-700 shadow-xs md:w-64 md:text-sm">
+          {icon}
+          <span className="shrink-0 text-gray-500">{name}:</span>
+          <span className="truncate font-medium text-gray-900">
+            {sanitizeLabel(selectedOption?.label)}
+          </span>
           <ChevronDownIcon
             aria-hidden="true"
-            className="-mr-1 ml-1 size-5 shrink-0 text-gray-400 group-hover:text-gray-500"
+            className="ml-auto size-4 shrink-0 text-gray-400 group-hover:text-gray-500"
           />
         </MenuButton>
       </div>

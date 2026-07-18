@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { BadgeCheckIcon } from "lucide-react";
+import { CoinAvailability } from "@/components/CoinAvailability";
 import { useCoinsContext } from "../context";
 
 export default function CoinsListPage() {
@@ -46,6 +47,7 @@ export default function CoinsListPage() {
                 />
               </div>
             )}
+            <CoinAvailability state={coin} className="mt-3" />
           </div>
         </li>
       ))}

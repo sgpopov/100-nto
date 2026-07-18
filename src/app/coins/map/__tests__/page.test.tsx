@@ -167,5 +167,29 @@ describe("CoinsMapPage", () => {
       );
       expect(queryByText("Събрана")).not.toBeInTheDocument();
     });
+
+    it("explains why a coin that is no longer offered looks different", () => {
+      const pin = capturedPins.find((p) => p.key === "5")!;
+      const { getByTestId } = render(pin.popup as React.ReactElement);
+
+      expect(getByTestId("unavailable-badge")).toHaveTextContent(
+        "В момента не се предлага",
+      );
+    });
+
+    it("keeps the product link usable on a coin that is no longer offered", () => {
+      const pin = capturedPins.find((p) => p.key === "5")!;
+      const { getByRole } = render(pin.popup as React.ReactElement);
+
+      expect(getByRole("link")).toHaveAttribute("href", "https://example.com/e");
+    });
+
+    it("says nothing about availability for a coin that can still be collected", () => {
+      const { queryByTestId } = render(
+        capturedPins[1].popup as React.ReactElement,
+      );
+
+      expect(queryByTestId("unavailable-badge")).not.toBeInTheDocument();
+    });
   });
 });

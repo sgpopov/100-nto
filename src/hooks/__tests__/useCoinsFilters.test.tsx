@@ -252,6 +252,16 @@ describe("useCoinsFilters", () => {
     );
   });
 
+  it("normalises an unsupported value instead of writing it to the URL", () => {
+    const { result } = renderHook(() => useCoinsFilters());
+
+    result.current.setCollectedFilter("yes");
+
+    expect(replaceMock).toHaveBeenCalledWith(
+      `?filters[location]=all&filters[collected]=all`,
+    );
+  });
+
   it("reflects updated URL params on re-render (back/forward navigation)", () => {
     const { result, rerender } = renderHook(() => useCoinsFilters());
 

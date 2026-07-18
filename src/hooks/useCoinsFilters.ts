@@ -22,9 +22,11 @@ export function useCoinsFilters() {
     );
   };
 
+  // The filter widget deals in plain strings; narrowing happens here so the URL
+  // can never disagree with the filter actually applied.
   const setCollectedFilter = (value: string) => {
     router.replace(
-      `?filters[location]=${encodeURIComponent(selectedLocation)}&filters[collected]=${encodeURIComponent(value)}`,
+      `?filters[location]=${encodeURIComponent(selectedLocation)}&filters[collected]=${toCoinFilterValue(value)}`,
     );
   };
 

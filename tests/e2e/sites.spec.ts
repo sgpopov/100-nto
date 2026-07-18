@@ -1,4 +1,4 @@
-import { test, expect, type Page } from "@playwright/test";
+import { test, expect, type Locator, type Page } from "@playwright/test";
 
 test.describe("Sites view navigation", () => {
   test("clicking Карта on list page navigates to /sites/map", async ({
@@ -379,5 +379,59 @@ test.describe("Печат collection state", () => {
 
     await expect(page).toHaveURL(/filters\[stamp\]=all/);
     await expect(page).not.toHaveURL(/visited/);
+  });
+});
+
+test.describe("Collection progress", () => {
+  const stampProgress = (page: Page) => page.getByTestId("stamp-progress");
+  const stickerProgress = (page: Page) => page.getByTestId("sticker-progress");
+
+  // Snapshots must be taken the same way toHaveText reads the element, which is
+  // textContent. Capturing innerText instead would leave the "did not change"
+  // assertion below able to pass without comparing anything.
+  const textOf = async (locator: Locator) =>
+    (await locator.textContent()) ?? "";
+
+  test("both collectibles are reported", async ({ page }) => {
+    await page.goto("/sites/list");
+
+    await expect(stampProgress(page)).toContainText(/печати: \d+ от \d+/);
+    await expect(stickerProgress(page)).toContainText(/марки: \d+ от \d+/);
+  });
+
+  test("the figures survive a city filter and the result count still shows", async ({
+    page,
+  }) => {
+    await page.goto("/sites/list");
+
+    const stamps = await textOf(stampProgress(page));
+    const stickers = await textOf(stickerProgress(page));
+    const results = await textOf(page.getByTestId("filter-results"));
+
+    await page.getByPlaceholder("Търсене...").click();
+    await page
+      .locator('[data-slot="combobox-item"]')
+      .filter({ hasText: /^Банско$/ })
+      .click();
+
+    await expect(page).toHaveURL(
+      /filters\[location\]=%D0%91%D0%B0%D0%BD%D1%81%D0%BA%D0%BE/,
+    );
+    await expect(page.getByTestId("filter-results")).not.toHaveText(results);
+
+    await expect(stampProgress(page)).toHaveText(stamps);
+    await expect(stickerProgress(page)).toHaveText(stickers);
+  });
+
+  test("the figures survive a печат filter", async ({ page }) => {
+    await page.goto("/sites/list");
+
+    const stamps = await textOf(stampProgress(page));
+    const stickers = await textOf(stickerProgress(page));
+
+    await page.goto("/sites/list?filters[stamp]=collected");
+
+    await expect(stampProgress(page)).toHaveText(stamps);
+    await expect(stickerProgress(page)).toHaveText(stickers);
   });
 });

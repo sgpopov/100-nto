@@ -1,11 +1,14 @@
 "use client";
 
+import { useMemo } from "react";
 import { usePathname } from "next/navigation";
 import data from "@/data/places.json";
+import { CollectionProgress } from "@/components/CollectionProgress";
 import Filter from "@/components/Filter";
 import LocationCombobox from "@/components/LocationCombobox";
 import ViewToggle from "@/components/ViewToggle";
 import { useSiteFilters } from "@/hooks/useSiteFilters";
+import { aggregateProgress } from "@/lib/collectionStatus";
 import { SitesProvider } from "./context";
 
 export default function SitesLayout({
@@ -31,6 +34,11 @@ export default function SitesLayout({
     filtered: filteredData.reduce((acc, city) => acc + city.sites.length, 0),
   };
 
+  const progress = useMemo(
+    () => aggregateProgress(data.flatMap((city) => city.sites)),
+    [],
+  );
+
   const currentView = pathname.startsWith("/sites/map") ? "map" : "list";
 
   return (
@@ -54,9 +62,13 @@ export default function SitesLayout({
           </div>
 
           <div className="flex items-center gap-x-5 pt-5 md:pt-0">
-            <div className="flex-1 text-sm italic">
-              <span className="md:hidden">{results.filtered} от {results.total}</span>
-              <span className="hidden md:inline">показване на {results.filtered} {results.filtered === 1 ? "резултат" : "резултата"} от общо {results.total}</span>
+            <div className="flex flex-1 flex-col gap-y-0.5 text-sm italic md:flex-row md:gap-x-4">
+              <span data-testid="filter-results">
+                <span className="md:hidden">{results.filtered} от {results.total}</span>
+                <span className="hidden md:inline">показване на {results.filtered} {results.filtered === 1 ? "резултат" : "резултата"} от общо {results.total}</span>
+              </span>
+
+              <CollectionProgress progress={progress} />
             </div>
 
             <ViewToggle

@@ -30,8 +30,8 @@ describe("CoinAvailability", () => {
     expect(screen.queryByTestId("unavailable-badge")).toBeNull();
   });
 
-  // The collected-and-unavailable case is a later slice; until then a collected
-  // coin stays silent, matching what the pin already does.
+  // Deliberate, not an oversight: a collected coin says nothing about
+  // availability, matching the pin, which also lets collected win.
   it("stays silent on a collected coin that is no longer offered", () => {
     render(<CoinAvailability state={state(true, false)} />);
 

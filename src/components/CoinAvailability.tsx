@@ -18,8 +18,6 @@ export const CoinAvailability = ({
   state,
   className,
 }: CoinAvailabilityProps) => {
-  // The collected gate is this slice only — #63 drops it so an owned coin
-  // shows both facts.
   if (state.collected || !coinIsUnavailable(state)) {
     return null;
   }

@@ -18,10 +18,8 @@ export const CoinAvailability = ({
   state,
   className,
 }: CoinAvailabilityProps) => {
-  // Availability is read on its own axis rather than through the pin's
-  // collapsed status, so revisiting which colour wins cannot silently change
-  // what the text says. The collected gate is this slice only — #63 drops it
-  // so an owned coin shows both facts.
+  // The collected gate is this slice only — #63 drops it so an owned coin
+  // shows both facts.
   if (state.collected || !coinIsUnavailable(state)) {
     return null;
   }

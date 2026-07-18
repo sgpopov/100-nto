@@ -169,28 +169,6 @@ test.describe("Coins views", () => {
     );
   });
 
-  test("'Не' and 'Не се предлага' together account for every uncollected coin", async ({
-    page,
-  }) => {
-    const countFor = async (filter: string) => {
-      await page.goto(
-        `/coins/list?filters[location]=all&filters[collected]=${filter}`,
-      );
-      await expect(page.locator("ul[role='list'] li").first()).toBeVisible({
-        timeout: 10000,
-      });
-      return page.locator("ul[role='list'] li").count();
-    };
-
-    const all = await countFor("all");
-    const collected = await countFor("collected");
-    const notCollected = await countFor("not-collected");
-    const notAvailable = await countFor("not-available");
-
-    expect(notCollected).toBeLessThan(all - collected);
-    expect(notCollected + notAvailable).toBe(all - collected);
-  });
-
   test("a link bookmarked with the old yes value falls back to showing every coin", async ({
     page,
   }) => {

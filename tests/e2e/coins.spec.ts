@@ -108,7 +108,7 @@ test.describe("Coins views", () => {
       .click();
     await page.locator('[role="menuitem"]').filter({ hasText: "Да" }).click();
 
-    await expect(page).toHaveURL(/filters\[collected\]=yes/);
+    await expect(page).toHaveURL(/filters\[collected\]=collected/);
 
     const cards = page.locator("ul[role='list'] li");
     const filteredCount = await cards.count();
@@ -116,6 +116,96 @@ test.describe("Coins views", () => {
 
     const badges = page.locator("[data-testid='collected-badge']");
     await expect(badges).toHaveCount(filteredCount);
+  });
+
+  test("the collected control offers exactly the four options", async ({
+    page,
+  }) => {
+    await page.goto("/coins/list");
+
+    await page.getByRole("button", { name: /^Събрани:/ }).click();
+
+    for (const label of ["Всички", "Да", "Не", "Не се предлага"]) {
+      await expect(
+        page
+          .getByRole("menuitem")
+          .filter({ hasText: new RegExp(`^${label}$`) }),
+      ).toBeVisible();
+    }
+    await expect(page.getByRole("menuitem")).toHaveCount(4);
+  });
+
+  test("'Не' offers only coins the collector could actually go and get", async ({
+    page,
+  }) => {
+    await page.goto(
+      "/coins/list?filters[location]=all&filters[collected]=not-collected",
+    );
+    await expect(page.locator("ul[role='list'] li").first()).toBeVisible({
+      timeout: 10000,
+    });
+
+    await expect(page.locator("[data-testid='unavailable-badge']")).toHaveCount(
+      0,
+    );
+    await expect(page.locator("[data-testid='collected-badge']")).toHaveCount(
+      0,
+    );
+  });
+
+  test("'Не се предлага' keeps the excluded coins reachable, each showing why", async ({
+    page,
+  }) => {
+    await page.goto(
+      "/coins/list?filters[location]=all&filters[collected]=not-available",
+    );
+    const cards = page.locator("ul[role='list'] li");
+    await expect(cards.first()).toBeVisible({ timeout: 10000 });
+
+    // Every card must justify its own presence, or the view contradicts the
+    // filter the collector chose.
+    await expect(page.locator("[data-testid='unavailable-badge']")).toHaveCount(
+      await cards.count(),
+    );
+  });
+
+  test("'Не' and 'Не се предлага' together account for every uncollected coin", async ({
+    page,
+  }) => {
+    const countFor = async (filter: string) => {
+      await page.goto(
+        `/coins/list?filters[location]=all&filters[collected]=${filter}`,
+      );
+      await expect(page.locator("ul[role='list'] li").first()).toBeVisible({
+        timeout: 10000,
+      });
+      return page.locator("ul[role='list'] li").count();
+    };
+
+    const all = await countFor("all");
+    const collected = await countFor("collected");
+    const notCollected = await countFor("not-collected");
+    const notAvailable = await countFor("not-available");
+
+    expect(notCollected).toBeLessThan(all - collected);
+    expect(notCollected + notAvailable).toBe(all - collected);
+  });
+
+  test("a link bookmarked with the old yes value falls back to showing every coin", async ({
+    page,
+  }) => {
+    await page.goto("/coins/list?filters[location]=all&filters[collected]=yes");
+    await expect(page.locator("ul[role='list'] li").first()).toBeVisible({
+      timeout: 10000,
+    });
+    const fallback = await page.locator("ul[role='list'] li").count();
+
+    await page.goto("/coins/list?filters[location]=all&filters[collected]=all");
+    await expect(page.locator("ul[role='list'] li").first()).toBeVisible({
+      timeout: 10000,
+    });
+
+    expect(fallback).toBe(await page.locator("ul[role='list'] li").count());
   });
 
   test("coins that cannot currently be collected explain why in the list", async ({

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { CheckBadgeIcon } from "@heroicons/react/16/solid";
+import { BadgeCheckIcon } from "lucide-react";
 
 type SiteListData = {
   name: string;
@@ -51,7 +51,11 @@ export const SiteList = ({ siteList }: SiteListProps) => {
 
                 <p className="relative text-lg font-semibold text-white">
                   {site.visited && (
-                    <CheckBadgeIcon title="Посетен обект" className="w-5 h-5" />
+                    <BadgeCheckIcon
+                      role="img"
+                      aria-label="Посетен обект"
+                      className="w-5 h-5"
+                    />
                   )}
                 </p>
               </div>

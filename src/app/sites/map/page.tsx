@@ -5,10 +5,17 @@ import Image from "next/image";
 import dynamic from "next/dynamic";
 import { randomId } from "@/utils";
 import { CollectionIcons } from "@/components/CollectionIcons";
-import { deriveStatus } from "@/lib/collectionStatus";
+import { deriveStatus, type CollectionStatus } from "@/lib/collectionStatus";
+import type { PinStatus } from "@/components/MapView";
 import { useSitesContext } from "../context";
 
 const MapView = dynamic(() => import("@/components/MapView"), { ssr: false });
+
+const PIN_STATUS: Record<CollectionStatus, PinStatus> = {
+  none: "none",
+  partial: "partial",
+  complete: "complete",
+};
 
 export default function SitesMapPage() {
   const { filteredData } = useSitesContext();
@@ -20,7 +27,7 @@ export default function SitesMapPage() {
           key: `${city.city}-${site.name}-${randomId()}`,
           lat: site.lat,
           lng: site.lng,
-          status: deriveStatus(site),
+          status: PIN_STATUS[deriveStatus(site)],
           popup: (
             <div>
               <div className="relative w-full h-24 mb-2">

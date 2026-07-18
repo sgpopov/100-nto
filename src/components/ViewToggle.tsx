@@ -8,10 +8,12 @@ export default function ViewToggle({
   currentView,
   listHref,
   mapHref,
+  className = "",
 }: {
   currentView: View;
   listHref: string;
   mapHref: string;
+  className?: string;
 }) {
 
   const activeClass =
@@ -20,7 +22,9 @@ export default function ViewToggle({
     "text-gray-600 hover:text-gray-900";
 
   return (
-    <div className="inline-flex rounded-full bg-gray-100 p-1 text-sm font-medium">
+    <div
+      className={`inline-flex rounded-full bg-gray-100 p-1 text-sm font-medium ${className}`}
+    >
       <Link
         href={listHref}
         aria-current={currentView === "list" ? "page" : undefined}

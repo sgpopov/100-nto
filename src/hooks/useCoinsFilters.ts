@@ -23,6 +23,13 @@ export function useCoinsFilters() {
     );
   };
 
+  const hasActiveFilters =
+    selectedLocation !== "all" || collectedFilter !== "all";
+
+  const clearFilters = () => {
+    router.replace("?filters[location]=all&filters[collected]=all");
+  };
+
   const locationsByProvince = useMemo(() => {
     const provinces = [...new Set(coins.map((coin) => coin.province))].sort();
 
@@ -85,5 +92,7 @@ export function useCoinsFilters() {
     collectedFilters,
     filteredData,
     queryString,
+    hasActiveFilters,
+    clearFilters,
   };
 }

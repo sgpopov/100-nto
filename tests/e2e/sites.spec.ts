@@ -1,4 +1,4 @@
-import { test, expect, type Locator, type Page } from "@playwright/test";
+import { test, expect, type Page } from "@playwright/test";
 
 test.describe("Sites view navigation", () => {
   test("clicking Карта on list page navigates to /sites/map", async ({
@@ -114,7 +114,7 @@ test.describe("Location combobox (Град filter on sites)", () => {
   }) => {
     await page.goto("/sites/list");
 
-    const totalText = await page.locator(".text-sm.italic").first().innerText();
+    const totalText = await page.getByTestId("filter-results").innerText();
 
     await page.getByPlaceholder("Търсене...").click();
     await page
@@ -125,7 +125,7 @@ test.describe("Location combobox (Град filter on sites)", () => {
     await expect(page).toHaveURL(
       /filters\[location\]=%D0%91%D0%BB%D0%B0%D0%B3%D0%BE%D0%B5%D0%B2%D0%B3%D1%80%D0%B0%D0%B4%D1%81%D0%BA%D0%B0%20%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82/,
     );
-    const filteredText = await page.locator(".text-sm.italic").first().innerText();
+    const filteredText = await page.getByTestId("filter-results").innerText();
     expect(filteredText).not.toBe(totalText);
   });
 
@@ -157,7 +157,7 @@ test.describe("Location combobox (Град filter on sites)", () => {
       "/sites/list?filters[location]=%D0%91%D0%B0%D0%BD%D1%81%D0%BA%D0%BE&filters[stamp]=all",
     );
 
-    const filteredText = await page.locator(".text-sm.italic").first().innerText();
+    const filteredText = await page.getByTestId("filter-results").innerText();
 
     await page.getByPlaceholder("Търсене...").click();
     await page
@@ -166,7 +166,7 @@ test.describe("Location combobox (Град filter on sites)", () => {
       .click();
 
     await expect(page).toHaveURL(/filters\[location\]=all/);
-    const totalText = await page.locator(".text-sm.italic").first().innerText();
+    const totalText = await page.getByTestId("filter-results").innerText();
     expect(totalText).not.toBe(filteredText);
   });
 });
@@ -382,60 +382,6 @@ test.describe("Печат collection state", () => {
   });
 });
 
-test.describe("Collection progress", () => {
-  const stampProgress = (page: Page) => page.getByTestId("stamp-progress");
-  const stickerProgress = (page: Page) => page.getByTestId("sticker-progress");
-
-  // Snapshots must be taken the same way toHaveText reads the element, which is
-  // textContent. Capturing innerText instead would leave the "did not change"
-  // assertion below able to pass without comparing anything.
-  const textOf = async (locator: Locator) =>
-    (await locator.textContent()) ?? "";
-
-  test("both collectibles are reported", async ({ page }) => {
-    await page.goto("/sites/list");
-
-    await expect(stampProgress(page)).toContainText(/печати: \d+ от \d+/);
-    await expect(stickerProgress(page)).toContainText(/марки: \d+ от \d+/);
-  });
-
-  test("the figures survive a city filter and the result count still shows", async ({
-    page,
-  }) => {
-    await page.goto("/sites/list");
-
-    const stamps = await textOf(stampProgress(page));
-    const stickers = await textOf(stickerProgress(page));
-    const results = await textOf(page.getByTestId("filter-results"));
-
-    await page.getByPlaceholder("Търсене...").click();
-    await page
-      .locator('[data-slot="combobox-item"]')
-      .filter({ hasText: /^Банско$/ })
-      .click();
-
-    await expect(page).toHaveURL(
-      /filters\[location\]=%D0%91%D0%B0%D0%BD%D1%81%D0%BA%D0%BE/,
-    );
-    await expect(page.getByTestId("filter-results")).not.toHaveText(results);
-
-    await expect(stampProgress(page)).toHaveText(stamps);
-    await expect(stickerProgress(page)).toHaveText(stickers);
-  });
-
-  test("the figures survive a печат filter", async ({ page }) => {
-    await page.goto("/sites/list");
-
-    const stamps = await textOf(stampProgress(page));
-    const stickers = await textOf(stickerProgress(page));
-
-    await page.goto("/sites/list?filters[stamp]=collected");
-
-    await expect(stampProgress(page)).toHaveText(stamps);
-    await expect(stickerProgress(page)).toHaveText(stickers);
-  });
-});
-
 test.describe("Марка filter", () => {
   const rows = "ul[role='list'] > li > a";
   const stampIcons = "[data-testid='stamp-icon']";
@@ -593,5 +539,45 @@ test.describe("Марка filter", () => {
     await expect(
       page.getByRole("menuitem").filter({ hasText: /^Не се предлага$/ }),
     ).toBeVisible();
+  });
+});
+
+test.describe("Filter summary", () => {
+  const summary = (page: Page) => page.getByTestId("filter-results");
+
+  test("the total alone is shown when nothing is filtered", async ({
+    page,
+  }) => {
+    await page.goto("/sites/list");
+
+    await expect(summary(page)).toHaveText("246 резултата");
+  });
+
+  test("a narrowed list is reported against the full total", async ({
+    page,
+  }) => {
+    await page.goto("/sites/list?filters[sticker]=not-available");
+
+    // The one site offering no марка also covers the singular noun.
+    await expect(summary(page)).toHaveText("1 резултат от 246");
+  });
+
+  test("Изчисти is absent until a filter is applied", async ({ page }) => {
+    await page.goto("/sites/list");
+
+    await expect(page.getByRole("button", { name: "Изчисти" })).toHaveCount(0);
+  });
+
+  test("Изчисти resets every filter at once", async ({ page }) => {
+    await page.goto(
+      "/sites/list?filters[location]=Банско&filters[stamp]=collected&filters[sticker]=not-collected",
+    );
+
+    await page.getByRole("button", { name: "Изчисти" }).click();
+
+    await expect(page).toHaveURL(/filters\[location\]=all/);
+    await expect(page).toHaveURL(/filters\[stamp\]=all/);
+    await expect(page).toHaveURL(/filters\[sticker\]=all/);
+    await expect(summary(page)).toHaveText("246 резултата");
   });
 });

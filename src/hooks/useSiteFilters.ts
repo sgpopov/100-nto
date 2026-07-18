@@ -45,6 +45,17 @@ export function useSiteFilters() {
     setStickerFilterValue(toStickerFilterValue(value));
   };
 
+  const hasActiveFilters =
+    selectedLocation !== "all" ||
+    stampFilter !== "all" ||
+    stickerFilter !== "all";
+
+  const clearFilters = () => {
+    setSelectedLocation("all");
+    setStampFilterValue("all");
+    setStickerFilterValue("all");
+  };
+
   const citiesByRegion = useMemo(() => {
     const regions = [...new Set(data.map((city) => city.region))].sort();
 
@@ -117,5 +128,7 @@ export function useSiteFilters() {
     stickerFilters,
     filteredData,
     queryString,
+    hasActiveFilters,
+    clearFilters,
   };
 }

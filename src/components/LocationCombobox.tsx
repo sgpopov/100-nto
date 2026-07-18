@@ -11,6 +11,7 @@ import {
   ComboboxList,
   ComboboxSeparator,
 } from "@/components/ui/combobox";
+import { InputGroupAddon } from "@/components/ui/input-group";
 
 type LocationGroup = {
   value: string;
@@ -23,11 +24,13 @@ export default function LocationCombobox({
   selectedValue,
   groups,
   onFilterChanged,
+  icon,
 }: {
   name: string;
   selectedValue: string;
   groups: LocationGroup[];
   onFilterChanged: (value: string) => void;
+  icon?: React.ReactNode;
 }) {
   const [query, setQuery] = useState("");
   const [open, setOpen] = useState(false);
@@ -70,8 +73,7 @@ export default function LocationCombobox({
   const inputId = useId();
 
   return (
-    <div className="inline-flex items-center gap-2 text-sm font-medium text-gray-700 w-52">
-      <label htmlFor={inputId} className="shrink-0">{name}:</label>
+    <div className="flex w-full items-center text-sm text-gray-700 md:w-auto">
       <Combobox
         value={selectedValue}
         onValueChange={(value) => {
@@ -89,7 +91,20 @@ export default function LocationCombobox({
         }}
         filter={null}
       >
-        <ComboboxInput id={inputId} placeholder="Търсене..." className="w-52" />
+        <ComboboxInput
+          id={inputId}
+          aria-label={name}
+          placeholder="Търсене..."
+          className="h-10 w-full gap-x-2.5 rounded-lg bg-white px-1 shadow-xs md:w-64"
+        >
+          <InputGroupAddon
+            align="inline-start"
+            className="text-base font-normal md:text-sm"
+          >
+            {icon}
+            <span className="text-gray-500">{name}:</span>
+          </InputGroupAddon>
+        </ComboboxInput>
         <ComboboxContent>
           <ComboboxList>
             {!query && (

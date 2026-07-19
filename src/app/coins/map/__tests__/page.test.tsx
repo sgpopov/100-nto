@@ -58,8 +58,6 @@ const mockCoins = [
     province: "Пловдив",
     location: "Пловдив",
   },
-  // No coin in the shipped data is both collected and unavailable, so this
-  // combination only exists here.
   {
     id: "6",
     name: "Coin F (collected, no longer offered)",

@@ -69,8 +69,7 @@ vi.mock("@/data/coins.json", () => ({
       province: "София",
       location: "София",
     },
-    // No coin in the shipped data is both collected and unavailable; the
-    // fixture carries one so the independence of the two axes is exercised.
+    // Collected and unavailable at once: the two axes are independent.
     {
       id: "6",
       name: "Coin F",

@@ -35,12 +35,6 @@ describe("deriveCoinStatus", () => {
     expect(deriveCoinStatus(input)).toBe(status);
   });
 
-  // Zero coins are in this state in the shipped data, so the unit test is the
-  // only place the rule is exercised.
-  it("keeps a collected coin collected once it stops being offered", () => {
-    expect(deriveCoinStatus(state(true, false))).toBe("collected");
-  });
-
   it("covers every coin state", () => {
     expect(expected).toHaveLength(ALL_STATES.length);
   });

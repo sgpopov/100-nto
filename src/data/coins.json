@@ -115,7 +115,7 @@
       42.80528
     ],
     "collected": false,
-    "available": true,
+    "available": false,
     "province": "Габровска област",
     "location": "Етъра"
   },
@@ -400,7 +400,7 @@
       42.557642
     ],
     "collected": false,
-    "available": true,
+    "available": false,
     "province": "Бургаска област",
     "location": "Поморие"
   },
@@ -1048,7 +1048,7 @@
       42.659041
     ],
     "collected": false,
-    "available": true,
+    "available": false,
     "province": "Бургаска област",
     "location": "Несебър"
   },
@@ -1096,7 +1096,7 @@
       42.658695
     ],
     "collected": false,
-    "available": true,
+    "available": false,
     "province": "Бургаска област",
     "location": "Несебър"
   },
@@ -1597,7 +1597,7 @@
     ],
     "coordinates": [],
     "collected": false,
-    "available": true,
+    "available": false,
     "province": "Други",
     "location": "Други"
   },
@@ -1621,7 +1621,7 @@
       42.50777
     ],
     "collected": false,
-    "available": true,
+    "available": false,
     "province": "Бургаска област",
     "location": "Бургас"
   },
@@ -1789,7 +1789,7 @@
       43.0835941
     ],
     "collected": false,
-    "available": true,
+    "available": false,
     "province": "Великотърновска област",
     "location": "Велико Търново"
   },
@@ -2434,7 +2434,7 @@
       42.70909
     ],
     "collected": false,
-    "available": true,
+    "available": false,
     "province": "Бургаска област",
     "location": "Свети Влас"
   },
@@ -2530,7 +2530,7 @@
       43.0835941
     ],
     "collected": true,
-    "available": true,
+    "available": false,
     "province": "Великотърновска област",
     "location": "Велико Търново"
   },

@@ -177,6 +177,18 @@ describe("CoinsMapPage", () => {
       );
     });
 
+    it("tells a collected coin that is no longer offered both facts", () => {
+      const pin = capturedPins.find((p) => p.key === "6")!;
+      const { getByTestId, getByText } = render(
+        pin.popup as React.ReactElement,
+      );
+
+      expect(getByText("Събрана")).toBeInTheDocument();
+      expect(getByTestId("unavailable-badge")).toHaveTextContent(
+        "В момента не се предлага",
+      );
+    });
+
     it("keeps the product link usable on a coin that is no longer offered", () => {
       const pin = capturedPins.find((p) => p.key === "5")!;
       const { getByRole } = render(pin.popup as React.ReactElement);

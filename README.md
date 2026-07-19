@@ -78,6 +78,18 @@ npm run dev
 
 Open http://localhost:3000.
 
+## Testing
+
+```bash
+npm test        # vitest, unit and component
+npm run test:e2e  # playwright
+```
+
+The e2e suite builds the static export and serves `out/` on port 3123, so it
+always tests the working tree and never a dev server that happens to be
+listening. Leaving `npm run dev` running on 3000 does not interfere. Override
+the port with `E2E_PORT` if 3123 is taken.
+
 ## Notes
 
 - Tourist-site progress is stored directly in `src/data/places.json` through each item's `visited` flag.

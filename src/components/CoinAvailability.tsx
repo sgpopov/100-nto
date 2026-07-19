@@ -6,6 +6,9 @@ import { coinIsUnavailable, type CoinState } from "@/lib/coinStatus";
  * "в момента" is load-bearing: a coin can start being offered again, and the
  * collector should re-check rather than write it off. The filter option says
  * the shorter "Не се предлага" because it sits among other short labels.
+ *
+ * Read independently of `collected`: an owned coin that stopped being offered
+ * shows both facts, unlike the pin, which has one slot and lets collected win.
  */
 const MESSAGE = "В момента не се предлага";
 
@@ -18,7 +21,7 @@ export const CoinAvailability = ({
   state,
   className,
 }: CoinAvailabilityProps) => {
-  if (state.collected || !coinIsUnavailable(state)) {
+  if (!coinIsUnavailable(state)) {
     return null;
   }
 

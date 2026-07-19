@@ -24,18 +24,31 @@ describe("CoinAvailability", () => {
     expect(screen.queryByTestId("unavailable-badge")).toBeNull();
   });
 
-  it("says nothing about a collected coin", () => {
+  it("says nothing about a collected coin that is still offered", () => {
     render(<CoinAvailability state={state(true, true)} />);
 
     expect(screen.queryByTestId("unavailable-badge")).toBeNull();
   });
 
-  // Deliberate, not an oversight: a collected coin says nothing about
-  // availability, matching the pin, which also lets collected win.
-  it("stays silent on a collected coin that is no longer offered", () => {
+  // No coin is in this state in the shipped data, so this test is the only
+  // place the rule is exercised.
+  it("tells a collected coin that it is no longer offered", () => {
     render(<CoinAvailability state={state(true, false)} />);
 
-    expect(screen.queryByTestId("unavailable-badge")).toBeNull();
+    expect(screen.getByTestId("unavailable-badge")).toBeInTheDocument();
+  });
+
+  it("uses one string whether or not the coin is collected", () => {
+    render(
+      <>
+        <CoinAvailability state={state(false, false)} />
+        <CoinAvailability state={state(true, false)} />
+      </>,
+    );
+
+    const [uncollected, collected] = screen.getAllByTestId("unavailable-badge");
+
+    expect(collected.textContent).toBe(uncollected.textContent);
   });
 
   it("keeps the temporal qualifier, so the collector re-checks rather than gives up", () => {

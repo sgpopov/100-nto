@@ -30,8 +30,6 @@ describe("CoinAvailability", () => {
     expect(screen.queryByTestId("unavailable-badge")).toBeNull();
   });
 
-  // No coin is in this state in the shipped data, so this test is the only
-  // place the rule is exercised.
   it("tells a collected coin that it is no longer offered", () => {
     render(<CoinAvailability state={state(true, false)} />);
 

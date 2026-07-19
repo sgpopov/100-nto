@@ -20,7 +20,7 @@
     ],
     "collected": true,
     "available": true,
-    "province": "Велико Търново",
+    "province": "Великотърновска област",
     "location": "Велико Търново"
   },
   {
@@ -44,7 +44,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Велико Търново",
+    "province": "Великотърновска област",
     "location": "Велико Търново"
   },
   {
@@ -68,7 +68,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Велико Търново",
+    "province": "Великотърновска област",
     "location": "Арбанаси"
   },
   {
@@ -92,7 +92,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Габрово",
+    "province": "Габровска област",
     "location": "Трявна"
   },
   {
@@ -116,7 +116,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Габрово",
+    "province": "Габровска област",
     "location": "Етъра"
   },
   {
@@ -140,7 +140,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Бургас",
+    "province": "Бургаска област",
     "location": "Поморие"
   },
   {
@@ -164,7 +164,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Плевен",
+    "province": "Плевенска област",
     "location": "Плевен"
   },
   {
@@ -188,7 +188,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Ловеч",
+    "province": "Ловешка област",
     "location": "Троян"
   },
   {
@@ -212,7 +212,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Видин",
+    "province": "Видинска област",
     "location": "Белоградчик"
   },
   {
@@ -236,7 +236,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Видин",
+    "province": "Видинска област",
     "location": "Белоградчик"
   },
   {
@@ -260,7 +260,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Ловеч",
+    "province": "Ловешка област",
     "location": "с. Черни Осъм"
   },
   {
@@ -284,7 +284,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Габрово",
+    "province": "Габровска област",
     "location": "Трявна"
   },
   {
@@ -308,7 +308,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Велико Търново",
+    "province": "Великотърновска област",
     "location": "Велико Търново"
   },
   {
@@ -332,7 +332,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Троян",
+    "province": "Ловешка област",
     "location": "с. Орешак"
   },
   {
@@ -377,7 +377,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Велико Търново",
+    "province": "Великотърновска област",
     "location": "Велико Търново"
   },
   {
@@ -401,7 +401,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Бургас",
+    "province": "Бургаска област",
     "location": "Поморие"
   },
   {
@@ -425,7 +425,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Варна",
+    "province": "Варненска област",
     "location": "Варна"
   },
   {
@@ -449,7 +449,7 @@
     ],
     "collected": true,
     "available": true,
-    "province": "Варна",
+    "province": "Варненска област",
     "location": "Варна"
   },
   {
@@ -473,7 +473,7 @@
     ],
     "collected": true,
     "available": true,
-    "province": "Варна",
+    "province": "Варненска област",
     "location": "Варна"
   },
   {
@@ -497,7 +497,7 @@
     ],
     "collected": true,
     "available": true,
-    "province": "Добрич",
+    "province": "Добричка област",
     "location": "Балчик"
   },
   {
@@ -521,7 +521,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Ловеч",
+    "province": "Ловешка област",
     "location": "Ловеч"
   },
   {
@@ -545,7 +545,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Ловеч",
+    "province": "Ловешка област",
     "location": "Ловеч"
   },
   {
@@ -569,7 +569,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Благоевград",
+    "province": "Благоевградска област",
     "location": "Сандански"
   },
   {
@@ -593,7 +593,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Благоевград",
+    "province": "Благоевградска област",
     "location": "Мелник"
   },
   {
@@ -617,7 +617,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Враца",
+    "province": "Врачанска област",
     "location": "Враца"
   },
   {
@@ -833,7 +833,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Благоевград",
+    "province": "Благоевградска област",
     "location": "Банско"
   },
   {
@@ -905,7 +905,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Монтана",
+    "province": "Монтанска област",
     "location": "с. Цветкова бара"
   },
   {
@@ -953,7 +953,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Перник",
+    "province": "Пернишка област",
     "location": "Брезник"
   },
   {
@@ -977,7 +977,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Добрич",
+    "province": "Добричка област",
     "location": "Албена"
   },
   {
@@ -1001,7 +1001,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Бургас",
+    "province": "Бургаска област",
     "location": "Несебър"
   },
   {
@@ -1025,7 +1025,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Бургас",
+    "province": "Бургаска област",
     "location": "Несебър"
   },
   {
@@ -1049,7 +1049,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Бургас",
+    "province": "Бургаска област",
     "location": "Несебър"
   },
   {
@@ -1073,7 +1073,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Бургас",
+    "province": "Бургаска област",
     "location": "Несебър"
   },
   {
@@ -1097,7 +1097,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Бургас",
+    "province": "Бургаска област",
     "location": "Несебър"
   },
   {
@@ -1121,7 +1121,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Бургас",
+    "province": "Бургаска област",
     "location": "Несебър"
   },
   {
@@ -1145,7 +1145,7 @@
     ],
     "collected": true,
     "available": true,
-    "province": "Пловдив",
+    "province": "Пловдивска област",
     "location": "с. Бачково"
   },
   {
@@ -1169,7 +1169,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Пловдив",
+    "province": "Пловдивска област",
     "location": "с. Бачково"
   },
   {
@@ -1193,7 +1193,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Смолян",
+    "province": "Смолянска област",
     "location": "Пампорово"
   },
   {
@@ -1217,7 +1217,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Пазарджик",
+    "province": "Пазарджишка област",
     "location": "Батак"
   },
   {
@@ -1241,7 +1241,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Добрич",
+    "province": "Добричка област",
     "location": "Каварна"
   },
   {
@@ -1265,7 +1265,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Пловдив",
+    "province": "Пловдивска област",
     "location": "Пловдив"
   },
   {
@@ -1289,7 +1289,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Пловдив",
+    "province": "Пловдивска област",
     "location": "с. Бачково"
   },
   {
@@ -1313,7 +1313,7 @@
     ],
     "collected": true,
     "available": true,
-    "province": "Шумен",
+    "province": "Шуменска област",
     "location": "Шумен"
   },
   {
@@ -1337,7 +1337,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Шумен",
+    "province": "Шуменска област",
     "location": "с. Мадара"
   },
   {
@@ -1361,7 +1361,7 @@
     ],
     "collected": true,
     "available": true,
-    "province": "Шумен",
+    "province": "Шуменска област",
     "location": "Плиска"
   },
   {
@@ -1385,7 +1385,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Шумен",
+    "province": "Шуменска област",
     "location": "Велики Преслав"
   },
   {
@@ -1409,7 +1409,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Пловдив",
+    "province": "Пловдивска област",
     "location": "Карлово"
   },
   {
@@ -1433,7 +1433,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Пловдив",
+    "province": "Пловдивска област",
     "location": "Сопот"
   },
   {
@@ -1457,7 +1457,7 @@
     ],
     "collected": true,
     "available": true,
-    "province": "Бургас",
+    "province": "Бургаска област",
     "location": "Созопол"
   },
   {
@@ -1481,7 +1481,7 @@
     ],
     "collected": true,
     "available": true,
-    "province": "Бургас",
+    "province": "Бургаска област",
     "location": "Созопол"
   },
   {
@@ -1505,7 +1505,7 @@
     ],
     "collected": true,
     "available": true,
-    "province": "Бургас",
+    "province": "Бургаска област",
     "location": "Приморско"
   },
   {
@@ -1529,7 +1529,7 @@
     ],
     "collected": true,
     "available": true,
-    "province": "Бургас",
+    "province": "Бургаска област",
     "location": "Китен"
   },
   {
@@ -1553,7 +1553,7 @@
     ],
     "collected": true,
     "available": true,
-    "province": "Бургас",
+    "province": "Бургаска област",
     "location": "Царево"
   },
   {
@@ -1577,7 +1577,7 @@
     ],
     "collected": true,
     "available": true,
-    "province": "Бургас",
+    "province": "Бургаска област",
     "location": "Лозенец"
   },
   {
@@ -1622,7 +1622,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Бургас",
+    "province": "Бургаска област",
     "location": "Бургас"
   },
   {
@@ -1646,7 +1646,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Бургас",
+    "province": "Бургаска област",
     "location": "Света Анастасия"
   },
   {
@@ -1670,7 +1670,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Бургас",
+    "province": "Бургаска област",
     "location": "Бургас"
   },
   {
@@ -1694,7 +1694,7 @@
     ],
     "collected": false,
     "available": false,
-    "province": "Смолян",
+    "province": "Смолянска област",
     "location": "с. Рожен"
   },
   {
@@ -1718,7 +1718,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Варна",
+    "province": "Варненска област",
     "location": "Варна"
   },
   {
@@ -1742,7 +1742,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Пазарджик",
+    "province": "Пазарджишка област",
     "location": "Панагюреще"
   },
   {
@@ -1766,7 +1766,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Бургас",
+    "province": "Бургаска област",
     "location": "Поморие"
   },
   {
@@ -1790,7 +1790,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Велико Търново",
+    "province": "Великотърновска област",
     "location": "Велико Търново"
   },
   {
@@ -1835,7 +1835,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Варна",
+    "province": "Варненска област",
     "location": "Варна"
   },
   {
@@ -1859,7 +1859,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Смолян",
+    "province": "Смолянска област",
     "location": "Триград"
   },
   {
@@ -1883,7 +1883,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Сливен",
+    "province": "Сливенска област",
     "location": "Котел"
   },
   {
@@ -1907,7 +1907,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Сливен",
+    "province": "Сливенска област",
     "location": "Жеравна"
   },
   {
@@ -1931,7 +1931,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Бургас",
+    "province": "Бургаска област",
     "location": "Бургас"
   },
   {
@@ -1955,7 +1955,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Стара Загора",
+    "province": "Старозагорска област",
     "location": "Шипка"
   },
   {
@@ -1979,7 +1979,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Шумен",
+    "province": "Шуменска област",
     "location": "Шумен"
   },
   {
@@ -2003,7 +2003,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Велико Търново",
+    "province": "Великотърновска област",
     "location": "Велико Търново"
   },
   {
@@ -2027,7 +2027,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Пазарджик",
+    "province": "Пазарджишка област",
     "location": "Панагюреще"
   },
   {
@@ -2051,7 +2051,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Пазарджик",
+    "province": "Пазарджишка област",
     "location": "Панагюреще"
   },
   {
@@ -2075,7 +2075,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Пазарджик",
+    "province": "Пазарджишка област",
     "location": "Панагюреще"
   },
   {
@@ -2099,7 +2099,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Пазарджик",
+    "province": "Пазарджишка област",
     "location": "Панагюреще"
   },
   {
@@ -2123,7 +2123,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Пазарджик",
+    "province": "Пазарджишка област",
     "location": "Панагюреще"
   },
   {
@@ -2243,7 +2243,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Ловеч",
+    "province": "Ловешка област",
     "location": "с. Крушуна"
   },
   {
@@ -2267,7 +2267,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Варна",
+    "province": "Варненска област",
     "location": "Варна"
   },
   {
@@ -2291,7 +2291,7 @@
     ],
     "collected": false,
     "available": false,
-    "province": "Шумен",
+    "province": "Шуменска област",
     "location": "Шумен"
   },
   {
@@ -2315,7 +2315,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Варна",
+    "province": "Варненска област",
     "location": "с. Калиманци"
   },
   {
@@ -2339,7 +2339,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Варна",
+    "province": "Варненска област",
     "location": "с. Калиманци"
   },
   {
@@ -2363,7 +2363,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Велико Търново",
+    "province": "Великотърновска област",
     "location": "Елена"
   },
   {
@@ -2387,7 +2387,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Велико Търново",
+    "province": "Великотърновска област",
     "location": "Елена"
   },
   {
@@ -2411,7 +2411,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Велико Търново",
+    "province": "Великотърновска област",
     "location": "Елена"
   },
   {
@@ -2435,7 +2435,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Бургас",
+    "province": "Бургаска област",
     "location": "Свети Влас"
   },
   {
@@ -2459,7 +2459,7 @@
     ],
     "collected": true,
     "available": true,
-    "province": "Варна",
+    "province": "Варненска област",
     "location": "Варна"
   },
   {
@@ -2483,7 +2483,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Бургас",
+    "province": "Бургаска област",
     "location": "Бургас"
   },
   {
@@ -2507,7 +2507,7 @@
     ],
     "collected": false,
     "available": false,
-    "province": "Пловдив",
+    "province": "Пловдивска област",
     "location": "Пловдив"
   },
   {
@@ -2531,7 +2531,7 @@
     ],
     "collected": true,
     "available": true,
-    "province": "Велико Търново",
+    "province": "Великотърновска област",
     "location": "Велико Търново"
   },
   {
@@ -2651,7 +2651,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Велико Търново",
+    "province": "Великотърновска област",
     "location": "с. Вонеща Вода"
   },
   {
@@ -2675,7 +2675,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Русе",
+    "province": "Русенска област",
     "location": "с. Пепелина"
   },
   {
@@ -2744,7 +2744,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Хасково",
+    "province": "Хасковска област",
     "location": "Хасково"
   },
   {
@@ -2768,7 +2768,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Ловеч",
+    "province": "Ловешка област",
     "location": "Ловеч"
   },
   {
@@ -2792,7 +2792,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Варна",
+    "province": "Варненска област",
     "location": "Варна"
   },
   {
@@ -2816,7 +2816,7 @@
     ],
     "collected": false,
     "available": false,
-    "province": "Габрово",
+    "province": "Габровска област",
     "location": "Габрово"
   },
   {
@@ -2840,7 +2840,7 @@
     ],
     "collected": false,
     "available": false,
-    "province": "Благоевград",
+    "province": "Благоевградска област",
     "location": "Рилски Манастир"
   },
   {
@@ -2927,7 +2927,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Пазарджик",
+    "province": "Пазарджишка област",
     "location": "Велинград"
   },
   {
@@ -2951,7 +2951,7 @@
     ],
     "collected": true,
     "available": true,
-    "province": "Пловдив",
+    "province": "Пловдивска област",
     "location": "Калофер"
   },
   {
@@ -2975,7 +2975,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Пазарджик",
+    "province": "Пазарджишка област",
     "location": "Панагюреще"
   },
   {
@@ -2999,7 +2999,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Пазарджик",
+    "province": "Пазарджишка област",
     "location": "Панагюреще"
   },
   {
@@ -3047,8 +3047,8 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Бургас",
-    "location": "Други"
+    "province": "Бургаска област",
+    "location": "Созопол"
   },
   {
     "type": "bulgarian-legacy",
@@ -3119,7 +3119,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Пловдив",
+    "province": "Пловдивска област",
     "location": "Хисаря"
   },
   {
@@ -3143,7 +3143,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Пловдив",
+    "province": "Пловдивска област",
     "location": "Хисаря"
   },
   {
@@ -3167,7 +3167,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Пловдив",
+    "province": "Пловдивска област",
     "location": "Хисаря"
   },
   {
@@ -3215,7 +3215,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Пазарджик",
+    "province": "Пазарджишка област",
     "location": "Пещера"
   },
   {
@@ -3239,7 +3239,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Смолян",
+    "province": "Смолянска област",
     "location": "Пампорово"
   },
   {
@@ -3263,7 +3263,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Пловдив",
+    "province": "Пловдивска област",
     "location": "Пловдив"
   },
   {
@@ -3287,7 +3287,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Пазарджик",
+    "province": "Пазарджишка област",
     "location": "Панагюреще"
   },
   {
@@ -3311,7 +3311,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Смолян",
+    "province": "Смолянска област",
     "location": "Девин"
   },
   {
@@ -3335,7 +3335,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Смолян",
+    "province": "Смолянска област",
     "location": "Девин"
   },
   {
@@ -3359,7 +3359,7 @@
     ],
     "collected": true,
     "available": true,
-    "province": "Смолян",
+    "province": "Смолянска област",
     "location": "Девин"
   },
   {
@@ -3383,7 +3383,7 @@
     ],
     "collected": true,
     "available": true,
-    "province": "Смолян",
+    "province": "Смолянска област",
     "location": "Смолян"
   },
   {
@@ -3407,7 +3407,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Смолян",
+    "province": "Смолянска област",
     "location": "Смолян"
   },
   {
@@ -3431,7 +3431,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Бургас",
+    "province": "Бургаска област",
     "location": "Бургас"
   },
   {
@@ -3455,7 +3455,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Силистра",
+    "province": "Силистренска област",
     "location": "с. Кайнарджа"
   },
   {
@@ -3479,7 +3479,7 @@
     ],
     "collected": true,
     "available": true,
-    "province": "Смолян",
+    "province": "Смолянска област",
     "location": "Смолян"
   },
   {
@@ -3503,7 +3503,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Благоевград",
+    "province": "Благоевградска област",
     "location": "Петрич"
   },
   {
@@ -3564,7 +3564,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Стара Загора",
+    "province": "Старозагорска област",
     "location": "Шипка"
   },
   {
@@ -3583,7 +3583,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Смолян",
+    "province": "Смолянска област",
     "location": "Триград"
   },
   {
@@ -3602,7 +3602,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Благоевград",
+    "province": "Благоевградска област",
     "location": "с. Ключ"
   },
   {
@@ -3621,7 +3621,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Кюстендил",
+    "province": "Кюстендилска област",
     "location": "Кюстендил"
   },
   {
@@ -3640,7 +3640,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Благоевград",
+    "province": "Благоевградска област",
     "location": "Рупите"
   },
   {
@@ -3659,7 +3659,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Ловеч",
+    "province": "Ловешка област",
     "location": "Крушуна"
   },
   {
@@ -3678,7 +3678,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Смолян",
+    "province": "Смолянска област",
     "location": "Златоград"
   },
   {
@@ -3697,7 +3697,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Ловеч",
+    "province": "Ловешка област",
     "location": "Рибарица"
   },
   {
@@ -3716,7 +3716,7 @@
     ],
     "collected": true,
     "available": true,
-    "province": "Смолян",
+    "province": "Смолянска област",
     "location": "Триград"
   },
   {
@@ -3735,7 +3735,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Стара Загора",
+    "province": "Старозагорска област",
     "location": "Шипка"
   },
   {
@@ -3754,7 +3754,7 @@
     ],
     "collected": true,
     "available": true,
-    "province": "Добрич",
+    "province": "Добричка област",
     "location": "Каварна"
   },
   {
@@ -3773,7 +3773,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Свиленград",
+    "province": "Хасковска област",
     "location": "с. Мезек"
   },
   {
@@ -3792,7 +3792,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Кърджали",
+    "province": "Кърджалийска област",
     "location": "с. Дядовци"
   },
   {
@@ -3811,7 +3811,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Варна",
+    "province": "Варненска област",
     "location": "Варна"
   },
   {
@@ -3830,7 +3830,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Кърджали",
+    "province": "Кърджалийска област",
     "location": "Перперикон"
   },
   {
@@ -3849,7 +3849,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Габрово",
+    "province": "Габровска област",
     "location": "Дряново"
   },
   {
@@ -3868,7 +3868,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Стара Загора",
+    "province": "Старозагорска област",
     "location": "Шипка"
   },
   {
@@ -3887,7 +3887,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Кърджали",
+    "province": "Кърджалийска област",
     "location": "с. Татул"
   },
   {
@@ -3906,7 +3906,7 @@
     ],
     "collected": true,
     "available": true,
-    "province": "Видин",
+    "province": "Видинска област",
     "location": "Видин"
   },
   {
@@ -3925,7 +3925,7 @@
     ],
     "collected": false,
     "available": true,
-    "province": "Смолян",
+    "province": "Смолянска област",
     "location": "Триград"
   }
 ]

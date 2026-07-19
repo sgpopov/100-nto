@@ -271,7 +271,7 @@ test.describe("Location combobox (Локация filter on coins)", () => {
     await expect(
       page
         .locator('[data-slot="combobox-item"]')
-        .filter({ hasText: /^Благоевград$/ }),
+        .filter({ hasText: /^Благоевградска област$/ }),
     ).toBeVisible();
     // city nested under the province
     await expect(
@@ -306,7 +306,7 @@ test.describe("Location combobox (Локация filter on coins)", () => {
     await expect(
       page
         .locator('[data-slot="combobox-item"]')
-        .filter({ hasText: /^Варна$/ }),
+        .filter({ hasText: /^Варненска област$/ }),
     ).not.toBeVisible();
   });
 
@@ -322,11 +322,13 @@ test.describe("Location combobox (Локация filter on coins)", () => {
     await page.getByPlaceholder("Търсене...").click();
     await page
       .locator('[data-slot="combobox-item"]')
-      .filter({ hasText: /^Благоевград$/ })
+      .filter({ hasText: /^Благоевградска област$/ })
       .click();
 
     await expect(page).toHaveURL(
-      /filters\[location\]=%D0%91%D0%BB%D0%B0%D0%B3%D0%BE%D0%B5%D0%B2%D0%B3%D1%80%D0%B0%D0%B4/,
+      new RegExp(
+        `filters\\[location\\]=${encodeURIComponent("Благоевградска област")}`,
+      ),
     );
     const filteredCount = await page.locator("ul[role='list'] li").count();
     expect(filteredCount).toBeLessThan(totalCount);
@@ -358,7 +360,7 @@ test.describe("Location combobox (Локация filter on coins)", () => {
     page,
   }) => {
     await page.goto(
-      "/coins/list?filters[location]=%D0%91%D0%BB%D0%B0%D0%B3%D0%BE%D0%B5%D0%B2%D0%B3%D1%80%D0%B0%D0%B4&filters[collected]=all",
+      `/coins/list?filters[location]=${encodeURIComponent("Благоевградска област")}&filters[collected]=all`,
     );
     await expect(page.locator("ul[role='list'] li").first()).toBeVisible({
       timeout: 10000,

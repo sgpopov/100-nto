@@ -1,14 +1,14 @@
-import { renderHook, act } from "@testing-library/react";
+import { renderHook } from "@testing-library/react";
 import { describe, it, expect, vi, beforeEach } from "vitest";
 
-const pushMock = vi.fn();
+const replaceMock = vi.fn();
 
 let searchParamsRef: { get: (key: string) => string | null } = {
   get: () => null,
 };
 
 vi.mock("next/navigation", () => ({
-  useRouter: () => ({ push: pushMock }),
+  useRouter: () => ({ replace: replaceMock }),
   useSearchParams: () => searchParamsRef,
 }));
 
@@ -64,7 +64,7 @@ const siteNames = (
 
 describe("useSiteFilters", () => {
   beforeEach(() => {
-    pushMock.mockClear();
+    replaceMock.mockClear();
     searchParamsRef = { get: () => null };
   });
 
@@ -328,14 +328,14 @@ describe("useSiteFilters", () => {
       );
     });
 
-    it("carries a sticker selection made after mount into the query string", () => {
+    it("replaces the URL with a sticker selection, preserving the other filters", () => {
+      withParams({ "filters[location]": "Банско", "filters[stamp]": "collected" });
       const { result } = renderHook(() => useSiteFilters());
 
-      act(() => result.current.setStickerFilter("not-available"));
+      result.current.setStickerFilter("not-available");
 
-      expect(result.current.stickerFilter).toBe("not-available");
-      expect(result.current.queryString).toContain(
-        "filters[sticker]=not-available",
+      expect(replaceMock).toHaveBeenCalledWith(
+        `?filters[location]=${encodeURIComponent("Банско")}&filters[stamp]=collected&filters[sticker]=not-available`,
       );
     });
 
@@ -347,22 +347,51 @@ describe("useSiteFilters", () => {
       expect(siteNames(result.current.filteredData)).toHaveLength(5);
     });
 
-    it("carries a selection made after mount into the query string", () => {
+    it("normalises an unsupported sticker value instead of writing it to the URL", () => {
       const { result } = renderHook(() => useSiteFilters());
 
-      act(() => result.current.setStampFilter("collected"));
+      result.current.setStickerFilter("nonsense");
 
-      expect(result.current.stampFilter).toBe("collected");
-      expect(result.current.queryString).toContain("filters[stamp]=collected");
+      expect(replaceMock).toHaveBeenCalledWith(
+        "?filters[location]=all&filters[stamp]=all&filters[sticker]=all",
+      );
     });
 
-    it("pushes the query string so the selection survives a view switch", () => {
+    it("replaces the URL with a stamp selection, preserving the other filters", () => {
+      withParams({ "filters[sticker]": "collected" });
+      const { result } = renderHook(() => useSiteFilters());
+
+      result.current.setStampFilter("collected");
+
+      expect(replaceMock).toHaveBeenCalledWith(
+        "?filters[location]=all&filters[stamp]=collected&filters[sticker]=collected",
+      );
+    });
+
+    it("does not touch history on mount", () => {
       withParams({ "filters[stamp]": "collected" });
       renderHook(() => useSiteFilters());
 
-      expect(pushMock).toHaveBeenCalledWith(
-        "?filters[location]=all&filters[stamp]=collected&filters[sticker]=all",
-      );
+      expect(replaceMock).not.toHaveBeenCalled();
+    });
+
+    it("reflects updated URL params on re-render (back/forward navigation)", () => {
+      const { result, rerender } = renderHook(() => useSiteFilters());
+
+      expect(result.current.selectedLocation).toBe("all");
+      expect(result.current.stampFilter).toBe("all");
+      expect(result.current.stickerFilter).toBe("all");
+
+      withParams({
+        "filters[location]": "Банско",
+        "filters[stamp]": "collected",
+        "filters[sticker]": "not-collected",
+      });
+      rerender();
+
+      expect(result.current.selectedLocation).toBe("Банско");
+      expect(result.current.stampFilter).toBe("collected");
+      expect(result.current.stickerFilter).toBe("not-collected");
     });
   });
 

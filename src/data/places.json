@@ -1146,8 +1146,8 @@
         "number": "25",
         "image": "/sites/btsbg/089-perperikon-kurdjali.jpg",
         "link": "https://www.btsbg.org/100nto/perperikon-hiperperakion",
-        "stamp": false,
-        "sticker": false,
+        "stamp": true,
+        "sticker": true,
         "lat": 41.714907,
         "lng": 25.465622
       },

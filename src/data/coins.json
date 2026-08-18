@@ -3676,7 +3676,7 @@
       25.0863761,
       41.3872204
     ],
-    "collected": false,
+    "collected": true,
     "available": true,
     "province": "Смолянска област",
     "location": "Златоград"
@@ -3885,7 +3885,7 @@
       25.543364,
       41.541687
     ],
-    "collected": false,
+    "collected": true,
     "available": true,
     "province": "Кърджалийска област",
     "location": "с. Татул"

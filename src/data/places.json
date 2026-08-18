@@ -708,8 +708,8 @@
         "number": "86",
         "image": "/sites/btsbg/056-etnogravski-arealen-kompleks-zlatograd.jpg",
         "link": "https://www.btsbg.org/100nto/etnografski-arealen-kompleks",
-        "stamp": false,
-        "sticker": false,
+        "stamp": true,
+        "sticker": true,
         "lat": 41.3872204,
         "lng": 25.0863761
       }

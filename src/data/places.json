@@ -1166,8 +1166,8 @@
         "number": "25а",
         "image": "/sites/btsbg/091-regionalen-istoricheski-muzei-kurdjali.jpg",
         "link": "https://www.btsbg.org/100nto/regionalen-istoricheski-muzey-3",
-        "stamp": false,
-        "sticker": false,
+        "stamp": true,
+        "sticker": true,
         "lat": 41.6469701,
         "lng": 25.3695279
       }

@@ -590,8 +590,8 @@
         "number": "84",
         "image": "/sites/btsbg/046-img-agushevi.jpg",
         "link": "https://www.btsbg.org/100nto/agushevi-konaci",
-        "stamp": false,
-        "sticker": false,
+        "stamp": true,
+        "sticker": true,
         "lat": 41.4881201,
         "lng": 24.6042915
       }
@@ -606,8 +606,8 @@
         "number": "84",
         "image": "/sites/btsbg/047-peshtera-uhlovitsa-rodopi.jpg",
         "link": "https://www.btsbg.org/100nto/peshchera-uhlovica",
-        "stamp": false,
-        "sticker": false,
+        "stamp": true,
+        "sticker": true,
         "lat": 41.514165,
         "lng": 24.659929
       },

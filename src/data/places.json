@@ -590,7 +590,7 @@
         "number": "84",
         "image": "/sites/btsbg/046-img-agushevi.jpg",
         "link": "https://www.btsbg.org/100nto/agushevi-konaci",
-        "stamp": false,
+        "stamp": true,
         "sticker": false,
         "lat": 41.4881201,
         "lng": 24.6042915

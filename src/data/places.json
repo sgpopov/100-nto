@@ -606,7 +606,7 @@
         "number": "84",
         "image": "/sites/btsbg/047-peshtera-uhlovitsa-rodopi.jpg",
         "link": "https://www.btsbg.org/100nto/peshchera-uhlovica",
-        "stamp": false,
+        "stamp": true,
         "sticker": false,
         "lat": 41.514165,
         "lng": 24.659929

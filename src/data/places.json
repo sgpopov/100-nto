@@ -8,8 +8,8 @@
         "number": "1",
         "image": "/sites/btsbg/001-velyanova-kushta.jpg",
         "link": "https://www.btsbg.org/100nto/muzey-velyanova-kshcha",
-        "stamp": false,
-        "sticker": false,
+        "stamp": true,
+        "sticker": true,
         "lat": 41.835167,
         "lng": 23.488167
       },
@@ -18,8 +18,8 @@
         "number": "1",
         "image": "/sites/btsbg/002-kushta-neofit-rilski.jpg",
         "link": "https://www.btsbg.org/100nto/kshcha-muzey-neofit-rilski",
-        "stamp": false,
-        "sticker": false,
+        "stamp": true,
+        "sticker": true,
         "lat": 41.8351421,
         "lng": 23.4867643
       },
@@ -28,8 +28,8 @@
         "number": "1",
         "image": "/sites/btsbg/003-muzei-nikola-vapcarov.jpg",
         "link": "https://www.btsbg.org/100nto/muzey-nikola-vapcarov",
-        "stamp": false,
-        "sticker": false,
+        "stamp": true,
+        "sticker": true,
         "lat": 41.8375024,
         "lng": 23.4888023
       },
@@ -38,8 +38,8 @@
         "number": "1",
         "image": "/sites/btsbg/004-ikonna-izlojba.jpg",
         "link": "https://www.btsbg.org/100nto/ikonna-izlozhba",
-        "stamp": false,
-        "sticker": false,
+        "stamp": true,
+        "sticker": true,
         "lat": 41.8361455,
         "lng": 23.4881748
       },

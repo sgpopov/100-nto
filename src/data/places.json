@@ -626,8 +626,8 @@
         "number": "87а",
         "image": "/sites/btsbg/049-peshtera-sharenka-rodopi.jpg",
         "link": "https://www.btsbg.org/100nto/peshchera-sharenka",
-        "stamp": false,
-        "sticker": false,
+        "stamp": true,
+        "sticker": true,
         "lat": 41.489794,
         "lng": 24.917639
       },
@@ -740,8 +740,8 @@
         "number": "87а",
         "image": "/sites/btsbg/058-rodopski-kristam-madan.jpg",
         "link": "https://www.btsbg.org/100nto/kristalna-zala-rodopski-kristal",
-        "stamp": false,
-        "sticker": false,
+        "stamp": true,
+        "sticker": true,
         "lat": 41.498355,
         "lng": 24.939826
       }
@@ -1156,8 +1156,8 @@
         "number": "25",
         "image": "/sites/btsbg/090-manastir-sveti-ioan-predtecha-kurdjali.jpg",
         "link": "https://www.btsbg.org/100nto/manastir-sv-yoan-predtecha",
-        "stamp": false,
-        "sticker": false,
+        "stamp": true,
+        "sticker": true,
         "lat": 41.6265828,
         "lng": 25.3701109
       },

@@ -64,8 +64,8 @@
         "number": "2",
         "image": "/sites/btsbg/006-vruh-vihren.jpg",
         "link": "https://www.btsbg.org/100nto/vrh-vihren-2914-m",
-        "stamp": true,
-        "sticker": true,
+        "stamp": false,
+        "sticker": false,
         "lat": 41.7672372,
         "lng": 23.3885891
       }
@@ -80,8 +80,8 @@
         "number": "3",
         "image": "/sites/btsbg/007-tsarkva-selo-dobarsko.jpg",
         "link": "https://www.btsbg.org/100nto/crkva-sv-sv-teodor-tiron-i-teodor-stratilat",
-        "stamp": true,
-        "sticker": true,
+        "stamp": false,
+        "sticker": false,
         "lat": 41.969972,
         "lng": 23.477306
       }
@@ -96,8 +96,8 @@
         "number": "4",
         "image": "/sites/btsbg/008-istoricheski-muzei-melnik.jpg",
         "link": "https://www.btsbg.org/100nto/gradski-istoricheski-muzey-istoriya-etnografiya",
-        "stamp": true,
-        "sticker": true,
+        "stamp": false,
+        "sticker": false,
         "lat": 41.5233466,
         "lng": 23.3954078
       },

@@ -558,8 +558,8 @@
         "number": "85а",
         "image": "/sites/btsbg/044-85-01.jpg",
         "link": "https://www.btsbg.org/100nto/nacionalno-astronomicheska-observatoriya-rozhen",
-        "stamp": false,
-        "sticker": false,
+        "stamp": true,
+        "sticker": null,
         "lat": 41.6933897,
         "lng": 24.7385555
       }

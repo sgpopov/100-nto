@@ -18,8 +18,8 @@
         "number": "1",
         "image": "/sites/btsbg/002-kushta-neofit-rilski.jpg",
         "link": "https://www.btsbg.org/100nto/kshcha-muzey-neofit-rilski",
-        "stamp": true,
-        "sticker": true,
+        "stamp": false,
+        "sticker": false,
         "lat": 41.8351421,
         "lng": 23.4867643
       },
@@ -2214,8 +2214,8 @@
         "number": "53",
         "image": "/sites/btsbg/170-site.jpg",
         "link": "https://www.btsbg.org/100nto/muzey-na-dunavskiya-ribolov",
-        "stamp": false,
-        "sticker": false,
+        "stamp": true,
+        "sticker": true,
         "lat": 44.049353,
         "lng": 26.608007
       },

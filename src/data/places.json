@@ -2214,8 +2214,8 @@
         "number": "53",
         "image": "/sites/btsbg/170-site.jpg",
         "link": "https://www.btsbg.org/100nto/muzey-na-dunavskiya-ribolov",
-        "stamp": false,
-        "sticker": false,
+        "stamp": true,
+        "sticker": true,
         "lat": 44.049353,
         "lng": 26.608007
       },

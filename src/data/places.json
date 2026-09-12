@@ -8,8 +8,8 @@
         "number": "1",
         "image": "/sites/btsbg/001-velyanova-kushta.jpg",
         "link": "https://www.btsbg.org/100nto/muzey-velyanova-kshcha",
-        "stamp": false,
-        "sticker": false,
+        "stamp": true,
+        "sticker": true,
         "lat": 41.835167,
         "lng": 23.488167
       },

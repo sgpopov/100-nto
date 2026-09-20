@@ -1,5 +1,12 @@
 import { defineConfig, devices } from "@playwright/test";
 
+// The suite serves a fresh static export rather than reusing whatever listens
+// on the dev port: a dev server from another checkout used to answer instead,
+// silently testing the wrong code. Port 3123 keeps `npm run dev` on 3000 usable
+// alongside a run — `next dev` refuses a second instance per project directory.
+const port = Number(process.env.E2E_PORT ?? 3123);
+const baseURL = `http://localhost:${port}`;
+
 export default defineConfig({
   testDir: "./tests/e2e",
   fullyParallel: true,
@@ -8,7 +15,7 @@ export default defineConfig({
   workers: process.env.CI ? 1 : undefined,
   reporter: "list",
   use: {
-    baseURL: "http://localhost:3000",
+    baseURL,
     trace: "on-first-retry",
   },
   projects: [
@@ -18,8 +25,8 @@ export default defineConfig({
     },
   ],
   webServer: {
-    command: "npm run dev",
-    url: "http://localhost:3000",
-    reuseExistingServer: !process.env.CI,
+    command: `npm run build && npx serve out --listen ${port} --no-clipboard`,
+    url: baseURL,
+    reuseExistingServer: false,
   },
 });

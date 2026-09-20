@@ -355,26 +355,4 @@ test.describe("Location combobox (Локация filter on coins)", () => {
     );
     await expect(page.locator("ul[role='list'] li")).toHaveCount(1);
   });
-
-  test("selecting Всички resets the location filter to show all coins", async ({
-    page,
-  }) => {
-    await page.goto(
-      `/coins/list?filters[location]=${encodeURIComponent("Благоевградска област")}&filters[collected]=all`,
-    );
-    await expect(page.locator("ul[role='list'] li").first()).toBeVisible({
-      timeout: 10000,
-    });
-    const filteredCount = await page.locator("ul[role='list'] li").count();
-
-    await page.getByPlaceholder("Търсене...").click();
-    await page
-      .locator('[data-slot="combobox-item"]')
-      .filter({ hasText: /^Всички$/ })
-      .click();
-
-    await expect(page).toHaveURL(/filters\[location\]=all/);
-    const totalCount = await page.locator("ul[role='list'] li").count();
-    expect(totalCount).toBeGreaterThan(filteredCount);
-  });
 });

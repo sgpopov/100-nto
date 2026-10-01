@@ -80,6 +80,17 @@ const mockCoins = [
     province: "Варна",
     location: "Варна",
   },
+  {
+    id: "7",
+    name: "Coin G (no image, no product page)",
+    url: undefined,
+    images: [],
+    coordinates: [25.4, 43.4],
+    collected: true,
+    available: true,
+    province: "Смолян",
+    location: "Смолян",
+  },
 ];
 
 vi.mock("../../context", () => ({
@@ -95,7 +106,7 @@ describe("CoinsMapPage", () => {
 
   describe("pin building", () => {
     it("builds one pin per geocoded coin, excluding coins with missing coordinates", () => {
-      expect(capturedPins).toHaveLength(5);
+      expect(capturedPins).toHaveLength(6);
     });
 
     it("keeps unique coordinates intact and spreads duplicate coordinates", () => {
@@ -192,6 +203,16 @@ describe("CoinsMapPage", () => {
       const { getByRole } = render(pin.popup as React.ReactElement);
 
       expect(getByRole("link")).toHaveAttribute("href", "https://example.com/e");
+    });
+
+    it("shows a placeholder and no link for a coin without an image or product page", () => {
+      const pin = capturedPins.find((p) => p.key === "7")!;
+      const { getByTestId, queryByRole } = render(
+        pin.popup as React.ReactElement,
+      );
+
+      expect(getByTestId("coin-image-placeholder")).toBeInTheDocument();
+      expect(queryByRole("link")).not.toBeInTheDocument();
     });
 
     it("says nothing about availability for a coin that can still be collected", () => {

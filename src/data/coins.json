@@ -3927,5 +3927,19 @@
     "available": true,
     "province": "Смолянска област",
     "location": "Триград"
+  },
+  {
+    "type": "explore-bulgaria",
+    "id": "2ea9067b-b725-4852-91a4-23440056771f",
+    "name": "Пещера Ухловица",
+    "images": [],
+    "coordinates": [
+      24.659929,
+      41.514165
+    ],
+    "collected": true,
+    "available": true,
+    "province": "Смолянска област",
+    "location": "с. Могилица"
   }
 ]

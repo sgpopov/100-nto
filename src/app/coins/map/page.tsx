@@ -1,11 +1,11 @@
 "use client";
 
 import { useMemo } from "react";
-import Image from "next/image";
 import dynamic from "next/dynamic";
 import { BadgeCheckIcon } from "lucide-react";
 import { deriveCoinStatus, type CoinStatus } from "@/lib/coinStatus";
 import { CoinAvailability } from "@/components/CoinAvailability";
+import { CoinImage } from "@/components/CoinImage";
 import type { PinStatus } from "@/components/MapView";
 import { useCoinsContext } from "../context";
 
@@ -61,13 +61,7 @@ export default function CoinsMapPage() {
         status: PIN_STATUS[deriveCoinStatus(coin)],
         popup: (
           <div>
-            <Image
-              src={coin.images[0].url}
-              alt={`Coin image for ${coin.name}`}
-              width={64}
-              height={64}
-              className="rounded-full mx-auto mb-2 object-cover"
-            />
+            <CoinImage coin={coin} className="size-16 mx-auto mb-2" />
             <div className="font-semibold text-sm text-center">{coin.name}</div>
             {coin.collected && (
               <div className="flex items-center justify-center gap-1 mt-1">
@@ -79,14 +73,16 @@ export default function CoinsMapPage() {
               </div>
             )}
             <CoinAvailability state={coin} className="mt-1" />
-            <a
-              href={coin.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-xs text-indigo-600 hover:underline mt-1 block text-center"
-            >
-              Виж монетата
-            </a>
+            {coin.url && (
+              <a
+                href={coin.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xs text-indigo-600 hover:underline mt-1 block text-center"
+              >
+                Виж монетата
+              </a>
+            )}
           </div>
         ),
       };

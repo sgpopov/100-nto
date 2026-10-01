@@ -999,7 +999,7 @@
       27.735276,
       42.659057
     ],
-    "collected": false,
+    "collected": true,
     "available": true,
     "province": "Бургаска област",
     "location": "Несебър"
@@ -1023,7 +1023,7 @@
       27.733058,
       42.657723
     ],
-    "collected": false,
+    "collected": true,
     "available": true,
     "province": "Бургаска област",
     "location": "Несебър"
@@ -1071,7 +1071,7 @@
       27.735726,
       42.659873
     ],
-    "collected": false,
+    "collected": true,
     "available": true,
     "province": "Бургаска област",
     "location": "Несебър"
@@ -1119,7 +1119,7 @@
       27.730887,
       42.658636
     ],
-    "collected": false,
+    "collected": true,
     "available": true,
     "province": "Бургаска област",
     "location": "Несебър"

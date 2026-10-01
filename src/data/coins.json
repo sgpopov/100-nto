@@ -3941,5 +3941,19 @@
     "available": true,
     "province": "Смолянска област",
     "location": "с. Могилица"
+  },
+  {
+    "type": "other",
+    "id": "7b86a98b-637f-4a26-b6c5-78602b938f41",
+    "name": "Тутраканска епопея",
+    "images": [],
+    "coordinates": [
+      26.608007,
+      44.049353
+    ],
+    "collected": true,
+    "available": true,
+    "province": "Силистренска област",
+    "location": "Тутракан"
   }
 ]

@@ -375,10 +375,16 @@ test.describe("Печат collection state", () => {
   test("a stale visited link falls back to showing every site", async ({
     page,
   }) => {
-    await page.goto("/sites/list?filters[visited]=visited");
+    const rows = page.locator("ul[role='list'] > li > a");
 
-    await expect(page).toHaveURL(/filters\[stamp\]=all/);
-    await expect(page).not.toHaveURL(/visited/);
+    await page.goto("/sites/list?filters[visited]=visited");
+    await expect(rows.first()).toBeVisible();
+    const fallback = await rows.count();
+
+    await page.goto("/sites/list?filters[stamp]=all");
+    await expect(rows.first()).toBeVisible();
+
+    expect(fallback).toBe(await rows.count());
   });
 });
 
@@ -509,13 +515,15 @@ test.describe("Марка filter", () => {
     page,
   }) => {
     await page.goto("/sites/list?filters[sticker]=not-available");
+    await expect(page.locator(rows).first()).toBeVisible();
+    const listed = await page.locator(rows).count();
 
     await page.getByRole("link", { name: "Карта" }).click();
 
     await expect(page).toHaveURL(/\/sites\/map/);
     await expect(page).toHaveURL(/filters\[sticker\]=not-available/);
 
-    await expect(page.locator("[data-pin-status]")).toHaveCount(1, {
+    await expect(page.locator("[data-pin-status]")).toHaveCount(listed, {
       timeout: 10000,
     });
   });
